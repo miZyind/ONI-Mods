@@ -1,0 +1,12 @@
+default_stages: [commit]
+repos:
+  - repo: local
+    hooks:
+      - id: commitmsglint
+        name: commitmsglint
+        entry: commitlint --extends @commitlint/config-conventional --edit
+        language: node
+        stages: [commit-msg]
+        additional_dependencies:
+          - '@commitlint/cli'
+          - '@commitlint/config-conventional'
