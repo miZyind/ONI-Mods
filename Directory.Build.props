@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ItemDefinitionGroup>
+    <Reference Private="false" />
+    <ProjectReference Private="false" />
+  </ItemDefinitionGroup>
+  <PropertyGroup>
+    <!-- Configuration -->
+    <Configurations>Build</Configurations>
+    <Platform>AnyCPU</Platform>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <ErrorReport>none</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+    <WarningsAsErrors></WarningsAsErrors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <!-- Information -->
+    <Company>miZyind.io</Company>
+    <Copyright>Copyright © 2020 miZyind</Copyright>
+    <!-- Output -->
+    <OutDir>bin</OutDir>
+    <OutputType>Library</OutputType>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <!-- Folder -->
+    <SteamFolder>C:\Program Files (x86)\Steam</SteamFolder>
+    <GameFolder>$(SteamFolder)\steamapps\common\OxygenNotIncluded\OxygenNotIncluded_Data\Managed</GameFolder>
+    <ModFolder>$(UserProfile)\Documents\Klei\OxygenNotIncluded\mods\Dev</ModFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PLib" HintPath="$(SolutionDir)\Lib\PLib.dll" />
+    <Reference Include="0Harmony" HintPath="$(GameFolder)/0Harmony.dll" />
+    <Reference
+      Include="Newtonsoft.Json"
+      HintPath="$(GameFolder)/Newtonsoft.Json.dll" />
+    <Reference
+      Include="Assembly-CSharp"
+      HintPath="$(GameFolder)/Assembly-CSharp.dll" />
+    <Reference
+      Include="Assembly-CSharp-firstpass"
+      HintPath="$(GameFolder)/Assembly-CSharp-firstpass.dll" />
+    <Reference
+      Include="Unity.TextMeshPro"
+      HintPath="$(GameFolder)/Unity.TextMeshPro.dll" />
+    <Reference Include="UnityEngine" HintPath="$(GameFolder)/UnityEngine.dll" />
+    <Reference
+      Include="UnityEngine.AssetBundleModule"
+      HintPath="$(GameFolder)/UnityEngine.AssetBundleModule.dll" />
+    <Reference
+      Include="UnityEngine.CoreModule"
+      HintPath="$(GameFolder)/UnityEngine.CoreModule.dll" />
+    <Reference
+      Include="UnityEngine.ImageConversionModule"
+      HintPath="$(GameFolder)/UnityEngine.ImageConversionModule.dll" />
+    <Reference
+      Include="UnityEngine.TextRenderingModule"
+      HintPath="$(GameFolder)/UnityEngine.TextRenderingModule.dll" />
+    <Reference
+      Include="UnityEngine.UI"
+      HintPath="$(GameFolder)/UnityEngine.UI.dll" />
+    <Reference
+      Include="UnityEngine.UIModule"
+      HintPath="$(GameFolder)/UnityEngine.UIModule.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ILRepack.MSBuild.Task" Version="2.0.13" />
+  </ItemGroup>
+</Project>

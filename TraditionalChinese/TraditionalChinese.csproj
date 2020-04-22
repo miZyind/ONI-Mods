@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Configuration -->
+  <PropertyGroup>
+    <TargetFramework>net40</TargetFramework>
+    <ProjectGuid>{909EE6AA-C384-4A07-98A8-41994F76E9B7}</ProjectGuid>
+    <RootNamespace>miZyind.TraditionalChinese</RootNamespace>
+  </PropertyGroup>
+  <!-- Information -->
+  <PropertyGroup>
+    <Version>2020.4.23</Version>
+    <AssemblyTitle>Traditional Chinese</AssemblyTitle>
+    <AssemblyVersion>$(Version)</AssemblyVersion>
+    <FileVersion>$(Version)</FileVersion>
+    <InformationalVersion>$(Version)</InformationalVersion>
+    <Description>Adds Traditional Chinese translaction and font.</Description>
+    <Product>TraditionalChinese</Product>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Assets\font" />
+    <None Remove="Assets\preview.png" />
+    <None Remove="Assets\strings.po" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\font" />
+    <EmbeddedResource Include="Assets\preview.png" />
+    <EmbeddedResource Include="Assets\strings.po" />
+  </ItemGroup>
+</Project>
