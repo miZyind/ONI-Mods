@@ -27,6 +27,9 @@
       SourceFiles="$(TargetDir)\$(AssemblyName).dll"
       DestinationFolder="$(InstallFolder)" />
     <Copy
+      SourceFiles="$(ProjectDir)\Assets\preview.png"
+      DestinationFolder="$(InstallFolder)" />
+    <Copy
       SourceFiles="$(SolutionDir)\mod.info"
       DestinationFolder="$(InstallFolder)" />
   </Target>
