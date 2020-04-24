@@ -3,13 +3,6 @@
 [![Language](https://img.shields.io/badge/Language-C%23-blue?style=flat-square)](https://docs.microsoft.com/dotnet/csharp)
 [![BasedOn](https://img.shields.io/badge/BasedOn-PLib-blueviolet?style=flat-square)](https://github.com/peterhaneve/ONIMods/tree/master/PLib)
 
-## 💠 Development Environment
-- ILRepack >= 2.0
-- PLib >= 3.6
-- Harmony >= 1.2
-- .NET Framework 4
-- Visual Studio 2019
-
 ## 🔮 Tested Game Version
 - **AP-399948**
 
@@ -20,6 +13,18 @@
 - @Kud for [繁體中文語言包](https://steamcommunity.com/sharedfiles/filedetails/?id=1562134514)
 - @LaFa for [拉法繁中](https://steamcommunity.com/sharedfiles/filedetails/?id=1123693010)
 - @Jiun for [非官方繁中](https://steamcommunity.com/sharedfiles/filedetails/?id=1821957996)
+
+## 💠 Development Environment & Tools
+- ILRepack >= 2.0
+- PLib >= 3.6
+- Harmony >= 1.2
+- .NET Framework 4
+- Visual Studio 2019
+- Asset Studio GUI
+- Asset Bundle Extractor
+- dnSpy
+- Unity 2018.4.14f1
+- TextMesh Pro 1.2.3
 
 ## 🗂 Mod List
 |                                           Name                                           	|                                  Description                                 	|
