@@ -34117,12 +34117,12 @@ msgstr "空間迷向"
 #. STRINGS.DUPLICANTS.TRAITS.CANTCOOK.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CANTCOOK.DESC"
 msgid "This Duplicant has a deep-seated distrust of the culinary arts"
-msgstr "這名複製人害怕進入廚房"
+msgstr "這名複製人對廚房敬而遠之"
 
 #. STRINGS.DUPLICANTS.TRAITS.CANTCOOK.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CANTCOOK.NAME"
 msgid "Gastrophobia"
-msgstr "烹飪恐懼"
+msgstr "君子遠庖廚"
 
 #. STRINGS.DUPLICANTS.TRAITS.CANTDIG.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CANTDIG.DESC"
@@ -51757,7 +51757,7 @@ msgstr "還原"
 #. STRINGS.UI.FRONTEND.GRAPHICS_OPTIONS_SCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.GRAPHICS_OPTIONS_SCREEN.TITLE"
 msgid "GRAPHICS OPTIONS"
-msgstr "圖像選項"
+msgstr "顯示選項"
 
 #. STRINGS.UI.FRONTEND.GRAPHICS_OPTIONS_SCREEN.UI_SCALE
 msgctxt "STRINGS.UI.FRONTEND.GRAPHICS_OPTIONS_SCREEN.UI_SCALE"
@@ -52003,12 +52003,12 @@ msgstr "語言"
 #. STRINGS.UI.FRONTEND.METRIC_OPTIONS_SCREEN.HEADER_METRICS
 msgctxt "STRINGS.UI.FRONTEND.METRIC_OPTIONS_SCREEN.HEADER_METRICS"
 msgid "USER DATA"
-msgstr "使用者數據"
+msgstr "使用者資料"
 
 #. STRINGS.UI.FRONTEND.METRIC_OPTIONS_SCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.METRIC_OPTIONS_SCREEN.TITLE"
 msgid "DATA COLLECTION"
-msgstr "數據收集"
+msgstr "隱私"
 
 #. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DESCRIPTION
 msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DESCRIPTION"
@@ -52020,11 +52020,11 @@ msgid ""
 "For more details on our privacy policy and how we use the data we collect, "
 "please visit our <color=#ECA6C9><u><b>privacy center</b></u>."
 msgstr ""
-"我們需要收集使用者資料以協助改進遊戲操作，選擇退出資料收集的玩家將不再發送崩"
-"潰報告和遊戲資訊給開發團隊\n"
+"我們需要蒐集使用者資料以協助改進遊戲操作\n"
+"選擇退出資料蒐集的玩家將不再發送遊戲崩潰報告和遊戲資訊給開發團隊\n"
 "\n"
-"有關我們的隱私權政策，以及我們如何使用收集之資料的詳細訊息，請查看我們的"
-"<color=#ECA6C9><u><b>隱私中心</b></u>"
+"有關我們的隱私權政策，以及我們如何使用收集之資料的詳細訊息\n"
+"請查看我們的<color=#ECA6C9><u><b>隱私中心</b></u>"
 
 #. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DONE_BUTTON
 msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.DONE_BUTTON"
@@ -52034,17 +52034,17 @@ msgstr "完成"
 #. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.ENABLE_BUTTON
 msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.ENABLE_BUTTON"
 msgid "Enable Data Collection"
-msgstr "開啟數據收集"
+msgstr "開啟資料蒐集"
 
 #. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.TITLE"
 msgid "DATA COLLECTION OPTIONS"
-msgstr "數據收集選項"
+msgstr "隱私選項"
 
 #. STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.METRICS_OPTIONS_SCREEN.TOOLTIP"
 msgid "Uncheck to disable data collection"
-msgstr "取消勾選來停用資料收集"
+msgstr "取消勾選來停用資料蒐集"
 
 #. STRINGS.UI.FRONTEND.MINSPECSCREEN.BODY
 msgctxt "STRINGS.UI.FRONTEND.MINSPECSCREEN.BODY"
@@ -52639,7 +52639,7 @@ msgstr "遊戲"
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.GRAPHICS
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.GRAPHICS"
 msgid "Graphics"
-msgstr "圖像"
+msgstr "顯示"
 
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.LANGUAGE
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.LANGUAGE"
@@ -52649,7 +52649,7 @@ msgstr "更換語言"
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.METRICS
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.METRICS"
 msgid "Data Collection"
-msgstr "數據收集"
+msgstr "隱私"
 
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.MODS
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.MODS"
@@ -65172,10 +65172,11 @@ msgid ""
 "Although the conditions are not ideal, it's imperative that I establish a "
 "colony here and begin mounting efforts to escape."
 msgstr ""
-"我已在目標地點醒來，但殖民地遇到了障礙。我本應該落在這個星球的表面，但實際被"
-"困在了地表數英里之下\n"
+"我已在目標地點醒來，但殖民任務卻遇到了問題\n"
+"我本應該落在這個星球的表面，實際上卻被困在了地表數英里之下\n"
 "\n"
-"儘管條件不太理想，但這是我的使命，我要在這裡建立一個殖民地並努力逃離這裡"
+"儘管條件不太理想，但這是我的使命\n"
+"我要在這裡建立一個殖民地並努力逃離這裡"
 
 #. STRINGS.UI.WELCOMEMESSAGETITLE
 msgctxt "STRINGS.UI.WELCOMEMESSAGETITLE"
