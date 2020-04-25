@@ -16,7 +16,7 @@ namespace miZyind.TraditionalChinese
     public static class TraditionalChinesePatches
     {
         private static readonly string ns = MethodBase.GetCurrentMethod().DeclaringType.Namespace;
-        private static readonly string fontname = "NotoSansCJKtc-Regular";
+        private static readonly string fn = "NotoSansCJKtc-Regular";
 
         private static Stream GetResourceStream(string name)
         {
@@ -33,7 +33,7 @@ namespace miZyind.TraditionalChinese
 
                 using (var stream = GetResourceStream("font"))
                 {
-                    var font = AssetBundle.LoadFromStream(stream).LoadAsset<TMP_FontAsset>(fontname);
+                    var font = AssetBundle.LoadFromStream(stream).LoadAsset<TMP_FontAsset>(fn);
                     TMP_Settings.fallbackFontAssets.Add(font);
                 }
 
@@ -54,7 +54,7 @@ namespace miZyind.TraditionalChinese
                     while (!streamReader.EndOfStream) lines.Add(streamReader.ReadLine());
 
                 Localization.OverloadStrings(Localization.ExtractTranslatedStrings(lines.ToArray(), false));
-                Localization.SwapToLocalizedFont(fontname);
+                Localization.SwapToLocalizedFont(fn);
 
                 return false;
             }
@@ -77,10 +77,24 @@ namespace miZyind.TraditionalChinese
 
                 reference.text = "正體中文";
                 component.GetReference<Image>("Image").sprite = sprite;
-
                 ___buttons.Add(gameObject);
 
                 return false;
+            }
+        }
+
+        [HarmonyPatch(typeof(Game))]
+        [HarmonyPatch("OnSpawn")]
+        public class Game_OnSpawn_Patch
+        {
+            public static void Postfix()
+            {
+                Resources
+                    .FindObjectsOfTypeAll<TextMeshProUGUI>()
+                    .DoIf(
+                        tmpg => tmpg != null && tmpg.font != null,
+                        tmpg => tmpg.font = TMP_Settings.fallbackFontAssets.Last()
+                    );
             }
         }
     }
