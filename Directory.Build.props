@@ -18,7 +18,7 @@
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <!-- Information -->
-    <Company>miZyind.io</Company>
+    <Company>miZyind.dev</Company>
     <Copyright>Copyright © 2020 miZyind</Copyright>
     <!-- Output -->
     <OutDir>bin</OutDir>

@@ -8,8 +8,8 @@
   </PropertyGroup>
   <!-- Information -->
   <PropertyGroup>
-    <Version>2020.4.23</Version>
-    <AssemblyTitle>Traditional Chinese</AssemblyTitle>
+    <Version>2020.4.26</Version>
+    <AssemblyTitle>TraditionalChinese</AssemblyTitle>
     <AssemblyVersion>$(Version)</AssemblyVersion>
     <FileVersion>$(Version)</FileVersion>
     <InformationalVersion>$(Version)</InformationalVersion>
