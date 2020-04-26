@@ -1,26 +1,30 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Text;
 using Harmony;
 using PeterHan.PLib;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace miZyind.TraditionalChinese
 {
     public static class TraditionalChinesePatches
     {
+        private const string fn = "NotoSansCJKtc-Regular";
         private static readonly string ns = MethodBase.GetCurrentMethod().DeclaringType.Namespace;
-        private static readonly string fn = "NotoSansCJKtc-Regular";
 
         private static Stream GetResourceStream(string name)
         {
             return Assembly
                 .GetExecutingAssembly()
                 .GetManifestResourceStream($"{ns}.Assets.{name}");
+        }
+
+        private static void ReassignString(ref string target, string targetString, string newString)
+        {
+            if (target.Contains(targetString)) target = target.Replace(targetString, newString);
         }
 
         public static class Mod_OnLoad
@@ -32,6 +36,9 @@ namespace miZyind.TraditionalChinese
                 using (var stream = GetResourceStream("font"))
                 {
                     var font = AssetBundle.LoadFromStream(stream).LoadAsset<TMP_FontAsset>(fn);
+
+                    font.material.SetFloat(ShaderUtilities.ID_WeightBold, 0.3f);
+
                     TMP_Settings.fallbackFontAssets.Add(font);
                 }
 
@@ -48,10 +55,11 @@ namespace miZyind.TraditionalChinese
                 var lines = new List<string>();
 
                 using (var stream = GetResourceStream("strings.po"))
-                using (var streamReader = new StreamReader(stream, Encoding.UTF8))
+                using (var streamReader = new StreamReader(stream, System.Text.Encoding.UTF8))
                     while (!streamReader.EndOfStream) lines.Add(streamReader.ReadLine());
 
                 Localization.OverloadStrings(Localization.ExtractTranslatedStrings(lines.ToArray(), false));
+
                 Localization.SwapToLocalizedFont(fn);
 
                 return false;
@@ -73,7 +81,11 @@ namespace miZyind.TraditionalChinese
                 var component = gameObject.GetComponent<HierarchyReferences>();
                 var reference = component.GetReference<LocText>("Title");
 
-                reference.text = "正體中文"; component.GetReference<Image>("Image").sprite = sprite; ___buttons.Add(gameObject);
+                reference.text = "正體中文";
+
+                component.GetReference<UnityEngine.UI.Image>("Image").sprite = sprite;
+
+                ___buttons.Add(gameObject);
 
                 return false;
             }
@@ -81,7 +93,7 @@ namespace miZyind.TraditionalChinese
 
         [HarmonyPatch(typeof(Game))]
         [HarmonyPatch("OnPrefabInit")]
-        public class Game_OnSpawn_Patch
+        public class Game_OnPrefabInit_Patch
         {
             public static void Prefix()
             {
@@ -91,6 +103,39 @@ namespace miZyind.TraditionalChinese
                         tmpg => tmpg != null && tmpg.font != null,
                         tmpg => tmpg.font = TMP_Settings.fallbackFontAssets.Last()
                     );
+
+                Db
+                    .Get()
+                    .ResourceTable
+                    .DoIf(
+                        res => res.GetType() == typeof(Klei.AI.Attribute),
+                        res =>
+                        {
+                            ReassignString(ref res.Name, "Minimum", "最小");
+                            ReassignString(ref res.Name, "Maximum", "最大");
+                        }
+                    );
+            }
+        }
+
+        [HarmonyPatch(typeof(DetailsPanelDrawer))]
+        [HarmonyPatch(nameof(DetailsPanelDrawer.NewLabel))]
+        [HarmonyPatch(new Type[] { typeof(string) })]
+        public class DetailsPanelDrawer_NewLabel_Patch
+        {
+            public static void Prefix(ref string text)
+            {
+                ReassignString(ref text, "Cycles", "歲");
+            }
+        }
+
+        [HarmonyPatch(typeof(MinionTodoChoreEntry))]
+        [HarmonyPatch("TooltipForChore")]
+        public class MinionTodoChoreEntry_TooltipForChore_Patch
+        {
+            public static void Postfix(ref string __result)
+            {
+                ReassignString(ref __result, "Idle", "空閒");
             }
         }
     }
