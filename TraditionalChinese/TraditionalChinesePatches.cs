@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
 using Harmony;
-using LibNoiseDotNet.Graphics.Tools.Noise.Model;
 using PeterHan.PLib;
 using TMPro;
 using UnityEngine;
@@ -75,19 +73,17 @@ namespace miZyind.TraditionalChinese
                 var component = gameObject.GetComponent<HierarchyReferences>();
                 var reference = component.GetReference<LocText>("Title");
 
-                reference.text = "正體中文";
-                component.GetReference<Image>("Image").sprite = sprite;
-                ___buttons.Add(gameObject);
+                reference.text = "正體中文"; component.GetReference<Image>("Image").sprite = sprite; ___buttons.Add(gameObject);
 
                 return false;
             }
         }
 
         [HarmonyPatch(typeof(Game))]
-        [HarmonyPatch("OnSpawn")]
+        [HarmonyPatch("OnPrefabInit")]
         public class Game_OnSpawn_Patch
         {
-            public static void Postfix()
+            public static void Prefix()
             {
                 Resources
                     .FindObjectsOfTypeAll<TextMeshProUGUI>()
