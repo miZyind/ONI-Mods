@@ -5,6 +5,7 @@ using System.Linq;
 using System.Reflection;
 using Harmony;
 using PeterHan.PLib;
+using PeterHan.PLib.UI;
 using TMPro;
 using UnityEngine;
 
@@ -20,6 +21,14 @@ namespace miZyind.TraditionalChinese
             return Assembly
                 .GetExecutingAssembly()
                 .GetManifestResourceStream($"{ns}.Assets.{name}");
+        }
+
+        private static void ReassignFont(IEnumerable<TextMeshProUGUI> sequence)
+        {
+            sequence.DoIf(
+                tmpg => tmpg != null && tmpg.font != null,
+                tmpg => tmpg.font = TMP_Settings.fallbackFontAssets.Last()
+            );
         }
 
         private static void ReassignString(ref string target, string targetString, string newString)
@@ -97,12 +106,7 @@ namespace miZyind.TraditionalChinese
         {
             public static void Prefix()
             {
-                Resources
-                    .FindObjectsOfTypeAll<TextMeshProUGUI>()
-                    .DoIf(
-                        tmpg => tmpg != null && tmpg.font != null,
-                        tmpg => tmpg.font = TMP_Settings.fallbackFontAssets.Last()
-                    );
+                ReassignFont(Resources.FindObjectsOfTypeAll<TextMeshProUGUI>());
 
                 Db
                     .Get()
@@ -115,6 +119,16 @@ namespace miZyind.TraditionalChinese
                             ReassignString(ref res.Name, "Maximum", "最大");
                         }
                     );
+            }
+        }
+
+        [HarmonyPatch(typeof(NameDisplayScreen))]
+        [HarmonyPatch("OnSpawn")]
+        public class Temp_Patch
+        {
+            public static void Postfix(NameDisplayScreen __instance)
+            {
+                ReassignFont(__instance.GetComponentsInChildren<LocText>());
             }
         }
 
