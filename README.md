@@ -9,22 +9,22 @@
 ## 🙏 Thanks To
 - @Cairath for [Oxygen-Not-Included-Modding](https://github.com/Cairath/Oxygen-Not-Included-Modding)
 - @peterhaneve for [PLib](https://github.com/peterhaneve/ONIMods/tree/master/PLib)
-- @古靈精怪 for [繁體中文語言包](https://steamcommunity.com/sharedfiles/filedetails/?id=1123693010)
+- @古靈精怪 for [繁體中文語言包](https://steamcommunity.com/sharedfiles/filedetails/?id=929305589)
 - @Kud for [繁體中文語言包](https://steamcommunity.com/sharedfiles/filedetails/?id=1562134514)
 - @LaFa for [拉法繁中](https://steamcommunity.com/sharedfiles/filedetails/?id=1123693010)
 - @Jiun for [非官方繁中](https://steamcommunity.com/sharedfiles/filedetails/?id=1821957996)
 
 ## 💠 Development Environment & Tools
-- ILRepack >= 2.0
-- PLib >= 3.6
-- Harmony >= 1.2
-- .NET Framework 4
+- ILRepack >= 2.0.x
+- PLib >= 3.6.x
+- Harmony >= 1.2.x
+- .NET Framework = 4.0
+- Unity = 2018.4.14f1
+- TextMesh Pro = 1.2.3
 - Visual Studio 2019
 - Asset Studio GUI
 - Asset Bundle Extractor
 - dnSpy
-- Unity 2018.4.14f1
-- TextMesh Pro 1.2.3
 
 ## 🗂 Mod List
 |                                           Name                                           	|                                  Description                                 	|
