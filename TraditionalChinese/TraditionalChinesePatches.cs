@@ -15,6 +15,7 @@ namespace miZyind.TraditionalChinese
     {
         private const string fn = "NotoSansCJKtc-Regular";
         private static readonly string ns = MethodBase.GetCurrentMethod().DeclaringType.Namespace;
+        private static TMP_FontAsset font;
 
         private static Stream GetResourceStream(string name)
         {
@@ -26,8 +27,8 @@ namespace miZyind.TraditionalChinese
         private static void ReassignFont(IEnumerable<TextMeshProUGUI> sequence)
         {
             sequence.DoIf(
-                tmpg => tmpg != null && tmpg.font != null,
-                tmpg => tmpg.font = TMP_Settings.fallbackFontAssets.Last()
+                tmpg => tmpg != null && tmpg.font != null && tmpg.font.name != fn,
+                tmpg => tmpg.font = font
             );
         }
 
@@ -44,11 +45,13 @@ namespace miZyind.TraditionalChinese
 
                 using (var stream = GetResourceStream("font"))
                 {
-                    var font = AssetBundle.LoadFromStream(stream).LoadAsset<TMP_FontAsset>(fn);
+                    var loadedFont = AssetBundle.LoadFromStream(stream).LoadAsset<TMP_FontAsset>(fn);
 
-                    font.material.SetFloat(ShaderUtilities.ID_WeightBold, 0.3f);
+                    loadedFont.material.SetFloat(ShaderUtilities.ID_WeightBold, 0.3f);
 
-                    TMP_Settings.fallbackFontAssets.Add(font);
+                    TMP_Settings.fallbackFontAssets.Add(loadedFont);
+
+                    font = loadedFont;
                 }
 
                 AssetBundle.UnloadAllAssetBundles(false);
@@ -57,7 +60,7 @@ namespace miZyind.TraditionalChinese
 
         [HarmonyPatch(typeof(Localization))]
         [HarmonyPatch(nameof(Localization.Initialize))]
-        public class Localization_Initialize_Patch
+        public static class Localization_Initialize_Patch
         {
             public static bool Prefix()
             {
@@ -77,7 +80,7 @@ namespace miZyind.TraditionalChinese
 
         [HarmonyPatch(typeof(LanguageOptionsScreen))]
         [HarmonyPatch("RebuildPreinstalledButtons")]
-        public class LanguageOptionsScreen_RebuildPreinstalledButtons_Patch
+        public static class LanguageOptionsScreen_RebuildPreinstalledButtons_Patch
         {
             public static bool Prefix(LanguageOptionsScreen __instance, ref List<GameObject> ___buttons)
             {
@@ -102,7 +105,7 @@ namespace miZyind.TraditionalChinese
 
         [HarmonyPatch(typeof(Game))]
         [HarmonyPatch("OnPrefabInit")]
-        public class Game_OnPrefabInit_Patch
+        public static class Game_OnPrefabInit_Patch
         {
             public static void Prefix()
             {
@@ -123,19 +126,24 @@ namespace miZyind.TraditionalChinese
         }
 
         [HarmonyPatch(typeof(NameDisplayScreen))]
-        [HarmonyPatch("OnSpawn")]
-        public class Temp_Patch
+        [HarmonyPatch(nameof(NameDisplayScreen.AddNewEntry))]
+        public static class NameDisplayScreen_AddNewEntry_Patch
         {
-            public static void Postfix(NameDisplayScreen __instance)
+            public static void Postfix(NameDisplayScreen __instance, GameObject representedObject)
             {
-                ReassignFont(__instance.GetComponentsInChildren<LocText>());
+                var targetEntry = __instance.entries.Find(entry => entry.world_go == representedObject);
+                if (targetEntry != null && targetEntry.display_go != null)
+                {
+                    var txt = targetEntry.display_go.GetComponentInChildren<LocText>();
+                    if (txt != null && txt.font.name != fn) txt.font = font;
+                }
             }
         }
 
         [HarmonyPatch(typeof(DetailsPanelDrawer))]
         [HarmonyPatch(nameof(DetailsPanelDrawer.NewLabel))]
         [HarmonyPatch(new Type[] { typeof(string) })]
-        public class DetailsPanelDrawer_NewLabel_Patch
+        public static class DetailsPanelDrawer_NewLabel_Patch
         {
             public static void Prefix(ref string text)
             {
@@ -145,7 +153,7 @@ namespace miZyind.TraditionalChinese
 
         [HarmonyPatch(typeof(MinionTodoChoreEntry))]
         [HarmonyPatch("TooltipForChore")]
-        public class MinionTodoChoreEntry_TooltipForChore_Patch
+        public static class MinionTodoChoreEntry_TooltipForChore_Patch
         {
             public static void Postfix(ref string __result)
             {
