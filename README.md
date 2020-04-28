@@ -27,9 +27,9 @@
 - dnSpy
 
 ## 🗂 Mod List
-|                                           Name                                           	|                                  Description                                 	|
-|:----------------------------------------------------------------------------------------:	|:----------------------------------------------------------------------------:	|
-| [Traditional Chinese](https://steamcommunity.com/sharedfiles/filedetails/?id=2070840646) 	| 正體中文字體用語翻譯包 Traditional Chinese Font + Wording + Translation Pack 	|
+|                                           Name                                           	|                   Description                   	|
+|:----------------------------------------------------------------------------------------:	|:-----------------------------------------------:	|
+| [Traditional Chinese](https://steamcommunity.com/sharedfiles/filedetails/?id=2070840646) 	| 正體中文字體用語翻譯包 Taiwanese Language Patch 	|
 
 ## 🖋 Author
 miZyind <mizyind@gmail.com>
