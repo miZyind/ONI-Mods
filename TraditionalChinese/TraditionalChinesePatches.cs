@@ -109,7 +109,7 @@ namespace miZyind.TraditionalChinese
         {
             public static void Prefix()
             {
-                ReassignFont(Resources.FindObjectsOfTypeAll<TextMeshProUGUI>());
+                ReassignFont(Resources.FindObjectsOfTypeAll<LocText>());
 
                 Db
                     .Get()
