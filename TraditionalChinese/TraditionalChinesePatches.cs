@@ -11,6 +11,9 @@ using UnityEngine;
 
 namespace miZyind.TraditionalChinese
 {
+    using CB = Action<MotdServerClient.MotdResponse, string>;
+    using Resp = MotdServerClient.MotdResponse;
+
     public static class TraditionalChinesePatches
     {
         private const string fn = "NotoSansCJKtc-Regular";
@@ -158,6 +161,60 @@ namespace miZyind.TraditionalChinese
             public static void Postfix(ref string __result)
             {
                 ReassignString(ref __result, "Idle", "空閒");
+            }
+        }
+
+        [HarmonyPatch(typeof(MotdServerClient))]
+        [HarmonyPatch(nameof(MotdServerClient.GetMotd))]
+        public static class MotdServerClient_GetMotd_Patch
+        {
+            private static Type Resp = typeof(Action<MotdServerClient.MotdResponse, string>);
+
+            private static MethodInfo GetLocalMotd = typeof(MotdServerClient).GetMethod(
+                "GetLocalMotd",
+                BindingFlags.NonPublic | BindingFlags.Instance
+            );
+
+            private static PropertyInfo MotdLocalPath = typeof(MotdServerClient).GetProperty(
+                "MotdLocalPath",
+                BindingFlags.NonPublic | BindingFlags.Static
+            );
+
+            public static bool Prefix(MotdServerClient __instance, CB cb)
+            {
+                var path = MotdLocalPath.GetValue(__instance, null);
+                var localMotd = GetLocalMotd.Invoke(__instance, new object[] { path }) as Resp;
+
+                localMotd.image_header_text = "自動化更新包！";
+                localMotd.news_header_text = "加入討論";
+                localMotd.news_body_text = "訂閱我們的通知郵件\n以隨時掌握最新資訊\n或到論壇直接參與討論！";
+                localMotd.patch_notes_summary =
+                    "<b>歡迎來到班妮的自動化更新包！</b>\n\n" +
+                    "<b> 更新特點：</b>\n" +
+                    "• 新增與改進自動化感測器，讓工作和娛樂更輕鬆\n" +
+                    "• 新的「史威比」機器人，可以保持你的殖民地整潔與時尚\n" +
+                    "• 對遊戲進行了一系列的最佳化、修復和改進\n\n" +
+                    "請查看完整更新說明來獲得進一步的訊息！";
+                localMotd.update_text_override = "喔耶！更新了！";
+
+                cb(localMotd, null);
+
+                return false;
+            }
+        }
+
+        [HarmonyPatch(typeof(PatchNotesScreen))]
+        [HarmonyPatch("OnSpawn")]
+        public static class PatchNotesScreen_OnSpawn_Patch
+        {
+            public static void Postfix(PatchNotesScreen __instance)
+            {
+                __instance
+                    .GetComponentsInChildren<TextMeshProUGUI>()
+                    .DoIf(
+                        txt => txt != null && txt.name == "Title",
+                        txt => txt.text = "更新說明"
+                    );
             }
         }
     }
