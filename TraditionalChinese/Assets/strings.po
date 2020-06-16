@@ -3842,7 +3842,7 @@ msgstr "<link=\"ARCADEMACHINE\">遊戲機台</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.DESC"
 msgid ""
 "Duplicants must complete astronaut training in order to pilot space rockets."
-msgstr "複製人必須完成宇航員訓練才能駕駛太空火箭"
+msgstr "複製人必須完成太空人訓練才能駕駛太空火箭"
 
 #. STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.EFFECT"
@@ -3852,14 +3852,14 @@ msgid ""
 "Duplicants must possess the <link=\"ASTRONAUTTRAINEE\">Astronaut-in-"
 "Training</link> trait to receive training."
 msgstr ""
-"訓練複製人成為<link=\"ASTRONAUT\">宇航員</link>\n"
+"訓練複製人成為<link=\"ASTRONAUT\">太空人</link>\n"
 "\n"
-"複製人必須具備<link=\"ASTRONAUTTRAINEE\">宇航員訓練</link>技能才能進行"
+"複製人必須具備<link=\"ASTRONAUTTRAINEE\">太空人訓練</link>技能才能進行"
 
 #. STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.NAME"
 msgid "<link=\"ASTRONAUTTRAININGCENTER\">Space Cadet Centrifuge</link>"
-msgstr "<link=\"ASTRONAUTTRAININGCENTER\">宇航員離心機</link>"
+msgstr "<link=\"ASTRONAUTTRAININGCENTER\">太空人離心訓練機</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.AUTOMINER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.AUTOMINER.DESC"
@@ -4468,7 +4468,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.DESC"
 msgid ""
 "At least one astronaut must be assigned to the command module to pilot a "
 "rocket."
-msgstr "必須至少指派一名宇航員到指揮艙去駕駛火箭"
+msgstr "必須至少指派一名太空人到指揮艙去駕駛火箭"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.EFFECT"
@@ -4478,7 +4478,7 @@ msgid ""
 "\n"
 "A Command Capsule must be the last module installed at the top of a rocket"
 msgstr ""
-"為複製人<link=\"ASTRONAUT\">宇航員</link>提供座位\n"
+"為<link=\"ASTRONAUT\">太空人</link>提供座位\n"
 "\n"
 "指揮艙必須建在火箭的最頂部"
 
@@ -11679,7 +11679,7 @@ msgstr "<link=\"TILEPOI\">磚塊</link>"
 #. STRINGS.BUILDINGS.PREFABS.TOURISTMODULE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.TOURISTMODULE.DESC"
 msgid "An astronaut must accompany sight seeing Duplicants on rocket flights."
-msgstr "乘坐火箭的觀光複製人必須要有宇航員陪同。"
+msgstr "乘坐火箭的觀光複製人必須要有太空人陪同"
 
 #. STRINGS.BUILDINGS.PREFABS.TOURISTMODULE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TOURISTMODULE.EFFECT"
@@ -11688,9 +11688,9 @@ msgid ""
 "\n"
 "Sight-Seeing rocket flights decrease <link=\"STRESS\">Stress</link>."
 msgstr ""
-"允許一名非宇航員複製人進入太空。\n"
+"允許一名非航太專業的複製人進入太空\n"
 "\n"
-"觀光火箭飛行可降低<link=\"STRESS\">壓力</link>。"
+"觀光火箭飛行可降低<link=\"STRESS\">壓力</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.TOURISTMODULE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TOURISTMODULE.NAME"
@@ -25389,7 +25389,7 @@ msgstr "儲存"
 #. STRINGS.DUPLICANTS.CHOREGROUPS.SUITS.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.SUITS.ARCHETYPE_NAME"
 msgid "Suit Wearer"
-msgstr "宇航員"
+msgstr "太空人"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.ARCHETYPE_NAME"
@@ -31399,7 +31399,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.SUITS
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.SUITS"
 msgid "Suit Wearing"
-msgstr "宇航員"
+msgstr "太空人"
 
 #. STRINGS.DUPLICANTS.ROLES.HANDYMAN.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.HANDYMAN.DESCRIPTION"
@@ -31718,7 +31718,7 @@ msgstr "消除穿著太空衣時行走速度的損失"
 #. STRINGS.DUPLICANTS.ROLES.SUIT_EXPERT.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SUIT_EXPERT.NAME"
 msgid "<link=\"SUITEXPERT\">Exosuit Training</link>"
-msgstr "<link=\"SUITEXPERT\">宇航員訓練</link>"
+msgstr "<link=\"SUITEXPERT\">太空人訓練</link>"
 
 #. STRINGS.DUPLICANTS.SKILLGROUPS.ART.NAME
 msgctxt "STRINGS.DUPLICANTS.SKILLGROUPS.ART.NAME"
@@ -31773,7 +31773,7 @@ msgstr "研究者"
 #. STRINGS.DUPLICANTS.SKILLGROUPS.SUITS.NAME
 msgctxt "STRINGS.DUPLICANTS.SKILLGROUPS.SUITS.NAME"
 msgid "Suit Wearer"
-msgstr "宇航員"
+msgstr "太空人"
 
 #. STRINGS.DUPLICANTS.SKILLGROUPS.TECHNICALS.NAME
 msgctxt "STRINGS.DUPLICANTS.SKILLGROUPS.TECHNICALS.NAME"
@@ -57937,7 +57937,7 @@ msgstr "<link=\"HARDNESS\">非常堅硬的材料</link>的開採"
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_ASTRONAUT_TRAINING.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_ASTRONAUT_TRAINING.DESCRIPTION"
 msgid "<link=\"ASTRONAUTTRAININGCENTER\">Space Cadet Centrifuge</link> Usage"
-msgstr "<link=\"ASTRONAUTTRAININGCENTER\">太空學員離心機</link>的使用"
+msgstr "<link=\"ASTRONAUTTRAININGCENTER\">太空人離心訓練機</link>的使用"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_PLUMBING.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_PLUMBING.DESCRIPTION"
@@ -59909,17 +59909,17 @@ msgstr "發射火箭"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ASTRONAUGHT
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ASTRONAUGHT"
 msgid "No Astronaut assigned"
-msgstr "未指派宇航員"
+msgstr "未指派太空人"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ASTRONAUT_TITLE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ASTRONAUT_TITLE"
 msgid "Astronaut"
-msgstr "宇航員"
+msgstr "太空人"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HASASTRONAUT
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HASASTRONAUT"
 msgid "Astronaut ready for liftoff"
-msgstr "宇航員準備升空"
+msgstr "太空人準備升空"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INSTALLED
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INSTALLED"
@@ -61428,7 +61428,7 @@ msgstr "管理複製人的技能分配 {Hotkey}"
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_STARMAP
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_STARMAP"
 msgid "Manage astronaut rocket missions {Hotkey}"
-msgstr "管理宇航員火箭任務 {Hotkey}"
+msgstr "管理太空人火箭任務 {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_VITALS
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_VITALS"
