@@ -1,7 +1,9 @@
 ﻿# miZyind's ONI Mods
-[![Game](https://img.shields.io/badge/Game-Oxygen%20Not%20Included-orange?style=flat-square)](https://store.steampowered.com/app/457140/Oxygen_Not_Included)
-[![Language](https://img.shields.io/badge/Language-C%23-blue?style=flat-square)](https://docs.microsoft.com/dotnet/csharp)
-[![BasedOn](https://img.shields.io/badge/BasedOn-PLib-blueviolet?style=flat-square)](https://github.com/peterhaneve/ONIMods/tree/master/PLib)
+[![ONI](https://img.shields.io/badge/oxygen_not_included-000?style=for-the-badge&logo=steam)](https://store.steampowered.com/app/457140/Oxygen_Not_Included)
+[![Unity](https://img.shields.io/badge/unity-000?style=for-the-badge&logo=unity)](https://unity.com)
+[![Visual Studio](https://img.shields.io/badge/2019-5c2d91?style=for-the-badge&logo=visual-studio)](https://visualstudio.microsoft.com)
+[![.NET](https://img.shields.io/badge/4.0-5c2d91?style=for-the-badge&logo=.net)](https://dotnet.microsoft.com)
+[![C#](https://img.shields.io/badge/4.0-239120?style=for-the-badge&logo=c-sharp)](https://docs.microsoft.com/dotnet/csharp)
 
 ## 🔮 Tested Game Version
 - **AP-410209**
