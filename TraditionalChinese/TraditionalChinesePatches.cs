@@ -185,15 +185,15 @@ namespace miZyind.TraditionalChinese
                 var path = MotdLocalPath.GetValue(__instance, null);
                 var localMotd = GetLocalMotd.Invoke(__instance, new object[] { path }) as Resp;
 
-                localMotd.image_header_text = "自動化更新包！";
-                localMotd.news_header_text = "加入討論";
+                localMotd.image_header_text = "DLC 開發計畫！";
+                localMotd.news_header_text = "參與討論";
                 localMotd.news_body_text = "訂閱我們的通知郵件\n以隨時掌握最新資訊\n或到論壇直接參與討論！";
                 localMotd.patch_notes_summary =
-                    "<b>歡迎來到班妮的自動化更新包！</b>\n\n" +
-                    "<b> 更新特點：</b>\n" +
-                    "• 新增與改進自動化感測器，讓工作和娛樂更輕鬆\n" +
-                    "• 新的「史威比」機器人，可以保持你的殖民地整潔與時尚\n" +
-                    "• 對遊戲進行了一系列的最佳化、修復和改進\n\n" +
+                    "<b>2020 年 7 月之修正更新</b>\n\n" +
+                    "• 修復了多個模擬熱量產生／破壞的錯誤\n" +
+                    "• 修正複製人在挖掘時永久卡住的錯誤\n" +
+                    "• 持續調整色盲模式的色彩集\n" +
+                    "• 數十項其他修正與改進\n\n" +
                     "請查看完整更新說明來獲得進一步的訊息！";
                 localMotd.update_text_override = "喔耶！更新了！";
 
