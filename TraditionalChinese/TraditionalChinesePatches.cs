@@ -189,11 +189,10 @@ namespace miZyind.TraditionalChinese
                 localMotd.news_header_text = "參與討論";
                 localMotd.news_body_text = "訂閱我們的通知郵件\n以隨時掌握最新資訊\n或到論壇直接參與討論！";
                 localMotd.patch_notes_summary =
-                    "<b>2020 年 7 月之修正更新</b>\n\n" +
-                    "• 修復了多個模擬熱量產生／破壞的錯誤\n" +
-                    "• 修正複製人在挖掘時永久卡住的錯誤\n" +
-                    "• 持續調整色盲模式的色彩集\n" +
-                    "• 數十項其他修正與改進\n\n" +
+                    "<b>2020 年 11 月之雲端存檔更新</b>\n\n" +
+                    "• 新增了雲端存檔功能。點擊「載入遊戲」打開存檔選單以管理你的本機與雲端存檔！\n" +
+                    "• 大量的遊戲效能提升，尤其是對於有著很多複製人的殖民地\n" +
+                    "• 將 Unity 遊戲引擎升级到最新的 LTS 版本\n" +
                     "請查看完整更新說明來獲得進一步的訊息！";
                 localMotd.update_text_override = "喔耶！更新了！";
 
