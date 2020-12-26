@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
@@ -191,8 +191,14 @@ msgstr "{0}誘餌"
 
 #. STRINGS.BUILDING.STATUSITEMS.BAITED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BAITED.TOOLTIP"
-msgid "This lure is baited with {0}"
-msgstr "這個誘捕裝置以{0}為誘餌"
+msgid ""
+"This lure is baited with {0}\n"
+"\n"
+"Bait material is set during the construction of the building"
+msgstr ""
+"這個誘餌使用{0}\n"
+"\n"
+"建造誘餌時需要設定材料"
 
 #. STRINGS.BUILDING.STATUSITEMS.BATTERIESSUFFICIENTLYFULL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BATTERIESSUFFICIENTLYFULL.NAME"
@@ -639,14 +645,9 @@ msgstr "需要清空"
 #. STRINGS.BUILDING.STATUSITEMS.DESALINATORNEEDSEMPTYING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DESALINATORNEEDSEMPTYING.TOOLTIP"
 msgid ""
-"This building is full of <link=\"SALT\">Salt</link> and can no longer "
-"operate.\n"
-"------------------\n"
-"A Duplicant must empty it for operation to continue."
-msgstr ""
-"這個建築積滿了<link=\"SALT\">鹽</link>，不能再繼續運作\n"
-"------------------\n"
-"複製人必須清空它，才能繼續運作"
+"This building needs to be emptied of <link=\"SALT\">Salt</link> to resume "
+"function"
+msgstr "需要清空這個建築物的<link=\"SALT\">鹽</link>才能使它恢復運作"
 
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME"
@@ -5065,32 +5066,6 @@ msgstr "將木材提煉為<link=\"ETHANOL\">乙醇</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ETHANOLDISTILLERY.NAME"
 msgid "<link=\"ETHANOLDISTILLERY\">Ethanol Distiller</link>"
 msgstr "<link=\"ETHANOLDISTILLERY\">乙醇蒸餾器</link>"
-
-#. STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.DESC
-msgctxt "STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.DESC"
-msgid ""
-"Ethanol generators require less Duplicant operation, but produce significant "
-"waste."
-msgstr "乙醇發電機需要複製人的操作量很少，但會產生大量廢物"
-
-#. STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.EFFECT
-msgctxt "STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.EFFECT"
-msgid ""
-"Converts <link=\"ETHANOL\">Ethanol</link> into electrical <link=\"POWER"
-"\">Power</link>.\n"
-"\n"
-"Produces <link=\"CARBONDIOXIDE\">Carbon Dioxide</link> and <link=\"DIRTYWATER"
-"\">Polluted Water</link>."
-msgstr ""
-"將<link=\"ETHANOL\">乙醇</link>轉化為<link=\"POWER\">電力</link>\n"
-"\n"
-"產生<link=\"CARBONDIOXIDE\">二氧化碳</link>和<link=\"DIRTYWATER\">汙染水</"
-"link>"
-
-#. STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.NAME
-msgctxt "STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.NAME"
-msgid "<link=\"ETHANOLGENERATOR\">Ethanol Generator</link>"
-msgstr "<link=\"ETHANOLGENERATOR\">乙醇發電機</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC"
@@ -9577,16 +9552,17 @@ msgstr "石油發電機發電量高，但是也會產生大量廢物。"
 #. STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.EFFECT"
 msgid ""
-"Converts <link=\"PETROLEUM\">Petroleum</link> into electrical <link=\"POWER"
-"\">Power</link>.\n"
+"Converts either <link=\"PETROLEUM\">Petroleum</link> or <link=\"ETHANOL"
+"\">Ethanol</link> into electrical <link=\"POWER\">Power</link>.\n"
 "\n"
 "Produces <link=\"CARBONDIOXIDE\">Carbon Dioxide</link> and <link=\"DIRTYWATER"
 "\">Polluted Water</link>."
 msgstr ""
-"將<link=\"PETROLEUM\">石油</link>轉化為<link=\"POWER\">電力</link>。\n"
+"將<link=\"PETROLEUM\">石油</link>或<link=\"ETHANOL\">乙醇</link>轉化為<link="
+"\"POWER\">電力</link>\n"
 "\n"
 "產生<link=\"CARBONDIOXIDE\">二氧化碳</link>和<link=\"DIRTYWATER\">汙染水</"
-"link>。"
+"link>"
 
 #. STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.NAME"
@@ -31722,15 +31698,16 @@ msgstr "<link=\"MEDIC\">高級醫療護理</link>"
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.DESCRIPTION"
 msgid ""
-"Allows excavation of extremely hard materials like <link=\"DIAMOND"
-"\">Diamond</link> and <link=\"OBSIDIAN\">Obsidian</link>"
+"Allows the excavation of <style=\"KKeyword\">Nearly Impenetrable</style> "
+"elements, including <link=\"DIAMOND\">Diamond</link> and <link=\"OBSIDIAN"
+"\">Obsidian</link>"
 msgstr ""
-"允許挖掘極其堅固的材料，比如<link=\"DIAMOND\">鑽石</link>和<link=\"OBSIDIAN"
-"\">黑曜石</link>"
+"允許挖掘<style=\"KKeyword\">近乎堅不可摧</style>的材料，比如<link=\"DIAMOND"
+"\">鑽石</link>和<link=\"OBSIDIAN\">黑曜石</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.NAME"
-msgid "<link=\"SENIORMINER\">Superduperhard Digging</link>"
+msgid "<link=\"SENIORMINER\">Super-Duperhard Digging</link>"
 msgstr "<link=\"SENIORMINER\">極堅硬材料挖掘</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_RANCHER.DESCRIPTION
@@ -35566,6 +35543,36 @@ msgstr "<link=\"GRANITE\">花崗岩</link>"
 msgctxt "STRINGS.ELEMENTS.HARDNESS.FIRM"
 msgid "{0} (Firm)"
 msgstr "{0}（堅硬）"
+
+#. STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.FIRM
+msgctxt "STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.FIRM"
+msgid "Firm"
+msgstr "堅硬"
+
+#. STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.IMPENETRABLE
+msgctxt "STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.IMPENETRABLE"
+msgid "Impenetrable"
+msgstr "堅不可摧"
+
+#. STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.NEARLYIMPENETRABLE
+msgctxt "STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.NEARLYIMPENETRABLE"
+msgid "Nearly Impenetrable"
+msgstr "近乎堅不可摧"
+
+#. STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.SOFT
+msgctxt "STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.SOFT"
+msgid "Soft"
+msgstr "柔軟"
+
+#. STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.VERYFIRM
+msgctxt "STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.VERYFIRM"
+msgid "Very Firm"
+msgstr "非常堅硬"
+
+#. STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.VERYSOFT
+msgctxt "STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.VERYSOFT"
+msgid "Very Soft"
+msgstr "非常柔軟"
 
 #. STRINGS.ELEMENTS.HARDNESS.IMPENETRABLE
 msgctxt "STRINGS.ELEMENTS.HARDNESS.IMPENETRABLE"
@@ -39935,13 +39942,15 @@ msgstr "員工通知"
 
 #. STRINGS.MISC.MONUMENT_COMPLETE.DESC
 msgctxt "STRINGS.MISC.MONUMENT_COMPLETE.DESC"
-msgid "Monument has head, midsection and bottom."
-msgstr "紀念碑有頭部、中部、和底部。"
+msgid ""
+"A feat of artistic vision and expert engineering that will doubtless inspire "
+"Duplicants for thousands of cycles to come"
+msgstr "這是個藝術與工程上的壯舉，無疑激勵了複製人們得以面對即將到來的數千週期"
 
 #. STRINGS.MISC.MONUMENT_COMPLETE.NAME
 msgctxt "STRINGS.MISC.MONUMENT_COMPLETE.NAME"
-msgid "Completed Monument"
-msgstr "完整的紀念碑"
+msgid "Great Monument"
+msgstr "紀念碑"
 
 #. STRINGS.MISC.NOTIFICATIONS.ALLOCATED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.ALLOCATED.NAME"
@@ -40259,22 +40268,22 @@ msgstr "這些複製人死於缺<link=\"OXYGEN\">氧</link>："
 #. STRINGS.MISC.NOTIFICATIONS.DIGGING.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DIGGING.MESSAGEBODY"
 msgid ""
-"Everything a colony needs to get going is found in the ground. By "
-"instructing a Duplicant to dig in an area I can mine resources to build "
-"infrastructure, find food, and clear space for the colony to grow. I can "
-"access the Dig Tool <b><color=#F44A4A>[G]</b></color> which allows me to "
-"select the area I want my Duplicants to dig.\n"
+"Everything a colony needs to get going is found in the ground. Instructing "
+"Duplicants to dig out areas means we can find food, mine resources to build "
+"infrastructure, and clear space for the colony to grow. I can access the Dig "
+"Tool with <b><color=#F44A4A>[G]</b></color>, which allows me to select the "
+"area where I want my Duplicants to dig.\n"
 "\n"
 "Duplicants will need to gain the Superhard Digging skill to mine Abyssalite "
-"and the Superduperhard Digging skill to mine Diamond and Obsidian."
+"and the Superduperhard Digging skill to mine Diamond and Obsidian. Without "
+"the proper skills, these materials will be undiggable."
 msgstr ""
-"挖掘對於建造一個健康的殖民地是必要的。透過命令複製人在一片區域内進行挖掘，我"
-"可以清出一片空間用於殖民地發展，並且挖到的資源可以建造基礎設備或者尋找食物。"
-"透過選中<b><color=#F44A4A> [G] </b></color>我可以實現挖掘工具的功能，即讓我選"
-"擇一片需要讓複製人挖掘的區域\n"
+"挖掘對於建造一個健康的殖民地是必要的。指派複製人在一片區域内進行挖掘可以獲得"
+"資源以建造基礎設備，或者尋找食物。透過<b><color=#F44A4A> [G] </b></color> 鍵"
+"以使用挖掘工具，並選擇一片需要的區域\n"
 "\n"
 "複製人需要習得超堅硬材料挖掘技能來挖掘深淵晶石，需要極堅硬材料挖掘技能來挖掘"
-"鑽石和黑曜石"
+"鑽石和黑曜石。沒有正確的技能就無法挖掘這些材料"
 
 #. STRINGS.MISC.NOTIFICATIONS.DIGGING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DIGGING.NAME"
@@ -40640,12 +40649,12 @@ msgstr ""
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INSULATION.MESSAGEBODY"
 msgid ""
 "The temperature of an environment can have positive or negative effects on "
-"the wellbeing of my Duplicants, and the plants and critters in my colony. "
-"Selecting <b><color=#F44A4A>[F3]</b></color> will open the Temperature "
-"Overlay where I can check for hot and cold spots.\n"
+"the wellbeing of my Duplicants, as well as the plants and critters in my "
+"colony. Selecting <b><color=#F44A4A>[F3]</b></color> will open the "
+"Temperature Overlay where I can check for any hot or cold spots.\n"
 "\n"
-"I can use a Utility like an Ice-E Fan or a Space Heater to make an area "
-"colder or hotter. However, I will have limited success changing the "
+"I can use a Utility building like an Ice-E Fan or a Space Heater to make an "
+"area colder or warmer. However, I will have limited success changing the "
 "temperature of a room unless I build the area with insulating tiles to "
 "prevent cold or warm air from escaping."
 msgstr ""
@@ -40654,7 +40663,7 @@ msgstr ""
 "和太冷的區域。\n"
 "\n"
 "我可以使用冰冷風扇或空間加熱器來讓環境更冷或更熱。然而，我必須使用隔熱磚來防"
-"止冷或熱空氣逸出，否則改變房間溫度的成效甚微。"
+"止冷或熱空氣逸出，否則改變房間溫度的成效甚微"
 
 #. STRINGS.MISC.NOTIFICATIONS.INSULATION.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INSULATION.NAME"
@@ -40683,8 +40692,8 @@ msgstr "屬性提升"
 
 #. STRINGS.MISC.NOTIFICATIONS.LEVELUP.SUFFIX
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LEVELUP.SUFFIX"
-msgid " - {0} raised to {1}"
-msgstr " - {0}提升至{1}"
+msgid " - {0} Skill Level modifier raised to +{1}"
+msgstr " - {0}技能等級提升至+{1}"
 
 #. STRINGS.MISC.NOTIFICATIONS.LEVELUP.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LEVELUP.TOOLTIP"
@@ -40802,20 +40811,21 @@ msgstr "關於處理汙染材料的說明"
 #. STRINGS.MISC.NOTIFICATIONS.MORALE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MORALE.MESSAGEBODY"
 msgid ""
-"Food, Rooms, Decor, and Recreation all have have an effect on Duplicant "
-"Morale. Good experiences improve their Morale and poor experiences lower it. "
-"When Morale is below their Expectations, Duplicants will become Stressed.\n"
+"Food, Rooms, Decor, and Recreation all have an effect on Duplicant Morale. "
+"Good experiences improve their Morale, while poor experiences lower it. When "
+"a Duplicant's Morale is below their Expectations, they will become "
+"Stressed.\n"
 "\n"
-"As Duplicants are given new Skills they gain increased Expectations, and the "
-"colony will have to be improved to keep up their Morale. An overview of "
+"Duplicants' Expectations will get higher as they are given new Skills, and "
+"the colony will have to be improved to keep up their Morale. An overview of "
 "Morale and Stress can be viewed on the Vitals screen."
 msgstr ""
 "複製人吃的食物、住的房間、周圍的裝飾以及開展的娛樂活動都會影響他們的士氣。好"
 "的體驗會提升士氣，而差的體驗則會降低士氣。一旦士氣降至他們的期望值以下，複製"
 "人便會感到壓力\n"
 "\n"
-"在複製人獲得任務分配後，他們的期望值會跟著升高，因此，為了維持複製人的士氣，"
-"必須不斷改善殖民地的環境，可在「個人狀態」介面查看士氣和壓力概覽"
+"複製人的期望值會技能學習越多而隨之提高，因此，為了維持複製人的士氣，必須不斷"
+"改善殖民地的環境，可在「個人狀態」介面查看士氣和壓力概覽"
 
 #. STRINGS.MISC.NOTIFICATIONS.MORALE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.MORALE.NAME"
@@ -41038,15 +41048,19 @@ msgstr "將建築和管道連接的說明"
 #. STRINGS.MISC.NOTIFICATIONS.POWER.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.POWER.MESSAGEBODY"
 msgid ""
-"Generators produce power and the various buildings and machines in the "
-"colony are the Consumers. Each Consumer will pull a certain wattage from the "
-"power circuit it is connected to.\n"
+"Generators are considered \"Producers\" of Power, while the various "
+"buildings and machines in the colony are considered \"Consumers\". Each "
+"Consumer will pull a certain wattage from the power circuit it is connected "
+"to, which can be checked at any time by clicking the building and going to "
+"the Energy Tab.\n"
 "\n"
-"I can use the Power Overlay <b><color=#F44A4A>[F2]</b></color> to check the "
-"status of my circuits. If the Consumers are consuming more wattage than the "
-"Generators are producing, the Batteries will drain and there will be "
-"brownouts. Additionally, if the Consumers are consuming more wattage than "
-"the Wires can handle, the Wires will overload and burn out. To correct both "
+"I can use the Power Overlay <b><color=#F44A4A>[F2]</b></color> to quickly "
+"check the status of all my circuits. If the Consumers are taking more "
+"wattage than the Generators are creating, the Batteries will drain and there "
+"will be brownouts.\n"
+"\n"
+"Additionally, if the Consumers are pulling more wattage through the Wires "
+"than the Wires can handle, they will overload and burn out. To correct both "
 "these situations, I will need to reorganize my Consumers onto separate "
 "circuits."
 msgstr ""
@@ -41054,9 +41068,10 @@ msgstr ""
 "用電裝置會從連入的電路中獲取一定瓦數的電力\n"
 "\n"
 "我可以使用電力概覽<b><color=#F44A4A> [F2] </b></color>來檢查我的電路狀態。如"
-"果用電裝置消耗的電力比發電機產生的要多，電池就會流失電力直至電力不足。此外，"
-"如果用電裝置消耗的電力比電線能承受的要多，電線就會過載並燒燬。為了改正這些狀"
-"況，我需要重新把用電裝置分在多條電路上"
+"果用電裝置消耗的電力比發電機產生的要多，電池就會流失電力直至電力不足。\n"
+"\n"
+"此外，如果用電裝置消耗的電力比電線能承受的要多，電線就會過載並燒毀。為避免這"
+"些狀況，我需要重新把用電裝置分在多條電路上"
 
 #. STRINGS.MISC.NOTIFICATIONS.POWER.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.POWER.NAME"
@@ -41459,7 +41474,7 @@ msgstr ""
 "我可以使用<b>挖掘工具</b><b><color=#F44A4A> [G] </b></color>和螢幕左下方的<b>"
 "建造選單</b>來開始安排第一個建造任務\n"
 "\n"
-"佈置任務後，我的複製人將自動開始工作，不需要我單獨指示他們"
+"指派任務後，我的複製人將自動開始工作，不需要我單獨指示他們"
 
 #. STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.NAME"
@@ -50256,11 +50271,11 @@ msgstr "上個版本"
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_MESSAGE"
 msgid ""
 "This game is running a Test version of Oxygen Not Included. This means that "
-"some features may be in development or buggier than normal, and not quite "
-"ready to go to the Release version of the game.\n"
+"some features may be in development or buggier than normal, and require more "
+"testing before they can be moved into the Release build.\n"
 "\n"
-"If you encounter any bugs or strange behavior, we'd appreciate if you took "
-"the time to add a report to the bug forums."
+"If you encounter any bugs or strange behavior, please add a report to the "
+"bug forums. We appreciate it!"
 msgstr ""
 "遊戲正運行於測試版本，你可能會遇到一些奇怪、好笑或讓你困擾的錯誤\n"
 "\n"
@@ -50279,7 +50294,7 @@ msgstr "論壇"
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_TOOLTIP
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_TOOLTIP"
 msgid ""
-"The game is currently running a Test version\n"
+"This game is currently running a Test version.\n"
 "\n"
 "Click for more info."
 msgstr ""
@@ -50321,6 +50336,16 @@ msgstr "下一次升級發佈時間"
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
 msgstr "正式版：{0}"
+
+#. STRINGS.UI.DLC1.NAME
+msgctxt "STRINGS.UI.DLC1.NAME"
+msgid "Spaced Out!"
+msgstr "Spaced Out!"
+
+#. STRINGS.UI.DLC1.NAME_ITAL
+msgctxt "STRINGS.UI.DLC1.NAME_ITAL"
+msgid "<i>Spaced Out!</i>"
+msgstr "<i>Spaced Out!</i>"
 
 #. STRINGS.UI.DROPDOWN.NONE
 msgctxt "STRINGS.UI.DROPDOWN.NONE"
@@ -50780,6 +50805,11 @@ msgctxt "STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.TOOLTIP"
 msgid "My Duplicants gained a total of {0} skill levels today"
 msgstr "我的複製人在今日總共升級 {0} 次"
 
+#. STRINGS.UI.ENDOFDAYREPORT.MY_COLONY
+msgctxt "STRINGS.UI.ENDOFDAYREPORT.MY_COLONY"
+msgid "my colony"
+msgstr "我的殖民地"
+
 #. STRINGS.UI.ENDOFDAYREPORT.NET
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NET"
 msgid "Net"
@@ -50789,6 +50819,11 @@ msgstr "淨值"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NEXT"
 msgid "Next"
 msgstr "下一頁"
+
+#. STRINGS.UI.ENDOFDAYREPORT.NONE
+msgctxt "STRINGS.UI.ENDOFDAYREPORT.NONE"
+msgid "None"
+msgstr "無"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.BUTCHERED
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.BUTCHERED"
@@ -50887,14 +50922,14 @@ msgstr "馴化的小動物："
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_DOMESTICATED_CRITTERS.NEGATIVE_TOOLTIP
 msgctxt ""
 "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_DOMESTICATED_CRITTERS.NEGATIVE_TOOLTIP"
-msgid "My colony has {0} critters"
-msgstr "我的殖民地有 {0} 隻小動物"
+msgid "{0} domestic critters live in {1}"
+msgstr "{0} 隻馴化的小動物生活在 {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_DOMESTICATED_CRITTERS.POSITIVE_TOOLTIP
 msgctxt ""
 "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_DOMESTICATED_CRITTERS.POSITIVE_TOOLTIP"
-msgid "My colony has {0} critters"
-msgstr "我的殖民地有 {0} 隻小動物"
+msgid "{0} domestic critters live in {1}"
+msgstr "{0} 隻馴化的小動物生活在 {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NAME"
@@ -50903,13 +50938,13 @@ msgstr "野生小動物："
 
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NEGATIVE_TOOLTIP"
-msgid "There are {0} wild critters around my colony"
-msgstr "在我的殖民地周圍有 {0} 隻野生小動物"
+msgid "{0} domestic critters live in {1}"
+msgstr "{0} 隻馴化的小動物生活在 {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.POSITIVE_TOOLTIP"
-msgid "There are {0} wild critters around my colony"
-msgstr "在我的殖民地周圍有 {0} 隻野生小動物"
+msgid "{0} domestic critters live in {1}"
+msgstr "{0} 隻馴化的小動物生活在 {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NAME"
@@ -50963,13 +50998,13 @@ msgstr "進行中的火箭任務："
 
 #. STRINGS.UI.ENDOFDAYREPORT.ROCKETS_IN_FLIGHT.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ROCKETS_IN_FLIGHT.NEGATIVE_TOOLTIP"
-msgid "There are {0} Rockets currently flying missions"
-msgstr "當前正有 {0} 艘火箭正在執行飛行任務"
+msgid "{0} rockets are currently flying missions for {1}"
+msgstr "當前正有 {0} 艘火箭正在執行 {1} 的飛行任務"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ROCKETS_IN_FLIGHT.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ROCKETS_IN_FLIGHT.POSITIVE_TOOLTIP"
-msgid "There are {0} Rockets currently flying missions"
-msgstr "當前正有 {0} 艘火箭正在執行飛行任務"
+msgid "{0} rockets are currently flying missions for {1}"
+msgstr "當前正有 {0} 艘火箭正在執行 {1} 的飛行任務"
 
 #. STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.NAME"
@@ -51716,6 +51751,66 @@ msgid ""
 "constraints"
 msgstr "允許使用忽略遊戲規則的工具控制模擬器"
 
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.LEVELS.DISABLED.NAME
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.LEVELS."
+"DISABLED.NAME"
+msgid "Disabled"
+msgstr "停用"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.LEVELS.DISABLED.TOOLTIP
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.LEVELS."
+"DISABLED.TOOLTIP"
+msgid "Unchecked: This colony will be a local save"
+msgstr "未勾選：此殖民地將使用本機存檔"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.LEVELS.ENABLED.NAME
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.LEVELS."
+"ENABLED.NAME"
+msgid "Enabled"
+msgstr "啟用"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.LEVELS.ENABLED.TOOLTIP
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.LEVELS."
+"ENABLED.TOOLTIP"
+msgid "Checked: This colony will be a cloud save (Default)"
+msgstr "勾選：此殖民地將使用雲端存檔（預設）"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.NAME
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.NAME"
+msgid "Save To Cloud"
+msgstr "存檔至雲端"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.TOOLTIP
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.TOOLTIP"
+msgid ""
+"This colony will be created in the cloud saves folder, and synced by the "
+"game platform."
+msgstr "此殖民地將會被建立在雲端資料夾中，並與遊戲平台同步"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.TOOLTIP_EXTRA
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD."
+"TOOLTIP_EXTRA"
+msgid ""
+"This can be changed later with the colony management options in the load "
+"screen, from the main menu."
+msgstr "這個選項可以在殖民地載入頁面更改"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD.TOOLTIP_LOCAL
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.SAVETOCLOUD."
+"TOOLTIP_LOCAL"
+msgid ""
+"This colony will be created in the local saves folder. It will not be a "
+"cloud save and will not be synced by the game platform."
+msgstr "此殖民地將會被建立在本機資料夾中，不會被同步至遊戲平台"
+
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.DEFAULT.NAME
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS.LEVELS.DEFAULT."
@@ -51985,6 +52080,19 @@ msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.CONTROLS_DESCRIPTION"
 msgid "Change key bindings"
 msgstr "改變自訂按鍵"
 
+#. STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.DEFAULT_TO_CLOUD_SAVES
+msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.DEFAULT_TO_CLOUD_SAVES"
+msgid "Default to cloud saves"
+msgstr "預設為雲端存檔"
+
+#. STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.DEFAULT_TO_CLOUD_SAVES_TOOLTIP
+msgctxt ""
+"STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.DEFAULT_TO_CLOUD_SAVES_TOOLTIP"
+msgid ""
+"When a new colony is created, this controls whether it will be saved into "
+"the cloud saves folder for syncing or not."
+msgstr "當殖民地被建立時，這個選項決定是否將進度儲存至雲端"
+
 #. STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.DISABLED_WARNING
 msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.DISABLED_WARNING"
 msgid "More options available in-game"
@@ -52191,10 +52299,50 @@ msgid ""
 "created</color>"
 msgstr "<color=#ff0000>自動存檔：在新存檔創造後，這類文件將會刪除</color>"
 
+#. STRINGS.UI.FRONTEND.LOADSCREEN.BACKBUTTON
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.BACKBUTTON"
+msgid "< BACK"
+msgstr "返回"
+
 #. STRINGS.UI.FRONTEND.LOADSCREEN.BASE_NAME
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.BASE_NAME"
 msgid "Base Name"
 msgstr "基地名稱"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CLOUD_SAVE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CLOUD_SAVE"
+msgid "cloud"
+msgstr "雲端"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CLOUD_TUTORIAL_BOUNCER
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CLOUD_TUTORIAL_BOUNCER"
+msgid "Upload Saves to Cloud"
+msgstr "上傳存檔至雲端"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.COLONIES_TITLE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.COLONIES_TITLE"
+msgid "Colony View"
+msgstr "查看殖民地"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_FILE_NAME
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_FILE_NAME"
+msgid "File: '{0}'"
+msgstr "文件：{0}"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_FILE_SIZE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_FILE_SIZE"
+msgid "Size: {0}"
+msgstr "大小：{0}"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_INFO_FMT
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_INFO_FMT"
+msgid "{0}: {1}"
+msgstr "{0}：{1}"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_TITLE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_TITLE"
+msgid "Viewing colony '{0}'"
+msgstr "查看殖民地「{0}」"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.CONFIRMDELETE
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONFIRMDELETE"
@@ -52204,6 +52352,139 @@ msgid ""
 msgstr ""
 "確定要刪除 {0} 嗎？\n"
 "此操作無法復原"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_COLONIES
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_COLONIES"
+msgid "CONVERT ALL"
+msgstr "全部轉換"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_TO_CLOUD
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_TO_CLOUD"
+msgid "Convert <b>all</b> colonies below to use cloud saves"
+msgstr "將<b>所有的</b>殖民地轉換為雲端存檔"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_TO_CLOUD_SUCCESS
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_TO_CLOUD_SUCCESS"
+msgid ""
+"<style=\"KKeyword\">SUCCESS!</style>\n"
+"All existing colonies have been converted into <style=\"KKeyword\">cloud</"
+"style> saves.\n"
+"New colonies will use <style=\"KKeyword\">cloud</style> saves by default.\n"
+"\n"
+"{Client} may take longer than usual to sync the next time you exit the game "
+"as a result of this change."
+msgstr ""
+"<style=\"KKeyword\">成功！</style>\n"
+"所有現有的殖民地都已轉換成<style=\"KKeyword\">雲端</style>存檔了\n"
+"新的殖民地將預設使用<style=\"KKeyword\">雲端</style>存檔\n"
+"\n"
+"下次你退出遊戲時，{Client}會花費稍長時間將存檔同步至雲端"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_TO_LOCAL
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_TO_LOCAL"
+msgid "Convert <b>all</b> colonies below to use local saves"
+msgstr "將<b>所有的</b>殖民地轉換為本機存檔"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_TO_LOCAL_SUCCESS
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_TO_LOCAL_SUCCESS"
+msgid ""
+"<style=\"KKeyword\">SUCCESS!</style>\n"
+"All existing colonies have been converted into <style=\"KKeyword\">local</"
+"style> saves.\n"
+"New colonies will use <style=\"KKeyword\">local</style> saves by default.\n"
+"\n"
+"{Client} may take longer than usual to sync the next time you exit the game "
+"as a result of this change."
+msgstr ""
+"<style=\"KKeyword\">成功！</style>\n"
+"所有現有的殖民地都已轉換成<style=\"KKeyword\">本機</style>存檔了\n"
+"新的殖民地將預設使用<style=\"KKeyword\">本機</style>存檔\n"
+"\n"
+"下次你退出遊戲時，{Client}會花費稍長時間將存檔同步至雲端"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_WARNING
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_WARNING"
+msgid ""
+"<style=\"KKeyword\">\n"
+"Warning:</style> Converting all colonies may take some time."
+msgstr ""
+"<style=\"KKeyword\">\n"
+"警告：</style>轉換所有殖民地需要花些時間"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_COLONY
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_COLONY"
+msgid "CONVERT COLONY"
+msgstr "轉換殖民地"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_COLONY_TO_CLOUD
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_COLONY_TO_CLOUD"
+msgid "Convert colony to use cloud saves"
+msgstr "將殖民地轉換為雲端存檔"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_COLONY_TO_LOCAL
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_COLONY_TO_LOCAL"
+msgid "Convert to colony to use local saves"
+msgstr "轉換殖民地為本機存檔"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ERROR
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ERROR"
+msgid ""
+"Converting the colony <style=\"KKeyword\">{Colony}</style> was "
+"unsuccessful!\n"
+"The error was:\n"
+"\n"
+"<b>{Error}</b>\n"
+"\n"
+"Please try again, or post a bug in the forums if this problem keeps "
+"happening."
+msgstr ""
+"轉換殖民地<style=\"KKeyword\">{Colony}</style>失敗！\n"
+"錯誤為：\n"
+"\n"
+"<b>{Error}</b>\n"
+"\n"
+"請重試一次，如果仍持續發生這個問題，請於論壇回報錯誤資訊"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ERROR_TITLE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ERROR_TITLE"
+msgid "SAVE CONVERSION UNSUCCESSFUL"
+msgstr "轉換存檔失敗"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_CLOUD
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_CLOUD"
+msgid "CONVERT TO CLOUD SAVES"
+msgstr "轉換為雲端存檔"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_CLOUD_DETAILS
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_CLOUD_DETAILS"
+msgid ""
+"Converting a colony to use cloud saves will move all of the save files for "
+"that colony into the cloud saves folder.\n"
+"\n"
+"This allows your game platform to sync this colony to the cloud for your "
+"account, so it can be played on multiple machines."
+msgstr ""
+"將一個殖民地轉換為雲端存檔，這將移動所有的檔案至雲端資料夾中\n"
+"\n"
+"這也會為你同步至遊戲平台帳號，使得你可以在別的裝置繼續遊玩"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_LOCAL
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_LOCAL"
+msgid "CONVERT TO LOCAL SAVES"
+msgstr "轉換為本機存檔"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_LOCAL_DETAILS
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_LOCAL_DETAILS"
+msgid ""
+"Converting a colony to NOT use cloud saves will move all of the save files "
+"for that colony into the local saves folder.\n"
+"\n"
+"<style=\"KKeyword\">These save files will no longer be synced to the cloud.</"
+"style>"
+msgstr ""
+"將一個殖民地轉換為本地存檔，這將移動所有的檔案至本機資料夾中\n"
+"\n"
+"這些檔案將不再被同步至雲端"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.CORRUPTEDSAVE
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CORRUPTEDSAVE"
@@ -52227,6 +52508,134 @@ msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.DUPLICANTS_ALIVE"
 msgid "Duplicants Alive"
 msgstr "存活的複製人"
 
+#. STRINGS.UI.FRONTEND.LOADSCREEN.LOCAL_SAVE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.LOCAL_SAVE"
+msgid "local"
+msgstr "本機"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_COUNT
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_COUNT"
+msgid ""
+"\n"
+"Found <style=\"KKeyword\">{0}</style> saves and <style=\"KKeyword\">{1}</"
+"style> autosaves that require migration."
+msgstr ""
+"\n"
+"已找到 <style=\"KKeyword\">{0}</style> 個存檔和 <style=\"KKeyword\">{1}</"
+"style> 個自動存檔需要遷移"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_DONE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_DONE"
+msgid "CONTINUE"
+msgstr "繼續"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_FAILURES_DONE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_FAILURES_DONE"
+msgid "MORE INFO"
+msgstr "更多資訊"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_FAILURES_FORUM_BUTTON
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_FAILURES_FORUM_BUTTON"
+msgid "VISIT FORUMS"
+msgstr "訪問論壇"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_INFO
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_INFO"
+msgid ""
+"We've changed how save files are organized!\n"
+"Please click the button below to automatically update your save file storage."
+msgstr ""
+"我們改變了遊戲存檔的資料夾結構！\n"
+"請按下方按鈕自動遷移你的存檔"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT"
+msgid ""
+"<style=\"KKeyword\">SUCCESS!</style>\n"
+"Migration moved <style=\"KKeyword\">{0}/{1}</style> saves and <style="
+"\"KKeyword\">{2}/{3}</style> autosaves</style>."
+msgstr ""
+"<style=\"KKeyword\">成功！</style>\n"
+"遷移過程移動了 <style=\"KKeyword\">{0}/{1}</style> 個存檔和 <style=\"KKeyword"
+"\">{2}/{3}</style> 個自動存檔</style>"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES"
+msgid ""
+"<style=\"KKeyword\"><b>WARNING:</b> Not all saves could be migrated.</"
+"style>\n"
+"Migration moved <style=\"KKeyword\">{0}/{1}</style> saves and <style="
+"\"KKeyword\">{2}/{3}</style> autosaves.\n"
+"\n"
+"The file <style=\"KKeyword\">{ErrorColony}</style> encountered this error:\n"
+"\n"
+"<b>{ErrorMessage}</b>"
+msgstr ""
+"<style=\"KKeyword\"><b>警告：</b>並非所有存檔都遷移成功</style>\n"
+"遷移過程移動了 <style=\"KKeyword\">{0}/{1}</style> 個存檔與 <style=\"KKeyword"
+"\">{2}/{3}</style> 個自動存檔\n"
+"\n"
+"檔案<style=\"KKeyword\">{ErrorColony}</style>發生了以下問題：\n"
+"\n"
+"<b>{ErrorMessage}</b>"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_ITEM1
+msgctxt ""
+"STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_ITEM1"
+msgid ""
+"    1. Try temporarily disabling virus scanners and malware\n"
+"         protection programs."
+msgstr "    1. 試著暫時關閉防毒軟體"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_ITEM2
+msgctxt ""
+"STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_ITEM2"
+msgid "    2. Turn off file sync services such as OneDrive and DropBox."
+msgstr "    2. 關閉文件同步服務，例如 OneDrive 或 DropBox"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_ITEM3
+msgctxt ""
+"STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_ITEM3"
+msgid "    3. Restart the game to retry file migration."
+msgstr "    3. 重啟遊戲並重試遷移存檔"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_POST
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_POST"
+msgid ""
+"\n"
+"<b>If this still doesn't solve the problem, please post a bug in the forums "
+"and we will attempt to assist with your issue.</b>"
+msgstr ""
+"\n"
+"<b>如果問題仍未被解決，請至論壇回報錯誤，我們將試著為你解決</b>"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_PRE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_PRE"
+msgid ""
+"<b>The game was unable to move all save files to their new location.\n"
+"To fix this, please:</b>\n"
+"\n"
+msgstr ""
+"<b>遊戲無法移動所有存檔至新的位置\n"
+"如需解決此問題，請：</b>\n"
+"\n"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_TITLE
+msgctxt ""
+"STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT_FAILURES_MORE_INFO_TITLE"
+msgid "MIGRATION INCOMPLETE"
+msgstr "遷移未完成"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_SAVE_FILES
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_SAVE_FILES"
+msgid "MIGRATE SAVE FILES"
+msgstr "遷移存檔文件"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_TITLE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_TITLE"
+msgid "SAVE FILE MIGRATION"
+msgstr "存檔文件遷移"
+
 #. STRINGS.UI.FRONTEND.LOADSCREEN.MORE_INFO
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MORE_INFO"
 msgid "More Info"
@@ -52242,14 +52651,65 @@ msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.NO_FILE_SELECTED"
 msgid "No file selected"
 msgstr "未選擇存檔"
 
+#. STRINGS.UI.FRONTEND.LOADSCREEN.NO_PREVIEW
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.NO_PREVIEW"
+msgid "NO PREVIEW"
+msgstr "無預覽"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.OPEN_CLOUDSAVE_FOLDER
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.OPEN_CLOUDSAVE_FOLDER"
+msgid "CLOUD SAVES"
+msgstr "雲端存檔"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.OPEN_SAVE_FOLDER
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.OPEN_SAVE_FOLDER"
+msgid "LOCAL SAVES"
+msgstr "本機存檔"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT"
+msgid ""
+"<b><color=#ff0000>This save is from <i>Spaced Out!</i> Activate the DLC to "
+"play it! (v{2}/v{4})</color></b>"
+msgstr ""
+"<b><color=#ff0000>這個存檔屬於 <i>Spaced Out!</i> 啟動 DLC 以遊玩 (v{2}/"
+"v{4})</color></b>"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT_TOOLTIP
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT_TOOLTIP"
+msgid ""
+"This save was created in the <i>Spaced Out!</i> DLC and can't be loaded in "
+"the base game."
+msgstr "這個存檔屬於「Spaced Out!」DLC，因此無法被主程式載入"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO"
+msgid "{0} saves  {1} autosaves  {2}"
+msgstr "{0} 個存檔 {1} 個自動存檔 {2}"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO_DIALOG_TEXT
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO_DIALOG_TEXT"
+msgid "Access your save files using the options below."
+msgstr "使用以下選項存取你的存檔"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO_DIALOG_TITLE
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO_DIALOG_TITLE"
+msgid "SAVE INFORMATION"
+msgstr "存檔資訊"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO_DIALOG_TOOLTIP
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO_DIALOG_TOOLTIP"
+msgid "Access your save file locations from here."
+msgstr "由此存取你的存檔位置"
+
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_TOO_NEW
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_TOO_NEW"
 msgid ""
-"<b><color=#ff0000>Could not load file {0}. File is using build {1}. This "
-"build is {2}.</color></b>"
+"<b><color=#ff0000>Could not load file {0}. File is using build {1}, v{2}. "
+"This build is {3}, v{4}.</color></b>"
 msgstr ""
-"<b><color=#ff0000>無法載入文件 {0}。文件使用的版本是 {1}，目前版本為 {2}</"
-"color></b>"
+"<b><color=#ff0000>無法載入文件 {0}。文件使用的版本是 {1}，v{2}；目前版本為 "
+"{2}，v{4}</color></b>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVEDETAILS
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVEDETAILS"
@@ -52302,6 +52762,30 @@ msgid ""
 msgstr ""
 "真的要退出嗎？\n"
 "所有未儲存的進度將會遺失"
+
+#. STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1
+msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1"
+msgid "ACTIVATE DLC"
+msgstr "啟用 DLC"
+
+#. STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_DESC
+msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_DESC"
+msgid ""
+"The game will need to restart in order to download and install <i>Spaced Out!"
+"</i>"
+msgstr "遊戲將需要重新啟動以下載並安裝「Spaced Out!」DLC"
+
+#. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1
+msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1"
+msgid "DECTIVATE DLC"
+msgstr "停用 DLC"
+
+#. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC
+msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC"
+msgid ""
+"The game will need to restart in order to download and install the base "
+"version of the game."
+msgstr "遊戲將需要重新啟動以下載並安裝主程式"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.LOADGAME
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.LOADGAME"
@@ -52534,10 +53018,10 @@ msgstr "模組錯誤"
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_EVENTS.DEV_MESSAGE"
 msgid ""
 "{0}\n"
-"Check output_log.txt for details."
+"Check Player.log for details."
 msgstr ""
 "{0}\n"
-"更多細節查看 output_log.txt"
+"更多細節請查看 Player.log"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_EVENTS.MESSAGE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_EVENTS.MESSAGE"
@@ -52957,23 +53441,24 @@ msgstr "參與討論"
 #. STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
 msgid ""
-"<b>New Bugfix Patch for July 2020</b>\n"
+"<b>Cloud Save Update for Nov 2020</b>\n"
 "\n"
-" • Fixed multiple simulation heat creation/destruction bugs\n"
-" • Fixed Duplicants getting stuck digging forever\n"
-" • Continued work on alternate color sets\n"
-" • Dozens of other fixes and improvements\n"
+" • Added support for cloud saves. Click \"Load Game\" to open the saves menu "
+"and manage your local and cloud saves!\n"
+" • Lots of performance improvements, especially for colonies with lots of "
+"Duplicants\n"
+" • Upgraded the Unity game engine to the latest LTS version\n"
 "\n"
-"Please check out the full patch notes for more details!"
+"Check out the full patch notes for more details!"
 msgstr ""
-"<b>2020 年 7 月之修正更新</b>\n"
+"<b>2020年11月的雲端存檔更新</b>\n"
 "\n"
-" • 修復了多個模擬熱量產生／破壞的錯誤\n"
-" • 修正複製人在挖掘時永久卡住的錯誤\n"
-" • 持續調整色盲模式的色彩集\n"
-" • 數十項其他修正與改進\n"
+" • 新增了雲端存檔功能。點擊「載入遊戲」打開存檔選單以管理你的本機與雲端存"
+"檔！\n"
+" • 大量的遊戲效能提升，尤其是對於有著很多複製人的殖民地\n"
+" • 將 Unity 遊戲引擎升级到最新的 LTS 版本\n"
 "\n"
-"請查看完整更新說明來獲得進一步的訊息！"
+"請查看完整的更新說明以了解詳情！"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT"
@@ -54296,6 +54781,11 @@ msgstr "如果我拒絕所有列印物，列印艙就需要一定時間再充能
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONTITLE"
 msgid "Reject All Printables?"
 msgstr "拒絕所有列印物？"
+
+#. STRINGS.UI.IMMIGRANTSCREEN.DUPLICATE_COLONY_NAME
+msgctxt "STRINGS.UI.IMMIGRANTSCREEN.DUPLICATE_COLONY_NAME"
+msgid "A colony named \"{0}\" already exists!"
+msgstr "名為「{0}」的殖民地已存在！"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.EMBARK
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.EMBARK"
@@ -57108,6 +57598,26 @@ msgstr "撿起：{0}{1}"
 msgctxt "STRINGS.UI.PLACEINRECEPTACLE"
 msgid "Plant"
 msgstr "放置"
+
+#. STRINGS.UI.PLATFORMS.EPIC
+msgctxt "STRINGS.UI.PLATFORMS.EPIC"
+msgid "Epic Games Store"
+msgstr "Epic Games Store"
+
+#. STRINGS.UI.PLATFORMS.STEAM
+msgctxt "STRINGS.UI.PLATFORMS.STEAM"
+msgid "Steam"
+msgstr "Steam"
+
+#. STRINGS.UI.PLATFORMS.UNKNOWN
+msgctxt "STRINGS.UI.PLATFORMS.UNKNOWN"
+msgid "Your game client"
+msgstr "你的遊戲客戶端"
+
+#. STRINGS.UI.PLATFORMS.WEGAME
+msgctxt "STRINGS.UI.PLATFORMS.WEGAME"
+msgid "Wegame"
+msgstr "Wegame"
 
 #. STRINGS.UI.POS_INFINITY
 msgctxt "STRINGS.UI.POS_INFINITY"
@@ -64286,6 +64796,11 @@ msgctxt "STRINGS.UI.UNITSUFFIXES.HEAT.KDTU_S"
 msgid " kDTU/s"
 msgstr " 千 DTU／秒"
 
+#. STRINGS.UI.UNITSUFFIXES.INFORMATION.BYTE
+msgctxt "STRINGS.UI.UNITSUFFIXES.INFORMATION.BYTE"
+msgid "B"
+msgstr "B"
+
 #. STRINGS.UI.UNITSUFFIXES.INFORMATION.GIGABYTE
 msgctxt "STRINGS.UI.UNITSUFFIXES.INFORMATION.GIGABYTE"
 msgid "GB"
@@ -64300,6 +64815,11 @@ msgstr "kB"
 msgctxt "STRINGS.UI.UNITSUFFIXES.INFORMATION.MEGABYTE"
 msgid "MB"
 msgstr "MB"
+
+#. STRINGS.UI.UNITSUFFIXES.INFORMATION.TERABYTE
+msgctxt "STRINGS.UI.UNITSUFFIXES.INFORMATION.TERABYTE"
+msgid "TB"
+msgstr "TB"
 
 #. STRINGS.UI.UNITSUFFIXES.LIGHT.LUX
 msgctxt "STRINGS.UI.UNITSUFFIXES.LIGHT.LUX"
@@ -66211,9 +66731,8 @@ msgstr "教學："
 
 #. STRINGS.WORLD_TRAITS.BOULDERS_LARGE.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_LARGE.DESCRIPTION"
-msgid ""
-"A number of large but hard-to-dig boulders are scattered around this world"
-msgstr "這個世界上分佈著許多大型但難以挖掘的石塊"
+msgid "Huge boulders make digging through this world more difficult"
+msgstr "遍佈的大型石塊使這個世界更難以被挖穿了"
 
 #. STRINGS.WORLD_TRAITS.BOULDERS_LARGE.NAME
 msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_LARGE.NAME"
@@ -66222,10 +66741,8 @@ msgstr "大型石塊"
 
 #. STRINGS.WORLD_TRAITS.BOULDERS_MEDIUM.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_MEDIUM.DESCRIPTION"
-msgid ""
-"A number of moderately-sized but hard-to-dig boulders are scattered around "
-"this world"
-msgstr "這個世界上分佈著許多中型但難以挖掘的石塊"
+msgid "Mid-sized boulders make digging through this world more difficult"
+msgstr "遍佈的中型石塊使這個世界更難以被挖穿了"
 
 #. STRINGS.WORLD_TRAITS.BOULDERS_MEDIUM.NAME
 msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_MEDIUM.NAME"
@@ -66235,9 +66752,8 @@ msgstr "中型石塊"
 #. STRINGS.WORLD_TRAITS.BOULDERS_MIXED.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_MIXED.DESCRIPTION"
 msgid ""
-"A number of hard-to-dig boulders of various sizes are scattered around this "
-"world"
-msgstr "這個世界上分佈著許多各種大小但難以挖掘的石塊"
+"Boulders of various sizes make digging through this world more difficult"
+msgstr "遍佈各種大小的石塊使這個世界更難以被挖穿了"
 
 #. STRINGS.WORLD_TRAITS.BOULDERS_MIXED.NAME
 msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_MIXED.NAME"
@@ -66246,9 +66762,8 @@ msgstr "混合型石塊"
 
 #. STRINGS.WORLD_TRAITS.BOULDERS_SMALL.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_SMALL.DESCRIPTION"
-msgid ""
-"A number of small but hard-to-dig boulders are scattered around this world"
-msgstr "這個世界上分佈著許多小型但難以挖掘的石塊"
+msgid "Tiny boulders make digging through this world more difficult"
+msgstr "遍佈的小型石塊使這個世界更難以被挖穿了"
 
 #. STRINGS.WORLD_TRAITS.BOULDERS_SMALL.NAME
 msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_SMALL.NAME"
@@ -66258,20 +66773,20 @@ msgstr "小型石塊"
 #. STRINGS.WORLD_TRAITS.DEEP_OIL.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.DEEP_OIL.DESCRIPTION"
 msgid ""
-"Most of the <style=\"KKeyword\">Oil</style> in this world remains inside the "
-"rock and must be extracted with <link=\"OILWELLCAP\">Oil Well</link>s"
+"Most of the <style=\"KKeyword\">Oil</style> in this world will need to be "
+"extracted with <link=\"OILWELLCAP\">Oil Well</link>s"
 msgstr ""
 "這個世界的大多數<style=\"KKeyword\">原油</style>都保留在岩石中，必須透過"
 "<link=\"OILWELLCAP\">油井</link>提取出來"
 
 #. STRINGS.WORLD_TRAITS.DEEP_OIL.NAME
 msgctxt "STRINGS.WORLD_TRAITS.DEEP_OIL.NAME"
-msgid "Buried Oil"
-msgstr "被掩埋的原油"
+msgid "Trapped Oil"
+msgstr "被圈閉的原油"
 
 #. STRINGS.WORLD_TRAITS.FROZEN_CORE.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.FROZEN_CORE.DESCRIPTION"
-msgid "The core of this world is a block of <link=\"ICE\">Ice</link>"
+msgid "This world has a chilly core of solid <link=\"ICE\">Ice</link>"
 msgstr "這個世界的核心區是一大塊<link=\"ICE\">冰</link>"
 
 #. STRINGS.WORLD_TRAITS.FROZEN_CORE.NAME
@@ -66296,8 +66811,7 @@ msgstr "活躍性地質"
 #. STRINGS.WORLD_TRAITS.GEODES.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.GEODES.DESCRIPTION"
 msgid ""
-"A number of large geodes containing caches of rare material have been "
-"deposited around this asteroid"
+"Large geodes containing rare material caches are deposited across this world"
 msgstr "這個星球沉積了許多含有稀有物質的大型晶洞"
 
 #. STRINGS.WORLD_TRAITS.GEODES.NAME
@@ -66322,9 +66836,9 @@ msgstr "休眠性地質"
 #. STRINGS.WORLD_TRAITS.GLACIERS_LARGE.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.GLACIERS_LARGE.DESCRIPTION"
 msgid ""
-"Huge chunks of primordial <link=\"ICE\">Ice</link> have been captured in "
-"this world"
-msgstr "這個世界中有許多大塊的原生<link=\"ICE\">冰</link>"
+"Huge chunks of primordial <link=\"ICE\">Ice</link> are scattered across this "
+"world"
+msgstr "這個世界中散佈著許多大塊的原生<link=\"ICE\">冰</link>"
 
 #. STRINGS.WORLD_TRAITS.GLACIERS_LARGE.NAME
 msgctxt "STRINGS.WORLD_TRAITS.GLACIERS_LARGE.NAME"
@@ -66346,9 +66860,9 @@ msgstr "不規則原油區"
 #. STRINGS.WORLD_TRAITS.MAGMA_VENTS.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.MAGMA_VENTS.DESCRIPTION"
 msgid ""
-"The <link=\"MAGMA\">Magma</link> of the core has spread up in to the body of "
-"this world"
-msgstr "核心區的<link=\"MAGMA\">岩漿</link>已經蔓延到了這個世界的主體部分"
+"The <link=\"MAGMA\">Magma</link> from this world's core has leaked into the "
+"mantle and crust"
+msgstr "核心區的<link=\"MAGMA\">岩漿</link>已經蔓延到了地幔和地殼中"
 
 #. STRINGS.WORLD_TRAITS.MAGMA_VENTS.NAME
 msgctxt "STRINGS.WORLD_TRAITS.MAGMA_VENTS.NAME"
@@ -66358,9 +66872,9 @@ msgstr "岩漿通道"
 #. STRINGS.WORLD_TRAITS.METAL_POOR.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.METAL_POOR.DESCRIPTION"
 msgid ""
-"There is less <style=\"KKeyword\">Metal Ore</style> than expected here, "
-"proceed with caution!"
-msgstr "這裡的<style=\"KKeyword\">金屬礦石</style>比預期的少，謹慎行事！"
+"There is a reduced amount of <style=\"KKeyword\">Metal Ore</style> on this "
+"world, proceed with caution!"
+msgstr "這裡的<style=\"KKeyword\">金屬礦石</style>比預期的少，請謹慎行事！"
 
 #. STRINGS.WORLD_TRAITS.METAL_POOR.NAME
 msgctxt "STRINGS.WORLD_TRAITS.METAL_POOR.NAME"
@@ -66381,14 +66895,15 @@ msgstr "金屬富足"
 #. STRINGS.WORLD_TRAITS.MISALIGNED_START.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.MISALIGNED_START.DESCRIPTION"
 msgid ""
-"The <link=\"HEADQUARTERS\">Printing Pod</link> failed to land in the center "
-"of this world"
-msgstr "<link=\"HEADQUARTERS\">列印艙</link>沒能落在這個世界的中心"
+"The <link=\"HEADQUARTERS\">Printing Pod</link> didn't end up in the "
+"asteroid's exact center this time... but it's still nowhere near the surface"
+msgstr ""
+"<link=\"HEADQUARTERS\">列印艙</link>沒能落在這個小行星的中心，且離地表非常遠"
 
 #. STRINGS.WORLD_TRAITS.MISALIGNED_START.NAME
 msgctxt "STRINGS.WORLD_TRAITS.MISALIGNED_START.NAME"
-msgid "Miscalculated Pod Location"
-msgstr "計算失誤的列印艙位置"
+msgid "Alternate Pod Location"
+msgstr "錯置的列印艙"
 
 #. STRINGS.WORLD_TRAITS.MISSING_TRAIT
 msgctxt "STRINGS.WORLD_TRAITS.MISSING_TRAIT"
@@ -66399,8 +66914,8 @@ msgstr "<missing trait>"
 msgctxt "STRINGS.WORLD_TRAITS.NO_TRAITS.DESCRIPTION"
 msgid ""
 "This world exists in a particularly stable configuration each time it is "
-"encountered."
-msgstr "這個世界每次的設定都特別穩定"
+"encountered"
+msgstr "每次遇到的這個世界都會以特别稳定的狀態存在"
 
 #. STRINGS.WORLD_TRAITS.NO_TRAITS.NAME
 msgctxt "STRINGS.WORLD_TRAITS.NO_TRAITS.NAME"
@@ -66410,8 +66925,8 @@ msgstr "<i>這個世界很穩定，沒有什麼不尋常的特質</i>"
 #. STRINGS.WORLD_TRAITS.SLIME_SPLATS.DESCRIPTION
 msgctxt "STRINGS.WORLD_TRAITS.SLIME_SPLATS.DESCRIPTION"
 msgid ""
-"Sickly <link=\"SLIMEMOLD\">Slime</link> growths have been located all over "
-"this world"
+"Sickly <link=\"SLIMEMOLD\">Slime</link> growths have crept all over this "
+"world"
 msgstr "黏黏的<link=\"SLIMEMOLD\">菌泥</link>在這個世界上到處都是"
 
 #. STRINGS.WORLD_TRAITS.SLIME_SPLATS.NAME
@@ -66439,8 +66954,8 @@ msgstr "這個世界上能檢測到許多活<style=\"KKeyword\">火山</style>"
 
 #. STRINGS.WORLD_TRAITS.VOLCANOES.NAME
 msgctxt "STRINGS.WORLD_TRAITS.VOLCANOES.NAME"
-msgid "Volcanoes"
-msgstr "火山群"
+msgid "Volcanic Activity"
+msgstr "火山活躍"
 
 #. STRINGS.WORLDS.BADLANDS.DESCRIPTION
 msgctxt "STRINGS.WORLDS.BADLANDS.DESCRIPTION"
@@ -66698,3 +67213,117 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.VOLCANIC.NAME"
 msgid "Volcanea"
 msgstr "火山星球"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.BAITED.TOOLTIP"
+#~ msgid "This lure is baited with {0}"
+#~ msgstr "這個誘捕裝置以{0}為誘餌"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.DESALINATORNEEDSEMPTYING.TOOLTIP"
+#~ msgid ""
+#~ "This building is full of <link=\"SALT\">Salt</link> and can no longer "
+#~ "operate.\n"
+#~ "------------------\n"
+#~ "A Duplicant must empty it for operation to continue."
+#~ msgstr ""
+#~ "這個建築積滿了<link=\"SALT\">鹽</link>，不能再繼續運作\n"
+#~ "------------------\n"
+#~ "複製人必須清空它，才能繼續運作"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.DESC"
+#~ msgid ""
+#~ "Ethanol generators require less Duplicant operation, but produce "
+#~ "significant waste."
+#~ msgstr "乙醇發電機需要複製人的操作量很少，但會產生大量廢物"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.EFFECT"
+#~ msgid ""
+#~ "Converts <link=\"ETHANOL\">Ethanol</link> into electrical <link=\"POWER"
+#~ "\">Power</link>.\n"
+#~ "\n"
+#~ "Produces <link=\"CARBONDIOXIDE\">Carbon Dioxide</link> and <link="
+#~ "\"DIRTYWATER\">Polluted Water</link>."
+#~ msgstr ""
+#~ "將<link=\"ETHANOL\">乙醇</link>轉化為<link=\"POWER\">電力</link>\n"
+#~ "\n"
+#~ "產生<link=\"CARBONDIOXIDE\">二氧化碳</link>和<link=\"DIRTYWATER\">汙染水</"
+#~ "link>"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.ETHANOLGENERATOR.NAME"
+#~ msgid "<link=\"ETHANOLGENERATOR\">Ethanol Generator</link>"
+#~ msgstr "<link=\"ETHANOLGENERATOR\">乙醇發電機</link>"
+
+#~ msgctxt "STRINGS.MISC.MONUMENT_COMPLETE.DESC"
+#~ msgid "Monument has head, midsection and bottom."
+#~ msgstr "紀念碑有頭部、中部、和底部。"
+
+#~ msgctxt "STRINGS.MISC.MONUMENT_COMPLETE.NAME"
+#~ msgid "Completed Monument"
+#~ msgstr "完整的紀念碑"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_DOMESTICATED_CRITTERS.NEGATIVE_TOOLTIP"
+#~ msgid "My colony has {0} critters"
+#~ msgstr "我的殖民地有 {0} 隻小動物"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_DOMESTICATED_CRITTERS.POSITIVE_TOOLTIP"
+#~ msgid "My colony has {0} critters"
+#~ msgstr "我的殖民地有 {0} 隻小動物"
+
+#~ msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NEGATIVE_TOOLTIP"
+#~ msgid "There are {0} wild critters around my colony"
+#~ msgstr "在我的殖民地周圍有 {0} 隻野生小動物"
+
+#~ msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.POSITIVE_TOOLTIP"
+#~ msgid "There are {0} wild critters around my colony"
+#~ msgstr "在我的殖民地周圍有 {0} 隻野生小動物"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
+#~ msgid ""
+#~ "<b>New Bugfix Patch for July 2020</b>\n"
+#~ "\n"
+#~ " • Fixed multiple simulation heat creation/destruction bugs\n"
+#~ " • Fixed Duplicants getting stuck digging forever\n"
+#~ " • Continued work on alternate color sets\n"
+#~ " • Dozens of other fixes and improvements\n"
+#~ "\n"
+#~ "Please check out the full patch notes for more details!"
+#~ msgstr ""
+#~ "<b>2020 年 7 月之修正更新</b>\n"
+#~ "\n"
+#~ " • 修復了多個模擬熱量產生／破壞的錯誤\n"
+#~ " • 修正複製人在挖掘時永久卡住的錯誤\n"
+#~ " • 持續調整色盲模式的色彩集\n"
+#~ " • 數十項其他修正與改進\n"
+#~ "\n"
+#~ "請查看完整更新說明來獲得進一步的訊息！"
+
+#~ msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_LARGE.DESCRIPTION"
+#~ msgid ""
+#~ "A number of large but hard-to-dig boulders are scattered around this world"
+#~ msgstr "這個世界上分佈著許多大型但難以挖掘的石塊"
+
+#~ msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_MEDIUM.DESCRIPTION"
+#~ msgid ""
+#~ "A number of moderately-sized but hard-to-dig boulders are scattered "
+#~ "around this world"
+#~ msgstr "這個世界上分佈著許多中型但難以挖掘的石塊"
+
+#~ msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_MIXED.DESCRIPTION"
+#~ msgid ""
+#~ "A number of hard-to-dig boulders of various sizes are scattered around "
+#~ "this world"
+#~ msgstr "這個世界上分佈著許多各種大小但難以挖掘的石塊"
+
+#~ msgctxt "STRINGS.WORLD_TRAITS.BOULDERS_SMALL.DESCRIPTION"
+#~ msgid ""
+#~ "A number of small but hard-to-dig boulders are scattered around this world"
+#~ msgstr "這個世界上分佈著許多小型但難以挖掘的石塊"
+
+#~ msgctxt "STRINGS.WORLD_TRAITS.DEEP_OIL.NAME"
+#~ msgid "Buried Oil"
+#~ msgstr "被掩埋的原油"
+
+#~ msgctxt "STRINGS.WORLD_TRAITS.VOLCANOES.NAME"
+#~ msgid "Volcanoes"
+#~ msgstr "火山群"
