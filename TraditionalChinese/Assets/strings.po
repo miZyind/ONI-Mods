@@ -52096,7 +52096,7 @@ msgstr "當殖民地被建立時，這個選項決定是否將進度儲存至雲
 #. STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.DISABLED_WARNING
 msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.DISABLED_WARNING"
 msgid "More options available in-game"
-msgstr "更多選項在遊戲中可設定"
+msgstr "更多選項可在遊戲中設定"
 
 #. STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.GENERAL_GAME_OPTIONS
 msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.GENERAL_GAME_OPTIONS"
@@ -52378,7 +52378,7 @@ msgstr ""
 "所有現有的殖民地都已轉換成<style=\"KKeyword\">雲端</style>存檔了\n"
 "新的殖民地將預設使用<style=\"KKeyword\">雲端</style>存檔\n"
 "\n"
-"下次你退出遊戲時，{Client}會花費稍長時間將存檔同步至雲端"
+"下次你退出遊戲時，{Client} 會花費稍長時間將存檔同步至雲端"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_TO_LOCAL
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_TO_LOCAL"
@@ -52400,7 +52400,7 @@ msgstr ""
 "所有現有的殖民地都已轉換成<style=\"KKeyword\">本機</style>存檔了\n"
 "新的殖民地將預設使用<style=\"KKeyword\">本機</style>存檔\n"
 "\n"
-"下次你退出遊戲時，{Client}會花費稍長時間將存檔同步至雲端"
+"下次你退出遊戲時，{Client} 會花費稍長時間將存檔同步至雲端"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_WARNING
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_ALL_WARNING"
@@ -52464,9 +52464,9 @@ msgid ""
 "This allows your game platform to sync this colony to the cloud for your "
 "account, so it can be played on multiple machines."
 msgstr ""
-"將一個殖民地轉換為雲端存檔，這將移動所有的檔案至雲端資料夾中\n"
+"將殖民地轉換為雲端存檔，這將移動所有的檔案至雲端資料夾中\n"
 "\n"
-"這也會為你同步至遊戲平台帳號，使得你可以在別的裝置繼續遊玩"
+"並同步至遊戲平台帳號，使得你可以在別的裝置繼續遊玩"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_LOCAL
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.CONVERT_TO_LOCAL"
@@ -52482,7 +52482,7 @@ msgid ""
 "<style=\"KKeyword\">These save files will no longer be synced to the cloud.</"
 "style>"
 msgstr ""
-"將一個殖民地轉換為本地存檔，這將移動所有的檔案至本機資料夾中\n"
+"將殖民地轉換為本地存檔，這將移動所有的檔案至本機資料夾中\n"
 "\n"
 "這些檔案將不再被同步至雲端"
 
