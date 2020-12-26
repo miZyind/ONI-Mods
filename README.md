@@ -6,12 +6,13 @@
 [![C#](https://img.shields.io/badge/4.0-239120?style=for-the-badge&logo=c-sharp)](https://docs.microsoft.com/dotnet/csharp)
 
 ## 🔮 Tested Game Version
+- **CS-444111**
 - **AP-410209**
 - **AP-399948**
 
 ## 🙏 Thanks To
 - @Cairath for [Oxygen-Not-Included-Modding](https://github.com/Cairath/Oxygen-Not-Included-Modding)
-- @peterhaneve for [PLib](https://github.com/peterhaneve/ONIMods/tree/master/PLib)
+- @peterhaneve for [PLib](https://github.com/peterhaneve/ONIMods/tree/main/PLib)
 - @古靈精怪 for [繁體中文語言包](https://steamcommunity.com/sharedfiles/filedetails/?id=929305589)
 - @Kud for [繁體中文語言包](https://steamcommunity.com/sharedfiles/filedetails/?id=1562134514)
 - @LaFa for [拉法繁中](https://steamcommunity.com/sharedfiles/filedetails/?id=1123693010)
