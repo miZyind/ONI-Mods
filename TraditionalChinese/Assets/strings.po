@@ -34196,12 +34196,12 @@ msgstr "{0}：{1}"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CANTBUILD.DESC"
 msgid ""
 "This Duplicant is incapable of building even the most basic of structures"
-msgstr "這名複製人連最簡單的建築也無法建造"
+msgstr "這名複製人完全沒空間感，就連最簡單的建築也無法建造"
 
 #. STRINGS.DUPLICANTS.TRAITS.CANTBUILD.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CANTBUILD.NAME"
 msgid "Unconstructive"
-msgstr "空間迷向"
+msgstr "缺乏空間感"
 
 #. STRINGS.DUPLICANTS.TRAITS.CANTCOOK.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CANTCOOK.DESC"
@@ -53383,6 +53383,11 @@ msgctxt "STRINGS.UI.FRONTEND.MODS.MANAGE_LOCAL"
 msgid "Browse"
 msgstr "瀏覽"
 
+#. STRINGS.UI.FRONTEND.MODS.MOD_DISABLED_CONTENT
+msgctxt "STRINGS.UI.FRONTEND.MODS.MOD_DISABLED_CONTENT"
+msgid " - <i>Not compatible with {Content}</i>"
+msgstr " - <I>不相容於 {Content}</i>"
+
 #. STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART
 msgctxt "STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART"
 msgid "Mod changes require restart"
@@ -65895,6 +65900,16 @@ msgstr "設定方向：右向"
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_RIGHT.TOOLTIP"
 msgid "Select to make Duplicants wash when passing by from left to right"
 msgstr "複製人在從左往右經過時會清洗自己"
+
+#. STRINGS.UI.VANILLA.NAME
+msgctxt "STRINGS.UI.VANILLA.NAME"
+msgid "base game"
+msgstr "原版主程式"
+
+#. STRINGS.UI.VANILLA.NAME_ITAL
+msgctxt "STRINGS.UI.VANILLA.NAME_ITAL"
+msgid "<i>base game</i>"
+msgstr "<I>原版主程式</i>"
 
 #. STRINGS.UI.VICTORYSCREEN.DESCRIPTION
 msgctxt "STRINGS.UI.VICTORYSCREEN.DESCRIPTION"
