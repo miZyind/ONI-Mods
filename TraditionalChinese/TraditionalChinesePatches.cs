@@ -185,7 +185,7 @@ namespace miZyind.TraditionalChinese
                 var path = MotdLocalPath.GetValue(__instance, null);
                 var localMotd = GetLocalMotd.Invoke(__instance, new object[] { path }) as Resp;
 
-                localMotd.image_header_text = "DLC 開發計畫！";
+                localMotd.image_header_text = "資料片開發計畫！";
                 localMotd.news_header_text = "參與討論";
                 localMotd.news_body_text = "訂閱我們的通知郵件\n以隨時掌握最新資訊\n或到論壇直接參與討論！";
                 localMotd.patch_notes_summary =
