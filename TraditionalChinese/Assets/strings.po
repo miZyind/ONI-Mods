@@ -578,7 +578,7 @@ msgstr "需要誘餌"
 #. STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.NEEDSBAIT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.NEEDSBAIT.TOOLTIP"
 msgid "This trap needs to be baited before it can be set"
-msgstr "在設定這個陷阱之前需要添加誘餌"
+msgstr "在設定這個陷阱之前需要放入誘餌"
 
 #. STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.READY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.READY.NAME"
@@ -3556,7 +3556,7 @@ msgid ""
 msgstr ""
 "這個建築的庫存只能由自動清掃器存取\n"
 "------------------\n"
-"不允許複製人向這個建築添加或取走材料"
+"不允許複製人向這個建築放置或取走材料"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.BAD_INPUT_ELEMENT
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.BAD_INPUT_ELEMENT"
@@ -8512,7 +8512,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.DESC"
 msgid ""
 "Signal switches don't turn grids on and off like power switches, but add an "
 "extra signal."
-msgstr "訊號開關不會像電源開關那樣打開和關閉電路，而是添加額外的訊號"
+msgstr "訊號開關不會像電源開關那樣打開和關閉電路，而是增加額外的訊號"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.EFFECT"
@@ -17403,13 +17403,12 @@ msgid ""
 "instead. I'm sure they would appreciate it.\n"
 "\n"
 msgstr ""
-"我馬上就要合成充足的生物軟泥以列印一名新的複製人; 我現在需要做的一切就是選擇"
-"一個藍圖。\n"
+"我已合成足夠的生物軟泥以列印一名新的複製人，現在只需要選擇一張藍圖即可\n"
 "\n"
-"在殖民地中添加一雙幹活的手是很有幫助的，但擁有另一名複製人也同樣意味著另一張"
-"吃東西的嘴。\n"
+"多了一雙手對殖民地發展是很有幫助的，但擁有另一名複製人同樣意味著有另一張嘴需"
+"要餵養\n"
 "\n"
-"當然，我也可以一直列印補給來幫助我現存的複製人。我相信他們會很感激的。\n"
+"當然，我也可以一直列印補給品來幫助我現存的複製人，我相信他們會很感激的\n"
 "\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.LOG2.TITLE
@@ -40077,7 +40076,7 @@ msgstr "這些<link=\"WIRE\">線路</link>因通過的電流過大而熔斷"
 #. STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.MESSAGEBODY"
 msgid "I've added a new log entry to my Database"
-msgstr "我已在我的日誌中添加了一項新的條目"
+msgstr "我已在我的日誌中新增了一項新的條目"
 
 #. STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.NAME"
@@ -40087,7 +40086,7 @@ msgstr "新日誌條目"
 #. STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.TOOLTIP"
 msgid "I've added a new log entry to my Database"
-msgstr "我已在我的日誌中添加了一項新的條目"
+msgstr "我已在我的日誌中新增了一項新的條目"
 
 #. STRINGS.MISC.NOTIFICATIONS.COLONY_ACHIEVEMENT_EARNED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.COLONY_ACHIEVEMENT_EARNED.NAME"
@@ -48722,7 +48721,7 @@ msgstr "<link=\"VIDEOS\">影片</link>"
 #. STRINGS.UI.CODEX.CODEX_DISCOVERED_MESSAGE.BODY
 msgctxt "STRINGS.UI.CODEX.CODEX_DISCOVERED_MESSAGE.BODY"
 msgid "I've added a new entry to my log: {codex}\n"
-msgstr "我在我的日誌中添加了一項新的條目：{codex}\n"
+msgstr "我在我的日誌中新增了一項新的條目：{codex}\n"
 
 #. STRINGS.UI.CODEX.CODEX_DISCOVERED_MESSAGE.TITLE
 msgctxt "STRINGS.UI.CODEX.CODEX_DISCOVERED_MESSAGE.TITLE"
@@ -49010,7 +49009,7 @@ msgstr "為選中的建築建立新的建造命令 {Hotkey}"
 #. STRINGS.UI.CRAFT
 msgctxt "STRINGS.UI.CRAFT"
 msgid "ADD TO QUEUE"
-msgstr "添加到隊列"
+msgstr "新增至佇列"
 
 #. STRINGS.UI.CRAFT_CONTINUOUS
 msgctxt "STRINGS.UI.CRAFT_CONTINUOUS"
@@ -50214,16 +50213,16 @@ msgid ""
 "\n"
 "- Klei"
 msgstr ""
-"本遊戲尚處於早期開發階段，所以你可能會遇到一些奇怪、好笑或讓你困擾的錯誤\n"
+"本遊戲還處於早期開發階段，所以你可能會遇到一些奇怪、好笑或讓你困擾的錯誤\n"
 "\n"
-"在這期間中，《缺氧》將會定期更新，以修復錯誤、添加功能和加入更多遊戲内容。所"
-"以，如果你遇到問題或只是想分享建議，請在我們的論壇上告訴我們：<u>http://"
-"forums.kleientertainment.com</u>\n"
+"在這期間中，《缺氧》將會定期更新以修復錯誤、新增功能和更多遊戲内容\n"
+"所以，如果你遇到問題或想分享建議，請在論壇上告訴我們：<u>http://forums."
+"kleientertainment.com</u>\n"
 "\n"
-"特別感謝在測試期間加入我們的玩家。我們非常重視大家的意見，由衷感謝你們參與到"
-"我們的開發過程中。這款遊戲的完善，你們功不可沒\n"
+"特別感謝在測試期間加入我們的玩家，我們非常重視大家的意見\n"
+"由衷感謝你們參與到我們的開發過程中，這款遊戲的完善，你們功不可沒！\n"
 "\n"
-"祝你在外太空能度過美好的時光！\n"
+"祝你能在外太空度過美好的時光！\n"
 "\n"
 "- Klei"
 
@@ -50589,7 +50588,7 @@ msgstr "所選對象會在 {0} 汽化為氣體"
 #. STRINGS.UI.ENDOFDAYREPORT.ADDED
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ADDED"
 msgid "Added"
-msgstr "添加"
+msgstr "已新增"
 
 #. STRINGS.UI.ENDOFDAYREPORT.AVERAGE_TIME_DETAILS_HEADER
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.AVERAGE_TIME_DETAILS_HEADER"
@@ -51976,7 +51975,7 @@ msgstr "世界"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLD_CHOICE.TOOLTIP"
 msgid "New worlds added by mods can be selected here"
-msgstr "透過模組添加的新世界可以在這裡選擇"
+msgstr "可以在此選擇透過模組新增的世界"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLDGEN_SEED.NAME
 msgctxt ""
@@ -52482,7 +52481,7 @@ msgid ""
 "<style=\"KKeyword\">These save files will no longer be synced to the cloud.</"
 "style>"
 msgstr ""
-"將殖民地轉換為本地存檔，這將移動所有的檔案至本機資料夾中\n"
+"將殖民地轉換為本機存檔，這將移動所有的檔案至本機資料夾中\n"
 "\n"
 "這些檔案將不再被同步至雲端"
 
@@ -52960,7 +52959,7 @@ msgid ""
 "Try restarting Oxygen not Included.\n"
 "If that doesn't work, try re-subscribing to the mod via Steam."
 msgstr ""
-"存取本地 Steam 模組 {0} 的文件失敗\n"
+"存取本機 Steam 模組 {0} 的文件失敗\n"
 "正在嘗試重新啟動遊戲\n"
 "如果仍然不行，請嘗試透過 Steam 重新訂閱模組"
 
@@ -53225,7 +53224,7 @@ msgstr "模組在遊戲崩潰時處於啟動狀態，可能這就是崩潰的原
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.AVAILABLE_CONTENT_CHANGED
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.AVAILABLE_CONTENT_CHANGED"
 msgid "Content added or removed"
-msgstr "内容添加或移除"
+msgstr "内容已變更"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.BAD_WORLD_GEN
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.BAD_WORLD_GEN"
@@ -53411,7 +53410,7 @@ msgstr "啟用"
 #. STRINGS.UI.FRONTEND.MODS.TOOLTIPS.MANAGE_LOCAL_MOD
 msgctxt "STRINGS.UI.FRONTEND.MODS.TOOLTIPS.MANAGE_LOCAL_MOD"
 msgid "Manage Local Mod"
-msgstr "管理本地模組"
+msgstr "管理本機模組"
 
 #. STRINGS.UI.FRONTEND.MODS.TOOLTIPS.MANAGE_STEAM_SUBSCRIPTION
 msgctxt "STRINGS.UI.FRONTEND.MODS.TOOLTIPS.MANAGE_STEAM_SUBSCRIPTION"
@@ -58910,7 +58909,7 @@ msgstr "刷子"
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH.TOOLTIP"
 msgid "Paint elements into the world simulation {Hotkey}"
-msgstr "添加物質到世界中 {Hotkey}"
+msgstr "放置物質到世界中 {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE_DENSITY.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE_DENSITY.NAME"
@@ -59313,7 +59312,7 @@ msgstr ""
 #. STRINGS.UI.SCHEDULESCREEN.ADD_SCHEDULE
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ADD_SCHEDULE"
 msgid "Add New Schedule"
-msgstr "添加新日程表"
+msgstr "新增日程表"
 
 #. STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON"
@@ -64649,7 +64648,7 @@ msgstr "允許儲存{0}資源類別中的所有資源"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.MATERIALBUTTONTOOLTIP"
 msgid "Add or remove this material from storage"
-msgstr "向存貨中添加這種材料，或從存貨中移除這種材料"
+msgstr "向存貨中放置這種材料，或從存貨中移除這種材料"
 
 #. STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.ONLYALLOWTRANSPORTITEMSBUTTON
 msgctxt ""
@@ -65431,7 +65430,7 @@ msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.ALREADY_SEARCHED"
 msgid ""
 "I already took everything of interest from this. I can check the Database to "
 "re-read what I found."
-msgstr "我已經從中獲取了感興趣的一切，我可以查看資料庫，再次閱讀我找到的東西"
+msgstr "我已經從中獲取了感興趣的一切，我可以查看資料庫，再次閱讀已找到的東西"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.ALREADY_SEARCHED_STERNSDESK
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.ALREADY_SEARCHED_STERNSDESK"
@@ -65456,8 +65455,8 @@ msgid ""
 "\n"
 "New Database Entry discovered."
 msgstr ""
-"還有一份文件儲存完好，是一份發黃的舊簡報。雖然它用處不大，但我還是把它添加到"
-"資料庫中\n"
+"還有一份文件儲存完好，是一份發黃的舊簡報。雖然它用處不大，但我還是把它寫入到"
+"了資料庫中\n"
 "\n"
 "發現新的資料庫條目"
 
@@ -65524,7 +65523,7 @@ msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH9"
 msgid ""
 "This user never changed their default background. There is nothing else of "
 "import to be found. How dull."
-msgstr "這個使用者從未更改預設的桌面背景，沒什麼其他重要訊，真無趣..."
+msgstr "這個使用者從未更改預設的桌面背景，沒什麼其他重要訊息，真無趣..."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH1
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH1"
@@ -65560,7 +65559,7 @@ msgid ""
 "New Database Entry unlocked."
 msgstr ""
 "這台電腦外表看上去完好無缺，但内部已被破壞，然而，我設法找到了一個未損壞的文"
-"件，並將它添加到了我的資料庫\n"
+"件，並將它寫入到了我的資料庫\n"
 "\n"
 "新的資料庫條目已解鎖"
 
@@ -65669,7 +65668,7 @@ msgid ""
 "\n"
 "New Database Entry discovered."
 msgstr ""
-"一份很長的列印資料，其中有一頁還能看清，我掃描了它並將它添加到我的資料庫\n"
+"一份很長的列印資料，其中有一頁還能看清，我掃描了它並將它寫入到我的資料庫\n"
 "\n"
 "發現新的資料庫條目"
 
@@ -65716,7 +65715,7 @@ msgid ""
 "\n"
 "New Database Entry discovered."
 msgstr ""
-"最上面的抽屜裡塞著一篇題為《擬核》的舊雜誌，我把它添加到資料庫中\n"
+"最上面的抽屜裡塞著一篇題為《擬核》的舊雜誌，我把它寫入到資料庫中\n"
 "\n"
 "發現新的資料庫條目"
 
@@ -65739,7 +65738,7 @@ msgid ""
 "\n"
 "New Database Entry discovered."
 msgstr ""
-"我試試看能不能從電子設備中挽救任何東西，我將找到的東西添加到資料庫中\n"
+"我試試看能不能從電子設備中挽救任何東西，我將找到的東西寫入到資料庫中\n"
 "\n"
 "發現新的資料庫條目"
 
@@ -65751,7 +65750,7 @@ msgid ""
 "\n"
 "New Database Entry discovered."
 msgstr ""
-"我在被丟棄的機器中尋找任何感興趣的東西，並將找到的東西添加到我的資料庫\n"
+"我在被丟棄的機器中尋找任何感興趣的東西，並將找到的東西寫入到我的資料庫\n"
 "\n"
 "發現新的資料庫條目"
 
@@ -66347,7 +66346,7 @@ msgstr "正在冷卻玻璃..."
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT10
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT10"
 msgid "Adding buckets of dirt..."
-msgstr "正在添加成桶的泥土..."
+msgstr "正在放置成桶的泥土..."
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT2
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT2"
@@ -66377,17 +66376,17 @@ msgstr "正在挖洞..."
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT7
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT7"
 msgid "Adding buckets of dirt..."
-msgstr "正在添加成桶的泥土..."
+msgstr "正在放置成桶的泥土..."
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT8
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT8"
 msgid "Adding buckets of dirt..."
-msgstr "正在添加成桶的泥土..."
+msgstr "正在放置成桶的泥土..."
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT9
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT9"
 msgid "Adding buckets of dirt..."
-msgstr "正在添加成桶的泥土..."
+msgstr "正在放置成桶的泥土..."
 
 #. STRINGS.UI.WORLDGEN.CONVERTTERRAINCELLSTOEDGES
 msgctxt "STRINGS.UI.WORLDGEN.CONVERTTERRAINCELLSTOEDGES"
@@ -66522,7 +66521,7 @@ msgstr "創造世界"
 #. STRINGS.UI.WORLDGEN.NORMALISENOISE
 msgctxt "STRINGS.UI.WORLDGEN.NORMALISENOISE"
 msgid "Interpolating suffocating gas..."
-msgstr "正在添加令人窒息的氣體..."
+msgstr "正在放置令人窒息的氣體..."
 
 #. STRINGS.UI.WORLDGEN.PLACINGCREATURES
 msgctxt "STRINGS.UI.WORLDGEN.PLACINGCREATURES"
