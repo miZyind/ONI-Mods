@@ -40193,6 +40193,11 @@ msgctxt "STRINGS.UI.FRONTEND.MODS.MANAGE_LOCAL"
 msgid "Browse"
 msgstr ""
 
+#. STRINGS.UI.FRONTEND.MODS.MOD_DISABLED_CONTENT
+msgctxt "STRINGS.UI.FRONTEND.MODS.MOD_DISABLED_CONTENT"
+msgid " - <i>Not compatible with {Content}</i>"
+msgstr ""
+
 #. STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART
 msgctxt "STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART"
 msgid "Mod changes require restart"
@@ -50861,6 +50866,16 @@ msgstr ""
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_RIGHT.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_RIGHT.TOOLTIP"
 msgid "Select to make Duplicants wash when passing by from left to right"
+msgstr ""
+
+#. STRINGS.UI.VANILLA.NAME
+msgctxt "STRINGS.UI.VANILLA.NAME"
+msgid "base game"
+msgstr ""
+
+#. STRINGS.UI.VANILLA.NAME_ITAL
+msgctxt "STRINGS.UI.VANILLA.NAME_ITAL"
+msgid "<i>base game</i>"
 msgstr ""
 
 #. STRINGS.UI.VICTORYSCREEN.DESCRIPTION
