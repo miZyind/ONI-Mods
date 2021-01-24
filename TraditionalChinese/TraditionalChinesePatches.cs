@@ -216,5 +216,25 @@ namespace miZyind.TraditionalChinese
                     );
             }
         }
+
+        [HarmonyPatch(typeof(Strings))]
+        [HarmonyPatch(nameof(Strings.Get))]
+        [HarmonyPatch(new Type[] { typeof(string) })]
+        public static class Strings_Get_Patch
+        {
+            public static void Postfix(ref StringEntry __result)
+            {
+                switch (__result.String)
+                {
+                    case "Terra Cluster":
+                        __result.String = "類地星團";
+                        break;
+
+                    case "Swamp Cluster":
+                        __result.String = "沼澤星團";
+                        break;
+                }
+            }
+        }
     }
 }
