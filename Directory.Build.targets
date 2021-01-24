@@ -30,7 +30,7 @@
       SourceFiles="$(ProjectDir)\Assets\preview.png"
       DestinationFolder="$(InstallFolder)" />
     <Copy
-      SourceFiles="$(SolutionDir)\mod.info"
+      SourceFiles="$(ProjectDir)\Assets\mod_info.yaml"
       DestinationFolder="$(InstallFolder)" />
   </Target>
 </Project>
