@@ -34,7 +34,7 @@ msgid ""
 "Some Duplicants are prohibited from passing through this door by the current "
 "<style=\"KKeyword\">Access Permissions</style>"
 msgstr ""
-"在當前的<style=\"KKeyword\">通行限制</style>下，部份複製人無法通過這扇門"
+"在目前的<style=\"KKeyword\">通行限制</style>下，部份複製人無法通過這扇門"
 
 #. STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.OFFLINE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ACCESS_CONTROL.OFFLINE.NAME"
@@ -168,12 +168,9 @@ msgid "Awaiting delivery of selected <style=\"KKeyword\">Egg</style>"
 msgstr "正在等待運送所選的<style=\"KKeyword\">蛋</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGEMPTYBUILDING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.MARKEDFORCOMPOST.NAME"
-#| msgid "Compost Errand"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGEMPTYBUILDING.NAME"
 msgid "Empty Errand"
-msgstr "堆肥任務"
+msgstr "清空任務"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGEMPTYBUILDING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGEMPTYBUILDING.TOOLTIP"
@@ -436,17 +433,14 @@ msgstr ""
 "製人"
 
 #. STRINGS.BUILDING.STATUSITEMS.CLUSTERTELESCOPEALLWORKCOMPLETE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.EXPLORER"
-#| msgid "Explorer"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLUSTERTELESCOPEALLWORKCOMPLETE.NAME"
 msgid "Fully Explored"
-msgstr "探險者"
+msgstr "已完全探索"
 
 #. STRINGS.BUILDING.STATUSITEMS.CLUSTERTELESCOPEALLWORKCOMPLETE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLUSTERTELESCOPEALLWORKCOMPLETE.TOOLTIP"
 msgid "All space this telescope can see has fully been explored."
-msgstr ""
+msgstr "這個望遠鏡能看到的所有空間都已探索完成了"
 
 #. STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.NAME"
@@ -462,6 +456,10 @@ msgid ""
 "local Duplicant {Skills}, or bring in a Duplicant with the appropriate skill "
 "from another <style=\"KKeyword\">Planetoid</style>"
 msgstr ""
+"需要{Skills}技能才能運作\n"
+"------------------\n"
+"打開<b>技能面板</b><b><color=#F44A4A> [L] </b></color>並指導一名複製人"
+"{Skills}技能，或從其他<style=\"KKeyword\">星球</style>上帶來一名合適的複製人"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME"
@@ -474,12 +472,9 @@ msgid "Output <style=\"KKeyword\">Pipe</style> is blocked"
 msgstr "輸出<style=\"KKeyword\">管道</style>受阻"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_NO_PORT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGREQUIREMENTS.NAME"
-#| msgid "Missing Requirements"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_NO_PORT.NAME"
 msgid "Missing Rocket Ports"
-msgstr "未滿足需求"
+msgstr "缺少火箭端口"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_NO_PORT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_NO_PORT.TOOLTIP"
@@ -491,11 +486,16 @@ msgid ""
 "\"MODULARLAUNCHPADPORTSOLID\">Rocket Port</link> in order to load and unload "
 "materials from Cargo Bays."
 msgstr ""
+"目前的<link=\"LAUNCHPLATFORM\">火箭平台</link>沒有<link="
+"\"MODULARLAUNCHPADPORTSOLID\">火箭端口</link>與之相連\n"
+"\n"
+"請建造適當的固體、氣體或液體<link=\"MODULARLAUNCHPADPORTSOLID\">火箭端口</"
+"link>，以便向貨艙裝卸材料"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_PORT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_PORT.NAME"
 msgid "Rocket Network Attached"
-msgstr ""
+msgstr "火箭網路已連接"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_PORT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_PORT.TOOLTIP"
@@ -504,11 +504,13 @@ msgid ""
 "\"MODULARLAUNCHPADPORTSOLID\">Rocket Port</link> which can load or unload "
 "from this module."
 msgstr ""
+"目前的<link=\"LAUNCHPLATFORM\">火箭平台</link>有<link="
+"\"MODULARLAUNCHPADPORTSOLID\">火箭端口</link>，可以對這個艙塊進行裝卸"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.NAME"
 msgid "Unserviced by Port Network"
-msgstr ""
+msgstr "端口網路未連接"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.TOOLTIP"
@@ -517,6 +519,8 @@ msgid ""
 "current <link=\"LAUNCHPLATFORM\">Rocket Platform</link> are not the correct "
 "type for this Cargo Bay."
 msgstr ""
+"目前<link=\"LAUNCHPLATFORM\">火箭平台</link>相連之<link="
+"\"MODULARLAUNCHPADPORTSOLID\">火箭端口</link>與貨艙類型不適配"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONSTRUCTABLEDIGUNREACHABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONSTRUCTABLEDIGUNREACHABLE.NAME"
@@ -601,7 +605,7 @@ msgid ""
 msgstr ""
 "這個建築無法將管内物質冷卻到 <b>{0}</b> 以下\n"
 "\n"
-"當前管内物質：{0}"
+"目前管内物質：{0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDCOLDLIQUID.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDCOLDLIQUID.NAME"
@@ -617,7 +621,7 @@ msgid ""
 msgstr ""
 "這個建築無法將管内物質冷卻到 <b>{0}</b> 以下\n"
 "\n"
-"當前管内物質：{0}"
+"目前管内物質：{0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTENV.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COOLINGSTALLEDHOTENV.NAME"
@@ -702,7 +706,7 @@ msgstr "鎖定"
 #. STRINGS.BUILDING.STATUSITEMS.CURRENTDOORCONTROLSTATE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CURRENTDOORCONTROLSTATE.NAME"
 msgid "Current State: {ControlState}"
-msgstr "當前狀態：{ControlState}"
+msgstr "目前狀態：{ControlState}"
 
 #. STRINGS.BUILDING.STATUSITEMS.CURRENTDOORCONTROLSTATE.OPENED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CURRENTDOORCONTROLSTATE.OPENED"
@@ -718,7 +722,7 @@ msgid ""
 "Locked: Nothing may pass through\n"
 "Open: This door will remain open"
 msgstr ""
-"當前狀態：{ControlState}\n"
+"目前狀態：{ControlState}\n"
 "------------------\n"
 "自動：複製人可根據需要來開啟或關閉這扇門\n"
 "鎖定：任何人均不得進出\n"
@@ -737,12 +741,9 @@ msgid ""
 msgstr "需要清空這個建築物的<link=\"SALT\">鹽</link>才能使它恢復運作"
 
 #. STRINGS.BUILDING.STATUSITEMS.DESTINATIONOUTOFRANGE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.DESTINATIONTITLE"
-#| msgid "Destination Status"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DESTINATIONOUTOFRANGE.NAME"
 msgid "Destination Out Of Range"
-msgstr "目的地狀態"
+msgstr "目的地超出範圍"
 
 #. STRINGS.BUILDING.STATUSITEMS.DESTINATIONOUTOFRANGE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DESTINATIONOUTOFRANGE.TOOLTIP"
@@ -752,6 +753,10 @@ msgid ""
 "Rocket Range: {Range}\n"
 "Destination Distance: {Distance}"
 msgstr ""
+"這艘火箭射程不足，無法到達目的地\n"
+"------------------\n"
+"火箭範圍：{Range}\n"
+"目的地距離：{Distance}"
 
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME"
@@ -767,7 +772,7 @@ msgid ""
 "    • Interference from nearby heavy machinery\n"
 "    • Rock or tile obstructing the dish's line of sight on space"
 msgstr ""
-"這個掃描儀當前正在以 <b>{Quality}</b> 的效率進行掃描\n"
+"這個掃描儀目前正在以 <b>{Quality}</b> 的效率進行掃描\n"
 "\n"
 "掃描效率降低可能是由於：\n"
 "    • 附近重型器械的干擾\n"
@@ -833,7 +838,7 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.DIRECTION_CONTROL.TOOLTIP"
 msgid ""
 "Duplicants will only use this building when walking by it. Currently allowed "
 "direction: <b>{Direction}</b>"
-msgstr "複製人只有在走近這個建築時才能使用它，當前允許方向：<b>{Direction}</b>"
+msgstr "複製人只有在走近這個建築時才能使用它，目前允許方向：<b>{Direction}</b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.DISEMBARKINGDUPLICANT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DISEMBARKINGDUPLICANT.NAME"
@@ -848,21 +853,15 @@ msgid ""
 msgstr "<link=\"GANTRY\">發射支架</link>伸出之前，這艘火箭中的複製人無法出來"
 
 #. STRINGS.BUILDING.STATUSITEMS.DUPLICANTACTIVATIONREQUIRED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.INCREASEDEXPECTATIONS.NAME"
-#| msgid "Duplicants' expectations increased"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DUPLICANTACTIVATIONREQUIRED.NAME"
 msgid "Duplicant Activation Required"
-msgstr "複製人期望增加"
+msgstr "需要複製人操作"
 
 #. STRINGS.BUILDING.STATUSITEMS.DUPLICANTACTIVATIONREQUIRED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.TOOLTIP"
-#| msgid "Building will be operated once a Duplicant is available"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DUPLICANTACTIVATIONREQUIRED.TOOLTIP"
 msgid ""
 "This building won't be fully operational until a Duplicant submits a bioscan."
-msgstr "空閒下來的複製人將執行操作任務"
+msgstr "在複製人提交生物掃描之前，這個建築無法完全運作"
 
 #. STRINGS.BUILDING.STATUSITEMS.ELEMENTCONSUMER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ELEMENTCONSUMER.NAME"
@@ -1241,7 +1240,7 @@ msgstr "發電機閒置"
 #. STRINGS.BUILDING.STATUSITEMS.GENERATOROFFLINE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GENERATOROFFLINE.TOOLTIP"
 msgid "This <style=\"KKeyword\">Power</style> source is idle"
-msgstr "這個<style=\"KKeyword\">電力</style>來源當前閒置"
+msgstr "這個<style=\"KKeyword\">電力</style>來源目前閒置"
 
 #. STRINGS.BUILDING.STATUSITEMS.GENESHUFFLECOMPLETED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GENESHUFFLECOMPLETED.NAME"
@@ -1350,38 +1349,25 @@ msgid ""
 msgstr "這個建築需要浸沒在<style=\"KKeyword\">液體</style>中才能運作"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_CONTROLLED_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.INCOMINGMETEORS.NAME"
-#| msgid "Incoming Object Detected"
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR."
 "LOGIC_CONTROLLED_ACTIVE"
 msgid "Incoming HEP: Redirect"
-msgstr "探測到來襲物體"
+msgstr "來臨的高能粒子：重新導向"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_CONTROLLED_STANDBY
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR."
 "LOGIC_CONTROLLED_STANDBY"
 msgid "Incoming HEP: Ignore"
-msgstr ""
+msgstr "來臨的高能粒子：忽略"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.NORMAL
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NORMAL.NAME"
-#| msgid "Normal"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.NORMAL"
 msgid "Normal"
 msgstr "正常"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.TOOLTIPS.LOGIC_CONTROLLED_ACTIVE
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN."
-#| "TEMPERATURE_TOOLTIP_ABOVE"
-#| msgid ""
-#| "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the "
-#| "ambient <style=\"KKeyword\">Temperature</style> is above <b>{0}</b>"
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.TOOLTIPS."
 "LOGIC_CONTROLLED_ACTIVE"
@@ -1390,16 +1376,10 @@ msgid ""
 "style></b>, accepting incoming <style=\"KKeyword\">High Energy Particles</"
 "style>"
 msgstr ""
-"若環境<style=\"KKeyword\">溫度</style>高於<b>{0}</b>，輸出<b><style="
-"\"logic_on\">綠色訊號</style></b>"
+"粒子重導器接收<b><style=\"logic_on\">綠色訊號</style></b>，捕捉來臨的<style="
+"\"KKeyword\">高能粒子</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.TOOLTIPS.LOGIC_CONTROLLED_STANDBY
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_OPEN"
-#| msgid ""
-#| "Automated Checkpoint is receiving a <b><style=\"logic_off\">Red Signal</"
-#| "style></b>, preventing Duplicants from passing"
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.TOOLTIPS."
 "LOGIC_CONTROLLED_STANDBY"
@@ -1408,48 +1388,35 @@ msgid ""
 "style></b>, ignoring incoming <style=\"KKeyword\">High Energy Particles</"
 "style>"
 msgstr ""
-"這個自動化的檢查站接收到<b><style=\"logic_off\">紅色訊號</style></b>，從而阻"
-"止複製人通過"
+"粒子重導器接收<b><style=\"logic_off\">紅色訊號</style></b>，忽略來臨的<style="
+"\"KKeyword\">高能粒子</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.TOOLTIPS.NORMAL
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.TOOLTIPS.NORMAL"
 msgid "Incoming particles will be accepted and redirected"
-msgstr ""
+msgstr "來臨的高能粒子會被捕捉並重新導向"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.LOGIC_CONTROLLED_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.LAUNCHING"
-#| msgid "Launching"
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER."
 "LOGIC_CONTROLLED_ACTIVE"
 msgid "Launch HEP: On"
-msgstr "正在發射"
+msgstr "發射高能粒子：開啟"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.LOGIC_CONTROLLED_STANDBY
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER."
 "LOGIC_CONTROLLED_STANDBY"
 msgid "Launch HEP: Off"
-msgstr ""
+msgstr "發射高能粒子：關閉"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.NORMAL
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NORMAL.NAME"
-#| msgid "Normal"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.NORMAL"
 msgid "Normal"
 msgstr "正常"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.TOOLTIPS.LOGIC_CONTROLLED_ACTIVE
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN."
-#| "TEMPERATURE_TOOLTIP_ABOVE"
-#| msgid ""
-#| "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the "
-#| "ambient <style=\"KKeyword\">Temperature</style> is above <b>{0}</b>"
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.TOOLTIPS."
 "LOGIC_CONTROLLED_ACTIVE"
@@ -1458,16 +1425,10 @@ msgid ""
 "style></b>, accepting incoming <style=\"KKeyword\">High Energy Particles</"
 "style>"
 msgstr ""
-"若環境<style=\"KKeyword\">溫度</style>高於<b>{0}</b>，輸出<b><style="
-"\"logic_on\">綠色訊號</style></b>"
+"粒子發射器接收<b><style=\"logic_on\">綠色訊號</style></b>，捕捉來臨的<style="
+"\"KKeyword\">高能粒子</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.TOOLTIPS.LOGIC_CONTROLLED_STANDBY
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_OPEN"
-#| msgid ""
-#| "Automated Checkpoint is receiving a <b><style=\"logic_off\">Red Signal</"
-#| "style></b>, preventing Duplicants from passing"
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.TOOLTIPS."
 "LOGIC_CONTROLLED_STANDBY"
@@ -1476,8 +1437,8 @@ msgid ""
 "style></b>, ignoring incoming <style=\"KKeyword\">High Energy Particles</"
 "style>"
 msgstr ""
-"這個自動化的檢查站接收到<b><style=\"logic_off\">紅色訊號</style></b>，從而阻"
-"止複製人通過"
+"粒子發射器接收<b><style=\"logic_off\">紅色訊號</style></b>，忽略來臨的<style="
+"\"KKeyword\">高能粒子</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.TOOLTIPS.NORMAL
 msgctxt ""
@@ -1485,7 +1446,7 @@ msgctxt ""
 msgid ""
 "Incoming <style=\"KKeyword\">High Energy Particles</style> will be accepted "
 "and redirected"
-msgstr ""
+msgstr "來臨的<style=\"KKeyword\">高能粒子</style>會被捕捉並重新導向"
 
 #. STRINGS.BUILDING.STATUSITEMS.HOTTUBFILLING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HOTTUBFILLING.NAME"
@@ -1570,7 +1531,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.INFLIGHT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INFLIGHT.NAME"
 msgid "In Flight To {Destination_Asteroid}: {ETA}"
-msgstr ""
+msgstr "航行至{Destination_Asteroid}：{ETA}"
 
 #. STRINGS.BUILDING.STATUSITEMS.INFLIGHT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INFLIGHT.TOOLTIP"
@@ -1580,22 +1541,19 @@ msgid ""
 "\n"
 "It arrive in {ETA}"
 msgstr ""
+"這艘火箭正在航行至{Destination_Asteroid}上的{Destination_Pad}\n"
+"\n"
+"將在{ETA}後到達"
 
 #. STRINGS.BUILDING.STATUSITEMS.INORBIT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.NOCLEARLOCATIONSAVAILABLE.NAME"
-#| msgid "No Sweep Destination"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INORBIT.NAME"
 msgid "In Orbit: {Destination}"
-msgstr "無清掃地點"
+msgstr "在軌道上：{Destination}"
 
 #. STRINGS.BUILDING.STATUSITEMS.INORBIT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ILLUMINATION_DARK"
-#| msgid "This plant is currently in the dark"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INORBIT.TOOLTIP"
 msgid "This rocket is currently in orbit around {Destination}"
-msgstr "這株植物當前處於黑暗中"
+msgstr "這艘火箭目前在{Destination}周圍的軌道上"
 
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.NAME"
@@ -1608,23 +1566,16 @@ msgid "Cannot construct building in this location"
 msgstr "不能在個位置建造建築"
 
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDMASKSTATIONCONSUMPTIONSTATE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CONTAINS_OXYGEN"
-#| msgid "Not enough Oxygen"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDMASKSTATIONCONSUMPTIONSTATE.NAME"
 msgid "Station Not In Oxygen"
-msgstr "沒有充足的氧氣"
+msgstr "站台無氧"
 
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDMASKSTATIONCONSUMPTIONSTATE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOGASELEMENTTOPUMP.TOOLTIP"
-#| msgid ""
-#| "This pump must be submerged in <style=\"KKeyword\">Gas</style> to work"
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.INVALIDMASKSTATIONCONSUMPTIONSTATE.TOOLTIP"
 msgid ""
 "This station must be submerged in <style=\"KKeyword\">Oxygen</style> to work"
-msgstr "這個泵必須浸沒在<style=\"KKeyword\">氣體</style>中才能運作"
+msgstr "這個站台必須浸沒在<style=\"KKeyword\">氧氣</style>中才能運作"
 
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDPORTOVERLAP.NAME"
@@ -1771,7 +1722,7 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICSENSORSTATUSACTIVE.TOOLTIP"
 msgid ""
 "This sensor is currently sending a <b><style=\"logic_on\">Green Signal</"
 "style></b>"
-msgstr "這個感測器當前輸出<b><style=\"logic_on\">綠色訊號</style></b>"
+msgstr "這個感測器目前輸出<b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGICSENSORSTATUSINACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICSENSORSTATUSINACTIVE.NAME"
@@ -1783,7 +1734,7 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICSENSORSTATUSINACTIVE.TOOLTIP"
 msgid ""
 "This sensor is currently sending <b><style=\"logic_off\">Red Signal</style></"
 "b>"
-msgstr "這個感測器當前輸出<b><style=\"logic_off\">紅色訊號</style></b>"
+msgstr "這個感測器目前輸出<b><style=\"logic_off\">紅色訊號</style></b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGICSWITCHSTATUSACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICSWITCHSTATUSACTIVE.NAME"
@@ -1795,7 +1746,7 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICSWITCHSTATUSACTIVE.TOOLTIP"
 msgid ""
 "This switch is currently sending a <b><style=\"logic_on\">Green Signal</"
 "style></b>"
-msgstr "這個開關當前輸出<b><style=\"logic_on\">綠色訊號</style></b>"
+msgstr "這個開關目前輸出<b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGICSWITCHSTATUSINACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICSWITCHSTATUSINACTIVE.NAME"
@@ -1807,7 +1758,7 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICSWITCHSTATUSINACTIVE.TOOLTIP"
 msgid ""
 "This switch is currently sending a <b><style=\"logic_off\">Red Signal</"
 "style></b>"
-msgstr "這個開關當前輸出<b><style=\"logic_off\">紅色訊號</style></b>"
+msgstr "這個開關目前輸出<b><style=\"logic_off\">紅色訊號</style></b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOOKINGGREAT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOOKINGGREAT.NAME"
@@ -2317,7 +2268,7 @@ msgstr "無可用的蛋"
 #. STRINGS.BUILDING.STATUSITEMS.NOAVAILABLEEGG.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAVAILABLEEGG.TOOLTIP"
 msgid "The selected <style=\"KKeyword\">Egg</style> is not currently available"
-msgstr "當前所選的<style=\"KKeyword\">蛋</style>不可用"
+msgstr "目前所選的<style=\"KKeyword\">蛋</style>不可用"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAVAILABLESEED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAVAILABLESEED.NAME"
@@ -2330,20 +2281,14 @@ msgid "The selected <style=\"KKeyword\">Seed</style> is not available"
 msgstr "所選的<style=\"KKeyword\">種子</style>不可用"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOCOOLANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.NO_COTS.NAME"
-#| msgid "No Cots"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOCOOLANT.NAME"
 msgid "No Coolant"
-msgstr "無床鋪"
+msgstr "無冷卻液"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOCOOLANT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.AUTODISINFECTABLE.NO_DISEASE.TOOLTIP"
-#| msgid "This building is clean"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOCOOLANT.TOOLTIP"
 msgid "This building needs coolant"
-msgstr "這個建築已經很乾淨了"
+msgstr "這個建築需要冷卻液"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOFILTERELEMENTSELECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOFILTERELEMENTSELECTED.NAME"
@@ -2584,23 +2529,16 @@ msgstr ""
 "<style=\"KKeyword\">房間</style>狀態"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTLINKEDTOHEAD.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.ELEMENT_NOT_SPECIFIED"
-#| msgid "Not Specified"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTLINKEDTOHEAD.NAME"
 msgid "Not Linked"
-msgstr "未選擇過濾類型"
+msgstr "未連接"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTLINKEDTOHEAD.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.HOTTUB.WATER_REQUIREMENT_TOOLTIP"
-#| msgid ""
-#| "This building must be filled with {amount} {element} in order to function."
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTLINKEDTOHEAD.TOOLTIP"
 msgid ""
 "This building must be built adjacent to a {headBuilding} or another "
 "{linkBuilding} in order to function"
-msgstr "這個建築需要浸沒在{amount}的{element}中才能運作"
+msgstr "這個建築必須與{headBuilding}或另一個{linkBuilding}相鄰才能運作"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME"
@@ -2741,17 +2679,11 @@ msgstr ""
 "\"KKeyword\">電線</style>來防止過載"
 
 #. STRINGS.BUILDING.STATUSITEMS.PASSENGERMODULEUNREACHABLE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.MOPUNREACHABLE.NAME"
-#| msgid "Unreachable Mop"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PASSENGERMODULEUNREACHABLE.NAME"
 msgid "Unreachable Module"
-msgstr "無法到達的擦拭地點"
+msgstr "無法到達的艙塊"
 
 #. STRINGS.BUILDING.STATUSITEMS.PASSENGERMODULEUNREACHABLE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGUNREACHABLE.TOOLTIP"
-#| msgid "Duplicants cannot reach this area"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PASSENGERMODULEUNREACHABLE.TOOLTIP"
 msgid "Duplicants cannot reach this area"
 msgstr "複製人無法到達這片區域"
@@ -2854,17 +2786,14 @@ msgid "Building will be operated once a Duplicant is available"
 msgstr "空閒下來的複製人將執行操作任務"
 
 #. STRINGS.BUILDING.STATUSITEMS.PILOTNEEDED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESMANUALOPERATION"
-#| msgid "Duplicant operation"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PILOTNEEDED.NAME"
 msgid "Duplicant interaction required"
-msgstr "複製人操作"
+msgstr "需要複製人操作"
 
 #. STRINGS.BUILDING.STATUSITEMS.PILOTNEEDED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PILOTNEEDED.TOOLTIP"
 msgid "Without Duplicant interaction auto pilot engaging in {timeRemaining}."
-msgstr ""
+msgstr "沒有複製人操作，自動駕駛模式將於{timeRemaining}後啟動"
 
 #. STRINGS.BUILDING.STATUSITEMS.PIPE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPE.NAME"
@@ -2905,7 +2834,7 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPEMAYMELT.TOOLTIP"
 msgid ""
 "This pipe is in danger of melting at the current <style=\"KKeyword"
 "\">Temperature</style>"
-msgstr "在當前<style=\"KKeyword\">溫度</style>下，這條管道有融化的危險"
+msgstr "在目前<style=\"KKeyword\">溫度</style>下，這條管道有融化的危險"
 
 #. STRINGS.BUILDING.STATUSITEMS.PLAYERCONTROLLEDTOGGLESIDESCREEN.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PLAYERCONTROLLEDTOGGLESIDESCREEN.NAME"
@@ -2988,12 +2917,9 @@ msgid "This pumping station has access to: {Liquids}"
 msgstr "這個泵水站還可獲得：{Liquids}"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUN_NO_DESTINATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.NOCLEARLOCATIONSAVAILABLE.NAME"
-#| msgid "No Sweep Destination"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUN_NO_DESTINATION.NAME"
 msgid "No Launch Destination"
-msgstr "無清掃地點"
+msgstr "無發射目的地"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUN_NO_DESTINATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUN_NO_DESTINATION.TOOLTIP"
@@ -3002,23 +2928,16 @@ msgid ""
 "\n"
 "Set destination for this load using the "
 msgstr ""
+"未選擇目的地    • {0}\n"
+"\n"
+"若要設定這次裝載的目的地，請使用"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUN_PATH_NOT_CLEAR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.NAME"
-#| msgid "Launch Path Blocked"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUN_PATH_NOT_CLEAR.NAME"
 msgid "Launcher Path Blocked"
 msgstr "發射路徑受阻"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUN_PATH_NOT_CLEAR.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.PATH_NOT_CLEAR.TOOLTIP"
-#| msgid ""
-#| "There are solid obstructions in this rocket's launch trajectory:\n"
-#| "    • {0}\n"
-#| "\n"
-#| "This rocket requires a clear flight path for launch"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUN_PATH_NOT_CLEAR.TOOLTIP"
 msgid ""
 "There are obstructions in the trajectory of this <link=\"RAILGUN\">High "
@@ -3027,15 +2946,15 @@ msgid ""
 "\n"
 "This launcher requires a clear path to launch resources"
 msgstr ""
-"這艘火箭的發射軌道上存在固體障礙物：\n"
+"這個<link=\"RAILGUN\">高速發射器</link>的軌道上存在固體障礙物：\n"
 "    • {0}\n"
 "\n"
-"需要先清除飛行路徑上的障礙物才能發射火箭"
+"需要先清除飛行路徑上的障礙物才能發射資源"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUNPAYLOADNEEDSEMPTYING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUNPAYLOADNEEDSEMPTYING.NAME"
 msgid "Ready To Unpack"
-msgstr ""
+msgstr "卸載準備完成"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUNPAYLOADNEEDSEMPTYING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUNPAYLOADNEEDSEMPTYING.TOOLTIP"
@@ -3046,6 +2965,10 @@ msgid ""
 "\"RAILGUNPAYLOADOPENER\">Payload Opener</link> to automatically unpack "
 "incoming payloads"
 msgstr ""
+"這批貨物已經到達目的地，準備好卸載了\n"
+"\n"
+"直接將其標記即可卸貨，或者建造一個<link=\"RAILGUNPAYLOADOPENER\">貨物卸載器</"
+"link>來自動卸貨"
 
 #. STRINGS.BUILDING.STATUSITEMS.RATIONBOXCONTENTS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RATIONBOXCONTENTS.NAME"
@@ -3085,7 +3008,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.RESEARCHING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RESEARCHING.NAME"
 msgid "Current <link=\"TECH\">Research</link>: {Tech}"
-msgstr "當前研發的<link=\"TECH\">科技</link>：{Tech}"
+msgstr "目前研發的<link=\"TECH\">科技</link>：{Tech}"
 
 #. STRINGS.BUILDING.STATUSITEMS.RESEARCHING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RESEARCHING.TOOLTIP"
@@ -3093,27 +3016,21 @@ msgid "Research produced at this station will be invested in {Tech}"
 msgstr "這個站點將投入於研發{Tech}"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_IDLE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME"
-#| msgid "No Tube Connected"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_IDLE.NAME"
 msgid "No connected rocket"
-msgstr "未連接運輸管道"
+msgstr "無連接的火箭"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_IDLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_IDLE.TOOLTIP"
 msgid ""
 "This port is idle because there is no rocket on the connected <link="
 "\"LAUNCHPLATFORM\">Rocket Platform</link>"
-msgstr ""
+msgstr "由於沒有與<link=\"LAUNCHPLATFORM\">火箭平台</link>相連，這個端口閒置中"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.NAME"
-#| msgid "Research Complete"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADED.NAME"
 msgid "Transfer Complete"
-msgstr "研發完成"
+msgstr "轉移完成"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADED.TOOLTIP"
@@ -3121,29 +3038,25 @@ msgid ""
 "The rocket on the connected <link=\"LAUNCHPLATFORM\">Rocket Platform</link> "
 "is either full of this type of resource or has no matching storage modules."
 msgstr ""
+"在<link=\"LAUNCHPLATFORM\">火箭平台</link>上的火箭已經裝滿了這種類型的資源，"
+"或是沒有適配的貨艙"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.LANDING"
-#| msgid "Landing"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADING.NAME"
 msgid "Loading"
-msgstr "正在著陸"
+msgstr "裝載中"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_LOADING.TOOLTIP"
 msgid ""
 "This port is currently transferring resources from the pipe network to the "
 "rocket on the connected lauch pad."
-msgstr ""
+msgstr "這個端口正在將管道中的資源轉移到平台上的火箭中"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_UNLOADING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.NAME"
-#| msgid "Unloading"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_UNLOADING.NAME"
 msgid "Unloading"
-msgstr "卸貨中"
+msgstr "卸載中"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_UNLOADING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_UNLOADING.TOOLTIP"
@@ -3151,14 +3064,13 @@ msgid ""
 "This port is currently unloading resources from the connected <link="
 "\"LAUNCHPLATFORM\">Rocket Platform</link> into the pipe network"
 msgstr ""
+"這個端口正在將<link=\"LAUNCHPLATFORM\">火箭平台</link>上的火箭資源卸載到管道"
+"中"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOEMPTYING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.NAME"
-#| msgid "Marked for Emptying"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOEMPTYING.NAME"
 msgid "Cargo Emptying"
-msgstr "已標記清空"
+msgstr "正在卸載貨艙"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOEMPTYING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOEMPTYING.TOOLTIP"
@@ -3168,14 +3080,15 @@ msgid ""
 "\n"
 "Loading will proceed afterwards."
 msgstr ""
+"這個<link=\"LAUNCHPLATFORM\">火箭平台</link>正在將可用資源從火箭的材料端口中"
+"卸載\n"
+"\n"
+"隨後可以進行裝載"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFILLING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.COMPONENT.CARGO_BAY"
-#| msgid "Cargo Bay"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFILLING.NAME"
 msgid "Cargo Loading"
-msgstr "貨艙"
+msgstr "正在裝載貨艙"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFILLING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFILLING.TOOLTIP"
@@ -3185,31 +3098,32 @@ msgid ""
 "\n"
 "Unloading has been completed."
 msgstr ""
+"這個<link=\"LAUNCHPLATFORM\">火箭平台</link>正在將可用的資源從材料端口裝載至"
+"火箭中\n"
+"\n"
+"卸載已經完成"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFULL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFULL.NAME"
 msgid "Rocket Platform Ready"
-msgstr ""
+msgstr "火箭平台就緒"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFULL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFULL.TOOLTIP"
 msgid "All cargo operations are complete."
-msgstr ""
+msgstr "所有的貨艙操作均已完成"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCHECKLISTINCOMPLETE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.LISTTITLES.LAUNCHCHECKLIST"
-#| msgid "Launch Checklist"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCHECKLISTINCOMPLETE.NAME"
 msgid "Launch Checklist Incomplete"
-msgstr "發射檢查表"
+msgstr "發射檢查表未完成"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCHECKLISTINCOMPLETE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCHECKLISTINCOMPLETE.TOOLTIP"
 msgid ""
 "A critical launch task has not been completed yet - check the Launch "
 "Checklist in the status panel"
-msgstr ""
+msgstr "一個關鍵發射任務尚未完成－請查看狀態面板的發射檢查表"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETNAME.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETNAME.NAME"
@@ -3222,20 +3136,14 @@ msgid "This module belongs to the rocket: <style=\"KKeyword\">{0}</style>"
 msgstr "這個艙體屬於：<style=\"KKeyword\">{0}</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETSTRANDED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND7"
-#| msgid "Strained"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETSTRANDED.NAME"
 msgid "Stranded"
-msgstr "緊張"
+msgstr "滯留"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETSTRANDED.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.TRAPPED.TOOLTIP"
-#| msgid "This critter has been contained and cannot escape"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETSTRANDED.TOOLTIP"
 msgid "This rocket has run out of fuel and cannot move"
-msgstr "這隻小動物已被困住，無法逃脫"
+msgstr "由於火箭燃料已耗盡而無法移動"
 
 #. STRINGS.BUILDING.STATUSITEMS.SKILL_POINTS_AVAILABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SKILL_POINTS_AVAILABLE.NAME"
@@ -3250,7 +3158,7 @@ msgstr "一名複製人有<style=\"KKeyword\">技能點</style>可用"
 #. STRINGS.BUILDING.STATUSITEMS.SOLARPANELWATTAGE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SOLARPANELWATTAGE.NAME"
 msgid "Current Wattage: {Wattage}"
-msgstr "當前功率：{Wattage}"
+msgstr "目前功率：{Wattage}"
 
 #. STRINGS.BUILDING.STATUSITEMS.SOLARPANELWATTAGE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SOLARPANELWATTAGE.TOOLTIP"
@@ -3357,17 +3265,11 @@ msgstr ""
 "{Units}</b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.STORAGEUNREACHABLE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.TOILETUNREACHABLE.NAME"
-#| msgid "Unreachable toilet"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STORAGEUNREACHABLE.NAME"
 msgid "Unreachable Storage"
-msgstr "廁所遙不可及"
+msgstr "無法到達的貨艙"
 
 #. STRINGS.BUILDING.STATUSITEMS.STORAGEUNREACHABLE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.DIGUNREACHABLE.TOOLTIP"
-#| msgid "Duplicants cannot reach this area"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STORAGEUNREACHABLE.TOOLTIP"
 msgid "Duplicants cannot reach this area"
 msgstr "複製人無法到達這片區域"
@@ -3391,7 +3293,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.NAME"
 msgid "Current Status: Charging Suit"
-msgstr "當前狀態：正在補充燃料"
+msgstr "目前狀態：正在補充燃料"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.TOOLTIP"
@@ -3401,7 +3303,7 @@ msgstr "這件<style=\"KKeyword\">太空衣</style>正在存放櫃中補充燃�
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.NAME"
 msgid "Current Status: Full Fueled"
-msgstr "當前狀態：燃料已充滿"
+msgstr "目前狀態：燃料已充滿"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.TOOLTIP"
@@ -3411,7 +3313,7 @@ msgstr "這件太空衣已充滿燃料，可以開始使用"
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NEED_CONFIGURATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NEED_CONFIGURATION.NAME"
 msgid "Current Status: Needs Configuration"
-msgstr "當前狀態：需要配置"
+msgstr "目前狀態：需要配置"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NEED_CONFIGURATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NEED_CONFIGURATION.TOOLTIP"
@@ -3419,31 +3321,23 @@ msgid "Set this dock to store a suit or leave it empty"
 msgstr "設定這個存放櫃以便存放太空衣或留空"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_COOLANT.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_FUEL.NAME"
-#| msgid "Current Status: No Fuel"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_COOLANT.NAME"
 msgid "Current Status: No Coolant"
-msgstr "當前狀態：無燃料"
+msgstr "目前狀態：無冷卻液"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_COOLANT.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_OXYGEN.TOOLTIP"
-#| msgid ""
-#| "This dock does not contain enough <link=\"OXYGEN\">Oxygen</link> to "
-#| "refill a <style=\"KKeyword\">Suit</style>"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_COOLANT.TOOLTIP"
 msgid ""
 "This dock does not contain enough <link=\"WATER\">Water</link> to refill a "
 "<style=\"KKeyword\">Suit</style>"
 msgstr ""
-"這個存放櫃沒有充足的<link=\"OXYGEN\">氧氣</link>來補充<style=\"KKeyword\">太"
-"空衣</style>"
+"這個存放櫃沒有足夠的<link=\"WATER\">水</link>來補充<style=\"KKeyword\">太空服"
+"</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_FUEL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_FUEL.NAME"
 msgid "Current Status: No Fuel"
-msgstr "當前狀態：無燃料"
+msgstr "目前狀態：無燃料"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_FUEL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_FUEL.TOOLTIP"
@@ -3457,7 +3351,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_OXYGEN.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_OXYGEN.NAME"
 msgid "Current Status: No Oxygen"
-msgstr "當前狀態：無氧氣"
+msgstr "目前狀態：無氧氣"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_OXYGEN.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_OXYGEN.TOOLTIP"
@@ -3471,7 +3365,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NOT_OPERATIONAL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NOT_OPERATIONAL.NAME"
 msgid "Current Status: Offline"
-msgstr "當前狀態：停用"
+msgstr "目前狀態：停用"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NOT_OPERATIONAL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NOT_OPERATIONAL.TOOLTIP"
@@ -3481,7 +3375,7 @@ msgstr "這個存放櫃需要<style=\"KKeyword\">電力</style>"
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.READY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.READY.NAME"
 msgid "Current Status: Empty"
-msgstr "當前狀態：空缺"
+msgstr "目前狀態：空缺"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.READY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.READY.TOOLTIP"
@@ -3495,7 +3389,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.SUIT_REQUESTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.SUIT_REQUESTED.NAME"
 msgid "Current Status: Awaiting Delivery"
-msgstr "當前狀態：等待運送"
+msgstr "目前狀態：等待運送"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.SUIT_REQUESTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.SUIT_REQUESTED.TOOLTIP"
@@ -3611,51 +3505,45 @@ msgid ""
 msgstr "這裡的<link=\"LIGHT\">光</link>足以享受日光浴"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_LOS.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOBSTRUCTED.NAME"
-#| msgid "Liquid Vent Obstructed"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_LOS.NAME"
 msgid "Line of Sight: Obstructed"
-msgstr "排水口堵塞"
+msgstr "視線：受阻"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_LOS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_LOS.TOOLTIP"
 msgid "This device needs a clear view of space to operate."
-msgstr ""
+msgstr "這台設備需要清空視野空間以便運作"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_TARGET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DEATHS.DROWNED.DESCRIPTION"
-#| msgid "{Target} has drowned."
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_TARGET.NAME"
 msgid "Target: None"
-msgstr "{Target}淹死了"
+msgstr "目標：無"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_TARGET.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_TARGET.TOOLTIP"
 msgid "\"Awaiting transmission of coordinates...\""
-msgstr ""
+msgstr "「正在等待座標傳輸...」"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_PROGRESS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_PROGRESS.NAME"
 msgid "Progress: {progress}"
-msgstr ""
+msgstr "進度：{progress}"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_PROGRESS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_PROGRESS.TOOLTIP"
 msgid "Operation will commence once this meter fills all the way up."
-msgstr ""
+msgstr "操作將在量表充滿時開始"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_READY.NOTIFICATION
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_READY.NOTIFICATION"
 msgid "Temporal Ripper fully charged"
-msgstr ""
+msgstr "時空裂痕裝置已完全充能"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_READY.NOTIFICATION_TOOLTIP
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_READY.NOTIFICATION_TOOLTIP"
 msgid "All that's left is to push the big red button."
-msgstr ""
+msgstr "再來就只需要按下那巨大的紅色按鈕了"
 
 #. STRINGS.BUILDING.STATUSITEMS.TINKERING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TINKERING.NAME"
@@ -3761,7 +3649,7 @@ msgstr "這台渦輪機正以<b>每分鐘 {0} 轉</b>運行"
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE_WATTAGE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE_WATTAGE.NAME"
 msgid "Current Wattage: {Wattage}"
-msgstr "當前功率：{Wattage}"
+msgstr "目前功率：{Wattage}"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE_WATTAGE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE_WATTAGE.TOOLTIP"
@@ -3776,7 +3664,7 @@ msgstr ""
 "這台渦輪機正產生 <style=\"produced\">{Wattage}</style> 的<style=\"KKeyword\">"
 "電力</style>\n"
 "\n"
-"當前運作效率為 <b>{Efficiency}</b>，提高{Src_Element}的<style=\"KKeyword\">質"
+"目前運作效率為 <b>{Efficiency}</b>，提高{Src_Element}的<style=\"KKeyword\">質"
 "量</style>和<style=\"KKeyword\">溫度</style>以提升效率"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_INPUT.NAME
@@ -3901,7 +3789,7 @@ msgstr "建造中"
 #. STRINGS.BUILDING.STATUSITEMS.UNDERCONSTRUCTION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.UNDERCONSTRUCTION.TOOLTIP"
 msgid "This building is currently being built"
-msgstr "這個建築當前正在建造中"
+msgstr "這個建築目前正在建造中"
 
 #. STRINGS.BUILDING.STATUSITEMS.UNDERCONSTRUCTIONNOWORKER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.UNDERCONSTRUCTIONNOWORKER.NAME"
@@ -3980,12 +3868,9 @@ msgid "These materials will be delivered once a Duplicant is available"
 msgstr "空閒下來的複製人將運送這些材料"
 
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGFORRADIATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGBAITDELIVERY.NAME"
-#| msgid "Awaiting Bait"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGFORRADIATION.NAME"
 msgid "Awaiting radiation orbs"
-msgstr "等待誘餌"
+msgstr "等待輻射核"
 
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.LINE_ITEM
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.LINE_ITEM"
@@ -4009,27 +3894,24 @@ msgstr "必須先運送這些材料，才能維修這個建築"
 #. STRINGS.BUILDING.STATUSITEMS.WARPCONDUITPARTNERDISABLED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WARPCONDUITPARTNERDISABLED.NAME"
 msgid "Teleporter Disabled ({x}/2)"
-msgstr ""
+msgstr "傳送器停用（{x}/2）"
 
 #. STRINGS.BUILDING.STATUSITEMS.WARPCONDUITPARTNERDISABLED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WARPCONDUITPARTNERDISABLED.TOOLTIP"
 msgid ""
 "This teleporter cannot be used until both the transmitting and receiving "
 "sides have been activated"
-msgstr ""
+msgstr "在發射和接收端口啟用之前，傳送器無法使用"
 
 #. STRINGS.BUILDING.STATUSITEMS.WARPPORTALCHARGING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.REPAIRWORKSTATUS.NAME"
-#| msgid "Repairing {Target}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WARPPORTALCHARGING.NAME"
 msgid "Recharging: {charge}"
-msgstr "維修{Target}"
+msgstr "重新充能：{charge}"
 
 #. STRINGS.BUILDING.STATUSITEMS.WARPPORTALCHARGING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WARPPORTALCHARGING.TOOLTIP"
 msgid "This teleporter will be ready for use in {cycles} cycles"
-msgstr ""
+msgstr "這台傳送器將於{cycles}後準備完成"
 
 #. STRINGS.BUILDING.STATUSITEMS.WATTAGE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTAGE.NAME"
@@ -4117,7 +3999,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.WIRECIRCUITSTATUS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIRECIRCUITSTATUS.NAME"
 msgid "Current Load: {CurrentLoadAndColor} / {MaxLoad}"
-msgstr "當前負載：{CurrentLoadAndColor} / {MaxLoad}"
+msgstr "目前負載：{CurrentLoadAndColor} / {MaxLoad}"
 
 #. STRINGS.BUILDING.STATUSITEMS.WIRECIRCUITSTATUS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIRECIRCUITSTATUS.TOOLTIP"
@@ -4127,7 +4009,7 @@ msgid ""
 "Overloading a wire will cause damage to the wire over time and cause it to "
 "break"
 msgstr ""
-"當前在這條電線上的<style=\"KKeyword\">電力</style>負載\n"
+"目前在這條電線上的<style=\"KKeyword\">電力</style>負載\n"
 "\n"
 "隨著時間，過載的電線會受損直到損壞"
 
@@ -4177,7 +4059,7 @@ msgstr "電線正常"
 #. STRINGS.BUILDING.STATUSITEMS.WIRENOMINAL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIRENOMINAL.TOOLTIP"
 msgid "This wire is able to handle the wattage it is receiving"
-msgstr ""
+msgstr "這條電線能夠負擔它所接收的功率"
 
 #. STRINGS.BUILDING.STATUSITEMS.WORKING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WORKING.NAME"
@@ -4190,20 +4072,14 @@ msgid "This building is working as intended"
 msgstr "這個建築正常運作中"
 
 #. STRINGS.BUILDING.STATUSITEMS.WORKREQUIRESMINION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESMANUALOPERATION"
-#| msgid "Duplicant operation"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WORKREQUIRESMINION.NAME"
 msgid "Duplicant Operation Required"
-msgstr "複製人操作"
+msgstr "需要複製人操作"
 
 #. STRINGS.BUILDING.STATUSITEMS.WORKREQUIRESMINION.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESMANUALOPERATION"
-#| msgid "A Duplicant must be present to run this building"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WORKREQUIRESMINION.TOOLTIP"
 msgid "A Duplicant must be present to complete this operation"
-msgstr "需要一個複製人來使這個建築運作"
+msgstr "需要一個複製人來完成這個操作"
 
 #. STRINGS.BUILDINGS.AUTODISINFECTABLE.DISABLE_AUTODISINFECT.NAME
 msgctxt "STRINGS.BUILDINGS.AUTODISINFECTABLE.DISABLE_AUTODISINFECT.NAME"
@@ -4345,11 +4221,6 @@ msgid "This building is already clean"
 msgstr "這個建築已經很乾淨了"
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDAPOTHECARY.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.APOTHECARY.DESC"
-#| msgid ""
-#| "Some medications help prevent diseases, while others aim to alleviate "
-#| "existing illness."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDAPOTHECARY.DESC"
 msgid ""
 "Some medications help prevent diseases, while others aim to alleviate "
@@ -4357,16 +4228,6 @@ msgid ""
 msgstr "有些藥物有助於預防疾病，有些則用於緩解現有的病症"
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDAPOTHECARY.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.APOTHECARY.EFFECT"
-#| msgid ""
-#| "Produces <link=\"MEDICINE\">Medicine</link> to cure most basic <link="
-#| "\"DISEASE\">Diseases</link>.\n"
-#| "\n"
-#| "Duplicants must possess the Medicine Compounding <link=\"ROLES\">Skill</"
-#| "link> to fabricate medicines.\n"
-#| "\n"
-#| "Duplicants will not fabricate items unless recipes are queued."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDAPOTHECARY.EFFECT"
 msgid ""
 "Produces <link=\"MEDICINE\">Medicine</link> to cure most basic <link="
@@ -4385,12 +4246,9 @@ msgstr ""
 "除非隊列中有配方，否則複製人不會製作物品"
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDAPOTHECARY.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.APOTHECARY.NAME"
-#| msgid "<link=\"APOTHECARY\">Apothecary</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDAPOTHECARY.NAME"
 msgid "<link=\"ADVANCEDAPOTHECARY\">Nuclear Apothecary</link>"
-msgstr "<link=\"APOTHECARY\">配藥桌</link>"
+msgstr "<link=\"APOTHECARY\">核能配藥桌</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDDOCTORSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDDOCTORSTATION.DESC"
@@ -4423,14 +4281,6 @@ msgid ""
 msgstr "超級電腦可解鎖比研究站更高階的科技"
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT"
-#| msgid ""
-#| "Conducts <link=\"RESEARCH\">Advanced Research</link> to unlock new "
-#| "technologies.\n"
-#| "\n"
-#| "Assigned Duplicants must possess the <link=\"JUNIORRESEARCHER\">Super "
-#| "Computer Researching</link> trait."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT"
 msgid ""
 "Conducts <link=\"RESEARCH\">Advanced Research</link> to unlock new "
@@ -4802,12 +4652,6 @@ msgid "Soak up some relaxing sun rays."
 msgstr "沉浸在令人放鬆的日光中"
 
 #. STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.EFFECT"
-#| msgid ""
-#| "Duplicants can relax by lounging in <link=\"LIGHT\">Sunlight</link>.\n"
-#| "\n"
-#| "Increases Duplicants <link=\"MORALE\">Morale</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.EFFECT"
 msgid ""
 "Duplicants can relax by lounging in <link=\"LIGHT\">Sunlight</link>.\n"
@@ -4879,22 +4723,22 @@ msgid ""
 "\n"
 "Emits moderate <link=\"RADIATION\">Radiation</link>."
 msgstr ""
+"由<link=\"BEE\">輻射蜂</link>所築的巢\n"
+"\n"
+"當<link=\"BEE\">輻射蜂</link>作用時，將<link=\"URANIUMORE\">鈾</link>轉化為"
+"<link=\"URANIUMORE\">濃縮鈾</link>\n"
+"\n"
+"會釋放<link=\"RADIATION\">輻射</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BEEHIVE.EFFECT
-#, fuzzy
-#| msgctxt "STRINGS.ITEMS.FOOD.COOKEDMEAT.RECIPEDESC"
-#| msgid "The cooked meat of a defeated critter."
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEEHIVE.EFFECT"
 msgid "The cozy home of a Beeta."
-msgstr "由被擊敗的小動物的肉烹飪而成。"
+msgstr "輻射蜂舒適的家"
 
 #. STRINGS.BUILDINGS.PREFABS.BEEHIVE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.BRINE.NAME"
-#| msgid "<link=\"BRINE\">Brine</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEEHIVE.NAME"
 msgid "<link=\"BEEHIVE\">Beetafinery</link>"
-msgstr "<link=\"BRINE\">濃鹽水</link>"
+msgstr "<link=\"BEEHIVE\">輻射蜂巢</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIER.DESC"
@@ -9771,7 +9615,7 @@ msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：無效果"
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.STATUS_ITEM_VALUE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.STATUS_ITEM_VALUE"
 msgid "Current Value: {0}"
-msgstr "當前值：{0}"
+msgstr "目前值：{0}"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.DESC"
@@ -10262,7 +10106,7 @@ msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> if current time is "
 "within the selected <b><style=\"logic_on\">Green</style></b> range"
 msgstr ""
-"若當前時間處於選定範圍内，輸出<b><style=\"logic_on\">綠色訊號</style></b>"
+"若目前時間處於選定範圍内，輸出<b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.LOGIC_PORT_INACTIVE"
@@ -14001,7 +13845,7 @@ msgctxt ""
 msgid ""
 "Super Coolant is an industrial grade <link=\"FULLERENE\">Fullerene</link> "
 "coolant."
-msgstr "超級冷卻劑是一種工業級<link=\"FULLERENE\">富勒烯</link>冷卻劑。"
+msgstr "超級冷卻劑是一種工業級<link=\"FULLERENE\">富勒烯</link>冷卻劑"
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.SUPERINSULATOR_RECIPE_DESCRIPTION
 msgctxt ""
@@ -16543,24 +16387,24 @@ msgid ""
 "-Admin\n"
 "The Gravitas Facility</indent>"
 msgstr ""
-"<smallcaps><b>標題：新安保方案</b>\n"
+"<smallcaps><b>標題：新安全方案</b>\n"
 "發件人：<b>管理員</b> <alpha=#AA><admin@gravitas.nova></color>\n"
 "收件人：<b>所有人</b></smallcaps>\n"
 "------------------\n"
 "\n"
 "<indent=5%>所有人員請注意\n"
 "\n"
-"我們當前正在對研究所安保系統進行重大調整，可能影響您的工作流程和通行權。\n"
+"我們目前正在對研究所安全系統進行重大調整，可能影響您的工作流程和通行權\n"
 "\n"
 "使用該系統時，您只需脫下所有手套並將手放在指定的掃描區域，然後等待系統驗證您"
-"的員工身份。\n"
+"的員工身份\n"
 "\n"
 "請注意\n"
 "\n"
-"所有電子門卡必須透過[加密]交還前台。如有疑問或需重新安排，請透過[加"
-"密]@GRAVITAS.NOVA聯繫安保部門。\n"
+"所有電子門卡必須透過「加密」交還前台。如有疑問或需重新安排，請透過「加密」"
+"@GRAVITAS.NOVA聯繫安全部門\n"
 "\n"
-"謝謝。\n"
+"謝謝\n"
 "\n"
 "- 管理員\n"
 "莊嚴科技</indent>"
@@ -21087,8 +20931,8 @@ msgstr ""
 "望\n"
 "\n"
 "理論上，我們可以發送火箭到裂口，允許複製人探索另一邊的時間線和宇宙。他們不能"
-"返回，我們也不能跟隨，但他們也許可以在星空中找到一個家，甚至解開導致我們當前"
-"命運的可怕的過去\n"
+"返回，我們也不能跟隨，但他們也許可以在星空中找到一個家，甚至解開導致我們目前"
+"命運的可怕過去\n"
 "\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.TEMPORALTEAR.TITLE
@@ -22543,7 +22387,7 @@ msgstr "這項目標已被先前一個殖民地完成了"
 #. STRINGS.COLONY_ACHIEVEMENTS.ACHIEVED_THIS_COLONY_TOOLTIP
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.ACHIEVED_THIS_COLONY_TOOLTIP"
 msgid "The current colony fulfilled this Initiative"
-msgstr "當前殖民地實現了這項目標"
+msgstr "這個殖民地實現了此項目標"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.DESCRIPTION"
@@ -22639,7 +22483,7 @@ msgstr ""
 #. STRINGS.COLONY_ACHIEVEMENTS.FAILED_THIS_COLONY
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.FAILED_THIS_COLONY"
 msgid "The current colony cannot fulfill this Initiative"
-msgstr "當前殖民地無法完成這項目標"
+msgstr "目前殖民地無法完成此項目標"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.AUTOMATE_A_BUILDING
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.AUTOMATE_A_BUILDING"
@@ -23320,7 +23164,7 @@ msgstr "這項目標還未被完成"
 #. STRINGS.COLONY_ACHIEVEMENTS.NOT_ACHIEVED_THIS_COLONY
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.NOT_ACHIEVED_THIS_COLONY"
 msgid "The current colony hasn't fulfilled this Initiative"
-msgstr "當前殖民地尚未完成這項目標"
+msgstr "目前殖民地尚未完成此項目標"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.PRE_VICTORY_MESSAGE_BODY
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.PRE_VICTORY_MESSAGE_BODY"
@@ -24013,7 +23857,7 @@ msgid ""
 msgstr ""
 "環境條件正在阻止這個蛋發育\n"
 "\n"
-"如果當前條件一直存在，它將不會孵化"
+"如果一直處在目前條件下，它將不會孵化"
 
 #. STRINGS.CREATURES.MODIFIERS.INCUBATOR_SONG.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATOR_SONG.NAME"
@@ -28231,7 +28075,7 @@ msgstr "受傷：{healthState}"
 #. STRINGS.CREATURES.STATUSITEMS.HEALTHSTATUS.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HEALTHSTATUS.TOOLTIP"
 msgid "Current physical status: {healthState}"
-msgstr "當前身體狀態：{healthState}"
+msgstr "目前身體狀態：{healthState}"
 
 #. STRINGS.CREATURES.STATUSITEMS.HIGH_YIELD.LINE_ITEM
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HIGH_YIELD.LINE_ITEM"
@@ -28506,7 +28350,7 @@ msgid ""
 "\n"
 "Ideal Range: <b>{0}</b> - <b>{1}</b>"
 msgstr ""
-"這隻小動物在當前的大氣壓下很舒適\n"
+"這隻小動物在目前的大氣壓下很舒適\n"
 "\n"
 "理想範圍：<b>{0}</b> - <b>{1}</b>"
 
@@ -28523,7 +28367,7 @@ msgid ""
 "\n"
 "Ideal Range: <b>{0}</b> - <b>{1}</b>"
 msgstr ""
-"這隻小動物覺得當前的環境<style=\"KKeyword\">溫度</style>很舒適\n"
+"這隻小動物覺得目前的環境<style=\"KKeyword\">溫度</style>很舒適\n"
 "\n"
 "理想範圍：<b>{0}</b> - <b>{1}</b>"
 
@@ -28589,7 +28433,7 @@ msgctxt "STRINGS.CREATURES.STATUSITEMS.RECEPTACLEINOPERATIONAL.TOOLTIP"
 msgid ""
 "This farm plot cannot grow <style=\"KKeyword\">Plants</style> in its current "
 "state"
-msgstr "這塊農地在當前狀態下不能種植<style=\"KKeyword\">植物 </style>"
+msgstr "這塊農地在目前狀態下不能種植<style=\"KKeyword\">植物 </style>"
 
 #. STRINGS.CREATURES.STATUSITEMS.RECEPTACLEOPERATIONAL.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.RECEPTACLEOPERATIONAL.NAME"
@@ -28659,7 +28503,7 @@ msgid ""
 "Current external <style=\"KKeyword\">Temperature</style> is perilously high "
 "[<b>{ExternalTemperature}</b> / <b>{TargetTemperature}</b>]"
 msgstr ""
-"當前外界<style=\"KKeyword\">溫度</style>極高 [<b>{ExternalTemperature}</b>/"
+"目前外界<style=\"KKeyword\">溫度</style>極高 [<b>{ExternalTemperature}</b>/"
 "<b>{TargetTemperature}</b>]"
 
 #. STRINGS.CREATURES.STATUSITEMS.SLEEPING.NAME
@@ -31266,7 +31110,7 @@ msgid ""
 "This Duplicant is <style=\"KKeyword\">Idle</style> and looking for somewhere "
 "safe and comfy to chill"
 msgstr ""
-"這名複製人當前<style=\"KKeyword\">閒置</style>，正在尋找安全舒適的地方來冷靜"
+"這名複製人目前<style=\"KKeyword\">閒置</style>，正在尋找安全舒適的地方來冷靜"
 "一下"
 
 #. STRINGS.DUPLICANTS.CHORES.MUSH.NAME
@@ -31428,7 +31272,7 @@ msgstr "沒有充足的氧氣"
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CURRENT_ERRAND
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CURRENT_ERRAND"
 msgid "Current Errand"
-msgstr "當前任務"
+msgstr "目前任務"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CURRENTLY_PEEING
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CURRENTLY_PEEING"
@@ -31881,7 +31725,7 @@ msgctxt "STRINGS.DUPLICANTS.CHORES.RESEARCH.TOOLTIP"
 msgid ""
 "This Duplicant is working on the current <style=\"KKeyword\">Research</"
 "style> focus"
-msgstr "這名複製人正在為當前<style=\"KKeyword\">研究</style>重點努力工作"
+msgstr "這名複製人正在為當前的<style=\"KKeyword\">研究</style>努力工作"
 
 #. STRINGS.DUPLICANTS.CHORES.RESEARCHFETCH.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.RESEARCHFETCH.NAME"
@@ -32900,7 +32744,7 @@ msgid ""
 "\n"
 "This Duplicant will produce {1} when vomiting."
 msgstr ""
-"當前感染了{2}\n"
+"目前感染了{2}\n"
 "\n"
 "這名複製人在嘔吐時會產生{1}"
 
@@ -33286,7 +33130,7 @@ msgid ""
 "\n"
 "This Duplicant will produce <b>{1}</b> when coughing."
 msgstr ""
-"當前感染了{2}\n"
+"目前感染了{2}\n"
 "\n"
 "這名複製人在咳嗽時會產生<b>{1}</b>"
 
@@ -34889,9 +34733,9 @@ msgid ""
 "\n"
 "Baa-ling!"
 msgstr ""
-"這名複製人當前正閃著光狂奔！\n"
+"這名複製人目前正閃著光狂奔！\n"
 "\n"
-"嗡！"
+"咻！"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.JUICER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.JUICER.NAME"
@@ -36337,7 +36181,7 @@ msgstr "裝飾期望"
 #. STRINGS.DUPLICANTS.NEEDS.DECOR.OBSERVED_DECOR
 msgctxt "STRINGS.DUPLICANTS.NEEDS.DECOR.OBSERVED_DECOR"
 msgid "Current Surroundings"
-msgstr "當前環境"
+msgstr "目前環境"
 
 #. STRINGS.DUPLICANTS.NEEDS.DECOR.PROFESSION_NAME
 msgctxt "STRINGS.DUPLICANTS.NEEDS.DECOR.PROFESSION_NAME"
@@ -37560,7 +37404,7 @@ msgid ""
 msgstr ""
 "如果周圍的<style=\"KKeyword\">裝飾</style>情況低於自己的預期，複製人會感到壓"
 "力\n"
-"打開<b>裝飾概覽</b><b><color=#F44A4A> [F8] </b></color>，即可查看當前<style="
+"打開<b>裝飾概覽</b><b><color=#F44A4A> [F8] </b></color>，即可查看目前<style="
 "\"KKeyword\">裝飾度</style>"
 
 #. STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP_AVERAGE_TODAY
@@ -37570,7 +37414,7 @@ msgid ""
 "Average Decor This Cycle: <b>{0}</b>"
 msgstr ""
 "\n"
-"當前週期的平均裝飾度：<b>{0}</b>"
+"本週期的平均裝飾度：<b>{0}</b>"
 
 #. STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP_AVERAGE_YESTERDAY
 msgctxt "STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP_AVERAGE_YESTERDAY"
@@ -37590,7 +37434,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"當前環境裝飾度：<b>{0}</b>"
+"目前的環境裝飾度：<b>{0}</b>"
 
 #. STRINGS.DUPLICANTS.STATS.DISEASERECOVERYTIME.NAME
 msgctxt "STRINGS.DUPLICANTS.STATS.DISEASERECOVERYTIME.NAME"
@@ -37905,7 +37749,7 @@ msgstr ""
 "\n"
 "壓力變化：<b>{StressModification}</b>\n"
 "\n"
-"當前環境交換：<b>{currentTransferWattage}</b>\n"
+"環境交換：<b>{currentTransferWattage}</b>\n"
 "\n"
 "隔熱厚度：{conductivityBarrier}"
 
@@ -38455,7 +38299,7 @@ msgstr "憋氣"
 #. STRINGS.DUPLICANTS.STATUSITEMS.HOLDINGBREATH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HOLDINGBREATH.TOOLTIP"
 msgid "This Duplicant cannot breathe in their current location"
-msgstr "這名複製人在當前位置無法呼吸"
+msgstr "這名複製人在目前位置無法呼吸"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.HOT.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HOT.NAME"
@@ -38479,7 +38323,7 @@ msgstr ""
 "\n"
 "壓力修正：<b>{StressModification}</b>\n"
 "\n"
-"當前環境交換：<b>{currentTransferWattage}</b>\n"
+"環境交換：<b>{currentTransferWattage}</b>\n"
 "\n"
 "隔熱厚度：{conductivityBarrier}"
 
@@ -43439,8 +43283,9 @@ msgid ""
 "This selection is currently in a <link=\"ELEMENTSLIQUID\">Liquid</link> "
 "state."
 msgstr ""
-"(CO<sub>2</sub>) 二氧化碳是一種不可呼吸的化合物。當前選中的處於<link="
-"\"ELEMENTSLIQUID\">液態</link>。"
+"(CO<sub>2</sub>) 二氧化碳是一種不可呼吸的化合物\n"
+"\n"
+"目前處於<link=\"ELEMENTSLIQUID\">液態</link>"
 
 #. STRINGS.ELEMENTS.LIQUIDCARBONDIOXIDE.NAME
 msgctxt "STRINGS.ELEMENTS.LIQUIDCARBONDIOXIDE.NAME"
@@ -43486,7 +43331,7 @@ msgid ""
 msgstr ""
 "(CH<sub>4</sub>) 甲烷是一種烷烴\n"
 "\n"
-"當前選中的處於<link=\"ELEMENTSLIQUID\">液態</link>"
+"目前處於<link=\"ELEMENTSLIQUID\">液態</link>"
 
 #. STRINGS.ELEMENTS.LIQUIDMETHANE.NAME
 msgctxt "STRINGS.ELEMENTS.LIQUIDMETHANE.NAME"
@@ -43502,7 +43347,7 @@ msgid ""
 msgstr ""
 "(O<sub>2</sub>) 氧氣是一種的可呼吸的化學物質\n"
 "\n"
-"當前選中的處於<link=\"ELEMENTSLIQUID\">液態</link>"
+"目前處於<link=\"ELEMENTSLIQUID\">液態</link>"
 
 #. STRINGS.ELEMENTS.LIQUIDOXYGEN.NAME
 msgctxt "STRINGS.ELEMENTS.LIQUIDOXYGEN.NAME"
@@ -43518,7 +43363,7 @@ msgid ""
 msgstr ""
 "(P) 磷是一種化學元素\n"
 "\n"
-"當前選中的處於<link=\"ELEMENTSLIQUID\">液態</link>"
+"目前處於<link=\"ELEMENTSLIQUID\">液態</link>"
 
 #. STRINGS.ELEMENTS.LIQUIDPHOSPHORUS.NAME
 msgctxt "STRINGS.ELEMENTS.LIQUIDPHOSPHORUS.NAME"
@@ -43554,7 +43399,7 @@ msgstr ""
 "(S) 硫是一種常見的化學元素，通常作為<link=\"METHANE\">天然氣</link>的副產物出"
 "現\n"
 "\n"
-"當前選中的處於<link=\"ELEMENTSLIQUID\">液態</link>"
+"目前處於<link=\"ELEMENTSLIQUID\">液態</link>"
 
 #. STRINGS.ELEMENTS.LIQUIDSULFUR.NAME
 msgctxt "STRINGS.ELEMENTS.LIQUIDSULFUR.NAME"
@@ -44086,7 +43931,7 @@ msgid ""
 msgstr ""
 "(Nb) 鈮是一種<link=\"RAREMATERIALS\">稀有金屬</link>\n"
 "\n"
-"當前選中的處於<link=\"ELEMENTSGAS\">氣態</link>"
+"目前處於<link=\"ELEMENTSGAS\">氣態</link>"
 
 #. STRINGS.ELEMENTS.NIOBIUMGAS.NAME
 msgctxt "STRINGS.ELEMENTS.NIOBIUMGAS.NAME"
@@ -44672,7 +44517,7 @@ msgid ""
 msgstr ""
 "石油是一種<link=\"POWER\">能源</link>\n"
 "\n"
-"當前選中的處於<link=\"ELEMENTSSOLID\">固態</link>"
+"目前處於<link=\"ELEMENTSSOLID\">固態</link>"
 
 #. STRINGS.ELEMENTS.SOLIDPETROLEUM.NAME
 msgctxt "STRINGS.ELEMENTS.SOLIDPETROLEUM.NAME"
@@ -44703,7 +44548,7 @@ msgid ""
 msgstr ""
 "超級冷卻劑是一種工業級<link=\"FULLERENE\">富勒烯</link>冷卻劑\n"
 "\n"
-"當前選中的處於<link=\"ELEMENTSSOLID\">固態</link>"
+"目前處於<link=\"ELEMENTSSOLID\">固態</link>"
 
 #. STRINGS.ELEMENTS.SOLIDSUPERCOOLANT.NAME
 msgctxt "STRINGS.ELEMENTS.SOLIDSUPERCOOLANT.NAME"
@@ -44721,7 +44566,7 @@ msgstr ""
 "<link=\"ELEMENTSLIQUID\">液態</link>的黏性凝膠是一種具有極高表面張力的聚合"
 "物\n"
 "\n"
-"當前選中的處於<link=\"ELEMENTSSOLID\">固態</link>"
+"目前處於<link=\"ELEMENTSSOLID\">固態</link>"
 
 #. STRINGS.ELEMENTS.SOLIDVISCOGEL.NAME
 msgctxt "STRINGS.ELEMENTS.SOLIDVISCOGEL.NAME"
@@ -44862,7 +44707,7 @@ msgid ""
 msgstr ""
 "(S) 硫是<link=\"METHANE\">天然氣</link>生產過程中的常見化學元素和副產品\n"
 "\n"
-"當前選中的處於<link=\"ELEMENTSGAS\">氣態</link>"
+"目前處於<link=\"ELEMENTSGAS\">氣態</link>"
 
 #. STRINGS.ELEMENTS.SULFURGAS.NAME
 msgctxt "STRINGS.ELEMENTS.SULFURGAS.NAME"
@@ -44893,7 +44738,7 @@ msgid ""
 msgstr ""
 "超級冷卻劑是一種工業級<link=\"FULLERENE\">富勒烯</link>冷卻劑\n"
 "\n"
-"當前選中的處於<link=\"ELEMENTSGAS\">氣態</link>"
+"目前處於<link=\"ELEMENTSGAS\">氣態</link>"
 
 #. STRINGS.ELEMENTS.SUPERCOOLANTGAS.NAME
 msgctxt "STRINGS.ELEMENTS.SUPERCOOLANTGAS.NAME"
@@ -45067,7 +44912,7 @@ msgid ""
 msgstr ""
 "(W) 鎢是一種過熱的結晶<link=\"RAWMETAL\">金屬</link>\n"
 "\n"
-"當前選中的處於<link=\"ELEMENTSGAS\">氣態</link>"
+"目前處於<link=\"ELEMENTSGAS\">氣態</link>"
 
 #. STRINGS.ELEMENTS.TUNGSTENGAS.NAME
 msgctxt "STRINGS.ELEMENTS.TUNGSTENGAS.NAME"
@@ -49598,7 +49443,7 @@ msgid ""
 msgstr ""
 "殖民地的<link=\"FOOD\">食物</link>儲備很低：\n"
 "------------------\n"
-"    • 當前有 {0} 可用\n"
+"    • 目前有 {0} 可用\n"
 "    • 每週期需消耗 {1}\n"
 "\n"
 "可以在<b>食物欄</b> <b><color=#F44A4A>[4]</b> </color>建造<link="
@@ -50851,7 +50696,7 @@ msgstr "{Disease}"
 #. STRINGS.MISC.STATUSITEMS.ELEMENTALDISEASE.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.ELEMENTALDISEASE.TOOLTIP"
 msgid "Current disease: {Disease}"
-msgstr "當前疾病：{Disease}"
+msgstr "目前疾病：{Disease}"
 
 #. STRINGS.MISC.STATUSITEMS.ELEMENTALMASS.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.ELEMENTALMASS.NAME"
@@ -50871,7 +50716,7 @@ msgstr "{Temp}"
 #. STRINGS.MISC.STATUSITEMS.ELEMENTALTEMPERATURE.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.ELEMENTALTEMPERATURE.TOOLTIP"
 msgid "The selected object is currently <b>{Temp}</b>"
-msgstr "選中的物體當前為 <b>{Temp}</b>"
+msgstr "選中的物體目前為 <b>{Temp}</b>"
 
 #. STRINGS.MISC.STATUSITEMS.GENETICANALYSISCOMPLETED.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.GENETICANALYSISCOMPLETED.NAME"
@@ -50989,7 +50834,7 @@ msgstr "用於堆肥"
 #. STRINGS.MISC.STATUSITEMS.MARKEDFORCOMPOSTINSTORAGE.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.MARKEDFORCOMPOSTINSTORAGE.TOOLTIP"
 msgid "The selected object is currently in the compost"
-msgstr "選中的物體當前正用於堆肥"
+msgstr "選中的物體正用於堆肥"
 
 #. STRINGS.MISC.STATUSITEMS.MARKEDFORDISINFECTION.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.MARKEDFORDISINFECTION.NAME"
@@ -51033,7 +50878,7 @@ msgstr "使用中"
 #. STRINGS.MISC.STATUSITEMS.OPERATING.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.OPERATING.TOOLTIP"
 msgid "This object is currently being used"
-msgstr "此物體當前正被使用"
+msgstr "此物體正在被使用"
 
 #. STRINGS.MISC.STATUSITEMS.ORDERATTACK.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.ORDERATTACK.NAME"
@@ -51082,7 +50927,7 @@ msgstr "{Temp}"
 #. STRINGS.MISC.STATUSITEMS.ORETEMP.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.ORETEMP.TOOLTIP"
 msgid "The selected object is currently <b>{Temp}</b>"
-msgstr "選中的物體當前為<b>{Temp}</b>"
+msgstr "選中的物體目前為<b>{Temp}</b>"
 
 #. STRINGS.MISC.STATUSITEMS.PENDINGCLEAR.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.PENDINGCLEAR.NAME"
@@ -51343,7 +51188,7 @@ msgstr "使用{Target}"
 #. STRINGS.MISC.STATUSITEMS.USING.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.USING.TOOLTIP"
 msgid "{Target} is currently in use"
-msgstr "{Target}當前正被使用"
+msgstr "{Target}正在被使用"
 
 #. STRINGS.MISC.STATUSITEMS.WAITINGFORDIG.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.WAITINGFORDIG.NAME"
@@ -59627,12 +59472,9 @@ msgid "The total engine power added by all the modules in this rocket"
 msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.RANGE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.TIMEREMAINING"
-#| msgid "Time Remaining"
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.RANGE.NAME"
 msgid "Range Remaining: "
-msgstr "剩餘時間"
+msgstr "剩餘範圍："
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.RANGE.TOOLTIP
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.RANGE.TOOLTIP"
@@ -59643,12 +59485,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.SPEED.NAME
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.ROOT.CYCLESPEED"
-#| msgid "Cycle Speed"
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.SPEED.NAME"
 msgid "Rocket Speed: "
-msgstr "週期速度"
+msgstr "火箭速度："
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.SPEED.TOOLTIP
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.SPEED.TOOLTIP"
@@ -59658,33 +59497,21 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.SELECT_DESTINATION
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.NOTSELECTED"
-#| msgid "Select a destination from the Starmap"
 msgctxt "STRINGS.UI.CLUSTERMAP.SELECT_DESTINATION"
 msgid "Select a new destination on the map"
 msgstr "從星圖中選擇一個目的地"
 
 #. STRINGS.UI.CLUSTERMAP.TILES
-#, fuzzy
-#| msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TILES.BUILDMENUTITLE"
-#| msgid "Tiles"
 msgctxt "STRINGS.UI.CLUSTERMAP.TILES"
 msgid "Tiles"
 msgstr "磚塊"
 
 #. STRINGS.UI.CLUSTERMAP.TILES_PER_CYCLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.ELEMENTAL.UPTIME.THIS_CYCLE"
-#| msgid "This Cycle"
 msgctxt "STRINGS.UI.CLUSTERMAP.TILES_PER_CYCLE"
 msgid "Tiles per cycle"
-msgstr "這週期"
+msgstr "格／每週期"
 
 #. STRINGS.UI.CLUSTERMAP.TITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.MANAGEMENT_BUTTON"
-#| msgid "STARMAP"
 msgctxt "STRINGS.UI.CLUSTERMAP.TITLE"
 msgid "STARMAP"
 msgstr "星圖"
@@ -59720,17 +59547,11 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.TOOLTIP_INVALID_DESTINATION_REQUIRE_ASTEROID
-#, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ENABLESDOMESTICGROWTH"
-#| msgid "Accelerates <style=\"KKeyword\">Plant</style> growth and maturation"
 msgctxt "STRINGS.UI.CLUSTERMAP.TOOLTIP_INVALID_DESTINATION_REQUIRE_ASTEROID"
 msgid "Must select a <style=\"KKeyword\">Planetoid</style> destination"
-msgstr "加速<style=\"KKeyword\">植物</style>生長和成熟"
+msgstr "必須選擇一顆<style=\"KKeyword\">星球</style> 作為目的地"
 
 #. STRINGS.UI.CLUSTERMAP.UNKNOWN_DESTINATION
-#, fuzzy
-#| msgctxt "STRINGS.UI.ELEMENTAL.AGE.UNKNOWN"
-#| msgid "Unknown"
 msgctxt "STRINGS.UI.CLUSTERMAP.UNKNOWN_DESTINATION"
 msgid "Unknown"
 msgstr "未知"
@@ -59759,12 +59580,9 @@ msgstr ""
 "{0}"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.BIOMES
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.LIME.NAME"
-#| msgid "<link=\"LIME\">Lime</link>"
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.BIOMES"
 msgid "<link=\"BIOMES\">Biomes</link>"
-msgstr "<link=\"LIME\">石灰</link>"
+msgstr "<link=\"BIOMES\">生態</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.BUILDINGS
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.BUILDINGS"
@@ -59837,20 +59655,14 @@ msgid "<link=\"JOURNALS\">Journals</link>"
 msgstr "<link=\"JOURNALS\">日誌</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.MISCELLANEOUSITEMS
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.SYSTEMS"
-#| msgid "<link=\"SYSTEMS\">Systems</link>"
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.MISCELLANEOUSITEMS"
 msgid "<link=\"MISCELLANEOUSITEMS\">Items</link>"
-msgstr "<link=\"SYSTEMS\">系統</link>"
+msgstr "<link=\"MISCELLANEOUSITEMS\">物品</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.MISCELLANEOUSTIPS
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.MISCELLANEOUSTIPS"
-#| msgid "<link=\"MISCELLANEOUSTIPS\">Miscellaneous Tips</link>"
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.MISCELLANEOUSTIPS"
 msgid "<link=\"MISCELLANEOUSTIPS\">Tips</link>"
-msgstr "<link=\"MISCELLANEOUSTIPS\">其他提示</link>"
+msgstr "<link=\"MISCELLANEOUSTIPS\">提示</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.MYLOG
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.MYLOG"
@@ -59975,20 +59787,6 @@ msgid "Systems"
 msgstr "系統"
 
 #. STRINGS.UI.CODEX.GEYSERS.DESC
-#, fuzzy
-#| msgctxt "STRINGS.UI.CODEX.GEYSERS.DESC"
-#| msgid ""
-#| "Geysers and Fumaroles emit elements at variable intervals.They provide a "
-#| "sustainable, though usually low volume, source of material.\n"
-#| "\n"
-#| "The variable factors of a geyser are:\n"
-#| "\n"
-#| "    • Emission element \n"
-#| "    • Emission temperature \n"
-#| "    • Emission mass \n"
-#| "    • Cycle length \n"
-#| "    • Dormancy duration \n"
-#| "    • Disease emitted"
 msgctxt "STRINGS.UI.CODEX.GEYSERS.DESC"
 msgid ""
 "Geysers and Fumaroles emit elements at variable intervals. They provide a "
@@ -60010,7 +59808,7 @@ msgstr ""
 "    • 排放元素 \n"
 "    • 排放溫度 \n"
 "    • 排放質量 \n"
-"    • 週期時間 \n"
+"    • 週期長度 \n"
 "    • 休眠時間 \n"
 "    • 排出病菌"
 
@@ -60050,36 +59848,24 @@ msgid "DATABASE"
 msgstr "資料庫"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.BUILDING_CHORES.NAME"
-#| msgid "Errands"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.ALL_NAME"
 msgid "Errands"
 msgstr "任務"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.NORMAL
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.GROWTH_FORMAT"
-#| msgid "    • {0}"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.NORMAL"
 msgid "    • {0} total errands"
-msgstr "    • {0}"
+msgstr "    • 總共 {0} 個任務"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.REFUSES_TO_DO_TASK"
-#| msgid "Cannot do<b>{0} Errands</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLCHORESDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Errands</b>"
-msgstr "不能執行<b>{0}任務</b>"
+msgstr "<b>任務</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.WORK_TIME.NAME"
-#| msgid "Work Time:"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.ALL_NAME"
 msgid "Work Time"
-msgstr "工作時間："
+msgstr "工作時間"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.NORMAL"
@@ -60087,28 +59873,19 @@ msgid "    • {0} time spent working"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.WORK_TIME.NAME"
-#| msgid "Work Time:"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ALLWORKTIMEDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Work Time</b>"
-msgstr "工作時間："
+msgstr "<b>工作時間</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.INTERNALBATTERY"
-#| msgid "Battery"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.ALL_NAME"
 msgid "Battery"
-msgstr "低電量"
+msgstr "電池"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.DEAD_BATTERY
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.DRYINGOUT.NAME"
-#| msgid "    • Beached"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.DEAD_BATTERY"
 msgid "    • Dead battery"
-msgstr "    • 擱淺"
+msgstr "    • 耗盡電池"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.LIMITED_CAPACITY
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.LIMITED_CAPACITY"
@@ -60121,28 +59898,19 @@ msgid "    • No Batteries built"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.NORMAL
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.DRYINGOUT.NAME"
-#| msgid "    • Beached"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.NORMAL"
 msgid "    • Battery"
-msgstr "    • 擱淺"
+msgstr "    • 電池"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.NAME"
-#| msgid "<b>Name:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Battery</b>"
-msgstr "<b>名稱：</b>"
+msgstr "<b>電池</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.BED_MULTIPLE.NAME"
-#| msgid "Beds"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.ALL_NAME"
 msgid "Beds"
-msgstr "床鋪"
+msgstr "床"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.MISSING_ASSIGNMENT
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.MISSING_ASSIGNMENT"
@@ -60160,20 +59928,14 @@ msgid "    • One or more Duplicants are missing a bed"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.NAME"
-#| msgid "<b>Name:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Beds</b>"
-msgstr "<b>名稱：</b>"
+msgstr "<b>床</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.LEGEND2"
-#| msgid "Breathable"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.ALL_NAME"
 msgid "Breathability"
-msgstr "可以呼吸"
+msgstr "可呼吸度"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.NORMAL"
@@ -60191,25 +59953,16 @@ msgid "    • One or more Duplicants are currently suffocating"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SKILLS_SCREEN.MORALE"
-#| msgid "<b>Morale</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Breathability</b>"
-msgstr "<b>當前士氣</b>"
+msgstr "<b>可呼吸度</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.CHOREGROUPDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.BUILDING_CHORES.NAME"
-#| msgid "Errands"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.CHOREGROUPDIAGNOSTIC.ALL_NAME"
 msgid "Errands"
 msgstr "任務"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.DECORSYSTEM.HEADER_1"
-#| msgid "Decor"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.ALL_NAME"
 msgid "Decor"
 msgstr "裝飾度"
@@ -60225,20 +59978,14 @@ msgid "    • Currently has adequate Decor levels"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SKILLS_SCREEN.MORALE"
-#| msgid "<b>Morale</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Decor</b>"
-msgstr "<b>當前士氣</b>"
+msgstr "<b>裝飾度</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ENTOMBED.NAME"
-#| msgid "Entombed"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.ALL_NAME"
 msgid "Entombed"
-msgstr "已被掩埋"
+msgstr "掩埋"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.BUILDING_ENTOMBED
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.BUILDING_ENTOMBED"
@@ -60246,20 +59993,14 @@ msgid "    • One or more buildings are entombed"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.NORMAL
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.ENTOMBED.LINE_ITEM"
-#| msgid "    • Entombed"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.NORMAL"
 msgid "    • No buildings are entombed"
-msgstr "    • 掩埋"
+msgstr "    • 沒有建築被掩埋"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ENTOMBED.NAME"
-#| msgid "Entombed"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Entombed</b>"
-msgstr "已被掩埋"
+msgstr "<b>掩埋</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.ALL_NAME
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.ALL_NAME"
@@ -60267,29 +60008,19 @@ msgid "Crops"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.INOPERATIONAL
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.RECEPTACLEINOPERATIONAL.NAME"
-#| msgid "    • Farm plot inoperable"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.INOPERATIONAL"
 msgid "    • One or more farm plots are inoperable"
-msgstr "    • 農地不可耕種"
+msgstr "    • 一塊以上之農地無法耕種"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NONE
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.CONSUMED"
-#| msgid "There are no charges left in this Vacillator."
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NONE"
 msgid "    • There are no farm plots in the colony"
-msgstr "這台振盪器沒電了"
+msgstr "    • 殖民地中沒有農地"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NONE_PLANTED
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.SUBSTRATE.NEUTRAL"
-#| msgid "    • No change on {0}"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NONE_PLANTED"
 msgid "    • No crops planted"
-msgstr "    • 在{0}上沒有改變"
+msgstr "    • 沒有已種植的作物"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.NORMAL"
@@ -60297,12 +60028,9 @@ msgid "    • Colony is growing adequate crops"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIP"
-#| msgid "<b>Tooltip:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Crops</b>"
-msgstr "<b>懸停提示：</b>"
+msgstr "<b>作物</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.WILTING
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.WILTING"
@@ -60310,12 +60038,9 @@ msgid "    • One or more crops are wilting"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.NAME"
-#| msgid "Status"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.ALL_NAME"
 msgid "Flight Status"
-msgstr "狀態"
+msgstr "航行狀態"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.NORMAL_FLIGHT
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.NORMAL_FLIGHT"
@@ -60323,20 +60048,14 @@ msgid "    • Rocket is on its way to destination"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.NORMAL_LANDED
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.CANTACCEPTFERTILIZER.NAME"
-#| msgid "    • Fertilization"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.NORMAL_LANDED"
 msgid "    • Rocket is landed"
-msgstr "    • 施肥"
+msgstr "    • 火箭已著陸"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.HIGHEST_EXPECTATIONS_TIER"
-#| msgid "<b>Highest Expectations</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Flight Status</b>"
-msgstr "<b>最高期望</b>"
+msgstr "<b>航行狀態</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.WARNING_NO_DESTINATION
 msgctxt ""
@@ -60351,9 +60070,6 @@ msgid "    • Rocket not progressing towards destination"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TREES.TITLE_FOOD"
-#| msgid "Food"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.ALL_NAME"
 msgid "Food"
 msgstr "食物"
@@ -60379,28 +60095,19 @@ msgid "    • Adequate food supply"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.ZOOM"
-#| msgid "<b>Zoom:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Food</b>"
-msgstr "<b>視角縮放：</b>"
+msgstr "<b>食物</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.HEATDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.INTERNALBATTERY"
-#| msgid "Battery"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.HEATDIAGNOSTIC.ALL_NAME"
 msgid "Battery"
-msgstr "低電量"
+msgstr "電池"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.TYPE.PATHOGEN"
-#| msgid "Illness"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.ALL_NAME"
 msgid "Idleness"
-msgstr "疾病"
+msgstr "閒置"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.IDLE
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.IDLE"
@@ -60413,12 +60120,9 @@ msgid "    • All Duplicants currently have tasks"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.COST"
-#| msgid "<b>Ingredients:</b>\n"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Idleness</b>"
-msgstr "<b>原料：</b>\n"
+msgstr "<b>閒置</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.MUTE_TUTORIAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.MUTE_TUTORIAL"
@@ -60432,21 +60136,15 @@ msgid "    • Not enough data for evaluation"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.NO_DATA_SHORT
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.ENTOMBED.LINE_ITEM"
-#| msgid "    • Entombed"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.NO_DATA_SHORT"
 msgid "    • No data"
-msgstr "    • 掩埋"
+msgstr "    • 無資料"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.NO_MINIONS
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.COOK.TOOLTIP"
-#| msgid "This Duplicant is cooking <style=\"KKeyword\">Food</style>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.NO_MINIONS"
 msgid ""
 "    • There are no Duplicants on this <style=\"KKeyword\">Planetoid</style>"
-msgstr "這名複製人正在烹飪<style=\"KKeyword\">食物</style>"
+msgstr "    • 沒有複製人在這顆<style=\"KKeyword\">星球</style>上"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.NO_MINIONS_REQUESTED
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.NO_MINIONS_REQUESTED"
@@ -60456,12 +60154,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TREES.TITLE_POWER"
-#| msgid "Power"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.ALL_NAME"
 msgid "Avg Power"
-msgstr "電力"
+msgstr "平均電力"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.NORMAL"
@@ -60474,36 +60169,24 @@ msgid "    • One or more power grids are damaged"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SKILLS_SCREEN.MORALE"
-#| msgid "<b>Morale</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Avg Power</b>"
-msgstr "<b>當前士氣</b>"
+msgstr "<b>平均電力</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.ROCKET"
-#| msgid "Rocket"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.ALL_NAME"
 msgid "Rocket Fuel"
-msgstr "火箭"
+msgstr "火箭有燃料"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.NORMAL
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.ATMOSPHERICPRESSURETOOHIGH.NAME"
-#| msgid "    • Pressure"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.NORMAL"
 msgid "    • Rocket has fuel"
-msgstr "    • 氣壓"
+msgstr "    • 火箭有燃料"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.EFFECTS_HEADER"
-#| msgid "<b>Resource Effects:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Rocket Fuel</b>"
-msgstr "<b>資源效果：</b>"
+msgstr "<b>火箭燃料</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.WARNING
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETFUELDIAGNOSTIC.WARNING"
@@ -60511,12 +60194,9 @@ msgid "    • Rocket has no fuel"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.LISTTITLES.OXIDIZER"
-#| msgid "Oxidizer"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.ALL_NAME"
 msgid "Rocket Oxidizer"
-msgstr "氧化劑"
+msgstr "火箭氧化劑"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.NORMAL"
@@ -60529,20 +60209,14 @@ msgid "<b>Rocket Oxidizer</b>"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.NAME"
-#| msgid "Insufficient Power"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.WARNING"
 msgid "    • Insufficient oxidizer"
-msgstr "電力不足"
+msgstr "    • 氧化劑不足"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.STRESS.HEADER_1"
-#| msgid "Stress"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.ALL_NAME"
 msgid "Max Stress"
-msgstr "壓力"
+msgstr "最大壓力"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.HIGH_STRESS
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.HIGH_STRESS"
@@ -60555,17 +60229,11 @@ msgid "    • All Duplicants currently have manageable stress levels"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.TABLESCREENS.COLUMN_SORT_BY_STRESS"
-#| msgid "Sort by <b>Stress</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Max Stress</b>"
-msgstr "按<b>壓力</b>排序"
+msgstr "<b>最大壓力</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.TOILET"
-#| msgid "Toilet"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.ALL_NAME"
 msgid "Toilets"
 msgstr "廁所"
@@ -60596,74 +60264,46 @@ msgid "    • Currently has an adequate amount of toilets"
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIP"
-#| msgid "<b>Tooltip:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Toilets</b>"
-msgstr "<b>懸停提示：</b>"
+msgstr "<b>廁所</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.TRAPPED.NAME"
-#| msgid "Trapped"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.ALL_NAME"
 msgid "Trapped"
-msgstr "被困"
+msgstr "受困"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.NORMAL
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ENTOMBEDCHORE.NOTIFICATION_TOOLTIP"
-#| msgid "These Duplicants are trapped:"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.NORMAL"
 msgid "    • No Duplicants are currently trapped"
-msgstr "這些複製人被困住了："
+msgstr "    • 目前沒有複製人受困"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.STUCK
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ENTOMBEDCHORE.NOTIFICATION_TOOLTIP"
-#| msgid "These Duplicants are trapped:"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.STUCK"
 msgid "    • One or more Duplicants are trapped"
-msgstr "這些複製人被困住了："
+msgstr "    • 有一名以上的複製人受困了"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TYPE"
-#| msgid "<b>Type:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Trapped</b>"
-msgstr "<b>類型：</b>"
+msgstr "<b>受困</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.NAME"
-#| msgid "Travel Time:"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.ALL_NAME"
 msgid "Travel Time"
-msgstr "步行時間："
+msgstr "步行時間"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.NORMAL
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.POSITIVE_TOOLTIP"
-#| msgid ""
-#| "On average, my Duplicants spent {0} of their time traveling between tasks"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.NORMAL"
 msgid "    • {0} time spent traveling between tasks"
-msgstr "我的複製人平均花費{0}的時間來往任務之間"
+msgstr "    • 花費了 {0} 的時間在來往任務之間"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.TOOLTIP_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.NAME"
-#| msgid "Travel Time:"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAVEL_TIME.TOOLTIP_NAME"
 msgid "<b>Travel Time</b>"
-msgstr "步行時間："
+msgstr "<b>步行時間</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.WORKTIMEDIAGNOSTIC.ALL_NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.BUILDING_CHORES.NAME"
-#| msgid "Errands"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.WORKTIMEDIAGNOSTIC.ALL_NAME"
 msgid "Errands"
 msgstr "任務"
@@ -60824,12 +60464,9 @@ msgid "Copy"
 msgstr "複製"
 
 #. STRINGS.UI.COPY_BUILDING_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.COPY_BUILDING_TOOLTIP"
-#| msgid "Create new build orders for the selected building. {Hotkey}"
 msgctxt "STRINGS.UI.COPY_BUILDING_TOOLTIP"
 msgid "Create new build orders based off the selected building. {Hotkey}"
-msgstr "為選中的建築建立新的建造命令 {Hotkey}"
+msgstr "為選中的建築指派新的命令 {Hotkey}"
 
 #. STRINGS.UI.CRAFT
 msgctxt "STRINGS.UI.CRAFT"
@@ -60969,12 +60606,9 @@ msgid "CREDITS"
 msgstr "製作人員"
 
 #. STRINGS.UI.DEBUG_TOOLS.DEBUG_ACTIVE
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGPLACE"
-#| msgid "Debug Place"
 msgctxt "STRINGS.UI.DEBUG_TOOLS.DEBUG_ACTIVE"
 msgid "Debug tools active"
-msgstr "調試放置"
+msgstr "啟用調試工具"
 
 #. STRINGS.UI.DEBUG_TOOLS.ENTER_TEXT
 msgctxt "STRINGS.UI.DEBUG_TOOLS.ENTER_TEXT"
@@ -61098,15 +60732,10 @@ msgid "Average cell mass: {0}"
 msgstr "平均格子質量：{0}"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.AVERAGE_RADS
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL."
-#| "AVERAGE_MASS"
-#| msgid "Average cell mass: {0}"
 msgctxt ""
 "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.AVERAGE_RADS"
 msgid "Average rads: {0}"
-msgstr "平均格子質量：{0}"
+msgstr "平均輻射：{0}"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.AVERAGE_TEMPERATURE
 msgctxt ""
@@ -61135,14 +60764,10 @@ msgid "Total mass: {0}"
 msgstr "總質量：{0}"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.TOTAL_RADS
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.TOTAL_MASS"
-#| msgid "Total mass: {0}"
 msgctxt ""
 "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.TOTAL_RADS"
 msgid "Total rads: {0}"
-msgstr "總質量：{0}"
+msgstr "總輻射：{0}"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.TITLE
 msgctxt "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.TITLE"
@@ -61202,14 +60827,14 @@ msgstr "任務類型：{0}"
 #. STRINGS.UI.DETAILTABS.BUILDING_CHORES.DUPE_TOOLTIP_DESC_ACTIVE
 msgctxt "STRINGS.UI.DETAILTABS.BUILDING_CHORES.DUPE_TOOLTIP_DESC_ACTIVE"
 msgid "{Name} is currently busy: \"{Errand}\""
-msgstr "{Name}當前正在從事：\"{Errand}\""
+msgstr "{Name}正在從事：「{Errand}」"
 
 #. STRINGS.UI.DETAILTABS.BUILDING_CHORES.DUPE_TOOLTIP_DESC_INACTIVE
 msgctxt "STRINGS.UI.DETAILTABS.BUILDING_CHORES.DUPE_TOOLTIP_DESC_INACTIVE"
 msgid ""
 "\"{Errand}\" is #{Rank} on {Name}'s To Do list, after they finish their "
 "current errand"
-msgstr "在{Name}完成當前任務後，\"{Errand}\"是其任務清單上的第#{Rank}項"
+msgstr "在{Name}完成目前任務後，「{Errand}」是其任務清單上的第 #{Rank} 項"
 
 #. STRINGS.UI.DETAILTABS.BUILDING_CHORES.DUPE_TOOLTIP_FAILED
 msgctxt "STRINGS.UI.DETAILTABS.BUILDING_CHORES.DUPE_TOOLTIP_FAILED"
@@ -61219,7 +60844,7 @@ msgid ""
 "Reason:\n"
 "{FailedPrecondition}"
 msgstr ""
-"{Name}當前無法執行{Errand}\n"
+"{Name}無法執行{Errand}\n"
 "\n"
 "原因：\n"
 "{FailedPrecondition}"
@@ -61255,7 +60880,7 @@ msgstr "任務"
 #. STRINGS.UI.DETAILTABS.BUILDING_CHORES.TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.BUILDING_CHORES.TOOLTIP"
 msgid "See what errands this building can perform and view its current queue"
-msgstr "查看這個建築能執行什麼任務和當前的任務隊列"
+msgstr "查看這個建築能執行什麼任務以及目前的任務隊列"
 
 #. STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_DISEASED
 msgctxt "STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_DISEASED"
@@ -61366,14 +60991,6 @@ msgid "    • <b>Dying off: {0}</b>"
 msgstr "    • <b>死亡：{0}</b>"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.DYING_OFF.TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.DYING_OFF.TOOLTIP"
-#| msgid ""
-#| "Low germ count in this area is causing germs to die rapidly\n"
-#| "\n"
-#| "Fewer than {0} germs are on this {1} of material.\n"
-#| "({2} germs/Kg)"
 msgctxt ""
 "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.DYING_OFF.TOOLTIP"
 msgid ""
@@ -61447,15 +61064,6 @@ msgid "    • <b>Overpopulated: {0}</b>"
 msgstr "    • <b>過剩： {0}</b>"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.OVERPOPULATED.TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.OVERPOPULATED.TOOLTIP"
-#| msgid ""
-#| "Too many germs are present in this area, resulting in rapid die-off until "
-#| "the population stabilizes\n"
-#| "\n"
-#| "A maximum of {0} can be on this {1} of material.\n"
-#| "({2} germs/Kg)"
 msgctxt ""
 "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.OVERPOPULATED.TOOLTIP"
 msgid ""
@@ -61485,7 +61093,7 @@ msgstr "氣壓正導致病菌繁殖"
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.PRESSURE.TITLE
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.PRESSURE.TITLE"
 msgid "    • Current pressure {0}: {1}"
-msgstr "   • 當前壓力{0}：{1}"
+msgstr "   • 目前壓力{0}：{1}"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.RATE_OF_CHANGE
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.RATE_OF_CHANGE"
@@ -61549,7 +61157,7 @@ msgstr "這個溫度會導致病菌繁殖"
 msgctxt ""
 "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.TEMPERATURE.TITLE"
 msgid "    • Current temperature {0}: {1}"
-msgstr "    • 當前溫度{0}：{1}"
+msgstr "    • 目前溫度{0}：{1}"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.TITLE
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.GROWTH_FACTORS.TITLE"
@@ -61719,9 +61327,6 @@ msgid "POWER GENERATORS"
 msgstr "發電機"
 
 #. STRINGS.UI.DETAILTABS.ENERGYGENERATOR.MAX_SAFE_WATTAGE
-#, fuzzy
-#| msgctxt "STRINGS.UI.DETAILTABS.ENERGYGENERATOR.MAX_SAFE_WATTAGE"
-#| msgid "Maximum Safe Wattage: {0}"
 msgctxt "STRINGS.UI.DETAILTABS.ENERGYGENERATOR.MAX_SAFE_WATTAGE"
 msgid "Maximum safe wattage: {0}"
 msgstr "最大安全功率：{0}"
@@ -61804,12 +61409,12 @@ msgstr "查看這條電線的網絡"
 #. STRINGS.UI.DETAILTABS.NEEDS.CURRENT_NEED_LEVEL
 msgctxt "STRINGS.UI.DETAILTABS.NEEDS.CURRENT_NEED_LEVEL"
 msgid "Current Level: {0}"
-msgstr "當前等級：{0}"
+msgstr "目前等級：{0}"
 
 #. STRINGS.UI.DETAILTABS.NEEDS.CURRENT_STRESS_LEVEL
 msgctxt "STRINGS.UI.DETAILTABS.NEEDS.CURRENT_STRESS_LEVEL"
 msgid "Current <link=\"STRESS\">Stress</link> Level: {0}"
-msgstr "當前<link=\"STRESS\">壓力</link>等級：{0}"
+msgstr "目前<link=\"STRESS\">壓力</link>等級：{0}"
 
 #. STRINGS.UI.DETAILTABS.NEEDS.NAME
 msgctxt "STRINGS.UI.DETAILTABS.NEEDS.NAME"
@@ -61920,7 +61525,7 @@ msgstr "{0}喜歡以下類型的工作"
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.CURRENT_ROLE.NAME
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.CURRENT_ROLE.NAME"
 msgid "<size=13><b>Current Job:</b> {0}</size>"
-msgstr "<size=13><b>當前工作：</b>{0}</size>"
+msgstr "<size=13><b>目前工作：</b>{0}</size>"
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.CURRENT_ROLE.NOJOB_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.CURRENT_ROLE.NOJOB_TOOLTIP"
@@ -61988,9 +61593,6 @@ msgid "View this Duplicant's personality, resume, and amenities"
 msgstr "查看這名複製人的特徵、職位和分配的設備"
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ALL
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS"
-#| msgid "Requirements"
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ALL"
 msgid "Requirements"
 msgstr "需求"
@@ -62006,12 +61608,9 @@ msgid "CHECKLIST"
 msgstr ""
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY"
-#| msgid "Rocket Checklist"
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD"
 msgid "Crew Checklist"
-msgstr "火箭檢查表"
+msgstr "成員檢查表"
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD_TOOLTIP"
@@ -62021,12 +61620,9 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETFLIGHT
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.LIGHT.NAME"
-#| msgid "Light source"
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETFLIGHT"
 msgid "Flight Route"
-msgstr "光源"
+msgstr "航行路線"
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETFLIGHT_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETFLIGHT_TOOLTIP"
@@ -62035,9 +61631,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETPREP
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.LISTTITLES.LAUNCHCHECKLIST"
-#| msgid "Launch Checklist"
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETPREP"
 msgid "Launch Checklist"
 msgstr "發射檢查表"
@@ -62065,9 +61658,6 @@ msgid "INFORMATION"
 msgstr "訊息"
 
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_ELEMENTS
-#, fuzzy
-#| msgctxt "STRINGS.UI.RESOURCESCREEN.HEADER"
-#| msgid "RESOURCES"
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_ELEMENTS"
 msgid "RESOURCES"
 msgstr "資源"
@@ -62103,12 +61693,9 @@ msgid "RESEARCH"
 msgstr "研究"
 
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_ROCKET
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.NO_ROCKETS_TITLE"
-#| msgid "NO ROCKETS"
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_ROCKET"
 msgid "ROCKETRY"
-msgstr "無火箭"
+msgstr "火箭"
 
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_STATUS
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_STATUS"
@@ -62121,17 +61708,14 @@ msgid "Status"
 msgstr "狀態"
 
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.NO_GEYSERS
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.VERSION_UPDATE"
-#| msgid "New version detected"
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.NO_GEYSERS"
 msgid "No geysers detected"
-msgstr "檢測到新版本"
+msgstr "未檢測到噴泉"
 
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.TOOLTIP"
 msgid "View the current status of the selected object"
-msgstr "查看所選物體的當前狀態"
+msgstr "查看所選物體之狀態"
 
 #. STRINGS.UI.DETAILTABS.STATS.GROUPNAME_ATTRIBUTES
 msgctxt "STRINGS.UI.DETAILTABS.STATS.GROUPNAME_ATTRIBUTES"
@@ -62552,7 +62136,7 @@ msgstr "溫度：{0}"
 #. STRINGS.UI.ELEMENTAL.TEMPERATURE.TOOLTIP
 msgctxt "STRINGS.UI.ELEMENTAL.TEMPERATURE.TOOLTIP"
 msgid "The selected object's current temperature is {0}"
-msgstr "所選對象的當前溫度為 {0}"
+msgstr "所選對象的溫度為 {0}"
 
 #. STRINGS.UI.ELEMENTAL.THERMALCONDUCTIVITY.ADJECTIVES.HIGH_CONDUCTIVITY
 msgctxt "STRINGS.UI.ELEMENTAL.THERMALCONDUCTIVITY.ADJECTIVES.HIGH_CONDUCTIVITY"
@@ -62676,28 +62260,18 @@ msgid "Calorie Generation:"
 msgstr "熱量變化："
 
 #. STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony consumed {0} of <link=\"FOOD\">Food</link> over the course of "
-#| "the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NEGATIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"FOOD\">Food</link> was consumed by {1} over the course of the "
 "day"
-msgstr "我的殖民地在一天中消耗了 {0} 的<link=\"FOOD\">食物</link>"
+msgstr "{1}在一天中消耗了{0}的<link=\"FOOD\">食物</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.POSITIVE_TOOLTIP"
-#| msgid ""
-#| "My colony produced {0} of <link=\"FOOD\">Food</link> over the course of "
-#| "the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.POSITIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"FOOD\">Food</link> was produced by {1} over the course of the "
 "day"
-msgstr "我的殖民地在一天中生產了 {0} 的<link=\"FOOD\">食物</link>"
+msgstr "{1}在一天中生產了 {0} 的<link=\"FOOD\">食物</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NAME"
@@ -62705,21 +62279,14 @@ msgid "Errands:"
 msgstr "任務："
 
 #. STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NEGATIVE_TOOLTIP"
-#| msgid "My Duplicants completed {0} errands over the course of the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NEGATIVE_TOOLTIP"
 msgid "{0} errands were completed over the course of the day by {1}"
-msgstr "我的複製人在一天中完成了 {0} 件任務"
+msgstr "{1}在一天中完成了 {0} 件任務"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CHORES_OF_TYPE"
-#| msgid "{2} errands: {0} / {1}"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.POSITIVE_TOOLTIP"
 msgid "{0} errands are queued for {1}"
-msgstr "{2} 任務：{0} / {1}"
+msgstr "{1}的 {0} 個任务已安排"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NAME"
@@ -62727,34 +62294,20 @@ msgid "<link=\"CONTAMINATEDOXYGEN\">Flatulence</link> Generation:"
 msgstr "<link=\"CONTAMINATEDOXYGEN\">脹氣</link>生成量："
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
-#| "link> over the course of the day"
 msgctxt ""
 "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was consumed by "
 "{1} over the course of the day"
-msgstr ""
-"我的殖民地在一天中消耗了 {0} 的<link=\"CONTAMINATEDOXYGEN\">汙染氧</link>"
+msgstr "{1}在一天中消耗了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
-#| "link> over the course of the day"
 msgctxt ""
 "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.POSITIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was generated by "
 "{1} over the course of the day"
-msgstr ""
-"我的殖民地在一天中消耗了 {0} 的<link=\"CONTAMINATEDOXYGEN\">汙染氧</link>"
+msgstr "{1}在一天中產生了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME"
@@ -62762,34 +62315,20 @@ msgid "<link=\"CONTAMINATEDOXYGEN\">Sublimation</link>:"
 msgstr "<link=\"CONTAMINATEDOXYGEN\">昇華</link>："
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
-#| "link> over the course of the day"
 msgctxt ""
 "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NEGATIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was consumed by "
 "{1} over the course of the day"
-msgstr ""
-"我的殖民地在一天中消耗了 {0} 的<link=\"CONTAMINATEDOXYGEN\">汙染氧</link>"
+msgstr "{1}在一天中消耗了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
-#| "link> over the course of the day"
 msgctxt ""
 "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.POSITIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was generated by "
 "{1} over the course of the day"
-msgstr ""
-"我的殖民地在一天中消耗了 {0} 的<link=\"CONTAMINATEDOXYGEN\">汙染氧</link>"
+msgstr "{1}在一天中產生了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME"
@@ -62797,32 +62336,18 @@ msgid "<link=\"CONTAMINATEDOXYGEN\">Toilet Emissions: </link>"
 msgstr "<link=\"CONTAMINATEDOXYGEN\">廁所排放：</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
-#| "link> over the course of the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was consumed by "
 "{1} over the course of the day"
-msgstr ""
-"我的殖民地在一天中消耗了 {0} 的<link=\"CONTAMINATEDOXYGEN\">汙染氧</link>"
+msgstr "{1}在一天中消耗了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
-#| "link> over the course of the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.POSITIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was generated by "
 "{1} over the course of the day"
-msgstr ""
-"我的殖民地在一天中消耗了 {0} 的<link=\"CONTAMINATEDOXYGEN\">汙染氧</link>"
+msgstr "{1}在一天中產生了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DAY_TITLE
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DAY_TITLE"
@@ -62845,20 +62370,14 @@ msgid "<link=\"DISEASE\">Diseases</link> Contracted:"
 msgstr "<link=\"DISEASE\">疾病</link>感染："
 
 #. STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.NAME"
-#| msgid "<link=\"DISEASE\">Diseases</link> Contracted:"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.NEGATIVE_TOOLTIP"
 msgid "{0} <link=\"DISEASE\">Disease</link> were cured by {1}"
-msgstr "<link=\"DISEASE\">疾病</link>感染："
+msgstr "{1}治癒了 {0} 個疾病"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.NAME"
-#| msgid "<link=\"DISEASE\">Diseases</link> Contracted:"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.POSITIVE_TOOLTIP"
 msgid "{0} <link=\"DISEASE\">Disease</link> were contracted by {1}"
-msgstr "<link=\"DISEASE\">疾病</link>感染："
+msgstr "{1}患了 {0} 個<link=\"DISEASE\">疾病</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.NAME"
@@ -62866,12 +62385,9 @@ msgid "Disease Status:"
 msgstr "疾病狀態："
 
 #. STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.TEMPERATURE_RANGE"
-#| msgid "Temperature range: {0} to {1}"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.TOOLTIP"
 msgid "There are {0} covering {1}"
-msgstr "溫度範圍：{0} 到 {1}"
+msgstr "在{1}覆有{0}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DUPLICANT_DETAILS_HEADER
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DUPLICANT_DETAILS_HEADER"
@@ -62884,28 +62400,18 @@ msgid "<link=\"POWER\">Power</link> Usage:"
 msgstr "<link=\"POWER\">電力</link>使用："
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.POSITIVE_TOOLTIP"
-#| msgid ""
-#| "My colony created {0} of <link=\"POWER\">Power</link> over the course of "
-#| "the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NEGATIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"POWER\">Power</link> was consumed by {1} over the course of "
 "the day"
-msgstr "我的殖民地在一天中生產了 {0} 的<link=\"POWER\">電力</link>"
+msgstr "{1}在一天中消耗了 {0} 的<link=\"POWER\">電力</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.POSITIVE_TOOLTIP"
-#| msgid ""
-#| "My colony created {0} of <link=\"POWER\">Power</link> over the course of "
-#| "the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.POSITIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"POWER\">Power</link> was created by {1} over the course of "
 "the day"
-msgstr "我的殖民地在一天中生產了 {0} 的<link=\"POWER\">電力</link>"
+msgstr "{1}在一天中生產了 {0} 的<link=\"POWER\">電力</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NAME"
@@ -62913,18 +62419,12 @@ msgid "<link=\"POWER\">Power</link> Wasted:"
 msgstr "<link=\"POWER\">電力</link>浪費："
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony lost {0} of <link=\"POWER\">Power</link> today due to "
-#| "overproduction and battery runoff"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NEGATIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"POWER\">Power</link> was lost today due to battery runoff and "
 "overproduction in {1}"
 msgstr ""
-"由於生產過剩和電池電量流失，我的殖民地今天損失了 {0} 的<link=\"POWER\">電力</"
-"link>"
+"由於生產過剩和電池電量流失，{1}今天損失了 {0} 的<link=\"POWER\">電力</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.NAME"
@@ -62932,12 +62432,9 @@ msgid "Idle Time:"
 msgstr "閒置時間："
 
 #. STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.POSITIVE_TOOLTIP"
-#| msgid "On average, my Duplicants {0} of their time idling"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.POSITIVE_TOOLTIP"
 msgid "On average, {0} of {1}'s time was spent idling"
-msgstr "我的複製人平均有 {0} 的時間閒置著"
+msgstr "{1}平均有 {0} 的時間空閒著"
 
 #. STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.NAME"
@@ -62945,12 +62442,9 @@ msgid "Skill Increases:"
 msgstr "技能提升："
 
 #. STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.TOOLTIP"
-#| msgid "My Duplicants gained a total of {0} skill levels today"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.TOOLTIP"
 msgid "Today {1} gained a total of {0} skill levels"
-msgstr "我的複製人在今日總共升級 {0} 次"
+msgstr "{1}在今天總共升級了 {0} 次"
 
 #. STRINGS.UI.ENDOFDAYREPORT.MY_COLONY
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.MY_COLONY"
@@ -63089,20 +62583,14 @@ msgid "Wild Critters:"
 msgstr "野生小動物："
 
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NEGATIVE_TOOLTIP"
-#| msgid "{0} domestic critters live in {1}"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.NEGATIVE_TOOLTIP"
 msgid "{0} wild critters live in {1}"
-msgstr "{0} 隻馴化的小動物生活在 {1}"
+msgstr "{0} 隻野生的小動物生活在{1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.POSITIVE_TOOLTIP"
-#| msgid "{0} domestic critters live in {1}"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NUMBER_OF_WILD_CRITTERS.POSITIVE_TOOLTIP"
 msgid "{0} wild critters live in {1}"
-msgstr "{0} 隻馴化的小動物生活在 {1}"
+msgstr "{0} 隻野生的小動物生活在{1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NAME"
@@ -63110,28 +62598,18 @@ msgid "<link=\"OXYGEN\">Oxygen</link> Generation:"
 msgstr "<link=\"OXYGEN\">氧氣</link>產出："
 
 #. STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NEGATIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony consumed {0} of <link=\"OXYGEN\">Oxygen</link> over the course "
-#| "of the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NEGATIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"OXYGEN\">Oxygen</link> was consumed by {1} over the course of "
 "the day"
-msgstr "我的殖民地在一天中消耗了 {0} 的<link=\"OXYGEN\">氧氣</link>"
+msgstr "{1}在一天中消耗了 {0} 的<link=\"OXYGEN\">氧氣</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NEGATIVE_TOOLTIP"
-#| msgid ""
-#| "My colony consumed {0} of <link=\"OXYGEN\">Oxygen</link> over the course "
-#| "of the day"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.POSITIVE_TOOLTIP"
 msgid ""
 "{0} of <link=\"OXYGEN\">Oxygen</link> was produced by {1} over the course of "
 "the day"
-msgstr "我的殖民地在一天中消耗了 {0} 的<link=\"OXYGEN\">氧氣</link>"
+msgstr "{1}在一天中產生了 {0} 的<link=\"OXYGEN\">氧氣</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.PERSONAL_TIME.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.PERSONAL_TIME.NAME"
@@ -63139,14 +62617,9 @@ msgid "Personal Time:"
 msgstr "個人時間："
 
 #. STRINGS.UI.ENDOFDAYREPORT.PERSONAL_TIME.POSITIVE_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.PERSONAL_TIME.POSITIVE_TOOLTIP"
-#| msgid ""
-#| "On average, my Duplicants spent {0} of their time tending to personal "
-#| "needs"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.PERSONAL_TIME.POSITIVE_TOOLTIP"
 msgid "On average, {0} of {1}'s time was spent tending to personal needs"
-msgstr "我的複製人平均花費 {0} 的時間滿足個人需要"
+msgstr "{1}平均花費了 {0} 的時間滿足個人需求"
 
 #. STRINGS.UI.ENDOFDAYREPORT.PREV
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.PREV"
@@ -63171,12 +62644,12 @@ msgstr "進行中的火箭任務："
 #. STRINGS.UI.ENDOFDAYREPORT.ROCKETS_IN_FLIGHT.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ROCKETS_IN_FLIGHT.NEGATIVE_TOOLTIP"
 msgid "{0} rockets are currently flying missions for {1}"
-msgstr "當前正有 {0} 艘火箭正在執行 {1} 的飛行任務"
+msgstr "正有 {0} 艘火箭正在執行 {1} 的飛行任務"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ROCKETS_IN_FLIGHT.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ROCKETS_IN_FLIGHT.POSITIVE_TOOLTIP"
 msgid "{0} rockets are currently flying missions for {1}"
-msgstr "當前正有 {0} 艘火箭正在執行 {1} 的飛行任務"
+msgstr "正有 {0} 艘火箭正在執行 {1} 的飛行任務"
 
 #. STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.NAME"
@@ -65233,8 +64706,8 @@ msgid ""
 "\n"
 "Please be aware that your experience may suffer as a result."
 msgstr ""
-"我們檢測到這台電腦不滿足運行《缺氧》的最低配備要求。你也許能使用當前配備繼續"
-"遊戲，但遊戲流暢度會受到影響\n"
+"我們偵測到這台電腦不滿足運行《缺氧》的最低配備要求。你也許能使用目前的配備繼"
+"續遊戲，但遊戲流暢度會受到影響\n"
 "\n"
 "請注意，你的遊戲體驗可能會大打折扣"
 
@@ -65326,7 +64799,7 @@ msgid ""
 msgstr ""
 "在這些模組啟動的情況下啟動遊戲時發生了一個錯誤：\n"
 "{0}\n"
-"停用所有模組並重新啟動，還是繼續當前不穩定狀態？"
+"停用所有模組並重新啟動，還是繼續目前不穩定的狀態？"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.MESSAGE
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.MESSAGE"
@@ -65417,7 +64890,7 @@ msgid ""
 "Save game mods differ from currently active mods:\n"
 "{0}"
 msgstr ""
-"遊戲存檔的模組與當前啟動的模組不同：\n"
+"遊戲存檔模組與目前啟動的模組不同：\n"
 "{0}"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.SAVE_GAME_MODS_DIFFER.TITLE
@@ -65617,7 +65090,7 @@ msgstr "啟動的模組相對其他啟動的模組已更改順序"
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.REQUIRED"
 msgid ""
 "The current save game couldn't load this mod. Unexpected things may happen!"
-msgstr "當前存檔不能載入這個模組，可能會發生意想不到的事！"
+msgstr "目前的存檔不能載入這個模組，可能會發生意想不到的事！"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.UNINSTALLED
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.UNINSTALLED"
@@ -66546,7 +66019,7 @@ msgstr "創世選項"
 #. STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.TOOLTIP"
 msgid "This will override the current world gen seed"
-msgstr "這將覆蓋當前的創世種子"
+msgstr "這將覆蓋目前的創世種子"
 
 #. STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.USE_SEED
 msgctxt "STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.USE_SEED"
@@ -67234,7 +66707,7 @@ msgctxt "STRINGS.UI.JOBSSCREEN.CANNOT_ADJUST_PRIORITY"
 msgid ""
 "Priorities for <style=\"KKeyword\">{0}</style> cannot be adjusted currently "
 "because they're in {1}"
-msgstr "由於他處於{1}，<style=\"KKeyword\">{0}</style>的優先度當前無法調整"
+msgstr "由於他處於{1}，<style=\"KKeyword\">{0}</style>的優先度目前無法調整"
 
 #. STRINGS.UI.JOBSSCREEN.DECREASE_PRIORITY_TUTORIAL
 msgctxt "STRINGS.UI.JOBSSCREEN.DECREASE_PRIORITY_TUTORIAL"
@@ -68451,7 +67924,7 @@ msgid ""
 "These plants are thriving in their current conditions"
 msgstr ""
 "<b>正在生長</b>\n"
-"這些植物在當前條件下長勢良好"
+"這些植物在目前條件下長勢良好"
 
 #. STRINGS.UI.OVERLAYS.CROP.TOOLTIPS.GROWTH_HALTED
 msgctxt "STRINGS.UI.OVERLAYS.CROP.TOOLTIPS.GROWTH_HALTED"
@@ -69176,14 +68649,6 @@ msgid "Not connected to a <link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
 msgstr "未連入<link=\"LIQUIDCONDUIT\">液體管道</link>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.FILTERED
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.FILTERED"
-#| msgid ""
-#| "<b>Filtered Output Pipe</b>\n"
-#| "Filtered Outputs send filtered liquid into pipes\n"
-#| "------------------\n"
-#| "Must be on the same network as at least one <link=\"LIQUIDPIPING"
-#| "\">LiquidDestination</link>"
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.FILTERED"
 msgid ""
 "<b>Filtered Output Pipe</b>\n"
@@ -69195,7 +68660,7 @@ msgstr ""
 "<b>過濾輸出管道</b>\n"
 "過濾輸出端口將過濾液體送入管道\n"
 "------------------\n"
-"必須與至少一個<link=\"LIQUIDPIPING\">液體目的地</link>處於同一網絡"
+"必須與至少一個<link=\"LIQUIDPIPING\">輸入管道</link>處於同一網路"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.NETWORK
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.NETWORK"
@@ -69307,7 +68772,7 @@ msgid ""
 "This port is currently <b><style=\"logic_on\">Green</style></b>"
 msgstr ""
 "<b>綠色</b>\n"
-"這個端口當前為<b><style=\"logic_on\"綠色</style></b>"
+"這個端口目前為<b><style=\"logic_on\"綠色</style></b>"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.OUTPUT
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.OUTPUT"
@@ -69354,7 +68819,7 @@ msgid ""
 "This port is currently <b><style=\"logic_off\">Red</style></b>"
 msgstr ""
 "<b>紅色</b>\n"
-"這個端口當前為<b><style=\"logic_off\">紅色</style></b>"
+"這個端口目前為<b><style=\"logic_off\">紅色</style></b>"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.ZERO
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.ZERO"
@@ -69800,36 +69265,24 @@ msgid "Priority 2"
 msgstr "優先度 2"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.BUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.BUTTON"
-#| msgid "Ventilation Overlay"
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.BUTTON"
 msgid "Radiation Overlay"
-msgstr "通風概覽"
+msgstr "輻射概覽"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.DESC
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.SCENARIOS_MENU.SCENARIO_DESCRIPTION"
-#| msgid "Description"
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.DESC"
 msgid "{rads} ({description})"
-msgstr "描述"
+msgstr "{rads}（{description}）"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.HOVERTITLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.MAINMENU.TRANSLATIONS"
-#| msgid "TRANSLATIONS"
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.HOVERTITLE"
 msgid "RADIATION"
-msgstr "語言"
+msgstr "輻射"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.MAINMENU.TRANSLATIONS"
-#| msgid "TRANSLATIONS"
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.NAME"
 msgid "RADIATION"
-msgstr "語言"
+msgstr "輻射"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.RANGES.HIGH
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.RANGES.HIGH"
@@ -69837,20 +69290,14 @@ msgid "Significant Hazard"
 msgstr ""
 
 #. STRINGS.UI.OVERLAYS.RADIATION.RANGES.LOW
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.OXYGEN.LEGEND3"
-#| msgid "Barely Breathable"
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.RANGES.LOW"
 msgid "Barely Safe"
-msgstr "難以呼吸"
+msgstr "稍稍安全"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.RANGES.MAX
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.MAXIMUM_MASS"
-#| msgid "Maximum Mass"
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.RANGES.MAX"
 msgid "Maximum Hazard"
-msgstr "最大質量"
+msgstr "高度危險"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.RANGES.MEDIUM
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.RANGES.MEDIUM"
@@ -69863,12 +69310,9 @@ msgid "Completely Safe"
 msgstr ""
 
 #. STRINGS.UI.OVERLAYS.RADIATION.RANGES.VERY_HIGH
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.MYLOG.BODY.NEARINGMAGMA.TITLE"
-#| msgid "Extreme Heat Danger"
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.RANGES.VERY_HIGH"
 msgid "Extreme Hazard"
-msgstr "極熱危險"
+msgstr "極度危險"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.RANGES.VERY_LOW
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.RANGES.VERY_LOW"
@@ -69976,7 +69420,7 @@ msgid ""
 "Highlights the current location of equippable exosuits"
 msgstr ""
 "<b>太空衣</b>\n"
-"突出顯示可裝備的太空衣的當前位置"
+"突出顯示可裝備的太空衣位置"
 
 #. STRINGS.UI.OVERLAYS.TEMPERATURE.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.BUTTON"
@@ -70195,20 +69639,14 @@ msgid "Research required..."
 msgstr "需要研究..."
 
 #. STRINGS.UI.PRODUCTINFO_ROCKET_INTERIOR
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE"
-#| msgid "Rocket Engine"
 msgctxt "STRINGS.UI.PRODUCTINFO_ROCKET_INTERIOR"
 msgid "Rocket interior only"
-msgstr "火箭引擎"
+msgstr "僅在火箭內部"
 
 #. STRINGS.UI.PRODUCTINFO_ROCKET_NOT_INTERIOR
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_NOT_IN_TILES"
-#| msgid "Cannot be built inside tile"
 msgctxt "STRINGS.UI.PRODUCTINFO_ROCKET_NOT_INTERIOR"
 msgid "Can't build inside rocket"
-msgstr "不可在磚塊内建造"
+msgstr "不能在火箭内部建造"
 
 #. STRINGS.UI.PRODUCTINFO_SELECTMATERIAL
 msgctxt "STRINGS.UI.PRODUCTINFO_SELECTMATERIAL"
@@ -70216,12 +69654,9 @@ msgid "Select {0}:"
 msgstr "選擇{0}："
 
 #. STRINGS.UI.PRODUCTINFO_UNIQUE_PER_WORLD
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.HEADQUARTERSCOMPLETE.UNIQUE_POPTEXT"
-#| msgid "Only one {0} allowed!"
 msgctxt "STRINGS.UI.PRODUCTINFO_UNIQUE_PER_WORLD"
 msgid "Only one {0} per world."
-msgstr "只能有一個{0}！"
+msgstr "每個世界只能有一個{0}"
 
 #. STRINGS.UI.QUEUE
 msgctxt "STRINGS.UI.QUEUE"
@@ -70254,142 +69689,89 @@ msgid "Research points"
 msgstr "研究點"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.ALL
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CAREPACKAGES.LEVELS."
-#| "NORMAL.NAME"
-#| msgid "All"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.ALL"
 msgid "All"
-msgstr "所有"
+msgstr "全部"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.AUTOMATION
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.AUTOMATION.HEADER_1"
-#| msgid "Automation"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.AUTOMATION"
 msgid "Automation"
 msgstr "自動化"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.AVAILABLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.NEXT"
-#| msgid "Next"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.AVAILABLE"
 msgid "Next"
 msgstr "下一頁"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.COMPLETED
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.MARKEDFORCOMPOSTINSTORAGE.NAME"
-#| msgid "Composted"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.COMPLETED"
 msgid "Completed"
-msgstr "用於堆肥"
+msgstr "已完成"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.FILTER
-#, fuzzy
-#| msgctxt "STRINGS.UI.FILTER"
-#| msgid "Filter"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.FILTER"
 msgid "Filters"
-msgstr "搜尋"
+msgstr "過濾"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.FOOD
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TREES.TITLE_FOOD"
-#| msgid "Food"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.FOOD"
 msgid "Food"
 msgstr "食物"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.HEADER
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.TITLE"
-#| msgid "Element Filter"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.HEADER"
 msgid "Preset Filters"
-msgstr "元素過濾"
+msgstr "預設過濾"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.MEDICINE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CARING.NAME"
-#| msgid "Medicine"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.MEDICINE"
 msgid "Medicine"
 msgstr "醫療"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.MORALE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.MORALE.HEADER_1"
-#| msgid "Morale"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.MORALE"
 msgid "Morale"
 msgstr "士氣"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.OXYGEN
-#, fuzzy
-#| msgctxt "STRINGS.UI.METERS.BREATH.TOOLTIP"
-#| msgid "Oxygen"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.OXYGEN"
 msgid "Oxygen"
 msgstr "氧氣"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.POWER
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TREES.TITLE_POWER"
-#| msgid "Power"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.POWER"
 msgid "Power"
 msgstr "電力"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.RADIATION
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.NAME"
-#| msgid "Navigation"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.RADIATION"
 msgid "Radiation"
-msgstr "路徑"
+msgstr "輻射"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.RANCHING
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.NAME"
-#| msgid "Ranching"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.RANCHING"
 msgid "Ranching"
 msgstr "馴育"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.ROCKET
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.ROCKET"
-#| msgid "Rocket"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.ROCKET"
 msgid "Rockets"
 msgstr "火箭"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.TILE
-#, fuzzy
-#| msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TILES.BUILDMENUTITLE"
-#| msgid "Tiles"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.TILE"
 msgid "Tiles"
 msgstr "磚塊"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.TRANSPORT
-#, fuzzy
-#| msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCE.BUILDMENUTITLE"
-#| msgid "Ore Transport"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.TRANSPORT"
 msgid "Transport"
-msgstr "礦石運輸"
+msgstr "運輸"
 
 #. STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.WATER
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.CRATER"
-#| msgid "Crater"
 msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.WATER"
 msgid "Water"
-msgstr "隕石坑"
+msgstr "水"
 
 #. STRINGS.UI.RESEARCHSCREEN_FILTER
 msgctxt "STRINGS.UI.RESEARCHSCREEN_FILTER"
@@ -70422,28 +69804,19 @@ msgstr ""
 "點擊展開"
 
 #. STRINGS.UI.RESOURCESCREEN.CLEAR_NEW_RESOURCES
-#, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.ROOT.CLEAR"
-#| msgid "Clear"
 msgctxt "STRINGS.UI.RESOURCESCREEN.CLEAR_NEW_RESOURCES"
 msgid "Clear New"
-msgstr "清掃"
+msgstr "清除新項目"
 
 #. STRINGS.UI.RESOURCESCREEN.DECREASING_STR
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.DROPDOWN.NAME_AND_ROLE"
-#| msgid "{0} <color=#F44A47FF>({1})</color>"
 msgctxt "STRINGS.UI.RESOURCESCREEN.DECREASING_STR"
 msgid "<color=#F44A47FF>DECREASED</color>"
-msgstr "{0} <color=#F44A47FF>({1})</color>"
+msgstr "<color=#F44A47FF>降低</color>"
 
 #. STRINGS.UI.RESOURCESCREEN.FLAT_STR
-#, fuzzy
-#| msgctxt "STRINGS.UI.SKILLS_SCREEN.SELECT_HAT"
-#| msgid "<b>SELECT HAT</b>"
 msgctxt "STRINGS.UI.RESOURCESCREEN.FLAT_STR"
 msgid "<b>NOT CHANGED</b>"
-msgstr "<b>選擇帽子</b>"
+msgstr "<b>無變動</b>"
 
 #. STRINGS.UI.RESOURCESCREEN.HEADER
 msgctxt "STRINGS.UI.RESOURCESCREEN.HEADER"
@@ -70451,12 +69824,9 @@ msgid "RESOURCES"
 msgstr "資源"
 
 #. STRINGS.UI.RESOURCESCREEN.INCREASING_STR
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.BREATHABLEDESC"
-#| msgid "<color=#{0}>({1})</color>"
 msgctxt "STRINGS.UI.RESOURCESCREEN.INCREASING_STR"
 msgid "<color=#52C079FF>INCREASED</color>"
-msgstr "<color=#{0}>({1})</color>"
+msgstr "<color=#52C079FF>提高</color>"
 
 #. STRINGS.UI.RESOURCESCREEN.NEW_TAG
 msgctxt "STRINGS.UI.RESOURCESCREEN.NEW_TAG"
@@ -70469,12 +69839,9 @@ msgid "+ See All ({0})"
 msgstr ""
 
 #. STRINGS.UI.RESOURCESCREEN.TREND_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.VITALSSCREEN_EATENTODAY_TOOLTIP"
-#| msgid "The amount of food this Duplicant has eaten this cycle"
 msgctxt "STRINGS.UI.RESOURCESCREEN.TREND_TOOLTIP"
 msgid "The available amount of this resource has {0} {1} in the last cycle"
-msgstr "這名複製人在本週期食用的食物量"
+msgstr "這種資源的可用量在上個週期有{0}{1}"
 
 #. STRINGS.UI.RESOURCESCREEN.TREND_TOOLTIP_NO_CHANGE
 msgctxt "STRINGS.UI.RESOURCESCREEN.TREND_TOOLTIP_NO_CHANGE"
@@ -70922,7 +70289,7 @@ msgid ""
 "Current Morale: {0}\n"
 "Job Morale Needs: {1}"
 msgstr ""
-"當前士氣：{0}\n"
+"目前士氣：{0}\n"
 "工作士氣需求：{1}"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_JOB
@@ -70931,7 +70298,7 @@ msgid ""
 "Current Morale: {0}\n"
 "{2} Minimum Morale: {1}"
 msgstr ""
-"當前士氣：{0}\n"
+"目前士氣：{0}\n"
 "{2}最小士氣：{1}"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_TARGET_JOB
@@ -70940,7 +70307,7 @@ msgid ""
 "{2}'s Current: {0} Morale\n"
 "{3} Minimum Morale: {1}"
 msgstr ""
-"{2}的當前士氣：{0}\n"
+"{2}的士氣：{0}\n"
 "{3}最小士氣{1}"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.DESCRIPTION
@@ -71172,14 +70539,6 @@ msgid "JOBS"
 msgstr "工作"
 
 #. STRINGS.UI.ROLES_SCREEN.NO_JOB_STATION_WARNING
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.NO_JOB_STATION_WARNING"
-#| msgid ""
-#| "Build a <style=\"KKeyword\">Skills Board</style> to unlock Job "
-#| "Assignments\n"
-#| "------------------\n"
-#| "The <style=\"KKeyword\">Skills Board</style> can be found in the "
-#| "<b>Stations Tab</b> <b><color=#F44A4A>[0]</b></color> of the Build Menu"
 msgctxt "STRINGS.UI.ROLES_SCREEN.NO_JOB_STATION_WARNING"
 msgid ""
 "Build a <style=\"KKeyword\">Porta-Pod</style> to unlock this menu\n"
@@ -71187,9 +70546,9 @@ msgid ""
 "The <style=\"KKeyword\">Porta-Pod</style> can be found in the <b>Stations "
 "Tab</b> <b><color=#F44A4A>[0]</b></color> of the Build Menu"
 msgstr ""
-"建造一個<style=\"KKeyword\">技能公示板</style>來解鎖工作分配\n"
+"建造一個<style=\"KKeyword\">行動艙</style>來解鎖這個選單\n"
 "------------------\n"
-"<style=\"KKeyword\">技能公示板</style>可以在建造選單中的<b>站台欄</"
+"<style=\"KKeyword\">行動艙</style>可以在建造選單中的<b>基地欄</"
 "b><b><color=#F44A4A> [0] </b></color>中找到"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.ADVANCED_RESEARCH.DESCRIPTION
@@ -71242,13 +70601,10 @@ msgid "<link=\"KATAIRITE\">Abyssalite</link> Mining"
 msgstr "<link=\"KATAIRITE\">深淵晶石</link>的開採"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_RADIOACTIVE_MATERIALS.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.ELEMENTS.NIOBIUM.NAME"
-#| msgid "<link=\"NIOBIUM\">Niobium</link>"
 msgctxt ""
 "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_RADIOACTIVE_MATERIALS.DESCRIPTION"
 msgid "<link=\"CORIUM\">Corium</link> Mining"
-msgstr "<link=\"NIOBIUM\">鈮</link>"
+msgstr "<link=\"CORIUM\">放射性物質</link>的開採"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_SUPER_SUPER_HARD.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_SUPER_SUPER_HARD.DESCRIPTION"
@@ -71289,12 +70645,9 @@ msgid ""
 msgstr "<link=\"PLANTS\">作物培育</link>和微肥的製作"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_PILOT_ROCKET.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.NAME"
-#| msgid "<link=\"POWERCONTROLSTATION\">Power Control Station</link>"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_PILOT_ROCKET.DESCRIPTION"
 msgid "<link=\"ROCKETCONTROLSTATION\">Rocket Control Station</link> Usage"
-msgstr "<link=\"POWERCONTROLSTATION\">電控站</link>"
+msgstr "<link=\"ROCKETCONTROLSTATION\">火箭控制站</link>的使用"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_POWER_TINKER.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_POWER_TINKER.DESCRIPTION"
@@ -71307,12 +70660,9 @@ msgid "Geographical Analysis"
 msgstr "地理分析"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_USE_CLUSTER_TELESCOPE.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.NAME"
-#| msgid "<link=\"TELESCOPE\">Telescope</link>"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_USE_CLUSTER_TELESCOPE.DESCRIPTION"
 msgid "<link=\"TELESCOPE\">Telescope</link> Usage"
-msgstr "<link=\"TELESCOPE\">望遠鏡</link>"
+msgstr "<link=\"TELESCOPE\">望遠鏡</link>的使用"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_USE_RANCH_STATION.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_USE_RANCH_STATION.DESCRIPTION"
@@ -71350,12 +70700,9 @@ msgid "This job comes with no training"
 msgstr "這項工作不提供培訓"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.NUCLEAR_RESEARCH.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.NAME"
-#| msgid "<link=\"NUCLEARREACTOR\">Nuclear Reactor</link>"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.NUCLEAR_RESEARCH.DESCRIPTION"
 msgid "<link=\"NUCLEARLABORATORY\">Atomic Collider</link> Usage"
-msgstr "<link=\"NUCLEARREACTOR\">核反應堆</link>"
+msgstr "<link=\"NUCLEARLABORATORY\">原子對撞機</link>的使用"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.TITLE_BASICTRAINING
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.TITLE_BASICTRAINING"
@@ -71410,7 +70757,7 @@ msgid ""
 "job experience"
 msgstr ""
 "<b>工作經驗：{0} / {1}</b>\n"
-"如果複製人最大程度累積當前工作經驗，就能符合特定工作的資格條件"
+"如果複製人不斷累積工作經驗，將得以具有特定工作的資格"
 
 #. STRINGS.UI.ROLES_SCREEN.SIDEBAR.ASSIGNED_DUPLICANTS
 msgctxt "STRINGS.UI.ROLES_SCREEN.SIDEBAR.ASSIGNED_DUPLICANTS"
@@ -71550,9 +70897,6 @@ msgid "Common Substances"
 msgstr "常規物質"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.COMETS
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.COMET"
-#| msgid "Comet"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.COMETS"
 msgid "Comets"
 msgstr "彗星"
@@ -71588,12 +70932,9 @@ msgid "Geysers"
 msgstr "噴泉"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.GRAVITAS
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYSTATUE.NAME"
-#| msgid "Gravitas Monument"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.GRAVITAS"
 msgid "Gravitas"
-msgstr "莊嚴紀念碑"
+msgstr "莊嚴科技"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.INDUSTRIAL_PRODUCTS
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.INDUSTRIAL_PRODUCTS"
@@ -71681,20 +71022,14 @@ msgid "Delete loose items cluttering the floor {Hotkey}"
 msgstr "刪除地面上的雜物 {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.CRITTER.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.CRITERIA.CREATURE_RELOCATOR.NAME"
-#| msgid "Critter Relocator"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.CRITTER.NAME"
 msgid "Critter Removal"
-msgstr "小動物搬遷器"
+msgstr "小動物移除"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.CRITTER.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.CAPTUREBUTTON"
-#| msgid "Capture critters {Hotkey}"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.CRITTER.TOOLTIP"
 msgid "Remove Critters! {Hotkey}"
-msgstr "捕捉小動物 {Hotkey}"
+msgstr "移除小動物！{Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DESTROY.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DESTROY.NAME"
@@ -71767,12 +71102,9 @@ msgid "Inject thermal energy into the simulation {Hotkey}"
 msgstr "注入熱量到世界中 {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.NAME"
-#| msgid "Instant build mode"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.NAME"
 msgid "Instant build mode ON"
-msgstr "即時建造模式"
+msgstr "即時建造模式啟動"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.TOOLTIP"
@@ -71790,52 +71122,34 @@ msgid "Adjust mass"
 msgstr "調整質量"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.RADIATION.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.EXTREMECOLD"
-#| msgid "Absolute Zero"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.RADIATION.NAME"
 msgid "Absolute radiation"
-msgstr "絕對零度"
+msgstr "絕對輻射"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.RADIATION.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE.TOOLTIP"
-#| msgid "Adjust absolute temperature"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.RADIATION.TOOLTIP"
 msgid "Adjust absolute radiation"
-msgstr "調節絕對溫度"
+msgstr "調節絕對輻射"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.RADIATION_ADDITIVE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.DURATION"
-#| msgid "Active Duration"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.RADIATION_ADDITIVE.NAME"
 msgid "Additive radiation"
-msgstr "啟動時段"
+msgstr "附加輻射"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.RADIATION_ADDITIVE.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE_ADDITIVE.TOOLTIP"
-#| msgid "Adjust additive temperature"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.RADIATION_ADDITIVE.TOOLTIP"
 msgid "Adjust additive radiation"
-msgstr "調節附加溫度"
+msgstr "調節附加輻射"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.RADSTOOL.NAME
-#, fuzzy
-#| msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.NAME"
-#| msgid "Recreation Room"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.RADSTOOL.NAME"
 msgid "Radiation Tool"
-msgstr "娛樂室"
+msgstr "輻射工具"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.RADSTOOL.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.HEATGUN.TOOLTIP"
-#| msgid "Inject thermal energy into the simulation {Hotkey}"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.RADSTOOL.TOOLTIP"
 msgid "Inject or remove radiation from the simulation {Hotkey}"
-msgstr "注入熱量到世界中 {Hotkey}"
+msgstr "注入或移除輻射到世界中 {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SAMPLE.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SAMPLE.NAME"
@@ -72281,7 +71595,7 @@ msgid ""
 "{2}'s Current: {0} Morale\n"
 "{3} Minimum Morale: {1}"
 msgstr ""
-"{2}的當前士氣：{0}\n"
+"{2}的士氣：{0}\n"
 "{3}的最低士氣要求：{1}"
 
 #. STRINGS.UI.SKILLS_SCREEN.ASSIGNMENT_REQUIREMENTS.EXPECTATION_TARGET_SKILL
@@ -72291,7 +71605,7 @@ msgid ""
 "Current Morale: {0}\n"
 "Skill Morale Needs: {1}"
 msgstr ""
-"當前士氣：{0}\n"
+"目前士氣：{0}\n"
 "技能士氣需求：{1}"
 
 #. STRINGS.UI.SKILLS_SCREEN.ASSIGNMENT_REQUIREMENTS.MASTERY.CAN_MASTER
@@ -72342,18 +71656,14 @@ msgid ""
 msgstr "{0}對{1}感興趣，學習這種技能會有<style=\"KKeyword\">士氣</style>加成！"
 
 #. STRINGS.UI.SKILLS_SCREEN.ASSIGNMENT_REQUIREMENTS.MASTERY.SKILL_GRANTED
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.SKILLS_SCREEN.ASSIGNMENT_REQUIREMENTS.MASTERY.SKILL_APTITUDE"
-#| msgid ""
-#| "{0} is interested in {1} and will receive a <style=\"KKeyword\">Morale</"
-#| "style> bonus for learning it!"
 msgctxt ""
 "STRINGS.UI.SKILLS_SCREEN.ASSIGNMENT_REQUIREMENTS.MASTERY.SKILL_GRANTED"
 msgid ""
 "{0} has been granted {1} by a Trait and does not have increased <style="
 "\"KKeyword\">Morale Requirements</style> from knowing it"
-msgstr "{0}對{1}感興趣，學習這種技能會有<style=\"KKeyword\">士氣</style>加成！"
+msgstr ""
+"{0}由於其特質而獲得了{1}，而且不會因為學習這個技能而增加<style=\"KKeyword\">"
+"士氣需求</style>"
 
 #. STRINGS.UI.SKILLS_SCREEN.ASSIGNMENT_REQUIREMENTS.MASTERY.STRESS_WARNING_MESSAGE
 msgctxt ""
@@ -72385,7 +71695,7 @@ msgid ""
 "Current Morale: {0}\n"
 "Morale Need: {1}"
 msgstr ""
-"當前士氣：{0}\n"
+"目前士氣：{0}\n"
 "士氣需求：{1}"
 
 #. STRINGS.UI.SKILLS_SCREEN.EXPERIENCE
@@ -72401,7 +71711,7 @@ msgstr "下一技能點還需 {0} 經驗"
 #. STRINGS.UI.SKILLS_SCREEN.MORALE
 msgctxt "STRINGS.UI.SKILLS_SCREEN.MORALE"
 msgid "<b>Morale</b>"
-msgstr "<b>當前士氣</b>"
+msgstr "<b>士氣</b>"
 
 #. STRINGS.UI.SKILLS_SCREEN.MORALE_EXPECTATION
 msgctxt "STRINGS.UI.SKILLS_SCREEN.MORALE_EXPECTATION"
@@ -72853,20 +72163,14 @@ msgid "Dust Comet"
 msgstr "塵埃彗星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.FOODCOMET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.STICKERBOMB.NAME"
-#| msgid "Sticker Bomb"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.FOODCOMET.NAME"
 msgid "Snack Bomb"
-msgstr "貼紙炸彈"
+msgstr "點心炸彈"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.FULLERENECOMET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.IRONCOMET.NAME"
-#| msgid "Iron Comet"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.FULLERENECOMET.NAME"
 msgid "Fullerene Comet"
-msgstr "鐵質彗星"
+msgstr "富勒烯彗星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.GOLDCOMET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.GOLDCOMET.NAME"
@@ -72879,12 +72183,9 @@ msgid "Iron Comet"
 msgstr "鐵質彗星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.NUCLEAR_WASTE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.RADIOACTIVE"
-#| msgid "Radioactive"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.NUCLEAR_WASTE.NAME"
 msgid "Radioactive Comet"
-msgstr "放射性的"
+msgstr "放射性彗星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.ROCKCOMET.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.ROCKCOMET.NAME"
@@ -72892,9 +72193,6 @@ msgid "Rock Comet"
 msgstr "岩石彗星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.COMETS.SATELLITE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE2.NAME"
-#| msgid "Wrecked Satellite"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.SATELLITE.NAME"
 msgid "Defunct Satellite"
 msgstr "失事的衛星"
@@ -72965,12 +72263,9 @@ msgid "Salty Dwarf"
 msgstr "鹽質矮星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.EMPTY_SPACE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.NAME"
-#| msgid "Empty Pipe"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.EMPTY_SPACE.NAME"
 msgid "Empty Space"
-msgstr "空管道"
+msgstr "虛無空間"
 
 #. STRINGS.UI.SPACEDESTINATIONS.FOG_OF_WAR_SPACE.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.FOG_OF_WAR_SPACE.NAME"
@@ -73014,20 +72309,14 @@ msgid "Ice Giant"
 msgstr "寒冰巨星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.NONE.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.CONNECTED"
-#| msgid "Connected"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.NONE.NAME"
 msgid "Unselected"
-msgstr "已連接"
+msgstr "未選擇"
 
 #. STRINGS.UI.SPACEDESTINATIONS.ORBIT.NAME_FMT
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FABRICATING.NAME"
-#| msgid "Fabricating {Item}"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ORBIT.NAME_FMT"
 msgid "Orbiting {Name}"
-msgstr "製作{Item}"
+msgstr "正沿著{Name}的軌道運行"
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.CHLORINEPLANET.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.CHLORINEPLANET.DESCRIPTION"
@@ -73055,12 +72344,9 @@ msgid "A small planet covered in large swathes of brown rust."
 msgstr "一顆星球，表面覆蓋著大量褐色的鐵鏽"
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.RUSTPLANET.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.GOLDASTEROID.NAME"
-#| msgid "Gilded Asteroid"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.RUSTPLANET.NAME"
 msgid "Oxidized Asteroid"
-msgstr "金質星球"
+msgstr "氧化星球"
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.SALTDESERTPLANET.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.SALTDESERTPLANET.DESCRIPTION"
@@ -73073,13 +72359,6 @@ msgid "Arid Planet"
 msgstr "乾燥行星"
 
 #. STRINGS.UI.SPACEDESTINATIONS.PLANETS.SHATTEREDPLANET.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.SHATTEREDPLANET.DESCRIPTION"
-#| msgid ""
-#| "A once-habitable planet that has sustained massive damage.\n"
-#| "\n"
-#| "A powerful containment field prevents our rockets from travelling to its "
-#| "surface."
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.PLANETS.SHATTEREDPLANET.DESCRIPTION"
 msgid ""
 "A once-habitable planet that has sustained massive damage.\n"
@@ -73272,17 +72551,9 @@ msgstr "需要安裝{0}才能獲取材料"
 #. STRINGS.UI.STARMAP.CURRENT_MASS
 msgctxt "STRINGS.UI.STARMAP.CURRENT_MASS"
 msgid "Current Mass"
-msgstr "當前質量"
+msgstr "目前質量"
 
 #. STRINGS.UI.STARMAP.CURRENT_MASS_TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.CURRENT_MASS_TOOLTIP"
-#| msgid ""
-#| "Warning: Destination has {0} resources available.\n"
-#| "The rocket has capacity for {1}.\n"
-#| "\n"
-#| "Missions to this destination will not return a full cargo load to avoid "
-#| "depleting the destination for future explorations."
 msgctxt "STRINGS.UI.STARMAP.CURRENT_MASS_TOOLTIP"
 msgid ""
 "Warning: Missions to this destination will not return a full cargo load to "
@@ -73291,10 +72562,11 @@ msgid ""
 "Destination: {0} Resources Available\n"
 "Rocket Capacity: {1}"
 msgstr ""
-"警告：目的地有{0}資源可用\n"
-"火箭容量為 {1}\n"
+"警告：從這個目的地返回時將不會裝滿貨艙，以避免未來對這個目的地進行研究時資源"
+"枯竭\n"
 "\n"
-"前往這個目的地返回時貨艙不會裝滿，以避免未來對這個目的地進行研究時資源枯竭"
+"目的地：有{0}資源可用\n"
+"火箭容量：{1}"
 
 #. STRINGS.UI.STARMAP.DEFAULT_NAME
 msgctxt "STRINGS.UI.STARMAP.DEFAULT_NAME"
@@ -73302,17 +72574,11 @@ msgid "Rocket"
 msgstr "火箭"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED"
-#| msgid "Destination not selected"
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED"
 msgid "Destination not set"
 msgstr "未選擇目的地"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION.REACHABLE
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.REACHABLE"
-#| msgid "Destination selected"
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.REACHABLE"
 msgid "Destination set"
 msgstr "已選擇目的地"
@@ -73463,30 +72729,21 @@ msgid "Astronaut"
 msgstr "太空人"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.STATUS.FAILURE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.BUILDDIG.NAME"
-#| msgid "Construction Dig"
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.STATUS.FAILURE"
 msgid "Construction incomplete"
-msgstr "為建造挖掘"
+msgstr "建造未完成"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.STATUS.READY
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.BUILDFETCH.NAME"
-#| msgid "Construction Supply"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.STATUS.READY"
 msgid "Construction complete"
-msgstr "為建造供應"
+msgstr "建造完成"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.STATUS.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.BUILDDIG.NAME"
-#| msgid "Construction Dig"
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.STATUS.WARNING"
 msgid "Construction warning"
-msgstr "為建造挖掘"
+msgstr "建造警告"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.TOOLTIP.FAILURE
 msgctxt ""
@@ -73501,21 +72758,15 @@ msgid "Construction of all modules is complete"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.TOOLTIP.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.BUILDDIG.NAME"
-#| msgid "Construction Dig"
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.TOOLTIP.WARNING"
 msgid "Construction warning"
-msgstr "為建造挖掘"
+msgstr "建造警告"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.FAILURE
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_TRAIT"
-#| msgid "Missing required trait"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.FAILURE"
 msgid "Missing qualified crew"
-msgstr "缺少必備特質"
+msgstr "缺少合格成員"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.READY"
@@ -73535,20 +72786,14 @@ msgid "Crew boarded"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.CLEANING.NAME"
-#| msgid "Cleaning"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.WARNING"
 msgid "Crew warning"
-msgstr "清理"
+msgstr "成員警告"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.CLEANING.NAME"
-#| msgid "Cleaning"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.WARNING"
 msgid "Crew warning"
-msgstr "清理"
+msgstr "成員警告"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.FAILURE"
@@ -73561,23 +72806,9 @@ msgid "Flight path clear"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.WARNING
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.WARNING"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: zh_TW\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.4.2\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.FAILURE"
@@ -73590,39 +72821,19 @@ msgid "Nothing is blocking the path of the rocket"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.WARNING
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.WARNING"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: zh_TW\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.4.2\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.FAILURE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.ROCKET"
-#| msgid "rocket engine"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.FAILURE"
 msgid "Needs engine"
-msgstr "火箭引擎"
+msgstr "需要引擎"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.READY
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE"
-#| msgid "Rocket Engine"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.READY"
 msgid "Engine"
-msgstr "火箭引擎"
+msgstr "引擎"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.WARNING"
@@ -73630,20 +72841,14 @@ msgid "Engine warning"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.TOOLTIP.FAILURE
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.ROCKET"
-#| msgid "rocket engine"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.TOOLTIP.FAILURE"
 msgid "Needs engine"
-msgstr "火箭引擎"
+msgstr "需要引擎"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.TOOLTIP.READY
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE"
-#| msgid "Rocket Engine"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.TOOLTIP.READY"
 msgid "Rocket has Engine"
-msgstr "火箭引擎"
+msgstr "火箭具有引擎"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.TOOLTIP.WARNING"
@@ -73656,20 +72861,14 @@ msgid "Needs fuel tank"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.STATUS.READY
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.TANK_EFFECT_NAME"
-#| msgid "Fuel Tank"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.STATUS.READY"
 msgid "Fuel tank"
-msgstr "燃料罐"
+msgstr "燃料艙"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.STATUS.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.TANK_EFFECT_NAME"
-#| msgid "Fuel Tank"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.STATUS.WARNING"
 msgid "Fuel tank warning"
-msgstr "燃料罐"
+msgstr "燃料艙警告"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.FAILURE"
@@ -73677,20 +72876,14 @@ msgid "Needs fuel tank"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.READY
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY"
-#| msgid "Rocket Checklist"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.READY"
 msgid "Rocket has Fuel tank"
-msgstr "火箭檢查表"
+msgstr "火箭具有燃料艙"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.TANK_EFFECT_NAME"
-#| msgid "Fuel Tank"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.WARNING"
 msgid "Fuel tank warning"
-msgstr "燃料罐"
+msgstr "燃料艙警告"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.FAILURE"
@@ -73698,12 +72891,9 @@ msgid "Needs nosecone"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.READY
-#, fuzzy
-#| msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.RECON"
-#| msgid "Recon"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.READY"
 msgid "Nosecone"
-msgstr "偵察"
+msgstr "前錐"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.STATUS.WARNING"
@@ -73746,46 +72936,25 @@ msgid "Launching to this destination will not return a full cargo load."
 msgstr "發射到這個目的地返回時貨艙不會裝滿"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.STATUS.FAILURE
-#, fuzzy
-#| msgctxt ""
-#| "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_MARKED_FOR_DECONSTRUCTION"
-#| msgid "Being deconstructed"
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.STATUS."
 "FAILURE"
 msgid "Lander not constructed"
-msgstr "正在被拆除"
+msgstr "未建造著陸器"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.STATUS.READY
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.READYFORHARVEST.NAME"
-#| msgid "Harvest Ready"
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.STATUS."
 "READY"
 msgid "Landers Ready"
-msgstr "準備收穫"
+msgstr "著陸器準備就緒"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.STATUS.WARNING
-#, fuzzy
-#| msgid ""
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.STATUS."
 "WARNING"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: zh_TW\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.4.2\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP.FAILURE
 msgctxt ""
@@ -73802,52 +72971,21 @@ msgid "All requested landers are built and ready for deployment"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP.WARNING
-#, fuzzy
-#| msgid ""
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP."
 "WARNING"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: zh_TW\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.4.2\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.STATUS.FAILURE
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.STATUS.FAILURE"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: zh_TW\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.4.2\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.STATUS.READY
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.MYLOG.BODY.CALCULATIONCOMPLETE.TITLE"
-#| msgid "Calculations Complete"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.STATUS.READY"
 msgid "Cargo Loading Complete"
-msgstr "計算完成"
+msgstr "貨艙裝載完成"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.STATUS.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.STATUS.WARNING"
@@ -73855,23 +72993,9 @@ msgid "Cargo Loading Incomplete"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.TOOLTIP.FAILURE
-#, fuzzy
-#| msgid ""
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.TOOLTIP.FAILURE"
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: zh_TW\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.4.2\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.TOOLTIP.READY"
@@ -73888,28 +73012,19 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.STATUS.FAILURE
-#, fuzzy
-#| msgctxt "STRINGS.MISC.TAGS.COMMAND_MODULE"
-#| msgid "Command Module"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.STATUS.FAILURE"
 msgid "Too many modules"
-msgstr "指揮艙"
+msgstr "艙塊過多"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.STATUS.READY
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.LISTTITLES.MODULES"
-#| msgid "Modules"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.STATUS.READY"
 msgid "Module count"
-msgstr "艙體"
+msgstr "艙塊數量"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.STATUS.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.MOURN.STATUS"
-#| msgid "Mourning"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.STATUS.WARNING"
 msgid "Module warning"
-msgstr "正在哀悼"
+msgstr "艙塊警告"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.TOOLTIP.FAILURE"
@@ -73917,20 +73032,14 @@ msgid "This rocket's engine can not support this many modules"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.TOOLTIP.READY
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.LISTTITLES.MODULES"
-#| msgid "Modules"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.TOOLTIP.READY"
 msgid "Module count"
-msgstr "艙體"
+msgstr "艙塊數量"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.TOOLTIP.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.BUILDDIG.NAME"
-#| msgid "Construction Dig"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_MODULES.TOOLTIP.WARNING"
 msgid "Construction warning"
-msgstr "為建造挖掘"
+msgstr "建築警告"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MINIMUM_MASS
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MINIMUM_MASS"
@@ -73948,21 +73057,15 @@ msgid "Extra passengers onboard"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.READY
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.NOPASSENGERS"
-#| msgid "No passengers"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.READY"
 msgid "No extra passengers"
-msgstr "無乘員"
+msgstr "無額外乘客"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.TOOLTIP.FAILURE
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.NOPASSENGERS"
-#| msgid "No passengers"
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.TOOLTIP.FAILURE"
 msgid "Extra passengers"
-msgstr "無乘員"
+msgstr "額外的乘客"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.TOOLTIP.READY"
@@ -73970,13 +73073,10 @@ msgid "Crew correct"
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.TOOLTIP.WARNING
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.CLEANING.NAME"
-#| msgid "Cleaning"
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.TOOLTIP.WARNING"
 msgid "Crew warning"
-msgstr "清理"
+msgstr "成員警告"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.NO_EXTRA_PASSENGERS.WARNING"
@@ -74409,12 +73509,12 @@ msgstr "載重懲罰"
 #. STRINGS.UI.STARMAP.ROCKETWEIGHT.CURRENTMASS
 msgctxt "STRINGS.UI.STARMAP.ROCKETWEIGHT.CURRENTMASS"
 msgid "Current Rocket Mass: "
-msgstr "當前火箭質量："
+msgstr "目前火箭質量："
 
 #. STRINGS.UI.STARMAP.ROCKETWEIGHT.CURRENTMASSPENALTY
 msgctxt "STRINGS.UI.STARMAP.ROCKETWEIGHT.CURRENTMASSPENALTY"
 msgid "Current Weight Penalty: "
-msgstr "當前載重懲罰："
+msgstr "目前載重懲罰："
 
 #. STRINGS.UI.STARMAP.ROCKETWEIGHT.MASS
 msgctxt "STRINGS.UI.STARMAP.ROCKETWEIGHT.MASS"
@@ -75422,8 +74522,8 @@ msgid ""
 msgstr ""
 "高優先度任務總是先於低優先度任務執行\n"
 "\n"
-"但是，即使存在更重要的任務，忙碌的複製人也將繼續執行當前工作任務，直到完成為"
-"止"
+"但是，即使存在更重要的任務，忙碌的複製人也將繼續執行目前的工作任務，直到完成"
+"為止"
 
 #. STRINGS.UI.TOOLTIPS.JOBSSCREEN_RELEVANT_ATTRIBUTES
 msgctxt "STRINGS.UI.TOOLTIPS.JOBSSCREEN_RELEVANT_ATTRIBUTES"
@@ -75816,34 +74916,34 @@ msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_FERTILIZER"
 msgid ""
 "<b>{mass}</b> of <style=\"KKeyword\">Fertilizer</style> is currently "
 "available"
-msgstr "當前有<b>{mass}</b>的<style=\"KKeyword\">肥料</style>可用"
+msgstr "目前有<b>{mass}</b>的<style=\"KKeyword\">肥料</style>可用"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ILLUMINATION_DARK
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ILLUMINATION_DARK"
 msgid "This plant is currently in the dark"
-msgstr "這株植物當前處於黑暗中"
+msgstr "這株植物正處於黑暗中"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ILLUMINATION_LIGHT
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ILLUMINATION_LIGHT"
 msgid "This plant is currently lit"
-msgstr "這株植物當前受到光照"
+msgstr "這株植物正受到光照"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_IRRIGATION
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_IRRIGATION"
 msgid ""
 "<b>{mass}</b> of <style=\"KKeyword\">Liquid</style> is currently available"
-msgstr "當前有<b>{mass}</b>的<style=\"KKeyword\">液體</style>可用"
+msgstr "目前有<b>{mass}</b>的<style=\"KKeyword\">液體</style>可用"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_PRESSURE
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_PRESSURE"
 msgid ""
 "The current <style=\"KKeyword\">Gas</style> pressure is <b>{pressure}</b>"
-msgstr "當前<style=\"KKeyword\">氣壓</style>為<b>{pressure}</b>"
+msgstr "目前<style=\"KKeyword\">氣壓</style>為<b>{pressure}</b>"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RECEPTACLE_INOPERATIONAL
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RECEPTACLE_INOPERATIONAL"
 msgid "This plant is not housed in an operational farm plot"
-msgstr "這株植物當前沒有處在一塊可耕種的農田裡"
+msgstr "這株植物目前沒有處在一塊可耕種的農田裡"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RECEPTACLE_OPERATIONAL
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RECEPTACLE_OPERATIONAL"
@@ -76662,7 +75762,7 @@ msgid ""
 "Currently Equipped:\n"
 "{0}"
 msgstr ""
-"當前裝備：\n"
+"目前裝備：\n"
 "{0}"
 
 #. STRINGS.UI.UISIDESCREENS.EQUIPPABLE_SIDE_SCREEN.DROP_BUTTON
@@ -76728,7 +75828,7 @@ msgstr "<b>原料：</b>\n"
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.CURRENT_ORDER
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.CURRENT_ORDER"
 msgid "Current order: {0}"
-msgstr "當前安排：{0}"
+msgstr "目前安排：{0}"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.COOL_VEST
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.COOL_VEST"
@@ -77041,7 +76141,7 @@ msgctxt ""
 "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN."
 "CURRENT_THRESHOLD"
 msgid "Current Threshold: {0}%"
-msgstr "當前閾值：{0}%"
+msgstr "目前閾值：{0}%"
 
 #. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.TITLE"
@@ -77341,7 +76441,7 @@ msgstr "選擇誘餌"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.MANUALDELIVERYGENERATORSIDESCREEN.CURRENT_THRESHOLD"
 msgid "Current Threshold: {0}%"
-msgstr "當前閾值：{0}%"
+msgstr "目前閾值：{0}%"
 
 #. STRINGS.UI.UISIDESCREENS.MANUALDELIVERYGENERATORSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.MANUALDELIVERYGENERATORSIDESCREEN.TITLE"
@@ -77361,7 +76461,7 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.MANUALGENERATORSIDESCREEN.CURRENT_THRESHOLD
 msgctxt "STRINGS.UI.UISIDESCREENS.MANUALGENERATORSIDESCREEN.CURRENT_THRESHOLD"
 msgid "Current Threshold: {0}%"
-msgstr "當前閾值：{0}%"
+msgstr "目前閾值：{0}%"
 
 #. STRINGS.UI.UISIDESCREENS.MANUALGENERATORSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.MANUALGENERATORSIDESCREEN.TITLE"
@@ -77414,7 +76514,7 @@ msgstr "日程表時段：{0}"
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CURRENT_TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CURRENT_TITLE"
 msgid "Current Errand"
-msgstr "當前任務"
+msgstr "目前任務"
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.LIST_TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.LIST_TITLE"
@@ -77448,14 +76548,14 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_DESC_ACTIVE
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_DESC_ACTIVE"
 msgid "{Name}'s Current Errand: <b>{Errand}</b>"
-msgstr "{Name}的當前任務：<b>{Errand}</b>"
+msgstr "{Name}的任務：<b>{Errand}</b>"
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_DESC_INACTIVE
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_DESC_INACTIVE"
 msgid ""
 "{Name} could work on <b>{Errand}</b>, but it's not their top priority right "
 "now"
-msgstr "{Name}可以從事<b>{Errand}</b>，只是當前這個任務不是當前最高優先的"
+msgstr "{Name}可以從事<b>{Errand}</b>，只是現在這個任務不是目前最高優先的"
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_EMERGENCY
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_EMERGENCY"
@@ -77502,7 +76602,7 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_IDLEDESC_ACTIVE
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_IDLEDESC_ACTIVE"
 msgid "{Name} is currently <b>Idle</b>"
-msgstr "{Name}當前<b>Idle</b>"
+msgstr "{Name}目前<b>空閒</b>"
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_IDLEDESC_INACTIVE
 msgctxt ""
@@ -77729,7 +76829,7 @@ msgstr "所有"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.RELEASE_CREW_TOOLTIP"
 msgid "All Duplicants may enter and exit the module freely"
-msgstr "所有複製人都能自由地進入或離開這個艙型"
+msgstr "所有複製人都能自由地進入或離開這個艙塊"
 
 #. STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUEST_CREW
 msgctxt "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUEST_CREW"
@@ -78048,7 +77148,7 @@ msgstr "{3} {1}（{2} {0}）"
 #. STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.CURRENTLYRESEARCHING
 msgctxt "STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.CURRENTLYRESEARCHING"
 msgid "Currently Researching"
-msgstr "當前的研究"
+msgstr "目前的研究"
 
 #. STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.NOSELECTEDRESEARCH
 msgctxt "STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.NOSELECTEDRESEARCH"
@@ -78093,13 +77193,13 @@ msgstr ""
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONREMOVEMODULE.DESC"
 msgid "Remove this module"
-msgstr "移除這個艙型"
+msgstr "移除這個艙塊"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONREMOVEMODULE.INVALID
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONREMOVEMODULE.INVALID"
 msgid "This module cannot be removed"
-msgstr "這個艙型無法被移除"
+msgstr "這個艙塊無法被移除"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONSWAPMODULEDOWN.DESC
 msgctxt ""
@@ -78153,7 +77253,7 @@ msgstr ""
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONVIEWINTERIOR.INVALID"
 msgid "This module does not have an interior view"
-msgstr "這個艙型沒有內部視圖"
+msgstr "這個艙塊沒有內部視圖"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONVIEWINTERIOR.LABEL
 msgctxt ""
@@ -78164,7 +77264,7 @@ msgstr "查看內部視圖"
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.CHANGEMODULEPANEL
 msgctxt "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.CHANGEMODULEPANEL"
 msgid "Add or Change Module"
-msgstr "新增或更改艙型"
+msgstr "新增或更改艙塊"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.MODULESTATCHANGE.BURDEN
 msgctxt ""
@@ -78213,7 +77313,7 @@ msgstr "火箭建造狀態："
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.TITLE"
 msgid "Rocket Module"
-msgstr "火箭艙型"
+msgstr "火箭艙塊"
 
 #. STRINGS.UI.UISIDESCREENS.ROLESTATION.OPENROLESBUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.ROLESTATION.OPENROLESBUTTON"
@@ -78376,7 +77476,7 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.TITLE"
 msgid "Select Module"
-msgstr "選擇艙型"
+msgstr "選擇艙塊"
 
 #. STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.PENDING_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.PENDING_BUTTON"
@@ -78560,7 +77660,7 @@ msgid ""
 "Current Temperature:\n"
 "{0}"
 msgstr ""
-"當前溫度：\n"
+"目前溫度：\n"
 "{0}"
 
 #. STRINGS.UI.UISIDESCREENS.TEMPERATURESWITCHSIDESCREEN.TITLE
@@ -78594,7 +77694,7 @@ msgid ""
 "Current {0}:\n"
 "{1}"
 msgstr ""
-"當前{0}：\n"
+"目前{0}：\n"
 "{1}"
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.DISEASE
@@ -78796,7 +77896,7 @@ msgstr "時間安排"
 #. STRINGS.UI.UISIDESCREENS.TIMEDSWITCHSIDESCREEN.CURRENTSTATE
 msgctxt "STRINGS.UI.UISIDESCREENS.TIMEDSWITCHSIDESCREEN.CURRENTSTATE"
 msgid "Current State:"
-msgstr "當前狀態："
+msgstr "目前狀態："
 
 #. STRINGS.UI.UISIDESCREENS.TIMEDSWITCHSIDESCREEN.OFF
 msgctxt "STRINGS.UI.UISIDESCREENS.TIMEDSWITCHSIDESCREEN.OFF"
@@ -79016,7 +78116,7 @@ msgid ""
 "Current Wattage:\n"
 "{0}"
 msgstr ""
-"當前功率：\n"
+"目前功率：\n"
 "{0}"
 
 #. STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.TITLE
@@ -80509,7 +79609,7 @@ msgid ""
 msgstr ""
 "這名複製人需要<link=\"MORALE\">{0}士氣</link>\n"
 "\n"
-"當前士氣："
+"目前士氣："
 
 #. STRINGS.UI.VITALSSCREEN.SICKNESS
 msgctxt "STRINGS.UI.VITALSSCREEN.SICKNESS"
