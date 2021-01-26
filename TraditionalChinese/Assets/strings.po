@@ -2298,7 +2298,7 @@ msgstr "未選擇過濾類型"
 #. STRINGS.BUILDING.STATUSITEMS.NOFILTERELEMENTSELECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOFILTERELEMENTSELECTED.TOOLTIP"
 msgid "Select a resource to filter"
-msgstr "選擇一種資源來過濾"
+msgstr "選擇一種資源以過濾"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOFISHABLEWATERBELOW.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOFISHABLEWATERBELOW.NAME"
@@ -4940,7 +4940,7 @@ msgstr "亂塗鴉"
 #. STRINGS.BUILDINGS.PREFABS.CARGOBAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.DESC"
 msgid "Holds more than a regular cargo bay."
-msgstr ""
+msgstr "能比普通的貨艙攜帶更多東西"
 
 #. STRINGS.BUILDINGS.PREFABS.CARGOBAY.EFFECT
 #, fuzzy
@@ -5194,12 +5194,12 @@ msgstr "<link=\"COMMANDMODULE\">指揮艙</link>"
 #. STRINGS.BUILDINGS.PREFABS.CLUSTERCRAFTINTERIORDOOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERCRAFTINTERIORDOOR.DESC"
 msgid "A hatch for getting in and out of the rocket."
-msgstr ""
+msgstr "一個用於進入和離開火箭的艙口"
 
 #. STRINGS.BUILDINGS.PREFABS.CLUSTERCRAFTINTERIORDOOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERCRAFTINTERIORDOOR.EFFECT"
 msgid "Warning: Do not open mid-flight."
-msgstr ""
+msgstr "警告：請勿在航行過程中打開"
 
 #. STRINGS.BUILDINGS.PREFABS.CLUSTERCRAFTINTERIORDOOR.NAME
 #, fuzzy
@@ -5610,7 +5610,7 @@ msgstr "營救同伴"
 #. STRINGS.BUILDINGS.PREFABS.CRYOTANK.DEFROSTBUTTONTOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.CRYOTANK.DEFROSTBUTTONTOOLTIP"
 msgid "A new pal is just an icebreaker away"
-msgstr ""
+msgstr "新的朋友猶如駛來的破冰船一樣"
 
 #. STRINGS.BUILDINGS.PREFABS.CRYOTANK.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.CRYOTANK.DESC"
@@ -5619,6 +5619,9 @@ msgid ""
 "\n"
 "A silhouette just barely visible through the frost of the glass."
 msgstr ""
+"這個箱子看起來非常舊，但聞起來很清爽，像是新的一樣\n"
+"\n"
+"通過玻璃上的霜，能隱約看到一個輪廓"
 
 #. STRINGS.BUILDINGS.PREFABS.CRYOTANK.NAME
 #, fuzzy
@@ -5631,7 +5634,7 @@ msgstr "<link=\"CARBON\">煤炭</link>"
 #. STRINGS.BUILDINGS.PREFABS.DECONTAMINATIONSHOWER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DECONTAMINATIONSHOWER.DESC"
 msgid "Don't forget to decontaminate behind your ears."
-msgstr ""
+msgstr "別忘了清理耳朵後面"
 
 #. STRINGS.BUILDINGS.PREFABS.DECONTAMINATIONSHOWER.EFFECT
 #, fuzzy
@@ -5689,7 +5692,7 @@ msgstr "來杯咖啡就能用"
 #. STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.EFFECT"
 msgid "Generates testing power for late nights."
-msgstr "生成用於測試的無限電力"
+msgstr "產生用於測試的無限電力"
 
 #. STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.NAME"
@@ -6010,7 +6013,7 @@ msgstr "<link=\"ETHANOLDISTILLERY\">乙醇蒸餾器</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXOBASEHEADQUARTERS.DESC"
 msgid ""
 "A quick and easy substitute, though it'll never live up to the original."
-msgstr ""
+msgstr "一個快速且簡易的替代品，卻它從未達到原品的期望"
 
 #. STRINGS.BUILDINGS.PREFABS.EXOBASEHEADQUARTERS.EFFECT
 #, fuzzy
@@ -6464,7 +6467,7 @@ msgstr "<link=\"FLYINGCREATUREBAIT\">飛行動物誘餌</link>"
 #. STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.DESC"
 msgid "Nuke your food"
-msgstr ""
+msgstr "將你的食物核烹飪"
 
 #. STRINGS.BUILDINGS.PREFABS.GAMMARAYOVEN.EFFECT
 #, fuzzy
@@ -6549,7 +6552,7 @@ msgstr "<link=\"GASBOTTLER\">氣體裝罐器</link>"
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.DESC"
 msgid "Holds more than a typical gas cargo canister."
-msgstr ""
+msgstr "能比普通的氣罐貨艙攜帶更多東西"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.EFFECT
 #, fuzzy
@@ -7127,7 +7130,7 @@ msgstr "神經振盪器"
 #. STRINGS.BUILDINGS.PREFABS.GENETICANALYSISSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENETICANALYSISSTATION.DESC"
 msgid "Would a mutated rose still smell as sweet?"
-msgstr ""
+msgstr "玫瑰縱使以其他名字稱之，芳香依舊，那變異的呢？"
 
 #. STRINGS.BUILDINGS.PREFABS.GENETICANALYSISSTATION.EFFECT
 #, fuzzy
@@ -7251,7 +7254,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.HABITATMODULEMEDIUM.DESC"
 msgid ""
 "Duplicants can survive space travel inside this protective nosecone... "
 "Hopefully."
-msgstr ""
+msgstr "在這種防護性的前錐中，能使複製人在太空旅行中生存下來……希望吧"
 
 #. STRINGS.BUILDINGS.PREFABS.HABITATMODULEMEDIUM.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HABITATMODULEMEDIUM.EFFECT"
@@ -7262,6 +7265,11 @@ msgid ""
 "\n"
 "One Command Module may be installed per rocket."
 msgstr ""
+"與指揮艙的作用一致\n"
+"\n"
+"能容納十位複製人\n"
+"\n"
+"每個火箭可安裝一個指揮艙"
 
 #. STRINGS.BUILDINGS.PREFABS.HABITATMODULEMEDIUM.NAME
 #, fuzzy
@@ -7274,7 +7282,7 @@ msgstr "<link=\"RESEARCHMODULE\">研究艙</link>"
 #. STRINGS.BUILDINGS.PREFABS.HABITATMODULESMALL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HABITATMODULESMALL.DESC"
 msgid "One lucky Duplicant gets the best view from the whole rocket."
-msgstr ""
+msgstr "一個幸運的複製人能夠得到整個火箭最好的視野"
 
 #. STRINGS.BUILDINGS.PREFABS.HABITATMODULESMALL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HABITATMODULESMALL.EFFECT"
@@ -7287,6 +7295,13 @@ msgid ""
 "\n"
 "Must be built at the top of a rocket."
 msgstr ""
+"與指揮艙和前錐的作用一致\n"
+"\n"
+"能容納一位複製人\n"
+"\n"
+"每個火箭可安裝一個指揮艙\n"
+"\n"
+"必須建在火箭的最頂端"
 
 #. STRINGS.BUILDINGS.PREFABS.HABITATMODULESMALL.NAME
 #, fuzzy
@@ -7354,7 +7369,7 @@ msgstr "只能有一個{0}！"
 #. STRINGS.BUILDINGS.PREFABS.HEATCOMPRESSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEATCOMPRESSOR.DESC"
 msgid "\"Room temperature\" is relative, really."
-msgstr ""
+msgstr "「室溫」是相對的，真的"
 
 #. STRINGS.BUILDINGS.PREFABS.HEATCOMPRESSOR.EFFECT
 #, fuzzy
@@ -7380,7 +7395,7 @@ msgstr "<link=\"LIQUIDHEATER\">液體加熱器</link>"
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.DESC"
 msgid "It's like playing the most dangerous game of ping pong."
-msgstr ""
+msgstr "就像在打最危險的乒乓球遊戲一樣"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.EFFECT"
@@ -7388,11 +7403,13 @@ msgid ""
 "Receives and redirects <style=\"KKeyword\">High Energy Particles</style> "
 "from <link=\"HIGHENERGYPARTICLESPAWNER\">Particle Generators</link>."
 msgstr ""
+"將<link=\"HIGHENERGYPARTICLESPAWNER\">粒子產生器</link>產生的<style="
+"\"KKeyword\">高能粒子</style>接收並重新導向"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_PORT"
 msgid "Ignore incoming particles"
-msgstr ""
+msgstr "忽略來臨的粒子"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_PORT_ACTIVE
 #, fuzzy
@@ -7439,11 +7456,15 @@ msgid ""
 "\n"
 "Emits generated particles in the direction of your choosing."
 msgstr ""
+"吸收附近的<link=\"RADIATION\">輻射</link>來產生<style=\"KKeyword\">高能粒子</"
+"style>\n"
+"\n"
+"向你選擇的方向釋放產生的粒子"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT"
 msgid "Do not emit High Energy Particles"
-msgstr ""
+msgstr "不釋放高能粒子"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT_ACTIVE
 #, fuzzy
@@ -8014,7 +8035,7 @@ msgstr "<link=\"LADDERFAST\">塑膠梯子</link>"
 #. STRINGS.BUILDINGS.PREFABS.LANDING_POD.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LANDING_POD.DESC"
 msgid "Geronimo!"
-msgstr ""
+msgstr "杰羅尼莫！"
 
 #. STRINGS.BUILDINGS.PREFABS.LANDING_POD.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LANDING_POD.EFFECT"
@@ -8023,17 +8044,20 @@ msgid ""
 "\n"
 "Pod will disintegrate on arrival."
 msgstr ""
+"容納部署在軌道上的一位複製人\n"
+"\n"
+"艙塊一旦到達就會破碎"
 
 #. STRINGS.BUILDINGS.PREFABS.LANDING_POD.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LANDING_POD.NAME"
 msgid "Spacefarer Deploy Pod"
-msgstr ""
+msgstr "太空人部署艙"
 
 #. STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.DESC"
 msgid ""
 "A platform from which rockets can be launched and on which they can land."
-msgstr ""
+msgstr "一個平台，火箭能夠在上面發射和著陸"
 
 #. STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.EFFECT"
@@ -8046,6 +8070,12 @@ msgid ""
 "link><link=\"MODULARLAUNCHPADPORTSOLID\">s</link> built to either side of "
 "the platform."
 msgstr ""
+"啟用火箭構造\n"
+"\n"
+"允許火箭在星球上發射或著陸\n"
+"\n"
+"自動地將建造的<link=\"MODULARLAUNCHPADPORTSOLID\">火箭端口</link>與平台的連續"
+"相連"
 
 #. STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.NAME
 #, fuzzy
@@ -8146,7 +8176,7 @@ msgstr "<link=\"JETSUITMARKER\">噴氣服檢查站</link>"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.DESC"
 msgid "Holds more than a regular cargo tank."
-msgstr ""
+msgstr "比普通的液罐貨艙能攜帶更多東西"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.EFFECT
 #, fuzzy
@@ -10749,7 +10779,7 @@ msgstr "<link=\"ASTRONAUTTRAINEE\">火箭駕駛</link>"
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.DESC"
 msgid "Rockets must be landed to load or unload resources."
-msgstr ""
+msgstr "火箭必須著陸才能裝卸資源"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.EFFECT"
@@ -10763,6 +10793,12 @@ msgid ""
 "\n"
 "Uses the gas filters set on the linked Rocket Platform."
 msgstr ""
+"允許<link=\"ELEMENTSGAS\">氣體</link>從火箭的貨倉中裝卸\n"
+"\n"
+"自動地與相鄰的<link=\"LAUNCHPLATFORM\">火箭平台</link>或另一個<link="
+"\"MODULARLAUNCHPADPORTSOLID\">火箭端口</link>相連\n"
+"\n"
+"可以在對應的火箭平台上使用氣體選擇項設置"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.NAME
 #, fuzzy
@@ -10775,7 +10811,7 @@ msgstr "<link=\"ASTRONAUTTRAINEE\">火箭駕駛</link>"
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.DESC"
 msgid "Rockets must be landed to load or unload resources."
-msgstr ""
+msgstr "火箭必須著陸才能裝載或卸載資源"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.EFFECT"
@@ -10789,6 +10825,12 @@ msgid ""
 "\n"
 "Uses the liquid filters set on the linked Rocket Platform."
 msgstr ""
+"允許<link=\"ELEMENTSLIQUID\">液體</link>從火箭的貨倉中裝卸\n"
+"\n"
+"自動地與相鄰的<link=\"LAUNCHPLATFORM\">火箭平台</link>或另一個<link="
+"\"MODULARLAUNCHPADPORTSOLID\">火箭端口</link>相連\n"
+"\n"
+"可以在對應的火箭平台上使用液體選擇項設置"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.NAME
 #, fuzzy
@@ -10801,7 +10843,7 @@ msgstr "<link=\"LOGICELEMENTSENSORLIQUID\">液體元素感測器</link>"
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.DESC"
 msgid "Rockets must be landed to load or unload resources."
-msgstr ""
+msgstr "火箭必須著陸才能裝載或卸載資源"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.EFFECT"
@@ -10815,6 +10857,12 @@ msgid ""
 "\n"
 "Uses the solid material filters set on the linked Rocket Platform."
 msgstr ""
+"允許<link=\"ELEMENTSSOLID\">固體</link>從火箭的貨倉中裝卸\n"
+"\n"
+"自動地與相鄰的<link=\"LAUNCHPLATFORM\">火箭平台</link>或另一個<link="
+"\"MODULARLAUNCHPADPORTSOLID\">火箭端口</link>相連\n"
+"\n"
+"可以在對應的火箭平台上使用固體過濾器"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.NAME
 #, fuzzy
@@ -10958,7 +11006,7 @@ msgstr "<link=\"MOUDLINGTILE\">鑲邊磚</link>"
 #. STRINGS.BUILDINGS.PREFABS.NOSECONEBASIC.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.NOSECONEBASIC.DESC"
 msgid "Every rocket requires a nosecone to fly."
-msgstr ""
+msgstr "每個火箭都需要一個前錐才能飛起來"
 
 #. STRINGS.BUILDINGS.PREFABS.NOSECONEBASIC.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.NOSECONEBASIC.EFFECT"
@@ -10967,6 +11015,9 @@ msgid ""
 "\n"
 "Must be built at the top of a rocket."
 msgstr ""
+"在飛行和落地期間保護火箭，以實現太空旅行\n"
+"\n"
+"必須建在火箭的最頂端"
 
 #. STRINGS.BUILDINGS.PREFABS.NOSECONEBASIC.NAME
 #, fuzzy
@@ -10981,7 +11032,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.DESC"
 msgid ""
 "Nuclear reactors can be paired with particle generators to produce high "
 "energy particles."
-msgstr ""
+msgstr "核反應堆可以與粒子產生器配合以創造高能粒子"
 
 #. STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.EFFECT
 #, fuzzy
@@ -11005,7 +11056,7 @@ msgstr "<link=\"NUCLEARREACTOR\">核反應堆</link>"
 #. STRINGS.BUILDINGS.PREFABS.NUCLEARRESEARCHCENTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARRESEARCHCENTER.DESC"
 msgid "Comes with a few ions thrown in, free of charge."
-msgstr ""
+msgstr "投入少許離子就能消除電荷"
 
 #. STRINGS.BUILDINGS.PREFABS.NUCLEARRESEARCHCENTER.EFFECT
 #, fuzzy
@@ -11121,14 +11172,14 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.DESC"
 msgid ""
 "It's a generally good idea to pack some supplies when exploring unknown "
 "worlds."
-msgstr ""
+msgstr "在探索未知世界時，通常準備一些補給是個好主意"
 
 #. STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.EFFECT"
 msgid ""
 "Delivers cargo to the surface of Planetoids that do not yet have a <link="
 "\"LAUNCHPLATFORM\">Rocket Platform</link>."
-msgstr ""
+msgstr "將貨物放在還沒有<link=\"LAUNCHPLATFORM\">火箭平台</link>的星球表面"
 
 #. STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.NAME
 #, fuzzy
@@ -11234,7 +11285,7 @@ msgstr "<link=\"LIQUIDOXIDIZERTANK\">液態氧化劑艙</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXYGENMASKSTATION.DESC"
 msgid ""
 "Duplicants can't pass by a station if it lacks enough oxygen to fill a mask."
-msgstr ""
+msgstr "如果沒有足夠的氧氣填充面罩，複製人就無法通過"
 
 #. STRINGS.BUILDINGS.PREFABS.OXYGENMASKSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXYGENMASKSTATION.EFFECT"
@@ -11249,6 +11300,14 @@ msgid ""
 "\n"
 "Can be rotated before construction."
 msgstr ""
+"使用過濾選項中的指定<link=\"METAL\">金屬礦石</link>製造<link=\"OXYGENMASK\">"
+"氧氣面罩</link>\n"
+"\n"
+"自動從環境中抽取<link=\"OXYGEN\">氧氣</link>來填充面罩\n"
+"\n"
+"標記複製人需要戴上或摘下面罩的閾值\n"
+"\n"
+"建造前可旋轉"
 
 #. STRINGS.BUILDINGS.PREFABS.OXYGENMASKSTATION.NAME
 #, fuzzy
@@ -11296,7 +11355,7 @@ msgstr "<link=\"PARKSIGN\">公園標誌</link>"
 #. STRINGS.BUILDINGS.PREFABS.PARTYCAKE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PARTYCAKE.DESC"
 msgid "Any way you slice it, that's a good looking cake."
-msgstr ""
+msgstr "不管你怎麼切，那都是一個好看的蛋糕"
 
 #. STRINGS.BUILDINGS.PREFABS.PARTYCAKE.EFFECT
 #, fuzzy
@@ -11379,6 +11438,7 @@ msgid ""
 "Lands a Duplicant on a Planetoid from an orbiting <link=\"PIONEERMODULE"
 "\">Trailblazer Module</link>."
 msgstr ""
+"使軌道上的<link=\"PIONEERMODULE\">拓荒者艙</link>中的複製人在星球上著陸"
 
 #. STRINGS.BUILDINGS.PREFABS.PIONEERLANDER.NAME
 #, fuzzy
@@ -11391,7 +11451,7 @@ msgstr "<link=\"LADDER\">梯子</link>"
 #. STRINGS.BUILDINGS.PREFABS.PIONEERMODULE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PIONEERMODULE.DESC"
 msgid "That's one small step for Dupekind."
-msgstr ""
+msgstr "複製人的一小步"
 
 #. STRINGS.BUILDINGS.PREFABS.PIONEERMODULE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PIONEERMODULE.EFFECT"
@@ -11403,6 +11463,11 @@ msgid ""
 "\n"
 "Deployment is available while in a Starmap hex adjacent to a Planetoid."
 msgstr ""
+"能夠前往還沒有<link=\"LAUNCHPLATFORM\">火箭平台</link>的星球\n"
+"\n"
+"能容納一位複製人\n"
+"\n"
+"星圖中，星球周圍相鄰一格開放時就可以部署"
 
 #. STRINGS.BUILDINGS.PREFABS.PIONEERMODULE.NAME
 #, fuzzy
@@ -11609,7 +11674,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.DESC"
 msgid ""
 "Limiting the power drawn by wires prevents them from incurring overload "
 "damage."
-msgstr ""
+msgstr "限制電線的功率以防止發生過載損壞"
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.EFFECT
 #, fuzzy
@@ -11640,7 +11705,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.DESC"
 msgid ""
 "Limiting the power drawn by wires prevents them from incurring overload "
 "damage."
-msgstr ""
+msgstr "限制電線的功率以防止發生過載損壞"
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.EFFECT
 #, fuzzy
@@ -12113,7 +12178,7 @@ msgstr "桌子"
 #. STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.DESC"
 msgid "Duplicants can become sick if exposed to radiation without protection."
-msgstr ""
+msgstr "如果在沒有保護的情況下暴露於輻射中，複製人將會生病"
 
 #. STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.EFFECT"
@@ -12122,6 +12187,8 @@ msgid ""
 "link> that can be collected by a <link=\"HIGHENERGYPARTICLESPAWNER"
 "\">Particle Generator</link>."
 msgstr ""
+"<link=\"POWER\">通電</link>時釋放<link=\"RADIATION\">輻射</link>，可以被"
+"<link=\"HIGHENERGYPARTICLESPAWNER\">粒子產生器</link>收集"
 
 #. STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.NAME
 #, fuzzy
@@ -12134,7 +12201,7 @@ msgstr "<link=\"RATIONBOX\">口糧箱</link>"
 #. STRINGS.BUILDINGS.PREFABS.RAILGUN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUN.DESC"
 msgid "It's tempting to climb inside but trust me... don't."
-msgstr ""
+msgstr "儘管很想爬進去，但，相信我...別那麼做"
 
 #. STRINGS.BUILDINGS.PREFABS.RAILGUN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUN.EFFECT"
@@ -12148,6 +12215,12 @@ msgid ""
 "\n"
 "Cannot transport Duplicants."
 msgstr ""
+"將<link=\"RAILGUNPAYLOAD\">星際貨物</link>於星球間傳送\n"
+"\n"
+"貨物可以包含<link=\"ELEMENTSSOLID\">固體</link>、<link=\"ELEMENTSLIQUID\">液"
+"體</link>和<link=\"ELEMENTSGAS\">氣體</link>材料\n"
+"\n"
+"不能傳送複製人"
 
 #. STRINGS.BUILDINGS.PREFABS.RAILGUN.NAME
 #, fuzzy
@@ -12310,7 +12383,7 @@ msgstr ""
 "\n"
 "無論目的地為何，都會產生少量數據磁盤\n"
 "\n"
-"所生成的<link=\"RESEARCH\">研究點</link>在火箭返回後可供使用"
+"所產生的<link=\"RESEARCH\">研究點</link>在火箭返回後可供使用"
 
 #. STRINGS.BUILDINGS.PREFABS.RESEARCHMODULE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.RESEARCHMODULE.NAME"
@@ -13525,10 +13598,10 @@ msgid ""
 "\n"
 "Outputs <link=\"WATER\">Water</link>."
 msgstr ""
-"直接從機器地基的下方吸入<link=\"STEAM\">蒸汽</link>並生成<link=\"POWER\">電力"
-"</link>。\n"
+"直接從機器地基的下方吸入<link=\"STEAM\">蒸汽</link>並產生<link=\"POWER\">電力"
+"</link>\n"
 "\n"
-"輸出<link=\"WATER\">水</link>。"
+"輸出<link=\"WATER\">水</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.STEAMTURBINE2.HEAT_SOURCE
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE2.HEAT_SOURCE"
@@ -16979,21 +17052,21 @@ msgid ""
 "\n"
 "Refer to Experiment 7F."
 msgstr ""
-"[錄音開始]\n"
+"【錄音開始】\n"
 "\n"
-"\"從傳統角度來說，克隆會產生基因上與提供體相同但獨立發展的實驗體，形成一個具"
-"有自我特徵的獨一無二的存在。\n"
+"從傳統角度來說，克隆會產生基因上與提供體相同但獨立發展的實驗體，形成一個具有"
+"自我特徵的獨一無二的存在\n"
 "\n"
-"相反，列印艙則試圖列印精確的原子拷貝。理論上，所有神經通路應原封不動並與原始"
-"實驗體完全相同。\n"
+"相反，列印艙則試圖列印精確的原子拷貝，理論上，所有神經通路應原封不動並與原始"
+"實驗體完全相同\n"
 "\n"
-"考慮到這一點，記憶並未變成我們實驗體的與生俱來之物，這真是非常奇妙; 但是，截"
-"至目前為止，克隆的實驗體在初次接觸熟悉的刺激因素，如提供體的常用物品時，均未"
-"顯示出任何認識的跡象。\n"
+"考慮到這一點，記憶並未變成我們實驗體的與生俱來之物，這真是非常奇妙！\n"
+"但截至目前為止，克隆的實驗體在初次接觸熟悉的刺激因素，如常用物品時，均未顯示"
+"出任何認識的跡象\n"
 "\n"
-"參考試驗 7D。\n"
+"參考實驗 7D\n"
 "\n"
-"參考試驗 7F。"
+"參考實驗 7F"
 
 #. STRINGS.CODEX.A6_MEMORYIMPLANTATION.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A6_MEMORYIMPLANTATION.BODY.CONTAINER2"
@@ -18871,7 +18944,7 @@ msgid ""
 "transportation."
 msgstr ""
 "最近成立的莊嚴科技的科學家們公佈了他們的第一個技術原型，稱為「時空之弓」，這"
-"是一種可以操縱第四維度，生成無限、清潔、可再生能源的裝置\n"
+"是一種可以操縱第四維度，產生無限、清潔、可再生能源的裝置\n"
 "\n"
 "雖然這聽起來可能像科幻小說中的情節，但研究所創始人傑奎琳·斯特恩博士證實，這是"
 "千真萬確的\n"
@@ -21157,53 +21230,53 @@ msgid ""
 "------------------\n"
 msgstr ""
 "奧莉維亞：我們已經再次檢查了一遍我們的觀測設備，而且電腦的啟動馬上就要完成"
-"了。出現任何故障我們的防備人員就會立刻關掉它。\n"
+"了，出現任何故障我們的防備人員就會立刻關掉它\n"
 "\n"
-"奧莉維亞：是時候了。\n"
+"奧莉維亞：是時候了\n"
 "\n"
-"傑姬：沒錯。\n"
+"傑姬：沒錯\n"
 "\n"
-"傑姬：讓機器慢點啟轉吧，這樣我們就可以檢測到任何異常的動力波動了。數\"3\"就開"
-"始。\n"
+"傑姬：讓機器慢點運轉吧，這樣我們就可以檢測到任何異常的動力波動了。數到三就開"
+"始\n"
 "\n"
-"傑姬：\"1\"……\"2\"……\n"
+"傑姬：一…二…\n"
 "\n"
-"傑姬：\"3\"。\n"
+"傑姬：三\n"
 "\n"
-"[有金屬碰撞聲，可以聽到機器低沉的嗡嗡聲。]\n"
+"【有金屬碰撞聲，可以聽到機器低沉的嗡嗡聲】\n"
 "\n"
-"傑姬：有點不對勁。\n"
+"傑姬：有點不對勁\n"
 "\n"
-"奧莉維亞：是容器……原子振動得太快了。\n"
+"奧莉維亞：是容器…原子振動得太快了\n"
 "\n"
-"[機器的嗡嗡聲變為刺耳的聲音了。]\n"
+"【機器的嗡嗡聲變為刺耳的聲音了】\n"
 "\n"
-"奧莉維亞：我-我們必須要中止了！\n"
+"奧莉維亞：我－我們必須要中止了！\n"
 "\n"
 "傑姬：不，還不行。降低冷卻系統的電力，用這部分電力維持容器的平衡，它會穩定下"
-"來的。\n"
+"來的\n"
 "\n"
 "奧莉維亞：但沒有冷卻液的話——\n"
 "\n"
 "傑姬：它會穩定的！\n"
 "\n"
-"[有刺耳的電噼啪聲。]\n"
+"【有刺耳的電噼啪聲】\n"
 "\n"
-"奧莉維亞：降低冷卻系統的40%電力，將一切都調整到原子容器中去！\n"
+"奧莉維亞：降低冷卻系統的 40% 電力，將一切都調整到原子容器中去！\n"
 "\n"
-"[嗡嗡聲逐漸增強，然後降為穩定的雜聲。]\n"
+"【嗡嗡聲逐漸增強，然後降為穩定的雜聲】\n"
 "\n"
-"奧莉維亞：做到了，容器穩定了。\n"
+"奧莉維亞：做到了，容器穩定了\n"
 "\n"
-"[傑姬鬆了口氣。]\n"
+"【傑姬鬆了口氣】\n"
 "\n"
-"奧莉維亞：但是……看看這些數字。\n"
+"奧莉維亞：但是…看看這些數字\n"
 "\n"
 "傑姬：我的天，這些都是真的嗎？\n"
 "\n"
-"奧莉維亞：是的，我很確信是真的。傑姬，我認為我們做到了。\n"
+"奧莉維亞：是的，我很確信是真的。傑姬，我認為我們做到了\n"
 "\n"
-"奧莉維亞：我想我們創造出了無限能源。\n"
+"奧莉維亞：我想我們創造出了無限能源\n"
 "------------------\n"
 
 #. STRINGS.CODEX.PLANETARYECHOES.BODY.CONTAINER2
@@ -21706,23 +21779,6 @@ msgstr ""
 "\n"
 
 #. STRINGS.CODEX.RESEARCH.PARAGRAPH_3
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.RESEARCH.PARAGRAPH_3"
-#| msgid ""
-#| "Advanced research tasks require special research stations to generate the "
-#| "proper kind of research points. These research stations often consume "
-#| "more advanced resources.\n"
-#| "\n"
-#| "Using higher level research stations also requires Duplicants to have "
-#| "learned higher level research <link=\"ROLES\">skills</link>\n"
-#| "\n"
-#| "Novice Research is performed at the <link=\"RESEARCHCENTER\">Research "
-#| "Station</link>\n"
-#| "Advanced Research is performed at the <link=\"ADVANCEDRESEARCHCENTER"
-#| "\">Super Computer</link>\n"
-#| "Interstellar Research is performed at the <link=\"COSMICRESEARCHCENTER"
-#| "\">Virtual Planetarium</link>\n"
-#| "\n"
 msgctxt "STRINGS.CODEX.RESEARCH.PARAGRAPH_3"
 msgid ""
 "Advanced research tasks require special research stations to generate the "
@@ -21742,7 +21798,7 @@ msgid ""
 "Collider</link>\n"
 "\n"
 msgstr ""
-"進階研究任務需要特殊研究站來生成正確種類的研究點。這些研究站通常會消耗更高級"
+"進階研究任務需要特殊研究站來產生正確種類的研究點。這些研究站通常會消耗更高級"
 "的資源\n"
 "\n"
 "使用更高等級的研究站同樣也需要複製人習得更高等級的研究<link=\"ROLES\">技能</"
@@ -21751,6 +21807,7 @@ msgstr ""
 "基礎研究可在<link=\"RESEARCHCENTER\">研究站</link>進行\n"
 "進階研究可在<link=\"ADVANCEDRESEARCHCENTER\">超級電腦</link>進行\n"
 "星際研究可在<link=\"COSMICRESEARCHCENTER\">虛擬星象儀</link>進行\n"
+"原子研究可在<link=\"NUCLEARLABORATORY\">原子對撞機</link>進行\n"
 "\n"
 
 #. STRINGS.CODEX.RESEARCH.TITLE
@@ -22403,10 +22460,10 @@ msgid ""
 "Temporal Tear carrying that hope on their shoulders... Perhaps one day "
 "they'll find a place to call home, and begin a thriving colony all their own."
 msgstr ""
-"我們的家園在這個宇宙中已經消失了，取而代之的是行星的殘架和天空中的殘跡……但我"
-"仍懷有希望，其他世界還是存在的，它們就隱藏在其他維度中。我派出了我的複製人，"
-"他肩負著這份希望，通過了時空裂口... 也許有一天他能找到一個地方聯絡回來，然後"
-"開創一個他自己的繁榮的殖民地"
+"我們的家園在這個宇宙中已經消失了，取而代之的是行星的殘架和天空中的殘跡…但我仍"
+"懷有希望，其他世界還是存在的，它們就隱藏在其他維度中。我派出了我的複製人，他"
+"肩負著這份希望，通過了時空裂口…也許有一天他能找到一個地方聯絡回來，然後開創一"
+"個他自己的繁榮的殖民地"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.MESSAGE_BODY_DLC1
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.MESSAGE_BODY_DLC1"
@@ -22455,8 +22512,8 @@ msgid ""
 "and a wound in the sky... But I hold out hope that other worlds exist out "
 "there, tucked away in other dimensions."
 msgstr ""
-"我們的家園在這個宇宙中已經消失了，取而代之的是行星的殘架和天空中的殘跡... 但"
-"我仍懷有希望，其他世界還是存在的，它們就隱藏在其他維度中"
+"我們的家園在這個宇宙中已經消失了，取而代之的是行星的殘架和天空中的殘跡…但我仍"
+"懷有希望，其他世界還是存在的，它們就隱藏在其他維度中"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.VIDEO_TEXT.SECOND
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.VIDEO_TEXT.SECOND"
@@ -22465,8 +22522,8 @@ msgid ""
 "shoulders... Perhaps one day they'll find a place to call home, and begin a "
 "thriving colony all their own."
 msgstr ""
-"我派出了我的複製人，他肩負著這份希望，通過了時空裂口... 也許有一天他能找到一"
-"個地方聯絡回來，然後開創一個他自己的繁榮的殖民地"
+"我派出了我的複製人，他肩負著這份希望，通過了時空裂口…也許有一天他能找到一個地"
+"方聯絡回來，然後開創一個他自己的繁榮的殖民地"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.VIDEO_TEXT_DLC1.FIRST
 msgctxt ""
@@ -23278,7 +23335,7 @@ msgid ""
 "the world we've been given. I am proud to say..."
 msgstr ""
 "現在最重要的是我們都在這，而且我們能充分利用世界給予我們的一切。我能很自豪地"
-"說..."
+"說…"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.THRIVING.VIDEO_TEXT.THIRD
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.THRIVING.VIDEO_TEXT.THIRD"
@@ -26066,7 +26123,7 @@ msgstr ""
 "\n"
 "總有一天它會長成成年噴浮飛魚變種，成為<link=\"PUFTALPHA\">貴族飛魚</link>。\n"
 "\n"
-"它看起來有點自命不凡..."
+"它看起來有點自命不凡…"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.BABY.NAME"
@@ -27726,7 +27783,7 @@ msgstr "死亡"
 #. STRINGS.CREATURES.STATUSITEMS.DEAD.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DEAD.TOOLTIP"
 msgid "This critter won't be getting back up..."
-msgstr "這隻小動物再也不會回來了..."
+msgstr "這隻小動物再也不會回來了…"
 
 #. STRINGS.CREATURES.STATUSITEMS.DEBUGGOTO.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DEBUGGOTO.NAME"
@@ -31185,7 +31242,7 @@ msgstr "正在自行方便"
 #. STRINGS.DUPLICANTS.CHORES.PEE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.PEE.TOOLTIP"
 msgid "This Duplicant didn't find a toilet in time. Oops"
-msgstr "這名複製人沒有及時找到廁所...哎呦..."
+msgstr "這名複製人沒有及時找到廁所…哎呦…"
 
 #. STRINGS.DUPLICANTS.CHORES.POWER_TINKER.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.POWER_TINKER.NAME"
@@ -31854,7 +31911,7 @@ msgstr "正在嘆氣"
 #. STRINGS.DUPLICANTS.CHORES.SIGH.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.SIGH.TOOLTIP"
 msgid "Ho-hum."
-msgstr "唉唉..."
+msgstr "唉唉…"
 
 #. STRINGS.DUPLICANTS.CHORES.SINGTOEGG.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.SINGTOEGG.NAME"
@@ -33800,12 +33857,9 @@ msgid "Luxurious"
 msgstr "好奇"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET4.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CENTEROFATTENTION.TOOLTIP"
-#| msgid "This Duplicant feels like someone's watching over them..."
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BONUSTOILET4.TOOLTIP"
 msgid "This Duplicant feels endless luxury from the Private Bathroom"
-msgstr "這名複製人感覺有人在盯著他看..."
+msgstr "這名複製人對私人浴室感到無比豪華"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BOTMOPPING.NAME
 #, fuzzy
@@ -33950,7 +34004,7 @@ msgstr "關注的中心"
 #. STRINGS.DUPLICANTS.MODIFIERS.CENTEROFATTENTION.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CENTEROFATTENTION.TOOLTIP"
 msgid "This Duplicant feels like someone's watching over them..."
-msgstr "這名複製人感覺有人在盯著他看..."
+msgstr "這名複製人感覺有人在盯著他看…"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.CHARGING.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CHARGING.NAME"
@@ -36512,7 +36566,7 @@ msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.HAROLD.DESC"
 msgid ""
 "Get a bunch of {0}s together in a room, and you'll have... a bunch of {0}s "
 "together in a room."
-msgstr "把一群{0}集中在一個房間裡，然後你就會有... 集中在一個房間裡的一群{0}"
+msgstr "把一群{0}集中在一個房間裡，然後你就會有…集中在一個房間裡的一群{0}"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.HAROLD.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.HAROLD.NAME"
@@ -41591,7 +41645,7 @@ msgstr "{0}：{1}"
 #. STRINGS.DUPLICANTS.TRAITS.INTERIORDECORATOR.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.INTERIORDECORATOR.DESC"
 msgid "\"Move it a little to the left...\""
-msgstr "「再往左一點，就一點...」"
+msgstr "「再往左一點，就一點…」"
 
 #. STRINGS.DUPLICANTS.TRAITS.INTERIORDECORATOR.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.INTERIORDECORATOR.NAME"
@@ -43299,7 +43353,7 @@ msgid ""
 "<link=\"ELEMENTSLIQUID\">Liquid</link> state."
 msgstr ""
 "(He) 液態氦是原子量輕的化學元素氦，被冷卻成了<link=\"ELEMENTSLIQUID\">液態</"
-"link>。"
+"link>"
 
 #. STRINGS.ELEMENTS.LIQUIDHELIUM.NAME
 msgctxt "STRINGS.ELEMENTS.LIQUIDHELIUM.NAME"
@@ -45048,7 +45102,7 @@ msgstr "<link=\"ALGAE\">藻類</link>"
 #. STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.DESC"
 msgid "Because breathing underwater is better than... not."
-msgstr "畢竟在水下呼吸總好過... 不呼吸"
+msgstr "畢竟在水下呼吸總好過…不呼吸"
 
 #. STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.EFFECT
 msgctxt "STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.EFFECT"
@@ -46528,7 +46582,7 @@ msgstr "調試慢速測試"
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSPAWNMINION
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSPAWNMINION"
 msgid "Debug Spawn Minion"
-msgstr "調試生成複製人"
+msgstr "調試產生複製人"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSPAWNMINIONATMOSUIT
 #, fuzzy
@@ -47114,7 +47168,7 @@ msgstr "沙盒取樣"
 #. STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXSPAWNENTITY
 msgctxt "STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXSPAWNENTITY"
 msgid "Sandbox Spawn Entity"
-msgstr "沙盒生成實體"
+msgstr "沙盒產生實體"
 
 #. STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXSPRINKLE
 msgctxt "STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXSPRINKLE"
@@ -47214,9 +47268,9 @@ msgid ""
 "\n"
 "Each bite tastes refreshingly natural and wholesome."
 msgstr ""
-"由<link=\"BEANPLANT\">小吃芽</link>產生的鮮脆的豆子。\n"
+"由<link=\"BEANPLANT\">小吃芽</link>產生的鮮脆的豆子\n"
 "\n"
-"每一口都清新健康。"
+"每一口都清新健康"
 
 #. STRINGS.ITEMS.FOOD.BEAN.NAME
 msgctxt "STRINGS.ITEMS.FOOD.BEAN.NAME"
@@ -47604,7 +47658,7 @@ msgctxt "STRINGS.ITEMS.FOOD.LETTUCE.DESC"
 msgid ""
 "Crunchy, slightly salty leaves from a <link=\"SEALETTUCE\">Waterweed</link> "
 "plant."
-msgstr "<link=\"SEALETTUCE\">水草</link>產生的脆的，有點鹹的葉子。"
+msgstr "<link=\"SEALETTUCE\">水草</link>產生的脆的，有點鹹的葉子"
 
 #. STRINGS.ITEMS.FOOD.LETTUCE.NAME
 msgctxt "STRINGS.ITEMS.FOOD.LETTUCE.NAME"
@@ -47614,7 +47668,7 @@ msgstr "<link=\"LETTUCE\">海生菜</link>"
 #. STRINGS.ITEMS.FOOD.LETTUCE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.LETTUCE.RECIPEDESC"
 msgid "Edible roughage from a <link=\"SEALETTUCE\">Waterweed</link>."
-msgstr "<link=\"SEALETTUCE\">水草</link>產生的可食用纖維。"
+msgstr "<link=\"SEALETTUCE\">水草</link>產生的可食用纖維"
 
 #. STRINGS.ITEMS.FOOD.LIGHTBUGEGG.DESC
 msgctxt "STRINGS.ITEMS.FOOD.LIGHTBUGEGG.DESC"
@@ -48210,7 +48264,7 @@ msgstr "蘆葦纖維"
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.CRAB_SHELL.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.CRAB_SHELL.DESC"
 msgid "Can be crushed to produce <link=\"LIME\">Lime</link>."
-msgstr "可壓碎以產生<link=\"LIME\">石灰</link>。"
+msgstr "可壓碎以產生<link=\"LIME\">石灰</link>"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.CRAB_SHELL.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.CRAB_SHELL.NAME"
@@ -48220,7 +48274,7 @@ msgstr "蟹殼"
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.EGG_SHELL.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.EGG_SHELL.DESC"
 msgid "Can be crushed to produce <link=\"LIME\">Lime</link>."
-msgstr "可壓碎以產生<link=\"LIME\">石灰</link>。"
+msgstr "可壓碎以產生<link=\"LIME\">石灰</link>"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.EGG_SHELL.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.EGG_SHELL.NAME"
@@ -48253,9 +48307,9 @@ msgid ""
 "\n"
 "It can be burned to produce a one-time burst of <link=\"POWER\">Power</link>."
 msgstr ""
-"一種可燃的濃密壓縮的磚塊。\n"
+"一種可燃的濃密壓縮的磚塊\n"
 "\n"
-"它可以燃燒產生一次性的大量<link=\"POWER\">能量</link>。"
+"它可以燃燒產生一次性的大量<link=\"POWER\">能量</link>"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FUEL_BRICK.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FUEL_BRICK.NAME"
@@ -49624,7 +49678,7 @@ msgstr ""
 #. STRINGS.MISC.NOTIFICATIONS.INSUFFICIENTOXYGENLASTCYCLE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INSUFFICIENTOXYGENLASTCYCLE.NAME"
 msgid "Insufficient Oxygen generation"
-msgstr "氧氣生成不足"
+msgstr "氧氣生產不足"
 
 #. STRINGS.MISC.NOTIFICATIONS.INSUFFICIENTOXYGENLASTCYCLE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INSUFFICIENTOXYGENLASTCYCLE.TOOLTIP"
@@ -49766,10 +49820,10 @@ msgstr ""
 "<link=\"DISEASE\">病菌</link>，例如<link=\"FOODSICKNESS\">食物中毒</link>病菌"
 "和<link=\"SLIMESICKNESS\">結核病</link>病菌，是一種造成我的複製人<link="
 "\"DISEASE\">生病</link>的不可見威脅。<b>病菌概覽</b><color=#F44A47><b> [F9] "
-"</b></color>允許我查看殖民地中的所有病菌濃度和產生病菌來源。\n"
+"</b></color>允許我查看殖民地中的所有病菌濃度和產生病菌來源\n"
 "\n"
 "我可以建造<b>醫療欄</b> <color=#F44A47><b> [8] </b></color>中的洗手盆在髒區域"
-"旁來告訴複製人清洗自己。"
+"旁來告訴複製人清洗自己"
 
 #. STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.NAME"
@@ -50079,7 +50133,7 @@ msgstr ""
 "用電裝置會從連入的電路中獲取一定瓦數的電力\n"
 "\n"
 "我可以使用電力概覽<b><color=#F44A4A> [F2] </b></color>來檢查我的電路狀態。如"
-"果用電裝置消耗的電力比發電機產生的要多，電池就會流失電力直至電力不足。\n"
+"果用電裝置消耗的電力比發電機產生的要多，電池就會流失電力直至電力不足\n"
 "\n"
 "此外，如果用電裝置消耗的電力比電線能承受的要多，電線就會過載並燒毀。為避免這"
 "些狀況，我需要重新把用電裝置分在多條電路上"
@@ -57901,7 +57955,7 @@ msgstr "所有疾病：每次使用-{0}"
 #. STRINGS.UI.BUILDINGEFFECTS.DISEASEEMITTEDPERUSE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.DISEASEEMITTEDPERUSE"
 msgid "{0}: {1} per use"
-msgstr "{0}：每次生成{1}"
+msgstr "{0}：每次生產{1}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.DOCTORING
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.DOCTORING"
@@ -57951,7 +58005,7 @@ msgstr "{0}：{1}"
 #. STRINGS.UI.BUILDINGEFFECTS.ELEMENTEMITTED_TOILET
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.ELEMENTEMITTED_TOILET"
 msgid "{0}: {1} per use"
-msgstr "{0}：每次生成{1}"
+msgstr "{0}：每次生產{1}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.ELEMENTEMITTEDPERUSE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.ELEMENTEMITTEDPERUSE"
@@ -59091,7 +59145,7 @@ msgid ""
 "\"KKeyword\">{0}</style> for each <style=\"KKeyword\">Research Point</style> "
 "produced"
 msgstr ""
-"這個研究站每生成一個<style=\"KKeyword\">研究點</style>會消耗<style=\"consumed"
+"這個研究站每產生一個<style=\"KKeyword\">研究點</style>會消耗<style=\"consumed"
 "\">{1}</style>的<style=\"KKeyword\">{0}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH
@@ -59115,7 +59169,7 @@ msgstr ""
 "每<b>{Time}</b>可給這隻小動物剪毛以產生<style=\"produced\">{Amount}</"
 "style><style=\"KKeyword\">{Item}</style>\n"
 "------------------\n"
-"它必須處於富含<style=\"KKeyword\">{Atmosphere}</style>的環境中才能重新生成剪"
+"它必須處於富含<style=\"KKeyword\">{Atmosphere}</style>的環境中才能重新產生剪"
 "掉的<style=\"KKeyword\">{Item}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY
@@ -59162,7 +59216,7 @@ msgstr "輸出<link=\"WIRE\">電線</link>（限制為{0}）"
 #. STRINGS.UI.CALCULATING
 msgctxt "STRINGS.UI.CALCULATING"
 msgid "Calculating..."
-msgstr "正在計算..."
+msgstr "正在計算…"
 
 #. STRINGS.UI.CANCELPLACEINRECEPTACLE
 msgctxt "STRINGS.UI.CANCELPLACEINRECEPTACLE"
@@ -60537,7 +60591,7 @@ msgstr "已回報錯誤"
 #. STRINGS.UI.CRASHSCREEN.REPORTING
 msgctxt "STRINGS.UI.CRASHSCREEN.REPORTING"
 msgid "REPORTING, PLEASE WAIT..."
-msgstr "回報中，請稍候..."
+msgstr "回報中，請稍候…"
 
 #. STRINGS.UI.CRASHSCREEN.SAVEFAILED
 msgctxt "STRINGS.UI.CRASHSCREEN.SAVEFAILED"
@@ -62286,12 +62340,12 @@ msgstr "{1}在一天中完成了 {0} 件任務"
 #. STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.POSITIVE_TOOLTIP"
 msgid "{0} errands are queued for {1}"
-msgstr "{1}的 {0} 個任务已安排"
+msgstr "{1}的 {0} 個任務已安排"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NAME"
 msgid "<link=\"CONTAMINATEDOXYGEN\">Flatulence</link> Generation:"
-msgstr "<link=\"CONTAMINATEDOXYGEN\">脹氣</link>生成量："
+msgstr "<link=\"CONTAMINATEDOXYGEN\">脹氣</link>產生量："
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP
 msgctxt ""
@@ -62731,7 +62785,7 @@ msgstr "已分配房間"
 #. STRINGS.UI.FILE_NAME_DIALOG.ENTER_TEXT
 msgctxt "STRINGS.UI.FILE_NAME_DIALOG.ENTER_TEXT"
 msgid "Enter Text..."
-msgstr "請輸入文字..."
+msgstr "請輸入文字…"
 
 #. STRINGS.UI.FILTER
 msgctxt "STRINGS.UI.FILTER"
@@ -64034,7 +64088,7 @@ msgstr "???"
 #. STRINGS.UI.FRONTEND.LOADING
 msgctxt "STRINGS.UI.FRONTEND.LOADING"
 msgid "Loading..."
-msgstr "正在載入..."
+msgstr "正在載入…"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.AUTOSAVEWARNING
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.AUTOSAVEWARNING"
@@ -64740,7 +64794,7 @@ msgstr "警告！"
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.ADDITIONAL_MOD_EVENTS
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.ADDITIONAL_MOD_EVENTS"
 msgid "(...additional entries omitted)"
-msgstr "（...附加條目已省略）"
+msgstr "（…附加條目已省略）"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.ALL_MODS_DISABLED_EARLY_ACCESS.MESSAGE
 msgctxt ""
@@ -65115,7 +65169,7 @@ msgstr "版本更新"
 #. STRINGS.UI.FRONTEND.MODESELECTSCREEN.BLANK_DESC
 msgctxt "STRINGS.UI.FRONTEND.MODESELECTSCREEN.BLANK_DESC"
 msgid "Select a playstyle..."
-msgstr "選擇一種遊戲風格..."
+msgstr "選擇一種遊戲風格…"
 
 #. STRINGS.UI.FRONTEND.MODESELECTSCREEN.HEADER
 msgctxt "STRINGS.UI.FRONTEND.MODESELECTSCREEN.HEADER"
@@ -65834,7 +65888,7 @@ msgid ""
 "\n"
 "Please try again with a different seed."
 msgstr ""
-"從以下種子生成世界時發生問題：{0}\n"
+"從以下種子創造世界時發生問題：{0}\n"
 "\n"
 "請使用其他種子再試一次"
 
@@ -66004,12 +66058,12 @@ msgstr "完成"
 #. STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.RANDOM_BUTTON
 msgctxt "STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.RANDOM_BUTTON"
 msgid "Randomize"
-msgstr "隨機生成"
+msgstr "隨機產生"
 
 #. STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.RANDOM_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.RANDOM_BUTTON_TOOLTIP"
 msgid "Randomize a new world gen seed"
-msgstr "隨機生成新的創世種子"
+msgstr "隨機產生新的創世種子"
 
 #. STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.TITLE"
@@ -66029,12 +66083,12 @@ msgstr "設定創世種子"
 #. STRINGS.UI.FRONTEND.WORLDGENSCREEN.GENERATINGWORLD
 msgctxt "STRINGS.UI.FRONTEND.WORLDGENSCREEN.GENERATINGWORLD"
 msgid "GENERATING WORLD"
-msgstr "世界生成中"
+msgstr "創造世界中"
 
 #. STRINGS.UI.FRONTEND.WORLDGENSCREEN.LOADINGGAME
 msgctxt "STRINGS.UI.FRONTEND.WORLDGENSCREEN.LOADINGGAME"
 msgid "LOADING WORLD..."
-msgstr "世界載入中..."
+msgstr "世界載入中…"
 
 #. STRINGS.UI.FRONTEND.WORLDGENSCREEN.SELECTSIZEPROMPT
 msgctxt "STRINGS.UI.FRONTEND.WORLDGENSCREEN.SELECTSIZEPROMPT"
@@ -68144,7 +68198,7 @@ msgid ""
 msgstr ""
 "<b>病菌源</b>\n"
 "產生病菌的區域\n"
-"* 在靠近這些區域的地方放置洗手盆或者手部消毒站有助於防止疾病傳播"
+"＊在靠近這些區域的地方放置洗手盆或者手部消毒站有助於防止疾病傳播"
 
 #. STRINGS.UI.OVERLAYS.DISEASE.NAME
 msgctxt "STRINGS.UI.OVERLAYS.DISEASE.NAME"
@@ -69636,7 +69690,7 @@ msgstr "需要研究{0}"
 #. STRINGS.UI.PRODUCTINFO_RESEARCHREQUIRED
 msgctxt "STRINGS.UI.PRODUCTINFO_RESEARCHREQUIRED"
 msgid "Research required..."
-msgstr "需要研究..."
+msgstr "需要研究…"
 
 #. STRINGS.UI.PRODUCTINFO_ROCKET_INTERIOR
 msgctxt "STRINGS.UI.PRODUCTINFO_ROCKET_INTERIOR"
@@ -69900,7 +69954,7 @@ msgstr ""
 #. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.SEARCH
 msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.SEARCH"
 msgid "SEARCH..."
-msgstr "搜尋..."
+msgstr "搜尋…"
 
 #. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.SECONDS
 msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.SECONDS"
@@ -71164,17 +71218,17 @@ msgstr "複製一個格子的設定，再用於刷子工具 {Hotkey}"
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPAWN_ENTITY.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPAWN_ENTITY.NAME"
 msgid "Spawn"
-msgstr "生成"
+msgstr "創造"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPAWNER.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPAWNER.NAME"
 msgid "Spawner"
-msgstr "生成"
+msgstr "創造"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPAWNER.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPAWNER.TOOLTIP"
 msgid "Spawn critters, food, equipment, and other entities {Hotkey}"
-msgstr "生成小動物，食物，裝備，和其他實體 {Hotkey}"
+msgstr "創造小動物，食物，裝備，和其他實體 {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPRINKLE.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPRINKLE.NAME"
@@ -71549,7 +71603,7 @@ msgstr "{0}（已指派）"
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DROPDOWN_BLANK
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DROPDOWN_BLANK"
 msgid "<i>Move Duplicant...</i>"
-msgstr "<i>轉移複製人...</i>"
+msgstr "<i>轉移複製人…</i>"
 
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_EDITOR
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_EDITOR"
@@ -71940,7 +71994,7 @@ msgstr "辦公馬克杯"
 #. STRINGS.UI.SPACEARTIFACTS.OKAYXRAY.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OKAYXRAY.DESCRIPTION"
 msgid "Ew, weird. It has five fingers!"
-msgstr "呃，真奇怪... 它有五根手指！"
+msgstr "呃，真奇怪…它有五根手指！"
 
 #. STRINGS.UI.SPACEARTIFACTS.OKAYXRAY.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OKAYXRAY.NAME"
@@ -74209,17 +74263,17 @@ msgstr "沙盒"
 #. STRINGS.UI.TOOLS.SANDBOX.SPAWN_ENTITY.NAME
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.SPAWN_ENTITY.NAME"
 msgid "Spawn"
-msgstr "生成"
+msgstr "創造"
 
 #. STRINGS.UI.TOOLS.SANDBOX.SPAWNER.HOVERACTION
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.SPAWNER.HOVERACTION"
 msgid "SPAWN"
-msgstr "生成"
+msgstr "創造"
 
 #. STRINGS.UI.TOOLS.SANDBOX.SPAWNER.NAME
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.SPAWNER.NAME"
 msgid "Spawner"
-msgstr "生成"
+msgstr "創造"
 
 #. STRINGS.UI.TOOLS.SANDBOX.SPRINKLE.HOVERACTION
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.SPRINKLE.HOVERACTION"
@@ -75571,9 +75625,9 @@ msgid ""
 "reached, and send a <b><style=\"logic_on\">Green Signal</style></b> as a "
 "brief pulse rather than continuously."
 msgstr ""
-"在進階模式下，<link =“ LOGICCOUNTER”>訊號計數器</ link>將從<b> 0 </ b>而不是"
-"<b> 1 </ b>開始計數。並於達成最大值時重置，且為短暫而不是連續的輸出<b><style "
-"=“ logic_on”>綠色訊號</ style></ b>"
+"在進階模式下，<link=\"LOGICCOUNTER\">訊號計數器</link>將從<b> 0 </b>而不是"
+"<b> 1 </b>開始計數。並於達成最大值時重置，且為短暫而不是連續的輸出<b><style="
+"\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.START
 msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.START"
@@ -76747,7 +76801,7 @@ msgstr ""
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.SELECT_DUPLICANT"
 msgid "Select Duplicant..."
-msgstr "選擇複製人..."
+msgstr "選擇複製人…"
 
 #. STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.TITLE"
@@ -79017,7 +79071,7 @@ msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_FAIL.SEARCH9"
 msgid ""
 "This user never changed their default background. There is nothing else of "
 "import to be found. How dull."
-msgstr "這個使用者從未更改預設的桌面背景，沒什麼其他重要訊息，真無趣..."
+msgstr "這個使用者從未更改預設的桌面背景，沒什麼其他重要訊息，真無趣…"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH1
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_COMPUTER_SUCCESS.SEARCH1"
@@ -79715,112 +79769,112 @@ msgstr "- 警報 -"
 #. STRINGS.UI.WORLDGEN.ANALYZINGWORLD
 msgctxt "STRINGS.UI.WORLDGEN.ANALYZINGWORLD"
 msgid "Shuffling DNA Blueprints..."
-msgstr "正在混合基因藍圖..."
+msgstr "正在混合基因藍圖…"
 
 #. STRINGS.UI.WORLDGEN.ANALYZINGWORLDCOMPLETE
 msgctxt "STRINGS.UI.WORLDGEN.ANALYZINGWORLDCOMPLETE"
 msgid "Tidying up for the Duplicants..."
-msgstr "正在整理複製人..."
+msgstr "正在整理複製人…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS"
 msgid "Just adding water..."
-msgstr "只是在加水..."
+msgstr "只是在加水…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS1
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS1"
 msgid "Just adding water..."
-msgstr "只是在加水..."
+msgstr "只是在加水…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS2
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS2"
 msgid "Staring at the void..."
-msgstr "正在凝視虛空..."
+msgstr "正在凝視虛空…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS3
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS3"
 msgid "Staring at the void..."
-msgstr "正在凝視虛空..."
+msgstr "正在凝視虛空…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS4
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS4"
 msgid "Staring at the void..."
-msgstr "正在凝視虛空..."
+msgstr "正在凝視虛空…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS5
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS5"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr "正在避免目光與虛空連接..."
+msgstr "正在避免目光與虛空連接…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS6
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS6"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr "正在避免目光與虛空連接..."
+msgstr "正在避免目光與虛空連接…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS7
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS7"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr "正在避免目光與虛空連接..."
+msgstr "正在避免目光與虛空連接…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS8
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS8"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr "正在避免目光與虛空連接..."
+msgstr "正在避免目光與虛空連接…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS9
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS9"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr "正在避免目光與虛空連接..."
+msgstr "正在避免目光與虛空連接…"
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE"
 msgid "Sorting quadrillions of atoms..."
-msgstr "正在整理數以千萬億計的原子..."
+msgstr "正在整理數以千萬億計的原子…"
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE1
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE1"
 msgid "Sorting quadrillions of atoms..."
-msgstr "正在整理數以千萬億計的原子..."
+msgstr "正在整理數以千萬億計的原子…"
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE2
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE2"
 msgid "Sorting quadrillions of atoms..."
-msgstr "正在整理數以千萬億計的原子..."
+msgstr "正在整理數以千萬億計的原子…"
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE3
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE3"
 msgid "Ironing the fabric of creation..."
-msgstr "正在穩定產物結構..."
+msgstr "正在穩定產物結構…"
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE4
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE4"
 msgid "Ironing the fabric of creation..."
-msgstr "正在穩定產物結構..."
+msgstr "正在穩定產物結構…"
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE5
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE5"
 msgid "Ironing the fabric of creation..."
-msgstr "正在穩定產物結構..."
+msgstr "正在穩定產物結構…"
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE6
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE6"
 msgid "Taking hot meteor shower..."
-msgstr "正在洗熱隕石雨澡..."
+msgstr "正在洗熱隕石雨澡…"
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE7
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE7"
 msgid "Tightening asteroid belts..."
-msgstr "正在洗熱隕石雨澡..."
+msgstr "正在洗熱隕石雨澡…"
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE8
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE8"
 msgid "Tightening asteroid belts..."
-msgstr "正在洗熱隕石雨澡..."
+msgstr "正在洗熱隕石雨澡…"
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE9
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE9"
 msgid "Tightening asteroid belts..."
-msgstr "正在洗熱隕石雨澡..."
+msgstr "正在洗熱隕石雨澡…"
 
 #. STRINGS.UI.WORLDGEN.CHOOSEWORLDSIZE
 msgctxt "STRINGS.UI.WORLDGEN.CHOOSEWORLDSIZE"
@@ -79830,7 +79884,7 @@ msgstr "選擇新星系的大小"
 #. STRINGS.UI.WORLDGEN.CLEARINGLEVEL
 msgctxt "STRINGS.UI.WORLDGEN.CLEARINGLEVEL"
 msgid "Staring into the void..."
-msgstr "正在凝視虛空..."
+msgstr "正在凝視虛空…"
 
 #. STRINGS.UI.WORLDGEN.COMPLETE
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETE"
@@ -79840,67 +79894,67 @@ msgstr "成功！太空冒險即將開始"
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT"
 msgid "Cooling glass..."
-msgstr "正在冷卻玻璃..."
+msgstr "正在冷卻玻璃…"
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT1
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT1"
 msgid "Cooling glass..."
-msgstr "正在冷卻玻璃..."
+msgstr "正在冷卻玻璃…"
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT10
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT10"
 msgid "Adding buckets of dirt..."
-msgstr "正在放置成桶的泥土..."
+msgstr "正在放置成桶的泥土…"
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT2
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT2"
 msgid "Cooling glass..."
-msgstr "正在冷卻玻璃..."
+msgstr "正在冷卻玻璃…"
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT3
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT3"
 msgid "Cooling glass..."
-msgstr "正在冷卻玻璃..."
+msgstr "正在冷卻玻璃…"
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT4
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT4"
 msgid "Digging holes..."
-msgstr "正在挖洞..."
+msgstr "正在挖洞…"
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT5
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT5"
 msgid "Digging holes..."
-msgstr "正在挖洞..."
+msgstr "正在挖洞…"
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT6
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT6"
 msgid "Digging holes..."
-msgstr "正在挖洞..."
+msgstr "正在挖洞…"
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT7
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT7"
 msgid "Adding buckets of dirt..."
-msgstr "正在放置成桶的泥土..."
+msgstr "正在放置成桶的泥土…"
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT8
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT8"
 msgid "Adding buckets of dirt..."
-msgstr "正在放置成桶的泥土..."
+msgstr "正在放置成桶的泥土…"
 
 #. STRINGS.UI.WORLDGEN.COMPLETELAYOUT9
 msgctxt "STRINGS.UI.WORLDGEN.COMPLETELAYOUT9"
 msgid "Adding buckets of dirt..."
-msgstr "正在放置成桶的泥土..."
+msgstr "正在放置成桶的泥土…"
 
 #. STRINGS.UI.WORLDGEN.CONVERTTERRAINCELLSTOEDGES
 msgctxt "STRINGS.UI.WORLDGEN.CONVERTTERRAINCELLSTOEDGES"
 msgid "Hardening diamonds..."
-msgstr "正在硬化鑽石..."
+msgstr "正在硬化鑽石…"
 
 #. STRINGS.UI.WORLDGEN.DRAWWORLDBORDER
 msgctxt "STRINGS.UI.WORLDGEN.DRAWWORLDBORDER"
 msgid "Establishing personal boundaries..."
-msgstr "正在硬化鑽石..."
+msgstr "正在硬化鑽石…"
 
 #. STRINGS.UI.WORLDGEN.FAILED
 msgctxt "STRINGS.UI.WORLDGEN.FAILED"
@@ -79910,112 +79964,112 @@ msgstr "我的天，整個跑偏啦！"
 #. STRINGS.UI.WORLDGEN.GENERATENOISE
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE"
 msgid "Baking igneous rock..."
-msgstr "正在烘烤火成岩..."
+msgstr "正在烘烤火成岩…"
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE1
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE1"
 msgid "Multilayering sediment..."
-msgstr "正在沉積疊層..."
+msgstr "正在沉積疊層…"
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE2
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE2"
 msgid "Multilayering sediment..."
-msgstr "正在沉積疊層..."
+msgstr "正在沉積疊層…"
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE3
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE3"
 msgid "Multilayering sediment..."
-msgstr "正在沉積疊層..."
+msgstr "正在沉積疊層…"
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE4
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE4"
 msgid "Superheating gases..."
-msgstr "正在使氣體過熱..."
+msgstr "正在使氣體過熱…"
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE5
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE5"
 msgid "Superheating gases..."
-msgstr "正在使氣體過熱..."
+msgstr "正在使氣體過熱…"
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE6
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE6"
 msgid "Superheating gases..."
-msgstr "正在使氣體過熱..."
+msgstr "正在使氣體過熱…"
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE7
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE7"
 msgid "Vacuuming out vacuums..."
-msgstr "正在清理真空..."
+msgstr "正在清理真空…"
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE8
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE8"
 msgid "Vacuuming out vacuums..."
-msgstr "正在清理真空..."
+msgstr "正在清理真空…"
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE9
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE9"
 msgid "Vacuuming out vacuums..."
-msgstr "正在清理真空..."
+msgstr "正在清理真空…"
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM"
 msgid "Catalyzing Big Bang..."
-msgstr "正在催化大霹靂..."
+msgstr "正在催化大霹靂…"
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM1
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM1"
 msgid "Catalyzing Big Bang..."
-msgstr "正在催化大霹靂..."
+msgstr "正在催化大霹靂…"
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM2
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM2"
 msgid "Catalyzing Big Bang..."
-msgstr "正在催化大霹靂..."
+msgstr "正在催化大霹靂…"
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM3
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM3"
 msgid "Catalyzing Big Bang..."
-msgstr "正在催化大霹靂..."
+msgstr "正在催化大霹靂…"
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM4
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM4"
 msgid "Catalyzing Big Bang..."
-msgstr "正在催化大霹靂..."
+msgstr "正在催化大霹靂…"
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM5
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM5"
 msgid "Catalyzing Big Bang..."
-msgstr "正在催化大霹靂..."
+msgstr "正在催化大霹靂…"
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM6
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM6"
 msgid "Approaching event horizon..."
-msgstr "正在接近事件視界..."
+msgstr "正在接近事件視界…"
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM7
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM7"
 msgid "Approaching event horizon..."
-msgstr "正在接近事件視界..."
+msgstr "正在接近事件視界…"
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM8
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM8"
 msgid "Approaching event horizon..."
-msgstr "正在接近事件視界..."
+msgstr "正在接近事件視界…"
 
 #. STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM9
 msgctxt "STRINGS.UI.WORLDGEN.GENERATESOLARSYSTEM9"
 msgid "Approaching event horizon..."
-msgstr "正在接近事件視界..."
+msgstr "正在接近事件視界…"
 
 #. STRINGS.UI.WORLDGEN.GENERATINGWORLD
 msgctxt "STRINGS.UI.WORLDGEN.GENERATINGWORLD"
 msgid "The Galaxy Synthesizer"
-msgstr "星系生成器"
+msgstr "星系產生器"
 
 #. STRINGS.UI.WORLDGEN.LOADING
 msgctxt "STRINGS.UI.WORLDGEN.LOADING"
 msgid "Loading world..."
-msgstr "正在載入世界..."
+msgstr "正在載入世界…"
 
 #. STRINGS.UI.WORLDGEN.NOHEADERS
 msgctxt "STRINGS.UI.WORLDGEN.NOHEADERS"
@@ -80025,77 +80079,77 @@ msgstr "創造世界"
 #. STRINGS.UI.WORLDGEN.NORMALISENOISE
 msgctxt "STRINGS.UI.WORLDGEN.NORMALISENOISE"
 msgid "Interpolating suffocating gas..."
-msgstr "正在放置令人窒息的氣體..."
+msgstr "正在放置令人窒息的氣體…"
 
 #. STRINGS.UI.WORLDGEN.PLACINGCREATURES
 msgctxt "STRINGS.UI.WORLDGEN.PLACINGCREATURES"
 msgid "Building the suspense..."
-msgstr "正在構建懸念..."
+msgstr "正在構建懸念…"
 
 #. STRINGS.UI.WORLDGEN.PLACINGTEMPLATES
 msgctxt "STRINGS.UI.WORLDGEN.PLACINGTEMPLATES"
 msgid "Generating interest..."
-msgstr "正在產生興趣..."
+msgstr "正在引起興趣…"
 
 #. STRINGS.UI.WORLDGEN.PROCESSING
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING"
 msgid "Embedding metals..."
-msgstr "正在嵌入金屬..."
+msgstr "正在嵌入金屬…"
 
 #. STRINGS.UI.WORLDGEN.PROCESSING1
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING1"
 msgid "Embedding metals..."
-msgstr "正在嵌入金屬..."
+msgstr "正在嵌入金屬…"
 
 #. STRINGS.UI.WORLDGEN.PROCESSING2
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING2"
 msgid "Embedding metals..."
-msgstr "正在嵌入金屬..."
+msgstr "正在嵌入金屬…"
 
 #. STRINGS.UI.WORLDGEN.PROCESSING3
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING3"
 msgid "Burying precious ore..."
-msgstr "正在埋藏珍貴礦石..."
+msgstr "正在埋藏珍貴礦石…"
 
 #. STRINGS.UI.WORLDGEN.PROCESSING4
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING4"
 msgid "Burying precious ore..."
-msgstr "正在埋藏珍貴礦石..."
+msgstr "正在埋藏珍貴礦石…"
 
 #. STRINGS.UI.WORLDGEN.PROCESSING5
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING5"
 msgid "Burying precious ore..."
-msgstr "正在埋藏珍貴礦石..."
+msgstr "正在埋藏珍貴礦石…"
 
 #. STRINGS.UI.WORLDGEN.PROCESSING6
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING6"
 msgid "Burying precious ore..."
-msgstr "正在埋藏珍貴礦石..."
+msgstr "正在埋藏珍貴礦石…"
 
 #. STRINGS.UI.WORLDGEN.PROCESSING7
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING7"
 msgid "Excavating tunnels..."
-msgstr "正在挖掘隧道..."
+msgstr "正在挖掘隧道…"
 
 #. STRINGS.UI.WORLDGEN.PROCESSING8
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING8"
 msgid "Excavating tunnels..."
-msgstr "正在挖掘隧道..."
+msgstr "正在挖掘隧道…"
 
 #. STRINGS.UI.WORLDGEN.PROCESSING9
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING9"
 msgid "Excavating tunnels..."
-msgstr "正在挖掘隧道..."
+msgstr "正在挖掘隧道…"
 
 #. STRINGS.UI.WORLDGEN.PROCESSRIVERS
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSRIVERS"
 msgid "Pouring rivers..."
-msgstr "正在澆注河流..."
+msgstr "正在澆注河流…"
 
 #. STRINGS.UI.WORLDGEN.RESTARTING
 msgctxt "STRINGS.UI.WORLDGEN.RESTARTING"
 msgid "Rebooting..."
-msgstr "正在重新啟動..."
+msgstr "正在重新啟動…"
 
 #. STRINGS.UI.WORLDGEN.RETRYCOUNT
 msgctxt "STRINGS.UI.WORLDGEN.RETRYCOUNT"
@@ -80105,52 +80159,52 @@ msgstr "哎呀，再試一次吧"
 #. STRINGS.UI.WORLDGEN.SETTLESIM
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM"
 msgid "Infusing oxygen..."
-msgstr "正在注入氧氣..."
+msgstr "正在注入氧氣…"
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM1
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM1"
 msgid "Infusing oxygen..."
-msgstr "正在注入氧氣..."
+msgstr "正在注入氧氣…"
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM2
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM2"
 msgid "Too much oxygen. Removing..."
-msgstr "氧氣過多，正在移除..."
+msgstr "氧氣過多，正在移除…"
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM3
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM3"
 msgid "Too much oxygen. Removing..."
-msgstr "氧氣過多，正在移除..."
+msgstr "氧氣過多，正在移除…"
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM4
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM4"
 msgid "Ideal oxygen levels achieved..."
-msgstr "實現理想的氧氣含量..."
+msgstr "實現理想的氧氣含量…"
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM5
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM5"
 msgid "Ideal oxygen levels achieved..."
-msgstr "實現理想的氧氣含量..."
+msgstr "實現理想的氧氣含量…"
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM6
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM6"
 msgid "Planting space flora..."
-msgstr "正在種植植物..."
+msgstr "正在種植植物…"
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM7
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM7"
 msgid "Planting space flora..."
-msgstr "正在種植植物..."
+msgstr "正在種植植物…"
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM8
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM8"
 msgid "Releasing wildlife..."
-msgstr "正在釋放野生動物..."
+msgstr "正在釋放野生動物…"
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM9
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM9"
 msgid "Releasing wildlife..."
-msgstr "正在釋放野生動物..."
+msgstr "正在釋放野生動物…"
 
 #. STRINGS.UI.WORLDGEN.SETUPNOISE
 msgctxt "STRINGS.UI.WORLDGEN.SETUPNOISE"
@@ -80165,57 +80219,57 @@ msgstr "使用所選創世種子：{0}"
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT"
 msgid "Freezing ice formations..."
-msgstr "正在凍結冰層..."
+msgstr "正在凍結冰層…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT1
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT1"
 msgid "Freezing ice formations..."
-msgstr "正在凍結冰層..."
+msgstr "正在凍結冰層…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT10
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT10"
 msgid "Sprinkling sand..."
-msgstr "正在撒下沙子..."
+msgstr "正在撒下沙子…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT2
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT2"
 msgid "Freezing ice formations..."
-msgstr "正在凍結冰層..."
+msgstr "正在凍結冰層…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT3
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT3"
 msgid "Freezing ice formations..."
-msgstr "正在凍結冰層..."
+msgstr "正在凍結冰層…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT4
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT4"
 msgid "Melting magma..."
-msgstr "正在融化岩漿..."
+msgstr "正在融化岩漿…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT5
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT5"
 msgid "Melting magma..."
-msgstr "正在融化岩漿..."
+msgstr "正在融化岩漿…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT6
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT6"
 msgid "Melting magma..."
-msgstr "正在融化岩漿..."
+msgstr "正在融化岩漿…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT7
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT7"
 msgid "Sprinkling sand..."
-msgstr "正在噴灑沙子..."
+msgstr "正在噴灑沙子…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT8
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT8"
 msgid "Sprinkling sand..."
-msgstr "正在噴灑沙子..."
+msgstr "正在噴灑沙子…"
 
 #. STRINGS.UI.WORLDGEN.WORLDLAYOUT9
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
-msgstr "正在噴灑沙子..."
+msgstr "正在噴灑沙子…"
 
 #. STRINGS.VIDEOS.DIGGING
 msgctxt "STRINGS.VIDEOS.DIGGING"
@@ -80421,7 +80475,7 @@ msgid ""
 "The <link=\"HEADQUARTERS\">Printing Pod</link> didn't end up in the "
 "asteroid's exact center this time... but it's still nowhere near the surface"
 msgstr ""
-"<link=\"HEADQUARTERS\">列印艙</link>沒能落在這個小行星的中心，且離地表非常遠"
+"<link=\"HEADQUARTERS\">列印艙</link>沒能落在這個星球的中心，且離地表非常遠"
 
 #. STRINGS.WORLD_TRAITS.MISALIGNED_START.NAME
 msgctxt "STRINGS.WORLD_TRAITS.MISALIGNED_START.NAME"
