@@ -78997,7 +78997,7 @@ msgid ""
 msgstr ""
 "一個資源平均分佈的小世界\n"
 "\n"
-"<smallcaps>類地星球上緊湊的區域滿足你開始殖民的一切所需，使得你在地表與地下世"
+"<smallcaps>砂岩星球上緊湊的區域滿足你開始殖民的一切所需，使得你在地表與地下世"
 "界間的行動可以很快地完成</smallcaps>"
 
 #. STRINGS.WORLDS.TERRAMOONLET.NAME
