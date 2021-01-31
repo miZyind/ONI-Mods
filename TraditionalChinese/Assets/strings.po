@@ -23344,7 +23344,7 @@ msgid ""
 "A <link=\"DIVERGENTWORM\">Grubgrub</link> rubbed against this <style="
 "\"KKeyword\">Plant</style>, dramatically boosting growth"
 msgstr ""
-"一隻<link=\"DIVERGENTBEETLE\">蟲果甲蟲</ link>摩擦了這株<style=\"KKeyword\">"
+"一隻<link=\"DIVERGENTBEETLE\">蟲果甲蟲</link>摩擦了這株<style=\"KKeyword\">"
 "植物</style>，帶來顯著的生長加成"
 
 #. STRINGS.CREATURES.MODIFIERS.DOMESTICATION_DECREASING.NAME
@@ -78701,7 +78701,7 @@ msgstr ""
 "一個充滿大量輻射的濕地世界\n"
 "\n"
 "<smallcaps>這個遭輻射汙染的濕地星球含有大量金屬等待開採，前提是複製人要能夠承"
-"受星球的輻射</ smallcaps>"
+"受星球的輻射</smallcaps>"
 
 #. STRINGS.WORLDS.METALHEAVYLANDINGSITE.NAME
 msgctxt "STRINGS.WORLDS.METALHEAVYLANDINGSITE.NAME"
