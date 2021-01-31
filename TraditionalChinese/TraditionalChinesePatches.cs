@@ -185,15 +185,15 @@ namespace miZyind.TraditionalChinese
                 var path = MotdLocalPath.GetValue(__instance, null);
                 var localMotd = GetLocalMotd.Invoke(__instance, new object[] { path }) as Resp;
 
-                localMotd.image_header_text = "資料片開發計畫！";
+                localMotd.image_header_text = "火箭重製更新！";
                 localMotd.news_header_text = "參與討論";
                 localMotd.news_body_text = "訂閱我們的通知郵件\n以隨時掌握最新資訊\n或到論壇直接參與討論！";
                 localMotd.patch_notes_summary =
-                    "<b>2020 年 11 月之雲端存檔更新</b>\n\n" +
-                    "• 新增雲端存檔功能，打開存檔選單以管理你的本機與雲端存檔！\n" +
-                    "• 大量的遊戲效能提升，尤其是對於有著很多複製人的殖民地\n" +
-                    "• 將 Unity 遊戲引擎升级到最新的 LTS 版本\n" +
-                    "請查看完整更新說明來獲得進一步的訊息！";
+                    "<b>2021 年 1 月之火箭重製更新</b>\n\n" +
+                    "• 在《Spaced Out!》資料片新增了許多原版的火箭艙型與新型石油引擎\n" +
+                    "• 為太空衣增加了耐久度系統，並改善了氧氣面罩的使用行為\n" +
+                    "• 大量錯誤修復和平衡改善\n\n" +
+                    "請查看完整更新說明來獲得更多資訊！";
                 localMotd.update_text_override = "喔耶！更新了！";
 
                 cb(localMotd, null);
