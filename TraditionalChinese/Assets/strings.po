@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TC 2021.01.31\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-01-31 23:17+0700\n"
+"PO-Revision-Date: 2021-02-01 01:15+0700\n"
 "Last-Translator: miZyind <mizyind@gmail.com>\n"
 "Language-Team: miZyind <mizyind@gmail.com>\n"
 "Language: zh_TW\n"
@@ -28425,12 +28425,12 @@ msgstr "免疫"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.INCUBATIONDELTA.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.INCUBATIONDELTA.DESC"
 msgid ""
-msgstr ""
+msgstr " "
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.INCUBATIONDELTA.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.INCUBATIONDELTA.NAME"
 msgid "Incubation Rate"
-msgstr ""
+msgstr "孵化速率"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.INSULATION.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.INSULATION.DESC"
@@ -42003,8 +42003,8 @@ msgstr "<link=\"MOLTENNIOBIUM\">熔融鈮</link>"
 #. STRINGS.ELEMENTS.MOLTENSALT.DESC
 msgctxt "STRINGS.ELEMENTS.MOLTENSALT.DESC"
 msgid ""
-"(NaCl) Molten Salt is an edible chemical compound that has been heated into a <link="
-"\"ELEMENTSLIQUID\">Liquid</link> state."
+"(NaCl) Molten Salt is an edible chemical compound that has been heated into "
+"a <link=\"ELEMENTSLIQUID\">Liquid</link> state."
 msgstr ""
 "(NaCl) 熔融鹽是一種被加熱成<link=\"ELEMENTSLIQUID\">液態</link>的可食用的化合"
 "物"
@@ -48794,7 +48794,7 @@ msgstr ""
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.NAME"
 msgid "{BlockedString}"
-msgstr ""
+msgstr "{BlockedString}"
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.TOOLTIP"
@@ -48802,21 +48802,23 @@ msgid ""
 "This <link=\"BLEACHSTONE\">Bleachstone</link> deposit has no room to emit "
 "<link=\"CHLORINE\">Chlorine</link>"
 msgstr ""
+"這塊<link=\"BLEACHSTONE\">漂白石</link>沒有釋放<link=\"CHLORINE\">氯氣</link>"
+"所需的空間"
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEEMITTING.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEEMITTING.NAME"
 msgid "Emitting {Element}: {FlowRate}"
-msgstr ""
+msgstr "正在排放{Element}：{FlowRate}"
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEEMITTING.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEEMITTING.TOOLTIP"
 msgid "Producing {Element} at a rate of <style=\"produced\">{FlowRate}</style>"
-msgstr ""
+msgstr "正以<style=\"produced\">{FlowRate}</style>的速率排放{Element}"
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.NAME"
 msgid "Inert"
-msgstr ""
+msgstr "惰性"
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.TOOLTIP"
@@ -48825,6 +48827,8 @@ msgid ""
 "<link=\"BLEACHSTONE\">Bleachstone</link> deposit to emit <link=\"CHLORINE"
 "\">Chlorine</link>"
 msgstr ""
+"這塊<link=\"BLEACHSTONE\">漂白石</link>的環境<style=\"KKeyword\">氣壓</style>"
+"太高，不能釋放<link=\"CHLORINE\">氯氣</link>"
 
 #. STRINGS.MISC.STATUSITEMS.BURIEDITEM.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.BURIEDITEM.NAME"
@@ -49136,7 +49140,7 @@ msgstr "選中的物體目前為<b>{Temp}</b>"
 #. STRINGS.MISC.STATUSITEMS.OXYROCK.NEIGHBORSBLOCKED.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCK.NEIGHBORSBLOCKED.NAME"
 msgid "Oxylite blocked"
-msgstr ""
+msgstr "氧石受阻"
 
 #. STRINGS.MISC.STATUSITEMS.OXYROCK.NEIGHBORSBLOCKED.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCK.NEIGHBORSBLOCKED.TOOLTIP"
@@ -49144,11 +49148,13 @@ msgid ""
 "This <link=\"OXYROCK\">Oxylite</link> deposit is not exposed to air and "
 "cannot emit <link=\"OXYGEN\">Oxygen</link>"
 msgstr ""
+"這塊<link=\"OXYROCK\">氧石</link>未暴露在空氣中，不能排放<link=\"OXYGEN\">氧"
+"氣</link>"
 
 #. STRINGS.MISC.STATUSITEMS.OXYROCK.OVERPRESSURE.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCK.OVERPRESSURE.NAME"
 msgid "Inert"
-msgstr ""
+msgstr "惰性"
 
 #. STRINGS.MISC.STATUSITEMS.OXYROCK.OVERPRESSURE.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCK.OVERPRESSURE.TOOLTIP"
@@ -49157,11 +49163,13 @@ msgid ""
 "<link=\"OXYROCK\">Oxylite</link> deposit to emit <link=\"OXYGEN\">Oxygen</"
 "link>"
 msgstr ""
+"這塊<link=\"OXYROCK\">氧石</link>的環境<style=\"KKeyword\">氣壓</style>太高，"
+"不能排放<link=\"OXYGEN\">氧氣</link>"
 
 #. STRINGS.MISC.STATUSITEMS.OXYROCKBLOCKED.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCKBLOCKED.NAME"
 msgid "{BlockedString}"
-msgstr ""
+msgstr "{BlockedString}"
 
 #. STRINGS.MISC.STATUSITEMS.OXYROCKBLOCKED.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCKBLOCKED.TOOLTIP"
@@ -49169,11 +49177,13 @@ msgid ""
 "This <link=\"OXYROCK\">Oxylite</link> deposit has no room to emit <link="
 "\"OXYGEN\">Oxygen</link>"
 msgstr ""
+"這塊<link=\"OXYROCK\">氧石</link>沒有排放<link=\"OXYGEN\">氧氣</link>所需的空"
+"間"
 
 #. STRINGS.MISC.STATUSITEMS.OXYROCKEMITTING.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCKEMITTING.NAME"
 msgid "Emitting <link=\"OXYGEN\">Oxygen</link>: {FlowRate}"
-msgstr ""
+msgstr "正在排放<link=\"OXYGEN\">氧氣</link>：{FlowRate}"
 
 #. STRINGS.MISC.STATUSITEMS.OXYROCKEMITTING.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCKEMITTING.TOOLTIP"
@@ -49181,11 +49191,13 @@ msgid ""
 "Producing <link=\"OXYGEN\">Oxygen</link> at a rate of <style=\"produced"
 "\">{FlowRate}</style>"
 msgstr ""
+"正以<style=\"produced\">{FlowRate}</style>的速率排放<link=\"OXYGEN\">氧氣</"
+"link>"
 
 #. STRINGS.MISC.STATUSITEMS.OXYROCKINACTIVE.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCKINACTIVE.NAME"
 msgid "Inert"
-msgstr ""
+msgstr "惰性"
 
 #. STRINGS.MISC.STATUSITEMS.OXYROCKINACTIVE.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCKINACTIVE.TOOLTIP"
@@ -49194,6 +49206,8 @@ msgid ""
 "<link=\"OXYROCK\">Oxylite</link> deposit to emit <link=\"OXYGEN\">Oxygen</"
 "link>"
 msgstr ""
+"這塊<link=\"OXYROCK\">氧石</link>的環境<style=\"KKeyword\">氣壓</style>太高，"
+"不能排放<link=\"OXYGEN\">氧氣</link>"
 
 #. STRINGS.MISC.STATUSITEMS.PENDINGCLEAR.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.PENDINGCLEAR.NAME"
