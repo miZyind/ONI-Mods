@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TC 2021.01.31\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-01-31 21:37+0700\n"
+"PO-Revision-Date: 2021-01-31 23:17+0700\n"
 "Last-Translator: miZyind <mizyind@gmail.com>\n"
 "Language-Team: miZyind <mizyind@gmail.com>\n"
 "Language: zh_TW\n"
@@ -450,8 +450,8 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.NAME"
-msgid "Local Colony Lacks {Skills}"
-msgstr "本地殖民地缺少{Skills}技能"
+msgid "Colony Lacks {Skills}"
+msgstr "殖民地缺少{Skills}技能"
 
 #. STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.TOOLTIP"
@@ -762,9 +762,9 @@ msgid ""
 "Rocket Range: {Range}\n"
 "Destination Distance: {Distance}"
 msgstr ""
-"這艘火箭射程不足，無法到達目的地\n"
+"這艘火箭航程不足，無法到達目的地\n"
 "------------------\n"
-"火箭範圍：{Range}\n"
+"火箭航程：{Range}\n"
 "目的地距離：{Distance}"
 
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME
@@ -15853,7 +15853,7 @@ msgid ""
 "\n"
 "I'll see you guys in a bit! :)</indent>"
 msgstr ""
-"<indent=5%>真酷，德文新寫了一篇貼子叫<i>麵包之城</I>？我想跟上去看看，正所謂"
+"<indent=5%>真酷，德文新寫了一篇貼子叫<i>麵包之城</i>？我想跟上去看看，正所謂"
 "\"刨根尋底\"，哈哈。\n"
 "\n"
 "一會兒見！:)</indent>"
@@ -21001,7 +21001,7 @@ msgstr ""
 "\n"
 "傑姬：我想我有能力監管我自己的安全。\n"
 "\n"
-"奧莉維亞：我-我不僅僅是在關心<I>你</I>的安全！我們不知道我們在這裡開發的東西"
+"奧莉維亞：我-我不僅僅是在關心<i>你</i>的安全！我們不知道我們在這裡開發的東西"
 "長期下去會有什麼影響……我們在這裡總結的方法可能會導致全世界範圍的漣漪效應，甚"
 "至全宇宙。\n"
 "\n"
@@ -22204,7 +22204,7 @@ msgstr "氧氣不堵"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_PUMPING_DESCRIPTION
 msgctxt ""
 "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_PUMPING_DESCRIPTION"
-msgid "Distribute 1000  Kg of Oxygen using gas vents."
+msgid "Distribute 1000 Kg of Oxygen using gas vents."
 msgstr "使用排氣口排出總共一千公斤的氧氣"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_NATURE_RESERVES
@@ -22964,40 +22964,6 @@ msgctxt "STRINGS.COLONY_ACHIEVEMENTS.THRIVING.VIDEO_TEXT.THIRD"
 msgid "This asteroid is our home."
 msgstr "這顆星球就是我們的家了"
 
-#. STRINGS.CREATURES.ATTRIBUTES.FERTILITYDELTA.DESC
-msgctxt "STRINGS.CREATURES.ATTRIBUTES.FERTILITYDELTA.DESC"
-msgid ""
-"Determines the amount of time needed for a <style=\"KKeyword\">Critter</"
-"style> to lay new <style=\"KKeyword\">Eggs</style>."
-msgstr ""
-"決定了<style=\"KKeyword\">動物</style>下新<style=\"KKeyword\">蛋</style>所需"
-"的時間"
-
-#. STRINGS.CREATURES.ATTRIBUTES.FERTILITYDELTA.NAME
-msgctxt "STRINGS.CREATURES.ATTRIBUTES.FERTILITYDELTA.NAME"
-msgid "Reproduction Rate"
-msgstr "繁殖速率"
-
-#. STRINGS.CREATURES.ATTRIBUTES.INCUBATIONDELTA.DESC
-msgctxt "STRINGS.CREATURES.ATTRIBUTES.INCUBATIONDELTA.DESC"
-msgid ""
-msgstr " "
-
-#. STRINGS.CREATURES.ATTRIBUTES.INCUBATIONDELTA.NAME
-msgctxt "STRINGS.CREATURES.ATTRIBUTES.INCUBATIONDELTA.NAME"
-msgid "Incubation Rate"
-msgstr "孵化速率"
-
-#. STRINGS.CREATURES.ATTRIBUTES.MATURITYDELTA.DESC
-msgctxt "STRINGS.CREATURES.ATTRIBUTES.MATURITYDELTA.DESC"
-msgid "Determines the amount of time needed to reach maturation."
-msgstr "決定了達到成熟所需的時間"
-
-#. STRINGS.CREATURES.ATTRIBUTES.MATURITYDELTA.NAME
-msgctxt "STRINGS.CREATURES.ATTRIBUTES.MATURITYDELTA.NAME"
-msgid "Growth Speed"
-msgstr "生長速度"
-
 #. STRINGS.CREATURES.ATTRIBUTES.POWERCHARGEDELTA.DESC
 msgctxt "STRINGS.CREATURES.ATTRIBUTES.POWERCHARGEDELTA.DESC"
 msgid ""
@@ -23007,40 +22973,6 @@ msgstr " "
 msgctxt "STRINGS.CREATURES.ATTRIBUTES.POWERCHARGEDELTA.NAME"
 msgid "Power Charge Loss Rate"
 msgstr "電力損耗速率"
-
-#. STRINGS.CREATURES.ATTRIBUTES.SCALEGROWTHDELTA.NAME
-msgctxt "STRINGS.CREATURES.ATTRIBUTES.SCALEGROWTHDELTA.NAME"
-msgid "Scale Growth"
-msgstr "鱗片生長"
-
-#. STRINGS.CREATURES.ATTRIBUTES.SCALEGROWTHDELTA.TOOLTIP
-msgctxt "STRINGS.CREATURES.ATTRIBUTES.SCALEGROWTHDELTA.TOOLTIP"
-msgid ""
-"Determines how long this <style=\"KKeyword\">Critter's</style> scales will "
-"take to grow back."
-msgstr "決定了這隻<style=\"KKeyword\">動物的</style>鱗片需要多長時間才能長回來"
-
-#. STRINGS.CREATURES.ATTRIBUTES.VIABILITYDELTA.DESC
-msgctxt "STRINGS.CREATURES.ATTRIBUTES.VIABILITYDELTA.DESC"
-msgid ""
-msgstr " "
-
-#. STRINGS.CREATURES.ATTRIBUTES.VIABILITYDELTA.NAME
-msgctxt "STRINGS.CREATURES.ATTRIBUTES.VIABILITYDELTA.NAME"
-msgid "Viability Loss Rate"
-msgstr "活性喪失率"
-
-#. STRINGS.CREATURES.ATTRIBUTES.WILDNESSDELTA.DESC
-msgctxt "STRINGS.CREATURES.ATTRIBUTES.WILDNESSDELTA.DESC"
-msgid ""
-"Wild creatures can survive on fewer <style=\"KKeyword\">Calories</style> "
-"than domesticated ones."
-msgstr "野生動物維持生存所需的<style=\"KKeyword\">熱量</style>比馴養的動物少"
-
-#. STRINGS.CREATURES.ATTRIBUTES.WILDNESSDELTA.NAME
-msgctxt "STRINGS.CREATURES.ATTRIBUTES.WILDNESSDELTA.NAME"
-msgid "Wildness"
-msgstr "野性"
 
 #. STRINGS.CREATURES.BAGGED_DESC_FMT
 msgctxt "STRINGS.CREATURES.BAGGED_DESC_FMT"
@@ -28308,6 +28240,20 @@ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FATALTEMPERATURE.NAME"
 msgid "Break Down Temperature"
 msgstr "損壞溫度"
 
+#. STRINGS.CREATURES.ATTRIBUTES.FERTILITYDELTA.DESC
+msgctxt "STRINGS.CREATURES.ATTRIBUTES.FERTILITYDELTA.DESC"
+msgid ""
+"Determines the amount of time needed for a <style=\"KKeyword\">Critter</"
+"style> to lay new <style=\"KKeyword\">Eggs</style>."
+msgstr ""
+"決定了<style=\"KKeyword\">動物</style>下新<style=\"KKeyword\">蛋</style>所需"
+"的時間"
+
+#. STRINGS.CREATURES.ATTRIBUTES.FERTILITYDELTA.NAME
+msgctxt "STRINGS.CREATURES.ATTRIBUTES.FERTILITYDELTA.NAME"
+msgid "Reproduction Rate"
+msgstr "繁殖速率"
+
 #. STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.DESC"
 msgid ""
@@ -28476,6 +28422,16 @@ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.IMMUNITY.NAME"
 msgid "Immunity"
 msgstr "免疫"
 
+#. STRINGS.DUPLICANTS.ATTRIBUTES.INCUBATIONDELTA.DESC
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.INCUBATIONDELTA.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.INCUBATIONDELTA.NAME
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.INCUBATIONDELTA.NAME"
+msgid "Incubation Rate"
+msgstr ""
+
 #. STRINGS.DUPLICANTS.ATTRIBUTES.INSULATION.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.INSULATION.DESC"
 msgid ""
@@ -28564,6 +28520,16 @@ msgstr "速度加成"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MACHINERYSPEED.NAME"
 msgid "Machinery Speed"
 msgstr "機械速度"
+
+#. STRINGS.CREATURES.ATTRIBUTES.MATURITYDELTA.DESC
+msgctxt "STRINGS.CREATURES.ATTRIBUTES.MATURITYDELTA.DESC"
+msgid "Determines the amount of time needed to reach maturation."
+msgstr "決定了達到成熟所需的時間"
+
+#. STRINGS.CREATURES.ATTRIBUTES.MATURITYDELTA.NAME
+msgctxt "STRINGS.CREATURES.ATTRIBUTES.MATURITYDELTA.NAME"
+msgid "Growth Speed"
+msgstr "生長速度"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MAXUNDERWATERTRAVELCOST.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MAXUNDERWATERTRAVELCOST.DESC"
@@ -28765,6 +28731,18 @@ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SCALDINGTHRESHOLD.NAME"
 msgid "Scalding Threshold"
 msgstr "灼傷溫度"
 
+#. STRINGS.CREATURES.ATTRIBUTES.SCALEGROWTHDELTA.NAME
+msgctxt "STRINGS.CREATURES.ATTRIBUTES.SCALEGROWTHDELTA.NAME"
+msgid "Scale Growth"
+msgstr "鱗片生長"
+
+#. STRINGS.CREATURES.ATTRIBUTES.SCALEGROWTHDELTA.TOOLTIP
+msgctxt "STRINGS.CREATURES.ATTRIBUTES.SCALEGROWTHDELTA.TOOLTIP"
+msgid ""
+"Determines how long this <style=\"KKeyword\">Critter's</style> scales will "
+"take to grow back."
+msgstr "決定了這隻<style=\"KKeyword\">動物的</style>鱗片需要多長時間才能長回來"
+
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SNEEZYNESS.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SNEEZYNESS.DESC"
 msgid "Determines how frequently a Duplicant sneezes."
@@ -28916,6 +28894,28 @@ msgstr "愚人"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.VALUE"
 msgid "{0}: {1}"
 msgstr "{0}：{1}"
+
+#. STRINGS.CREATURES.ATTRIBUTES.VIABILITYDELTA.DESC
+msgctxt "STRINGS.CREATURES.ATTRIBUTES.VIABILITYDELTA.DESC"
+msgid ""
+msgstr " "
+
+#. STRINGS.CREATURES.ATTRIBUTES.VIABILITYDELTA.NAME
+msgctxt "STRINGS.CREATURES.ATTRIBUTES.VIABILITYDELTA.NAME"
+msgid "Viability Loss Rate"
+msgstr "活性喪失率"
+
+#. STRINGS.CREATURES.ATTRIBUTES.WILDNESSDELTA.DESC
+msgctxt "STRINGS.CREATURES.ATTRIBUTES.WILDNESSDELTA.DESC"
+msgid ""
+"Wild creatures can survive on fewer <style=\"KKeyword\">Calories</style> "
+"than domesticated ones."
+msgstr "野生動物維持生存所需的<style=\"KKeyword\">熱量</style>比馴養的動物少"
+
+#. STRINGS.CREATURES.ATTRIBUTES.WILDNESSDELTA.NAME
+msgctxt "STRINGS.CREATURES.ATTRIBUTES.WILDNESSDELTA.NAME"
+msgid "Wildness"
+msgstr "野性"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.ART.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.ART.ARCHETYPE_NAME"
@@ -31500,7 +31500,7 @@ msgstr "{Target}因過量的輻射照射而死亡"
 #. STRINGS.DUPLICANTS.DEATHS.RADIATION.NAME
 msgctxt "STRINGS.DUPLICANTS.DEATHS.RADIATION.NAME"
 msgid "Irradiated"
-msgstr "d喪失行動能力"
+msgstr "喪失行動能力"
 
 #. STRINGS.DUPLICANTS.DEATHS.STARVATION.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DEATHS.STARVATION.DESCRIPTION"
@@ -32008,6 +32008,18 @@ msgid ""
 msgstr ""
 "\n"
 "•  選擇一個感染的對象來了解更多訊息"
+
+#. STRINGS.DUPLICANTS.DISEASES.MEDICINE.BOOSTER
+msgctxt "STRINGS.DUPLICANTS.DISEASES.MEDICINE.BOOSTER"
+msgid "<link=\"IMMUNE SYSTEM\">Immune Booster</link>"
+msgstr "<link=\"IMMUNE SYSTEM\">免疫增補劑</link>"
+
+#. STRINGS.DUPLICANTS.DISEASES.MEDICINE.BOOSTER_TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.DISEASES.MEDICINE.BOOSTER_TOOLTIP"
+msgid ""
+"Boosters can be taken by both healthy and sick Duplicants to prevent "
+"potential disease"
+msgstr "健康和生病的複製人都可以服用免疫增補劑，以預防潛在疾病"
 
 #. STRINGS.DUPLICANTS.DISEASES.MEDICINE.CURES
 msgctxt "STRINGS.DUPLICANTS.DISEASES.MEDICINE.CURES"
@@ -41991,7 +42003,7 @@ msgstr "<link=\"MOLTENNIOBIUM\">熔融鈮</link>"
 #. STRINGS.ELEMENTS.MOLTENSALT.DESC
 msgctxt "STRINGS.ELEMENTS.MOLTENSALT.DESC"
 msgid ""
-"(NaCl) Salt is an edible chemical compound that has been heated into a <link="
+"(NaCl) Molten Salt is an edible chemical compound that has been heated into a <link="
 "\"ELEMENTSLIQUID\">Liquid</link> state."
 msgstr ""
 "(NaCl) 熔融鹽是一種被加熱成<link=\"ELEMENTSLIQUID\">液態</link>的可食用的化合"
@@ -41999,7 +42011,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.MOLTENSALT.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENSALT.NAME"
-msgid "<link=\"MOLTENSALT\">Salt</link>"
+msgid "<link=\"MOLTENSALT\">Molten Salt</link>"
 msgstr "<link=\"MOLTENSALT\">熔融鹽</link>"
 
 #. STRINGS.ELEMENTS.MOLTENSTEEL.DESC
@@ -42439,7 +42451,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.SALTGAS.NAME
 msgctxt "STRINGS.ELEMENTS.SALTGAS.NAME"
-msgid "<link=\"SALTGAS\">Salt</link>"
+msgid "<link=\"SALTGAS\">Salt Gas</link>"
 msgstr "<link=\"SALTGAS\">氣態鹽</link>"
 
 #. STRINGS.ELEMENTS.SALTWATER.DESC
@@ -48750,6 +48762,70 @@ msgid ""
 "study is complete"
 msgstr "實地考察完成後關於這項自然地貌的新資料將編寫出來"
 
+#. STRINGS.MISC.STATUSITEMS.BLEACHSTONE.NEIGHBORSBLOCKED.NAME
+msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.NEIGHBORSBLOCKED.NAME"
+msgid "Bleachstone blocked"
+msgstr "漂白石受阻"
+
+#. STRINGS.MISC.STATUSITEMS.BLEACHSTONE.NEIGHBORSBLOCKED.TOOLTIP
+msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.NEIGHBORSBLOCKED.TOOLTIP"
+msgid ""
+"This <link=\"BLEACHSTONE\">Bleachstone</link> deposit is not exposed to air "
+"and cannot emit <link=\"CHLORINE\">Chlorine</link>"
+msgstr ""
+"這塊<link=\"BLEACHSTONE\">漂白石</link>未暴露在空氣中，不能排放<link="
+"\"CHLORINE\">氯氣</link>"
+
+#. STRINGS.MISC.STATUSITEMS.BLEACHSTONE.OVERPRESSURE.NAME
+msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.OVERPRESSURE.NAME"
+msgid "Inert"
+msgstr "惰性"
+
+#. STRINGS.MISC.STATUSITEMS.BLEACHSTONE.OVERPRESSURE.TOOLTIP
+msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.OVERPRESSURE.TOOLTIP"
+msgid ""
+"Environmental <style=\"KKeyword\">Gas Pressure</style> is too high for this "
+"<link=\"BLEACHSTONE\">Bleachstone</link> deposit to emit <link=\"CHLORINE"
+"\">Chlorine</link>"
+msgstr ""
+"這塊<link=\"BLEACHSTONE\">漂白石</link>的環境<style=\"KKeyword\">氣壓</style>"
+"太高，不能釋放<link=\"CHLORINE\">氯氣</link>"
+
+#. STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.NAME
+msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.NAME"
+msgid "{BlockedString}"
+msgstr ""
+
+#. STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.TOOLTIP
+msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.TOOLTIP"
+msgid ""
+"This <link=\"BLEACHSTONE\">Bleachstone</link> deposit has no room to emit "
+"<link=\"CHLORINE\">Chlorine</link>"
+msgstr ""
+
+#. STRINGS.MISC.STATUSITEMS.BLEACHSTONEEMITTING.NAME
+msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEEMITTING.NAME"
+msgid "Emitting {Element}: {FlowRate}"
+msgstr ""
+
+#. STRINGS.MISC.STATUSITEMS.BLEACHSTONEEMITTING.TOOLTIP
+msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEEMITTING.TOOLTIP"
+msgid "Producing {Element} at a rate of <style=\"produced\">{FlowRate}</style>"
+msgstr ""
+
+#. STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.NAME
+msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.NAME"
+msgid "Inert"
+msgstr ""
+
+#. STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.TOOLTIP
+msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.TOOLTIP"
+msgid ""
+"Environmental <style=\"KKeyword\">Gas Pressure</style> is too high for this "
+"<link=\"BLEACHSTONE\">Bleachstone</link> deposit to emit <link=\"CHLORINE"
+"\">Chlorine</link>"
+msgstr ""
+
 #. STRINGS.MISC.STATUSITEMS.BURIEDITEM.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.BURIEDITEM.NAME"
 msgid "Buried Object"
@@ -49056,6 +49132,68 @@ msgstr "{Temp}"
 msgctxt "STRINGS.MISC.STATUSITEMS.ORETEMP.TOOLTIP"
 msgid "The selected object is currently <b>{Temp}</b>"
 msgstr "選中的物體目前為<b>{Temp}</b>"
+
+#. STRINGS.MISC.STATUSITEMS.OXYROCK.NEIGHBORSBLOCKED.NAME
+msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCK.NEIGHBORSBLOCKED.NAME"
+msgid "Oxylite blocked"
+msgstr ""
+
+#. STRINGS.MISC.STATUSITEMS.OXYROCK.NEIGHBORSBLOCKED.TOOLTIP
+msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCK.NEIGHBORSBLOCKED.TOOLTIP"
+msgid ""
+"This <link=\"OXYROCK\">Oxylite</link> deposit is not exposed to air and "
+"cannot emit <link=\"OXYGEN\">Oxygen</link>"
+msgstr ""
+
+#. STRINGS.MISC.STATUSITEMS.OXYROCK.OVERPRESSURE.NAME
+msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCK.OVERPRESSURE.NAME"
+msgid "Inert"
+msgstr ""
+
+#. STRINGS.MISC.STATUSITEMS.OXYROCK.OVERPRESSURE.TOOLTIP
+msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCK.OVERPRESSURE.TOOLTIP"
+msgid ""
+"Environmental <style=\"KKeyword\">Gas Pressure</style> is too high for this "
+"<link=\"OXYROCK\">Oxylite</link> deposit to emit <link=\"OXYGEN\">Oxygen</"
+"link>"
+msgstr ""
+
+#. STRINGS.MISC.STATUSITEMS.OXYROCKBLOCKED.NAME
+msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCKBLOCKED.NAME"
+msgid "{BlockedString}"
+msgstr ""
+
+#. STRINGS.MISC.STATUSITEMS.OXYROCKBLOCKED.TOOLTIP
+msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCKBLOCKED.TOOLTIP"
+msgid ""
+"This <link=\"OXYROCK\">Oxylite</link> deposit has no room to emit <link="
+"\"OXYGEN\">Oxygen</link>"
+msgstr ""
+
+#. STRINGS.MISC.STATUSITEMS.OXYROCKEMITTING.NAME
+msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCKEMITTING.NAME"
+msgid "Emitting <link=\"OXYGEN\">Oxygen</link>: {FlowRate}"
+msgstr ""
+
+#. STRINGS.MISC.STATUSITEMS.OXYROCKEMITTING.TOOLTIP
+msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCKEMITTING.TOOLTIP"
+msgid ""
+"Producing <link=\"OXYGEN\">Oxygen</link> at a rate of <style=\"produced"
+"\">{FlowRate}</style>"
+msgstr ""
+
+#. STRINGS.MISC.STATUSITEMS.OXYROCKINACTIVE.NAME
+msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCKINACTIVE.NAME"
+msgid "Inert"
+msgstr ""
+
+#. STRINGS.MISC.STATUSITEMS.OXYROCKINACTIVE.TOOLTIP
+msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCKINACTIVE.TOOLTIP"
+msgid ""
+"Environmental <style=\"KKeyword\">Gas Pressure</style> is too high for this "
+"<link=\"OXYROCK\">Oxylite</link> deposit to emit <link=\"OXYGEN\">Oxygen</"
+"link>"
+msgstr ""
 
 #. STRINGS.MISC.STATUSITEMS.PENDINGCLEAR.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.PENDINGCLEAR.NAME"
@@ -57744,7 +57882,6 @@ msgstr "電池"
 # miZyind <mizyind@gmail.com>, 2021.
 #
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.CRITERIA_CHECK_CAPACITY.FAIL
-#| msgid ""
 msgctxt ""
 "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.CRITERIA_CHECK_CAPACITY.FAIL"
 msgid ""
@@ -57753,7 +57890,6 @@ msgstr " "
 # miZyind <mizyind@gmail.com>, 2021.
 #
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.CRITERIA_CHECK_CAPACITY.PASS
-#| msgid ""
 msgctxt ""
 "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.CRITERIA_CHECK_CAPACITY.PASS"
 msgid ""
@@ -58908,7 +59044,7 @@ msgid ""
 "Low germ count in this area is causing germs to die rapidly\n"
 "\n"
 "Fewer than {0} germs are on this {1} of material.\n"
-"({2} germs/ Kg)"
+"({2} germs/Kg)"
 msgstr ""
 "這片區域病菌量少，導致病菌快速死亡\n"
 "\n"
@@ -58982,7 +59118,7 @@ msgid ""
 "the population stabilizes\n"
 "\n"
 "A maximum of {0} can be on this {1} of material.\n"
-"({2} germs/ Kg)"
+"({2} germs/Kg)"
 msgstr ""
 "這片區域病菌量過多，因此在數量穩定之前，病菌會快速死亡\n"
 "\n"
@@ -61058,7 +61194,7 @@ msgctxt ""
 "TOOLTIP"
 msgid ""
 "If checked, content from the <i>Spaced Out!</i> Expansion will be available"
-msgstr "如果勾選，<i>《Spaced Out!》</I>資料片將啟用"
+msgstr "如果勾選，<i>《Spaced Out!》</i>資料片將啟用"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.FASTWORKERSMODE.LEVELS.DISABLED.NAME
 msgctxt ""
@@ -63129,7 +63265,7 @@ msgstr "瀏覽"
 #. STRINGS.UI.FRONTEND.MODS.MOD_DISABLED_CONTENT
 msgctxt "STRINGS.UI.FRONTEND.MODS.MOD_DISABLED_CONTENT"
 msgid " - <i>Not compatible with {Content}</i>"
-msgstr " - <I>不相容於 {Content}</i>"
+msgstr " - <i>不相容於 {Content}</i>"
 
 #. STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART
 msgctxt "STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART"
@@ -64602,6 +64738,11 @@ msgstr "選擇三名複製人，準備開始"
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.SHUFFLE"
 msgid "REROLL"
 msgstr "重選"
+
+#. STRINGS.UI.IMMIGRANTSCREEN.SHUFFLE_COLONY_NAME
+msgctxt "STRINGS.UI.IMMIGRANTSCREEN.SHUFFLE_COLONY_NAME"
+msgid "Randomize colony name"
+msgstr "隨機產生殖民地名稱"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.SHUFFLETOOLTIP
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.SHUFFLETOOLTIP"
@@ -72362,10 +72503,20 @@ msgctxt "STRINGS.UI.TOOLTIPS.DISMISSMESSAGE"
 msgid "Dismiss message"
 msgstr "忽略消息"
 
+#. STRINGS.UI.TOOLTIPS.EDITCREATURENAME
+msgctxt "STRINGS.UI.TOOLTIPS.EDITCREATURENAME"
+msgid "Give this lil' critter a new name"
+msgstr "為這隻動物命名"
+
 #. STRINGS.UI.TOOLTIPS.EDITNAME
 msgctxt "STRINGS.UI.TOOLTIPS.EDITNAME"
 msgid "Give this Duplicant a new name"
 msgstr "為這名複製人起個新名字"
+
+#. STRINGS.UI.TOOLTIPS.EDITSTORAGENAME
+msgctxt "STRINGS.UI.TOOLTIPS.EDITSTORAGENAME"
+msgid "Rename storage"
+msgstr "重新命名儲存箱"
 
 #. STRINGS.UI.TOOLTIPS.EDITNAMEGENERIC
 msgctxt "STRINGS.UI.TOOLTIPS.EDITNAMEGENERIC"
@@ -72803,12 +72954,17 @@ msgstr ""
 "設定任務優先度 {Hotkey}\n"
 "------------------\n"
 "<style=\"KKeyword\">複製人優先度</style><b><color=#F44A4A> [L] </b></"
-"color><i>先於</I>用這個工具設定的<style=\"KKeyword\">任務優先度</style>計算"
+"color><i>先於</i>用這個工具設定的<style=\"KKeyword\">任務優先度</style>計算"
 
 #. STRINGS.UI.TOOLTIPS.PRIORITIZEMAINBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.PRIORITIZEMAINBUTTON"
 msgid ""
 msgstr "優先度"
+
+#. STRINGS.UI.TOOLTIPS.RANDOMIZECREATURENAME
+msgctxt "STRINGS.UI.TOOLTIPS.RANDOMIZECREATURENAME"
+msgid "Randomize this critter's name"
+msgstr "隨機命名動物"
 
 #. STRINGS.UI.TOOLTIPS.RADIATIONOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.RADIATIONOVERLAYSTRING"
@@ -77469,7 +77625,7 @@ msgstr "原版主程式"
 #. STRINGS.UI.VANILLA.NAME_ITAL
 msgctxt "STRINGS.UI.VANILLA.NAME_ITAL"
 msgid "<i>base game</i>"
-msgstr "<I>原版主程式</i>"
+msgstr "<i>原版主程式</i>"
 
 #. STRINGS.UI.VICTORYSCREEN.DESCRIPTION
 msgctxt "STRINGS.UI.VICTORYSCREEN.DESCRIPTION"
