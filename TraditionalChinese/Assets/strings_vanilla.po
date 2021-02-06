@@ -2,9 +2,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: TC 2021.01.31\n"
+"Project-Id-Version: TC VANILLA 2021.02.07\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-02-01 01:15+0700\n"
+"PO-Revision-Date: 2021-02-07 02:00+0700\n"
 "Last-Translator: miZyind <mizyind@gmail.com>\n"
 "Language-Team: miZyind <mizyind@gmail.com>\n"
 "Language: zh_TW\n"
@@ -459,8 +459,8 @@ msgid ""
 "Open the <b>Skills Panel</b> <b><color=#F44A4A>[L]</b></color> and teach a "
 "Duplicant the {Skills} Skill to use this"
 msgstr ""
-"打開<b>技能面板</b><b><color=#F44A4A> [L] </b></color>並指導一名複製人{Skills}"
-"技能以使用這個建築"
+"打開<b>技能面板</b><b><color=#F44A4A> [L] </b></color>並指導一名複製人"
+"{Skills}技能以使用這個建築"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME"
@@ -6089,8 +6089,7 @@ msgid ""
 "Uses <link=\"DIRTYWATER\">Polluted Water</link> to produce <link=\"FERTILIZER"
 "\">Fertilizer</link>."
 msgstr ""
-"使用<link=\"DIRTYWATER\">污染水</link>來生產<link=\"FERTILIZER\">肥料</"
-"link>"
+"使用<link=\"DIRTYWATER\">污染水</link>來生產<link=\"FERTILIZER\">肥料</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.NAME"
@@ -13447,7 +13446,6 @@ msgid ""
 "Smart storage bins can automate resource organization based on type and mass."
 msgstr "智慧儲存箱可以根據類型和質量自動組織資源"
 
-"當箱子滿時，輸出<b><style=\"logic_on\">綠色訊號</style></b>"
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.EFFECT"
 msgid ""
@@ -54155,7 +54153,7 @@ msgstr "充電中"
 #. STRINGS.ROBOTS.STATUSITEMS.CHARGING.TOOLTIP
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.CHARGING.TOOLTIP"
 msgid "This robot is charging its battery"
-msgstr "這台機器人正在充電"ㄋ
+msgstr "這台機器人正在充電"
 
 #. STRINGS.ROBOTS.STATUSITEMS.DEADBATTERY.DESC
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.DEADBATTERY.DESC"
@@ -60433,7 +60431,8 @@ msgid ""
 "My colony lost {0} of <link=\"POWER\">Power</link> today due to "
 "overproduction and battery runoff"
 msgstr ""
-"由於生產過剩和電池電量流失，我的殖民地今天損失了 {0} 的<link=\"POWER\">電力</link>"
+"由於生產過剩和電池電量流失，我的殖民地今天損失了 {0} 的<link=\"POWER\">電力</"
+"link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.NAME"
