@@ -20,6 +20,10 @@
     <None Remove="Assets\font" />
     <None Remove="Assets\preview.png" />
     <None Remove="Assets\strings.po" />
+    <None Remove="Assets\preview.xcf" />
+    <None Remove="Assets\strings_template_dlc_1.pot" />
+    <None Remove="Assets\strings_template_vanilla.pot" />
+    <None Remove="Assets\strings_vanilla.po" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Assets\font" />
