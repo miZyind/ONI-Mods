@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TC DLC_1 2021.02.07\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-02-07 05:35+0700\n"
+"PO-Revision-Date: 2021-02-07 06:10+0700\n"
 "Last-Translator: miZyind <mizyind@gmail.com>\n"
 "Language-Team: miZyind <mizyind@gmail.com>\n"
 "Language: zh_TW\n"
@@ -11056,7 +11056,7 @@ msgstr "<link=\"ORESCRUBBER\">礦石洗滌器</link>"
 #. STRINGS.BUILDINGS.PREFABS.OUTHOUSE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.OUTHOUSE.DESC"
 msgid "The colony that eats together, excretes together."
-msgstr "這個群體一起吃飯，一起排泄"
+msgstr "這個群體一起吃飯、一起排泄"
 
 #. STRINGS.BUILDINGS.PREFABS.OUTHOUSE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OUTHOUSE.EFFECT"
@@ -11083,64 +11083,64 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.DESC"
 msgid ""
 "Solid oxidizers allows rocket fuel to be efficiently burned in the vacuum of "
 "space."
-msgstr "固態氧化劑使火箭燃料可以在真空中有效燃燒"
+msgstr "固態助燃劑使火箭燃料可以在真空中有效燃燒"
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.EFFECT"
 msgid ""
 "Stores <link=\"OXYROCK\">Oxylite</link> and other oxidizers for burning "
 "rocket fuels."
-msgstr "儲存<link=\"OXYROCK\">氧石</link>或其他氧化劑供燃燒火箭燃料使用"
+msgstr "儲存<link=\"OXYROCK\">氧石</link>或其他助燃劑供燃燒火箭燃料使用"
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.NAME"
 msgid "<link=\"OXIDIZERTANK\">Solid Oxidizer Tank</link>"
-msgstr "<link=\"OXIDIZERTANK\">固態氧化劑艙</link>"
+msgstr "<link=\"OXIDIZERTANK\">固態助燃劑艙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.UI_FILTER_CATEGORY
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.UI_FILTER_CATEGORY"
 msgid "Accepted Oxidizers"
-msgstr "接受的氧化劑"
+msgstr "接受的助燃劑"
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKCLUSTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKCLUSTER.DESC"
 msgid ""
 "Solid oxidizers allows rocket fuel to be efficiently burned in the vacuum of "
 "space."
-msgstr "固態氧化劑使火箭燃料得以在真空中有效燃燒"
+msgstr "固態助燃劑使火箭燃料得以在真空中有效燃燒"
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKCLUSTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKCLUSTER.EFFECT"
 msgid ""
 "Stores <link=\"OXYROCK\">Oxylite</link> and other oxidizers for burning "
 "rocket fuels."
-msgstr "儲存<link=\"OXYROCK\">氧石</link>或其他氧化劑供燃燒火箭燃料使用"
+msgstr "儲存<link=\"OXYROCK\">氧石</link>或其他助燃劑供燃燒火箭燃料使用"
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKCLUSTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKCLUSTER.NAME"
 msgid "<link=\"OXIDIZERTANKCLUSTER\">Large Solid Oxidizer Tank</link>"
-msgstr "<link=\"OXIDIZERTANKCLUSTER\">大型固態氧化劑艙</link>"
+msgstr "<link=\"OXIDIZERTANKCLUSTER\">大型固態助燃劑艙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKCLUSTER.UI_FILTER_CATEGORY
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKCLUSTER.UI_FILTER_CATEGORY"
 msgid "Accepted Oxidizers"
-msgstr "接受的氧化劑"
+msgstr "接受的助燃劑"
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUID.DESC"
 msgid "Liquid oxygen improves the thrust-to-mass ratio of rocket fuels."
-msgstr "液態氧可提高火箭燃料的推重比。"
+msgstr "液態氧可提高火箭燃料的推重比"
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUID.EFFECT"
 msgid ""
 "Stores <link=\"LIQUIDOXYGEN\">Liquid Oxygen</link> for burning rocket fuels."
-msgstr "儲存<link=\"LIQUIDOXYGEN\">液態氧</link>供燃燒火箭燃料使用。"
+msgstr "儲存<link=\"LIQUIDOXYGEN\">液態氧</link>供燃燒火箭燃料使用"
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUID.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUID.NAME"
 msgid "<link=\"LIQUIDOXIDIZERTANK\">Liquid Oxidizer Tank</link>"
-msgstr "<link=\"LIQUIDOXIDIZERTANK\">液態氧化劑艙</link>"
+msgstr "<link=\"LIQUIDOXIDIZERTANK\">液態助燃劑艙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUIDCLUSTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUIDCLUSTER.DESC"
@@ -11156,7 +11156,7 @@ msgstr "儲存<link=\"LIQUIDOXYGEN\">液態氧</link>供燃燒火箭燃料使用
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUIDCLUSTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUIDCLUSTER.NAME"
 msgid "<link=\"LIQUIDOXIDIZERTANKCLUSTER\">Large Liquid Oxidizer Tank</link>"
-msgstr "<link=\"LIQUIDOXIDIZERTANKCLUSTER\">大型液態氧化劑艙</link>"
+msgstr "<link=\"LIQUIDOXIDIZERTANKCLUSTER\">大型液態助燃劑艙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.OXYGENMASKLOCKER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXYGENMASKLOCKER.DESC"
@@ -11175,7 +11175,7 @@ msgid ""
 "make Duplicants put on an Oxygen Mask when passing by."
 msgstr ""
 "存放<link=\"OXYGENMASK\">氧氣面罩</link>並為其補充<link=\"OXYGEN\">氧氣</"
-"link。\n"
+"link>\n"
 "\n"
 "建造在<link=\"OXYGENMASKMARKER\">氧氣面罩檢查站</link>旁邊，使複製人在路過時"
 "戴上氧氣面罩"
@@ -12732,7 +12732,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.DESC"
 msgid ""
 "Solid oxidizers allows rocket fuel to be efficiently burned in the vacuum of "
 "space."
-msgstr "固態氧化劑使火箭燃料能夠在真空中有效燃燒"
+msgstr "固態助燃劑使火箭燃料能夠在真空中有效燃燒"
 
 #. STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.EFFECT"
@@ -12746,12 +12746,12 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.NAME"
 msgid "<link=\"SMALLOXIDIZERTANK\">Small Solid Oxidizer Tank</link>"
-msgstr "<link=\"SMALLOXIDIZERTANK\">小型固態氧化劑艙</link>"
+msgstr "<link=\"SMALLOXIDIZERTANK\">小型固態助燃劑艙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.UI_FILTER_CATEGORY
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLOXIDIZERTANK.UI_FILTER_CATEGORY"
 msgid "Accepted Oxidizers"
-msgstr "接受的氧化劑"
+msgstr "接受的助燃劑"
 
 #. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.AVERAGEQUALITYNAME"
@@ -49837,7 +49837,7 @@ msgstr "其他"
 #. STRINGS.MISC.TAGS.OXIDIZER
 msgctxt "STRINGS.MISC.TAGS.OXIDIZER"
 msgid "Oxidizer"
-msgstr "氧化劑"
+msgstr "助燃劑"
 
 #. STRINGS.MISC.TAGS.PHOSPHORUS
 msgctxt "STRINGS.MISC.TAGS.PHOSPHORUS"
@@ -57438,12 +57438,12 @@ msgstr "所選的艙塊屬性"
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.OXIDIZER_REMAINING.NAME
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.OXIDIZER_REMAINING.NAME"
 msgid "Oxidizer Power Remaining: "
-msgstr "剩餘氧化劑："
+msgstr "剩餘助燃劑："
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.OXIDIZER_REMAINING.TOOLTIP
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.OXIDIZER_REMAINING.TOOLTIP"
 msgid "This rocket has enough oxidizer in its tank for {0} of fuel"
-msgstr "這艘火箭有足夠的氧化劑用於{0}燃料"
+msgstr "這艘火箭有足夠的助燃劑用於{0}燃料"
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.POWER_MODULE.NAME
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.POWER_MODULE.NAME"
@@ -57477,7 +57477,7 @@ msgid ""
 "remaining</b> and <b>oxidizer power remaining</b> by <b>fuel consumed per "
 "tile</b>"
 msgstr ""
-"<b>剩餘範圍</b>等於<b>剩餘燃料</b>和<b>剩餘氧化劑</b>的最小值除以<b>每格燃料"
+"<b>剩餘範圍</b>等於<b>剩餘燃料</b>和<b>剩餘助燃劑</b>的最小值除以<b>每格燃料"
 "消耗量</b>"
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.SPEED.NAME
@@ -58250,22 +58250,22 @@ msgstr "    • 這艘火箭沒有燃料"
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.ALL_NAME
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.ALL_NAME"
 msgid "Rocket Oxidizer"
-msgstr "火箭氧化劑"
+msgstr "火箭助燃劑"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.NORMAL"
 msgid "    • This rocket has sufficient oxidizer"
-msgstr "    • 這艘火箭有充足的氧化劑"
+msgstr "    • 這艘火箭有充足的助燃劑"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.TOOLTIP_NAME
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Rocket Oxidizer</b>"
-msgstr "<b>火箭氧化劑</b>"
+msgstr "<b>火箭助燃劑</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.WARNING
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.WARNING"
 msgid "    • This rocket has insufficient oxidizer"
-msgstr "    • 這艘火箭的氧化劑不足"
+msgstr "    • 這艘火箭的助燃劑不足"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.ALL_NAME
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.ALL_NAME"
@@ -70613,7 +70613,7 @@ msgstr "燃料艙"
 #. STRINGS.UI.STARMAP.COMPONENT.OXIDIZER_TANK
 msgctxt "STRINGS.UI.STARMAP.COMPONENT.OXIDIZER_TANK"
 msgid "Oxidizer Tank"
-msgstr "氧化劑艙"
+msgstr "助燃劑艙"
 
 #. STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE
 msgctxt "STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE"
@@ -70749,12 +70749,12 @@ msgstr "太遠，火箭無法到達"
 #. STRINGS.UI.STARMAP.EMPTYOXIDIZERTANK.NAME
 msgctxt "STRINGS.UI.STARMAP.EMPTYOXIDIZERTANK.NAME"
 msgid "Oxidizer tank not full"
-msgstr "氧化劑艙未裝滿"
+msgstr "助燃劑艙未裝滿"
 
 #. STRINGS.UI.STARMAP.EMPTYOXIDIZERTANK.TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.EMPTYOXIDIZERTANK.TOOLTIP"
 msgid "Oxidizer tank must be filled before launch"
-msgstr "氧化劑艙必須裝滿才能發射"
+msgstr "助燃劑艙必須裝滿才能發射"
 
 #. STRINGS.UI.STARMAP.EMPTYTANK.NAME
 msgctxt "STRINGS.UI.STARMAP.EMPTYTANK.NAME"
@@ -70769,7 +70769,7 @@ msgstr "燃料艙必須裝滿才能發射"
 #. STRINGS.UI.STARMAP.FULLOXIDIZERTANK.NAME
 msgctxt "STRINGS.UI.STARMAP.FULLOXIDIZERTANK.NAME"
 msgid "Oxidizer tank full"
-msgstr "氧化劑艙已滿"
+msgstr "助燃劑艙已滿"
 
 #. STRINGS.UI.STARMAP.FULLOXIDIZERTANK.TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.FULLOXIDIZERTANK.TOOLTIP"
@@ -71022,22 +71022,22 @@ msgstr "前錐警告"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.STATUS.FAILURE"
 msgid "Needs oxidizer tank"
-msgstr "需要氧化劑艙"
+msgstr "需要助燃劑艙"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.STATUS.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.STATUS.READY"
 msgid "Oxidizer tank"
-msgstr "氧化劑艙"
+msgstr "助燃劑艙"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.STATUS.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.STATUS.WARNING"
 msgid "Oxidizer tank warning"
-msgstr "氧化劑艙警告"
+msgstr "助燃劑艙警告"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.FAILURE"
 msgid "Rocket needs an Oxidizer tank"
-msgstr "火箭需要氧化劑艙"
+msgstr "火箭需要助燃劑艙"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.READY"
@@ -71047,7 +71047,7 @@ msgstr "火箭具有燃料艙"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.WARNING"
 msgid "Oxidizer tank warning"
-msgstr "氧化劑艙警告"
+msgstr "助燃劑艙警告"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HASASTRONAUT
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HASASTRONAUT"
@@ -71288,30 +71288,30 @@ msgstr ""
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.STATUS.FAILURE"
 msgid "Insufficient oxidizer"
-msgstr "氧化劑不足"
+msgstr "助燃劑不足"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.STATUS.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.STATUS.READY"
 msgid "Sufficient oxidizer"
-msgstr "氧化劑充足"
+msgstr "助燃劑充足"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.STATUS.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.STATUS.WARNING"
 msgid "Warning: limited oxidizer"
-msgstr "警告：氧化劑受限"
+msgstr "警告：助燃劑受限"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.FAILURE
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.FAILURE"
 msgid "More oxidizer must be loaded before this rocket is ready for takeoff."
-msgstr "在火箭準備好起飛之前，需要加入更多的氧化劑"
+msgstr "在火箭準備好起飛之前，需要加入更多的助燃劑"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.READY"
 msgid ""
 "This rocket has sufficient oxidizer for a round trip to and from its "
 "selected destination"
-msgstr "這艘火箭有著充足的氧化劑以進行目的地的一次往返"
+msgstr "這艘火箭有著充足的助燃劑以進行目的地的一次往返"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.WARNING
 msgctxt ""
@@ -71322,7 +71322,7 @@ msgid ""
 "\n"
 "The rocket can still be launched if necessary"
 msgstr ""
-"這艘火箭有著足夠的氧化劑前往目的地，但回不來了\n"
+"這艘火箭有著足夠的助燃劑前往目的地，但回不來了\n"
 "\n"
 "如有必要，火箭仍可以發射"
 
@@ -71379,7 +71379,7 @@ msgstr "艙體"
 #. STRINGS.UI.STARMAP.LISTTITLES.OXIDIZER
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.OXIDIZER"
 msgid "Oxidizer"
-msgstr "氧化劑"
+msgstr "助燃劑"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.PASSENGERS
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.PASSENGERS"
@@ -71597,7 +71597,7 @@ msgstr "無引擎"
 #. STRINGS.UI.STARMAP.ROCKETSTATS.OXIDIZER_EFFICIENCY
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.OXIDIZER_EFFICIENCY"
 msgid "Average oxidizer efficiency"
-msgstr "氧化劑平均效率"
+msgstr "助燃劑平均效率"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATS.SOLID_BOOSTER
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.SOLID_BOOSTER"
@@ -71617,7 +71617,7 @@ msgstr "可氧化燃料總量"
 #. STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_OXIDIZER
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_OXIDIZER"
 msgid "Total oxidizer"
-msgstr "氧化劑總量"
+msgstr "助燃劑總量"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_RANGE
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_RANGE"
