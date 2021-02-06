@@ -456,16 +456,11 @@ msgstr "殖民地缺少{Skills}技能"
 #. STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.TOOLTIP"
 msgid ""
-"{Skills} Skill required to operate\n"
-"------------------\n"
-"Open the <b>Skills Panel</b> <b><color=#F44A4A>[L]</b></color> to teach a "
-"local Duplicant {Skills}, or bring in a Duplicant with the appropriate skill "
-"from another <style=\"KKeyword\">Planetoid</style>"
+"Open the <b>Skills Panel</b> <b><color=#F44A4A>[L]</b></color> and teach a "
+"Duplicant the {Skills} Skill to use this"
 msgstr ""
-"需要{Skills}技能才能運作\n"
-"------------------\n"
-"打開<b>技能面板</b><b><color=#F44A4A> [L] </b></color>並指導一名複製人"
-"{Skills}技能，或從其他<style=\"KKeyword\">星球</style>上帶來一名合適的複製人"
+"打開<b>技能面板</b><b><color=#F44A4A> [L] </b></color>並指導一名複製人{Skills}"
+"技能以使用這個建築"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME"
@@ -6091,11 +6086,11 @@ msgstr "肥料合成器可將汙染水變成肥料以便培育植物"
 #. STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.EFFECT"
 msgid ""
-"Uses <link=\"DIRTYWATER\">Polluted Water</link> and <link=\"PHOSPHORITE"
-"\">Phosphorite</link> to produce <link=\"FERTILIZER\">Fertilizer</link>."
+"Uses <link=\"DIRTYWATER\">Polluted Water</link> to produce <link=\"FERTILIZER"
+"\">Fertilizer</link>."
 msgstr ""
-"使用<link=\"DIRTYWATER\">污染水</link>和<link=\"PHOSPHORITE\">磷礦</link>來生"
-"產<link=\"FERTILIZER\">肥料</link>"
+"使用<link=\"DIRTYWATER\">污染水</link>來生產<link=\"FERTILIZER\">肥料</"
+"link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.NAME"
@@ -7275,14 +7270,8 @@ msgstr "<link=\"HEADQUARTERS\">列印艙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.HEADQUARTERSCOMPLETE.UNIQUE_POPTEXT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEADQUARTERSCOMPLETE.UNIQUE_POPTEXT"
-msgid ""
-"A clone of the cloning machine? What a novel thought.\n"
-"\n"
-"Alas, it won't work."
-msgstr ""
-"克隆機器的克隆？多麼新穎的想法啊\n"
-"\n"
-"哎呀，這行不通"
+msgid "Only one {0} allowed!"
+msgstr "只允許有一個{0}！"
 
 #. STRINGS.BUILDINGS.PREFABS.HEATCOMPRESSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEATCOMPRESSOR.DESC"
@@ -7755,18 +7744,14 @@ msgstr "噴氣服存放櫃可為噴氣服補充空氣和燃料，或者清空噴
 #. STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.EFFECT"
 msgid ""
-"Stores <link=\"JETSUIT\">Jet Suits</link> and refuels them with <link="
-"\"OXYGEN\">Oxygen</link> and <link=\"PETROLEUM\">Petroleum</link>.\n"
-"\n"
-"Empties suits of <link=\"DIRTYWATER\">Polluted Water</link>.\n"
+"Stores and refuels <link=\"JETSUIT\">Jet Suits</link> with <link=\"OXYGEN"
+"\">Oxygen</link> and <link=\"PETROLEUM\">Petroleum</link>.\n"
 "\n"
 "Build next to a <link=\"JETSUITMARKER\">Jet Suit Checkpoint</link> to make "
 "Duplicants change into suits when passing by."
 msgstr ""
 "存放<link=\"JETSUIT\">噴氣服</link>並為其補充<link=\"OXYGEN\">氧氣</link>和"
-"<link=\"PETROLEUM\">石油</link>\n"
-"\n"
-"清空服裝中的<link=\"DIRTYWATER\">污染水</link>\n"
+"<link=\"PETROLEUM\">石油</link>。\n"
 "\n"
 "建造在<link=\"JETSUITMARKER\">噴氣服檢查站</link>旁邊，使複製人在路過時換上服"
 "裝"
@@ -10894,16 +10879,8 @@ msgstr "核反應爐可以與粒子產生器配合以創造高能粒子"
 
 #. STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.EFFECT"
-msgid ""
-"Uses <link=\"ENRICHEDURANIUM\">Enriched Uranium</link> to produce <link="
-"\"RADIATION\">Radiation</link>.\n"
-"\n"
-"Generates a massive amount of <link=\"HEAT\">Heat</link>."
-msgstr ""
-"使用<link=\"ENRICHEDURANIUM\">濃縮鈾</link>來產生<link=\"RADIATION\">輻射</"
-"link>\n"
-"\n"
-"生成大量的<link=\"HEAT\">熱</link>"
+msgid "Heat!"
+msgstr "真熱！"
 
 #. STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.NAME"
@@ -11593,20 +11570,8 @@ msgstr "限制電線的功率以防止發生過載損壞"
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.EFFECT"
 msgid ""
-"Limits <link=\"POWER\">Power</link> flowing through the Transformer to 4 "
-"kW.\n"
-"\n"
-"Connect <link=\"BATTERY\">Batteries</link> on the large side to act as a "
-"valve and prevent <link=\"WIRE\">Wires</link> from drawing more than 4 kW.\n"
-"\n"
-"Can be rotated before construction."
-msgstr ""
-"限制流過變壓器的<link=\"POWER\">電力</link>為 4000 瓦\n"
-"\n"
-"在大的一端接上<link=\"BATTERY\">電池</link>後，變壓器可以作為一種調節閥，防止"
-"<link=\"WIRE\">電線</link>輸送電力超過 4000 瓦\n"
-"\n"
-"建造前可旋轉"
+"Limits <link=\"POWER\">Power</link> flowing through the Transformer to 4 kW."
+msgstr "限制流過變壓器的<link=\"POWER\">電力</link>為 4000 瓦"
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.NAME"
@@ -11624,20 +11589,8 @@ msgstr "限制電線的功率以防止發生過載損壞"
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.EFFECT"
 msgid ""
 "Limits <link=\"POWER\">Power</link> flowing through the Transformer to 1000 "
-"W.\n"
-"\n"
-"Connect <link=\"BATTERY\">Batteries</link> on the large side to act as a "
-"valve and prevent <link=\"WIRE\">Wires</link> from drawing more than 1000 "
-"W.\n"
-"\n"
-"Can be rotated before construction."
-msgstr ""
-"限制流過變壓器的<link=\"POWER\">電力</link>為 1000 瓦\n"
-"\n"
-"在大的一端接上<link=\"BATTERY\">電池</link>後，變壓器可以作為一種調節閥，防止"
-"<link=\"WIRE\">電線</link>輸送電力超過 1000 瓦\n"
-"\n"
-"建造前可旋轉"
+"W."
+msgstr "限制流過變壓器的<link=\"POWER\">電力</link>為 1000 瓦"
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.NAME"
@@ -13468,8 +13421,8 @@ msgstr "用令人驚喜的隱藏裝飾品改變複製人陰暗的一天。"
 
 #. STRINGS.BUILDINGS.PREFABS.STICKERBOMB.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.STICKERBOMB.NAME"
-msgid "<link=\"STICKERBOMB\">Sticker Bomb</link>"
-msgstr "<link=\"STICKERBOMB\">貼紙炸彈</link>"
+msgid "Sticker Bomb"
+msgstr "貼紙炸彈"
 
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.DESC"
@@ -13480,9 +13433,8 @@ msgstr "地面上的資源若不及時移走，會變成「雜物」並降低裝
 
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.EFFECT"
-msgid ""
-"Stores the <link=\"ELEMENTSSOLID\">Solid Materials</link> of your choosing."
-msgstr "儲存你所選的<link=\"ELEMENTSSOLID\">固體</link>材料"
+msgid "Stores the Solid resources of your choosing."
+msgstr "儲存你所選的固體資源"
 
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.NAME"
@@ -13495,14 +13447,15 @@ msgid ""
 "Smart storage bins can automate resource organization based on type and mass."
 msgstr "智慧儲存箱可以根據類型和質量自動組織資源"
 
+"當箱子滿時，輸出<b><style=\"logic_on\">綠色訊號</style></b>"
 #. STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKERSMART.EFFECT"
 msgid ""
-"Stores the <link=\"ELEMENTSSOLID\">Solid Materials</link> of your choosing.\n"
+"Stores the Solid resources of your choosing.\n"
 "\n"
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> when bin is full."
 msgstr ""
-"儲存你所選的<link=\"ELEMENTSSOLID\">固體</link>材料\n"
+"儲存你所選的固體資源\n"
 "\n"
 "當箱子滿時，輸出<b><style=\"logic_on\">綠色訊號</style></b>"
 
@@ -13608,17 +13561,12 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.SUITLOCKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITLOCKER.EFFECT"
 msgid ""
-"Stores <link=\"ATMOSUIT\">Atmo Suits</link> and refuels them with <link="
-"\"OXYGEN\">Oxygen</link>.\n"
-"\n"
-"Empties suits of <link=\"DIRTYWATER\">Polluted Water</link>.\n"
+"Stores and recharges <link=\"ATMOSUIT\">Atmo Suits</link>.\n"
 "\n"
 "Build next to an <link=\"SUITMARKER\">Atmo Suit Checkpoint</link> to make "
 "Duplicants change into suits when passing by."
 msgstr ""
-"存放<link=\"ATMOSUIT\">氣壓服</link>並為其補充<link=\"OXYGEN\">氧氣</link>\n"
-"\n"
-"清空服裝中的<link=\"DIRTYWATER\">污染水</link>\n"
+"存放<link=\"ATMOSUIT\">氣壓服</link>並為其補充氧氣\n"
 "\n"
 "建造在<link=\"SUITMARKER\">氣壓服檢查站</link>旁邊，使複製人在路過時換上服裝"
 
@@ -13757,27 +13705,18 @@ msgstr "這可愛的小臉是預先裝好的"
 #. STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.EFFECT"
 msgid ""
-"Deploys an automated <link=\"SWEEPBOT\">Sweepy Bot</link> to sweep up <link="
-"\"ELEMENTSSOLID\">Solid</link> debris and <link=\"ELEMENTSLIQUID\">Liquid</"
-"link> spills.\n"
+"Stores <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSSOLID"
+"\">Solid Materials</link> debris from the Sweepy.\n"
 "\n"
-"Dock stores <link=\"ELEMENTSLIQUID\">Liquids</link> and <link=\"ELEMENTSSOLID"
-"\">Solids</link> gathered by the Sweepy.\n"
+"Requires <link=\"POWER\">Power</link> to recharge the Sweepy.\n"
 "\n"
-"Uses <link=\"POWER\">Power</link> to recharge the Sweepy.\n"
-"\n"
-"Duplicants will empty Dock storage into available storage bins."
+"Duplicants that can perform Supply errands will empty the debris into "
+"available storage bins."
 msgstr ""
-"部署一台會自動的掃地的<link=\"SWEEPBOT\">史威比</link>來清掃<link="
-"\"ELEMENTSSOLID\">固體</link>雜物和灑出的<link=\"ELEMENTSLIQUID\">液體</"
-"link>\n"
-"\n"
 "基站可以儲存史威比收集的<link=\"ELEMENTSLIQUID\">液體</link>和<link="
 "\"ELEMENTSSOLID\">固體</link>雜物\n"
 "\n"
-"使用<link=\"POWER\">電力</link>來為史威比充電\n"
-"\n"
-"複製人會將基站的庫存清空到可用的存儲箱中"
+"需要<link=\"POWER\">電力</link>來為史威比充電"
 
 #. STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAME"
@@ -21424,7 +21363,7 @@ msgid ""
 "advanced resources.\n"
 "\n"
 "Using higher level research stations also requires Duplicants to have "
-"learned higher level research <link=\"ROLES\">skills</link>.\n"
+"learned higher level research <link=\"ROLES\">skills</link>\n"
 "\n"
 "Novice Research is performed at the <link=\"RESEARCHCENTER\">Research "
 "Station</link>\n"
@@ -21432,8 +21371,6 @@ msgid ""
 "Computer</link>\n"
 "Interstellar Research is performed at the <link=\"COSMICRESEARCHCENTER"
 "\">Virtual Planetarium</link>\n"
-"Atomic Research is performed at the <link=\"NUCLEARLABORATORY\">Atomic "
-"Collider</link>\n"
 "\n"
 msgstr ""
 "進階研究任務需要特殊研究站來產生正確種類的研究點。這些研究站通常會消耗更高級"
@@ -21445,7 +21382,6 @@ msgstr ""
 "基礎研究可在<link=\"RESEARCHCENTER\">研究站</link>進行\n"
 "進階研究可在<link=\"ADVANCEDRESEARCHCENTER\">超級電腦</link>進行\n"
 "星際研究可在<link=\"COSMICRESEARCHCENTER\">虛擬星象儀</link>進行\n"
-"原子研究可在<link=\"NUCLEARLABORATORY\">原子對撞機</link>進行\n"
 "\n"
 
 #. STRINGS.CODEX.RESEARCH.TITLE
@@ -25159,8 +25095,8 @@ msgstr "<link=\"OILFLOATERHIGHTEMP\">熔岩浮油生物</link>"
 
 #. STRINGS.CREATURES.SPECIES.OILSPOUT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.OILSPOUT.DESC"
-msgid "A rocky vent that spouts <link=\"CRUDEOIL\">Crude Oil</link>."
-msgstr "噴出<link=\"CRUDEOIL\">原油</link>的岩石縫隙"
+msgid "A rocky vent that spouts crude oil."
+msgstr "噴出原油的岩石縫隙"
 
 #. STRINGS.CREATURES.SPECIES.OILSPOUT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILSPOUT.NAME"
@@ -41441,12 +41377,8 @@ msgstr "<link=\"IRONGAS\">氣態鐵</link>"
 
 #. STRINGS.ELEMENTS.IRONINGOT.DESC
 msgctxt "STRINGS.ELEMENTS.IRONINGOT.DESC"
-msgid ""
-"(Fe) Iron is a <link=\"REFINEDMETAL\">Refined Metal</link> made from <link="
-"\"IRONORE\">Iron Ore</link>."
-msgstr ""
-"(Fe) 鐵是一種由<link=\"IRONORE\">鐵礦</link>製成的<link=\"REFINEDMETAL\">精煉"
-"金屬</link>"
+msgid "(Fe) Iron is refined <link=\"IRONORE\">Iron Ore</link>."
+msgstr "(Fe) 鐵是精煉後的<link=\"IRONORE\">鐵礦</link>。"
 
 #. STRINGS.ELEMENTS.IRONINGOT.NAME
 msgctxt "STRINGS.ELEMENTS.IRONINGOT.NAME"
@@ -42290,10 +42222,8 @@ msgstr "<link=\"PHOSPHORUSGAS\">氣態磷</link>"
 
 #. STRINGS.ELEMENTS.POLYPROPYLENE.BUILD_DESC
 msgctxt "STRINGS.ELEMENTS.POLYPROPYLENE.BUILD_DESC"
-msgid ""
-"Buildings made of this <link=\"POLYPROPYLENE\">Plastic</link> have "
-"antiseptic properties"
-msgstr "以<link=\"POLYPROPYLENE\">塑膠</link>建造的建築有抗菌性"
+msgid "Buildings made of this material have antiseptic properties"
+msgstr "以這種材料建造的建築有抗菌性"
 
 #. STRINGS.ELEMENTS.POLYPROPYLENE.DESC
 msgctxt "STRINGS.ELEMENTS.POLYPROPYLENE.DESC"
@@ -48429,13 +48359,13 @@ msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.SKILL_POINT_EARNED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SKILL_POINT_EARNED.NAME"
-msgid "{Duplicant} earned a skill point!"
-msgstr "{Duplicant}獲得了一點技能點！"
+msgid "Skill point earned"
+msgstr "已獲得技能點"
 
 #. STRINGS.MISC.NOTIFICATIONS.SKILL_POINT_EARNED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SKILL_POINT_EARNED.TOOLTIP"
-msgid "{Duplicant} has been working hard and is ready to learn a new skill"
-msgstr "{Duplicant}一直努力工作，準備好學習一個新的技能了"
+msgid "Duplicants can now learn new skills"
+msgstr "複製人現在可以學習新的技能了"
 
 #. STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.MESSAGEBODY"
@@ -54199,8 +54129,8 @@ msgstr "當這台機器人的電池耗盡時，它就無法運作了"
 
 #. STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.DESC
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.DESC"
-msgid "Obstacles are preventing {0} from heading home"
-msgstr "有障礙阻止了{0}回家"
+msgid "Something is blocking this robot from reaching its base station"
+msgstr "有障礙阻擋了這台機器人回到它的基站"
 
 #. STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.NAME
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.NAME"
@@ -54209,13 +54139,13 @@ msgstr "基站遙不可及"
 
 #. STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.TOOLTIP
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.TOOLTIP"
-msgid "Obstacles are preventing {0} from heading home"
-msgstr "有障礙阻止了{0}回家"
+msgid "Something is blocking this robot from reaching its base station"
+msgstr "有障礙阻擋了這台機器人回到它的基站"
 
 #. STRINGS.ROBOTS.STATUSITEMS.CHARGING.DESC
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.CHARGING.DESC"
-msgid "{0} is recharging its battery"
-msgstr "{0}正在充電"
+msgid "This robot is charging its battery"
+msgstr "這台機器人正在充電"
 
 #. STRINGS.ROBOTS.STATUSITEMS.CHARGING.NAME
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.CHARGING.NAME"
@@ -54224,8 +54154,8 @@ msgstr "充電中"
 
 #. STRINGS.ROBOTS.STATUSITEMS.CHARGING.TOOLTIP
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.CHARGING.TOOLTIP"
-msgid "{0} is recharging its battery"
-msgstr "{0}正在充電"
+msgid "This robot is charging its battery"
+msgstr "這台機器人正在充電"ㄋ
 
 #. STRINGS.ROBOTS.STATUSITEMS.DEADBATTERY.DESC
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.DEADBATTERY.DESC"
@@ -54256,8 +54186,8 @@ msgstr ""
 
 #. STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.DESC
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.DESC"
-msgid "{0} must return to its dock to unload"
-msgstr "{0}必須回到基站卸載"
+msgid "This robot must return to its base station to unload"
+msgstr "這台機器人必須回到基站卸載"
 
 #. STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.NAME
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.NAME"
@@ -54266,13 +54196,13 @@ msgstr "垃圾箱已滿"
 
 #. STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.TOOLTIP
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.TOOLTIP"
-msgid "{0} must return to its dock to unload"
-msgstr "{0}必須回到基站卸載"
+msgid "This robot must return to its base station to unload"
+msgstr "這台機器人必須回到基站卸載"
 
 #. STRINGS.ROBOTS.STATUSITEMS.LOWBATTERY.DESC
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.LOWBATTERY.DESC"
-msgid "{0}'s battery is low and needs to recharge"
-msgstr "{0}的電池電量較低，需要充電"
+msgid "This robot's battery is low and needs to recharge"
+msgstr "這台機器人的電池電量較低，需要充電"
 
 #. STRINGS.ROBOTS.STATUSITEMS.LOWBATTERY.NAME
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.LOWBATTERY.NAME"
@@ -54281,8 +54211,8 @@ msgstr "低電量"
 
 #. STRINGS.ROBOTS.STATUSITEMS.LOWBATTERY.TOOLTIP
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.LOWBATTERY.TOOLTIP"
-msgid "{0}'s battery is low and needs to recharge"
-msgstr "{0}的電池電量較低，需要充電"
+msgid "This robot's battery is low and needs to recharge"
+msgstr "這台機器人的電池電量較低，需要充電"
 
 #. STRINGS.ROBOTS.STATUSITEMS.LOWBATTERYNOCHARGE.DESC
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.LOWBATTERYNOCHARGE.DESC"
@@ -54315,8 +54245,8 @@ msgstr ""
 
 #. STRINGS.ROBOTS.STATUSITEMS.MOVINGTOCHARGESTATION.DESC
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.MOVINGTOCHARGESTATION.DESC"
-msgid "{0} is on its way home to recharge"
-msgstr "{0}正在前往充電的路上"
+msgid "This robot is on its way to a battery recharge"
+msgstr "這台機器人正在前往充電的路上"
 
 #. STRINGS.ROBOTS.STATUSITEMS.MOVINGTOCHARGESTATION.NAME
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.MOVINGTOCHARGESTATION.NAME"
@@ -54325,8 +54255,8 @@ msgstr "向基站行進"
 
 #. STRINGS.ROBOTS.STATUSITEMS.MOVINGTOCHARGESTATION.TOOLTIP
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.MOVINGTOCHARGESTATION.TOOLTIP"
-msgid "{0} is on its way home to recharge"
-msgstr "{0}正在前往充電的路上"
+msgid "This robot is on its way to a battery recharge"
+msgstr "這台機器人正在前往充電的路上"
 
 #. STRINGS.ROBOTS.STATUSITEMS.REACTNEGATIVE.DESC
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.REACTNEGATIVE.DESC"
@@ -54360,8 +54290,8 @@ msgstr "這台機器人看到了一些好東西！"
 
 #. STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.DESC
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.DESC"
-msgid "{0} is emptying out its dust bin"
-msgstr "{0}正在清空它的垃圾箱"
+msgid "This robot is unloading its storage"
+msgstr "這台機器人正在清空它的垃圾箱"
 
 #. STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.NAME
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.NAME"
@@ -54370,13 +54300,13 @@ msgstr "卸貨中"
 
 #. STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.TOOLTIP
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.TOOLTIP"
-msgid "{0} is emptying out its dust bin"
-msgstr "{0}正在清空它的垃圾箱"
+msgid "This robot unloading its storage"
+msgstr "這台機器人正在清空它的垃圾箱"
 
 #. STRINGS.ROBOTS.STATUSITEMS.WORKING.DESC
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.WORKING.DESC"
-msgid "{0} is working diligently. Great job, {0}!"
-msgstr "{0}正在努力工作，幹得好，{0}！"
+msgid "This robot is working diligently"
+msgstr "這台機器人正在努力工作"
 
 #. STRINGS.ROBOTS.STATUSITEMS.WORKING.NAME
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.WORKING.NAME"
@@ -54385,8 +54315,8 @@ msgstr "工作中"
 
 #. STRINGS.ROBOTS.STATUSITEMS.WORKING.TOOLTIP
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.WORKING.TOOLTIP"
-msgid "{0} is working diligently. Great job, {0}!"
-msgstr "{0}正在努力工作，幹得好，{0}！"
+msgid "This robot is working diligently"
+msgstr "這台機器人正在努力工作"
 
 #. STRINGS.ROOMS.CRITERIA.ADVANCED_WASH_STATION.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.ADVANCED_WASH_STATION.DESCRIPTION"
@@ -60335,16 +60265,16 @@ msgstr "熱量變化："
 #. STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NEGATIVE_TOOLTIP"
 msgid ""
-"{0} of <link=\"FOOD\">Food</link> was consumed by {1} over the course of the "
+"My colony consumed {0} of <link=\"FOOD\">Food</link> over the course of the "
 "day"
-msgstr "{1}在一天中消耗了 {0} 的<link=\"FOOD\">食物</link>"
+msgstr "我的殖民地在在一天中消耗了 {0} 的<link=\"FOOD\">食物</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.POSITIVE_TOOLTIP"
 msgid ""
-"{0} of <link=\"FOOD\">Food</link> was produced by {1} over the course of the "
+"My colony produced {0} of <link=\"FOOD\">Food</link> over the course of the "
 "day"
-msgstr "{1}在一天中生產了 {0} 的<link=\"FOOD\">食物</link>"
+msgstr "我的殖民地在一天中生產了 {0} 的<link=\"FOOD\">食物</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NAME"
@@ -60353,13 +60283,13 @@ msgstr "任務："
 
 #. STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.NEGATIVE_TOOLTIP"
-msgid "{0} errands were completed over the course of the day by {1}"
-msgstr "{1}在一天中完成了 {0} 件任務"
+msgid "My Duplicants completed {0} errands over the course of the day"
+msgstr "我的複製人在一天中完成了 {0} 件任務"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.POSITIVE_TOOLTIP"
-msgid "{0} errands are queued for {1}"
-msgstr "{1}的 {0} 個任務已安排"
+msgid "My Duplicants have errands outstanding {0}"
+msgstr "我的複製人有 {0} 件未完成的任務"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NAME"
@@ -60370,17 +60300,19 @@ msgstr "<link=\"CONTAMINATEDOXYGEN\">脹氣</link>產生量："
 msgctxt ""
 "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.NEGATIVE_TOOLTIP"
 msgid ""
-"{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was consumed by "
-"{1} over the course of the day"
-msgstr "{1}在一天中消耗了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
+"My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
+"link> over the course of the day"
+msgstr ""
+"我的殖民地在一天中消耗了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.POSITIVE_TOOLTIP
 msgctxt ""
 "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.POSITIVE_TOOLTIP"
 msgid ""
-"{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was generated by "
-"{1} over the course of the day"
-msgstr "{1}在一天中產生了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
+"My colony generated {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
+"link> over the course of the day"
+msgstr ""
+"我的殖民地在一天中產生了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NAME"
@@ -60391,17 +60323,19 @@ msgstr "<link=\"CONTAMINATEDOXYGEN\">昇華</link>："
 msgctxt ""
 "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.NEGATIVE_TOOLTIP"
 msgid ""
-"{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was consumed by "
-"{1} over the course of the day"
-msgstr "{1}在一天中消耗了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
+"My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
+"link> over the course of the day"
+msgstr ""
+"我的殖民地在一天中消耗了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.POSITIVE_TOOLTIP
 msgctxt ""
 "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.POSITIVE_TOOLTIP"
 msgid ""
-"{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was generated by "
-"{1} over the course of the day"
-msgstr "{1}在一天中產生了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
+"My colony generated {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
+"link> over the course of the day"
+msgstr ""
+"我的殖民地在一天中產生了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NAME"
@@ -60411,16 +60345,18 @@ msgstr "<link=\"CONTAMINATEDOXYGEN\">廁所排放：</link>"
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.NEGATIVE_TOOLTIP"
 msgid ""
-"{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was consumed by "
-"{1} over the course of the day"
-msgstr "{1}在一天中消耗了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
+"My colony consumed {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
+"link> over the course of the day"
+msgstr ""
+"我的殖民地在一天中消耗了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.POSITIVE_TOOLTIP"
 msgid ""
-"{0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> was generated by "
-"{1} over the course of the day"
-msgstr "{1}在一天中產生了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
+"My colony generated {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
+"link> over the course of the day"
+msgstr ""
+"我的殖民地在一天中產生了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DAY_TITLE
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DAY_TITLE"
@@ -60444,13 +60380,13 @@ msgstr "<link=\"DISEASE\">疾病</link>感染："
 
 #. STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.NEGATIVE_TOOLTIP"
-msgid "{0} <link=\"DISEASE\">Disease</link> were cured by {1}"
-msgstr "{1}治癒了 {0} 個疾病"
+msgid "{0} Duplicant(s) were cured of a <link=\"DISEASE\">Disease</link>"
+msgstr "{0} 名複製人的<link=\"DISEASE\">疾病</link>被治癒了"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.POSITIVE_TOOLTIP"
-msgid "{0} <link=\"DISEASE\">Disease</link> were contracted by {1}"
-msgstr "{1}感染了 {0} 個<link=\"DISEASE\">疾病</link>"
+msgid "{0} Duplicant(s) contracted a <link=\"DISEASE\">Disease</link>"
+msgstr "{0} 名複製人感染了<link=\"DISEASE\">疾病</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.NAME"
@@ -60459,8 +60395,8 @@ msgstr "疾病狀態："
 
 #. STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.TOOLTIP"
-msgid "There are {0} covering {1}"
-msgstr "在{1}覆有{0}"
+msgid "My Duplicants are covered in {0}"
+msgstr "我的複製人身上佈滿了{0}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DUPLICANT_DETAILS_HEADER
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DUPLICANT_DETAILS_HEADER"
@@ -60475,16 +60411,16 @@ msgstr "<link=\"POWER\">電力</link>使用："
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NEGATIVE_TOOLTIP"
 msgid ""
-"{0} of <link=\"POWER\">Power</link> was consumed by {1} over the course of "
+"My colony consumed {0} of <link=\"POWER\">Power</link> over the course of "
 "the day"
-msgstr "{1}在一天中消耗了 {0} 的<link=\"POWER\">電力</link>"
+msgstr "我的殖民地在一天中消耗了 {0} 的<link=\"POWER\">電力</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.POSITIVE_TOOLTIP"
 msgid ""
-"{0} of <link=\"POWER\">Power</link> was created by {1} over the course of "
-"the day"
-msgstr "{1}在一天中生產了 {0} 的<link=\"POWER\">電力</link>"
+"My colony created {0} of <link=\"POWER\">Power</link> over the course of the "
+"day"
+msgstr "我的殖民地在一天中生產了 {0} 的<link=\"POWER\">電力</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NAME"
@@ -60494,10 +60430,10 @@ msgstr "<link=\"POWER\">電力</link>浪費："
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_WASTED.NEGATIVE_TOOLTIP"
 msgid ""
-"{0} of <link=\"POWER\">Power</link> was lost today due to battery runoff and "
-"overproduction in {1}"
+"My colony lost {0} of <link=\"POWER\">Power</link> today due to "
+"overproduction and battery runoff"
 msgstr ""
-"由於生產過剩和電池電量流失，{1}今天損失了 {0} 的<link=\"POWER\">電力</link>"
+"由於生產過剩和電池電量流失，我的殖民地今天損失了 {0} 的<link=\"POWER\">電力</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.NAME"
@@ -60506,8 +60442,8 @@ msgstr "閒置時間："
 
 #. STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.POSITIVE_TOOLTIP"
-msgid "On average, {0} of {1}'s time was spent idling"
-msgstr "{1}平均有 {0} 的時間空閒著"
+msgid "On average, my Duplicants {0} of their time idling"
+msgstr "我的複製人平均有 {0} 的時間空閒著"
 
 #. STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.NAME"
@@ -60516,8 +60452,8 @@ msgstr "技能提升："
 
 #. STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.TOOLTIP"
-msgid "Today {1} gained a total of {0} skill levels"
-msgstr "{1}在今天總共升級了 {0} 次"
+msgid "My Duplicants gained a total of {0} skill levels today"
+msgstr "我的複製人在今天總共升級了 {0} 次"
 
 #. STRINGS.UI.ENDOFDAYREPORT.MY_COLONY
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.MY_COLONY"
@@ -60673,16 +60609,16 @@ msgstr "<link=\"OXYGEN\">氧氣</link>產出："
 #. STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NEGATIVE_TOOLTIP"
 msgid ""
-"{0} of <link=\"OXYGEN\">Oxygen</link> was consumed by {1} over the course of "
+"My colony consumed {0} of <link=\"OXYGEN\">Oxygen</link> over the course of "
 "the day"
-msgstr "{1}在一天中消耗了 {0} 的<link=\"OXYGEN\">氧氣</link>"
+msgstr "我的殖民地在一天中消耗了 {0} 的<link=\"OXYGEN\">氧氣</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.POSITIVE_TOOLTIP"
 msgid ""
-"{0} of <link=\"OXYGEN\">Oxygen</link> was produced by {1} over the course of "
+"My colony generated {0} of <link=\"OXYGEN\">Oxygen</link> over the course of "
 "the day"
-msgstr "{1}在一天中產生了 {0} 的<link=\"OXYGEN\">氧氣</link>"
+msgstr "我的殖民地在一天中產生了 {0} 的<link=\"OXYGEN\">氧氣</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.PERSONAL_TIME.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.PERSONAL_TIME.NAME"
@@ -60691,8 +60627,9 @@ msgstr "個人時間："
 
 #. STRINGS.UI.ENDOFDAYREPORT.PERSONAL_TIME.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.PERSONAL_TIME.POSITIVE_TOOLTIP"
-msgid "On average, {0} of {1}'s time was spent tending to personal needs"
-msgstr "{1}平均花費了 {0} 的時間滿足個人需求"
+msgid ""
+"On average, my Duplicants spent {0} of their time tending to personal needs"
+msgstr "我的複製人平均花費 {0} 的時間滿足個人需求"
 
 #. STRINGS.UI.ENDOFDAYREPORT.PREV
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.PREV"
@@ -60731,13 +60668,13 @@ msgstr "<link=\"STRESS\">壓力</link>變化："
 
 #. STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.NEGATIVE_TOOLTIP"
-msgid "<link=\"STRESS\">Stress</link> decreased by a total of {0} for {1}"
-msgstr "{1}總共減少了 {0} 的<link=\"STRESS\">壓力</link>"
+msgid "My colony's total <link=\"STRESS\">Stress</link> has decreased by {0}"
+msgstr "我的殖民地總共減少了 {0} 的<link=\"STRESS\">壓力</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.POSITIVE_TOOLTIP"
-msgid "<link=\"STRESS\">Stress</link> increased by a total of {0} for {1}"
-msgstr "{1}總共增加了 {0} 的<link=\"STRESS\">壓力</link>"
+msgid "My colony's total <link=\"STRESS\">Stress</link> has increased by {0}"
+msgstr "我的殖民地總共增加了 {0} 的<link=\"STRESS\">壓力</link>"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TIME_DETAILS_HEADER
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TIME_DETAILS_HEADER"
@@ -60761,8 +60698,9 @@ msgstr "步行時間："
 
 #. STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.POSITIVE_TOOLTIP"
-msgid "On average, {1} spent {0} of their time traveling between tasks"
-msgstr "平均上，{1}花費了 {0} 的時間在來往任務之間"
+msgid ""
+"On average, my Duplicants spent {0} of their time traveling between tasks"
+msgstr "我的複製人平均花費 {0} 的時間在來往任務之間"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TRAVELTIMEWARNING.WARNING_MESSAGE
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVELTIMEWARNING.WARNING_MESSAGE"
@@ -60783,8 +60721,8 @@ msgstr "工作時間："
 
 #. STRINGS.UI.ENDOFDAYREPORT.WORK_TIME.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.WORK_TIME.POSITIVE_TOOLTIP"
-msgid "On average, {0} of {1}'s time was spent working"
-msgstr "平均上，{1}花費了 {0} 的時間在工作"
+msgid "On average, my Duplicants spent {0} of their time working"
+msgstr "我的複製人平均花費了 {0} 的時間在工作"
 
 #. STRINGS.UI.EQUIPMENTTAB_HELD
 msgctxt "STRINGS.UI.EQUIPMENTTAB_HELD"
@@ -72418,12 +72356,8 @@ msgstr "噴槍"
 
 #. STRINGS.UI.TOOLS.TOOL_AREA_FMT
 msgctxt "STRINGS.UI.TOOLS.TOOL_AREA_FMT"
-msgid ""
-"{0} x {1}\n"
-"{2} tiles"
-msgstr ""
-"{0} x {1}\n"
-"{2}格"
+msgid "{0} x {1}"
+msgstr "{0} x {1}"
 
 #. STRINGS.UI.TOOLS.TOOL_LENGTH_FMT
 msgctxt "STRINGS.UI.TOOLS.TOOL_LENGTH_FMT"
@@ -72884,12 +72818,8 @@ msgstr "可用熱量：{0}"
 
 #. STRINGS.UI.TOOLTIPS.METERSCREEN_POPULATION
 msgctxt "STRINGS.UI.TOOLTIPS.METERSCREEN_POPULATION"
-msgid ""
-"<style=\"KKeyword\">{0}</style> Population: {1}\n"
-"Total Population: {2}"
-msgstr ""
-"<style=\"KKeyword\">{0}</style>人口：{1}\n"
-"總人口：{2}"
+msgid "Population: {0}"
+msgstr "人口：{0}"
 
 #. STRINGS.UI.TOOLTIPS.METERSCREEN_SICK_DUPES
 msgctxt "STRINGS.UI.TOOLTIPS.METERSCREEN_SICK_DUPES"
