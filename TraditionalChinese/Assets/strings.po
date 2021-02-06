@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TC DLC_1 2021.02.07\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-02-07 02:00+0700\n"
+"PO-Revision-Date: 2021-02-07 05:35+0700\n"
 "Last-Translator: miZyind <mizyind@gmail.com>\n"
 "Language-Team: miZyind <mizyind@gmail.com>\n"
 "Language: zh_TW\n"
@@ -52,19 +52,19 @@ msgid ""
 "All Duplicants are permitted to pass through it until <style=\"KKeyword"
 "\">Power</style> is restored"
 msgstr ""
-"這扇門已開啟緊急<style=\"KKeyword\">通行許可</style>\n"
+"這扇門已被授予緊急<style=\"KKeyword\">通行許可</style>\n"
 "------------------\n"
 "<style=\"KKeyword\">電力</style>恢復前，所有複製人都可通行"
 
 #. STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NAME"
 msgid "Damage: Duplicant Tantrum"
-msgstr "損壞：複製人發脾氣"
+msgstr "受損：複製人發脾氣"
 
 #. STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NOTIFICATION
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NOTIFICATION"
 msgid "Building Damage: Duplicant Tantrum"
-msgstr "建築損壞：複製人發脾氣"
+msgstr "建築受損：複製人發脾氣"
 
 #. STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ANGERDAMAGE.NOTIFICATION_TOOLTIP"
@@ -118,7 +118,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.AUTOPILOTACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AUTOPILOTACTIVE.NAME"
 msgid "Autopilot Engaged"
-msgstr "已進入自動駕駛模式"
+msgstr "自動駕駛"
 
 #. STRINGS.BUILDING.STATUSITEMS.AUTOPILOTACTIVE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AUTOPILOTACTIVE.TOOLTIP"
@@ -139,7 +139,7 @@ msgstr "未完成的藝術創作"
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGARTING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGARTING.TOOLTIP"
 msgid "This building requires a Duplicant's artistic touch"
-msgstr "這個建築正等待著一名複製人以藝術點綴它"
+msgstr "這個建築正等著複製人來點綴它"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGBAITDELIVERY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGBAITDELIVERY.NAME"
@@ -160,7 +160,7 @@ msgstr "需要翻攪"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGCOMPOSTFLIP.TOOLTIP"
 msgid ""
 "Compost must be flipped periodically to produce <link=\"DIRT\">Dirt</link>"
-msgstr "堆肥點必須定期翻攪才能產生<link=\"DIRT\">泥土</link>"
+msgstr "堆肥必須定期翻攪才能產生<link=\"DIRT\">泥土</link>"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGEGGDELIVERY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGEGGDELIVERY.NAME"
@@ -224,9 +224,9 @@ msgid ""
 "\n"
 "Bait material is set during the construction of the building"
 msgstr ""
-"這個誘餌使用{0}\n"
+"使用{0}作為誘餌\n"
 "\n"
-"建造誘餌時需要設定材料"
+"建造誘餌裝置時需要設定材料"
 
 #. STRINGS.BUILDING.STATUSITEMS.BATTERIESSUFFICIENTLYFULL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BATTERIESSUFFICIENTLYFULL.NAME"
@@ -249,7 +249,7 @@ msgid ""
 "Duplicants may specifically fetch <style=\"KKeyword\">Liquid</style> from a "
 "<link=\"LIQUIDPUMPINGSTATION\">Pitcher Pump</link> to bring to this location"
 msgstr ""
-"複製人可專門從<link=\"LIQUIDPUMPINGSTATION\">手壓泵</link>中獲取<style="
+"複製人將特地從<link=\"LIQUIDPUMPINGSTATION\">手壓泵</link>中獲取<style="
 "\"KKeyword\">液體</style>並運送到此處"
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.NAME
@@ -264,7 +264,7 @@ msgid ""
 "from a <link=\"LIQUIDPUMPINGSTATION\">Pitcher Pump</link> to bring to this "
 "location"
 msgstr ""
-"複製人不可專門從<link=\"LIQUIDPUMPINGSTATION\">手壓泵</link>中獲取<style="
+"複製人不特地從<link=\"LIQUIDPUMPINGSTATION\">手壓泵</link>中獲取<style="
 "\"KKeyword\">液體</style>並運送到此處"
 
 #. STRINGS.BUILDING.STATUSITEMS.BROKEN.NAME
@@ -279,7 +279,7 @@ msgid ""
 "\n"
 "It will not function until it receives repairs"
 msgstr ""
-"由於<b>{DamageInfo}</b>，這個建築已被毀損\n"
+"這個建築已被<b>{DamageInfo}</b>毀損\n"
 "\n"
 "必須維修才能再次運作"
 
@@ -306,8 +306,8 @@ msgid ""
 "Press <style=\"KKeyword\">Enable Building</style> <b><color=#F44A4A>[ENTER]</"
 "b></color> to resume use"
 msgstr ""
-"按下<style=\"KKeyword\">啟用建築</style><color=#F44A47><b> [ENTER] </b></"
-"color>以恢復使用"
+"按下<style=\"KKeyword\">啟用建築</style><b><color=#F44A47> [ENTER] </color></"
+"b>以恢復使用"
 
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.NAME"
@@ -340,7 +340,7 @@ msgid ""
 "Duplicants may specifically fetch <style=\"KKeyword\">Gas</style> from a "
 "<link=\"GASBOTTLER\">Canister Filler</link> to bring to this location"
 msgstr ""
-"複製人可專門從<link=\"GASBOTTLER\">氣體裝罐器</link>中獲取<style=\"KKeyword"
+"複製人將特地從<link=\"GASBOTTLER\">氣體裝罐器</link>中獲取<style=\"KKeyword"
 "\">氣體</style>並運送到此處"
 
 #. STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.DENIED.NAME
@@ -354,13 +354,13 @@ msgid ""
 "Duplicants may not specifically fetch <style=\"KKeyword\">Gas</style> from a "
 "<link=\"GASBOTTLER\">Canister Filler</link> to bring to this location"
 msgstr ""
-"複製人不可專門從<link=\"GASBOTTLER\">氣體裝罐器</link>中獲取<style=\"KKeyword"
+"複製人不特地從<link=\"GASBOTTLER\">氣體裝罐器</link>中獲取<style=\"KKeyword"
 "\">氣體</style>並運送到此處"
 
 #. STRINGS.BUILDING.STATUSITEMS.CANNOTCOOLFURTHER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANNOTCOOLFURTHER.NAME"
 msgid "Minimum Temperature Reached"
-msgstr "溫度已降至最低"
+msgstr "已達最低溫度"
 
 #. STRINGS.BUILDING.STATUSITEMS.CANNOTCOOLFURTHER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANNOTCOOLFURTHER.TOOLTIP"
@@ -424,7 +424,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.NAME"
 msgid "Medical building outside Hospital"
-msgstr "醫療建築處於醫院外"
+msgstr "醫療建築位於醫院之外"
 
 #. STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.TOOLTIP"
@@ -470,12 +470,12 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME"
 msgid "Pipe Blocked"
-msgstr "管道堵塞"
+msgstr "管路堵塞"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.TOOLTIP"
 msgid "Output <style=\"KKeyword\">Pipe</style> is blocked"
-msgstr "輸出<style=\"KKeyword\">管道</style>受阻"
+msgstr "輸出<style=\"KKeyword\">管路</style>受阻"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_NO_PORT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_NO_PORT.NAME"
@@ -1197,12 +1197,12 @@ msgstr "縮回"
 #. STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.NAME"
 msgid "Empty Pipe"
-msgstr "空管道"
+msgstr "空管路"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.TOOLTIP"
 msgid "There is no <style=\"KKeyword\">Gas</style> in this pipe"
-msgstr "這條管道中沒有<style=\"KKeyword\">氣體</style>"
+msgstr "這條管路中沒有<style=\"KKeyword\">氣體</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASPIPEOBSTRUCTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASPIPEOBSTRUCTED.NAME"
@@ -1225,7 +1225,7 @@ msgid ""
 "A <style=\"KKeyword\">Pipe</style> has been obstructed and is preventing "
 "<style=\"KKeyword\">Gas</style> flow to this vent"
 msgstr ""
-"由於<style=\"KKeyword\">管道</style>發生堵塞，<style=\"KKeyword\">氣體</"
+"由於<style=\"KKeyword\">管路</style>發生堵塞，<style=\"KKeyword\">氣體</"
 "style>無法流到這個排氣口"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASVENTOVERPRESSURE.NAME
@@ -1646,12 +1646,12 @@ msgstr "火箭必須有一個太空人艙塊"
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEEMPTY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEEMPTY.NAME"
 msgid "Empty Pipe"
-msgstr "空管道"
+msgstr "空管路"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEEMPTY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEEMPTY.TOOLTIP"
 msgid "There is no <style=\"KKeyword\">Liquid</style> in this pipe"
-msgstr "這條<style=\"KKeyword\">管道</style>中沒有液體"
+msgstr "這條<style=\"KKeyword\">管路</style>中沒有液體"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEOBSTRUCTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LIQUIDPIPEOBSTRUCTED.NAME"
@@ -1674,7 +1674,7 @@ msgid ""
 "A <style=\"KKeyword\">Pipe</style> has been obstructed and is preventing "
 "<style=\"KKeyword\">Liquid</style> flow to this vent"
 msgstr ""
-"由於<style=\"KKeyword\">管道</style>堵塞，<style=\"KKeyword\">液體</style>無"
+"由於<style=\"KKeyword\">管路</style>堵塞，<style=\"KKeyword\">液體</style>無"
 "法流到這個排液口"
 
 #. STRINGS.BUILDING.STATUSITEMS.LIQUIDVENTOVERPRESSURE.NAME
@@ -2015,7 +2015,7 @@ msgid ""
 "\"GASCONDUIT\">Gas Pipe</link> connected"
 msgstr ""
 "這個建築的<style=\"KKeyword\">氣體輸入口</style>沒有連接<link=\"GASCONDUIT\">"
-"氣體管道</link>"
+"氣體管路</link>"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDGASOUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDGASOUT.NAME"
@@ -2029,7 +2029,7 @@ msgid ""
 "\"GASCONDUIT\">Gas Pipe</link> connected"
 msgstr ""
 "這個建築的<style=\"KKeyword\">氣體輸出口</style>沒有連接<link=\"GASCONDUIT\">"
-"氣體管道</link>"
+"氣體管路</link>"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDIN.LINE_ITEM
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDIN.LINE_ITEM"
@@ -2052,7 +2052,7 @@ msgid ""
 "<link=\"LIQUIDCONDUIT\">Liquid Pipe</link> connected"
 msgstr ""
 "這個建築的<style=\"KKeyword\">液體輸入口</style>沒有連接<link=\"LIQUIDCONDUIT"
-"\">液體管道</link>"
+"\">液體管路</link>"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.NAME"
@@ -2066,7 +2066,7 @@ msgid ""
 "<link=\"LIQUIDCONDUIT\">Liquid Pipe</link> connected"
 msgstr ""
 "這個建築的<style=\"KKeyword\">液體輸出口</style>沒有連接<link=\"LIQUIDCONDUIT"
-"\">液體管道</link>"
+"\">液體管路</link>"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDPLANT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDPLANT.NAME"
@@ -2189,7 +2189,7 @@ msgid ""
 msgstr ""
 "網際掃描儀正在以 <b>{TotalQuality}</b> 的效率進行掃描\n"
 "\n"
-"它將在來襲物體到達 <b>{WorstTime}</b> 至 <b>{BestTime}</b> 前檢測到它們\n"
+"它將在來襲物體到達 <b>{WorstTime}</b> 至 <b>{BestTime}</b> 前探測到它們\n"
 "\n"
 "建造多個<link=\"COMETDETECTOR\">太空掃描儀</link>並確保它們全部都有效率地掃描"
 "以獲得最佳探測效果"
@@ -2571,7 +2571,7 @@ msgstr "這個建築必須與{headBuilding}或另一個{linkBuilding}相鄰才�
 #. STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME"
 msgid "No Tube Connected"
-msgstr "未連接運輸管道"
+msgstr "未連接運輸管路"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.TOOLTIP"
@@ -2579,7 +2579,7 @@ msgid ""
 "The first section of tube extending from a <link=\"TRAVELTUBEENTRANCE"
 "\">Transit Tube Access</link> must connect directly upward"
 msgstr ""
-"從<link=\"TRAVELTUBEENTRANCE\">運輸管道入口</link>延伸出來的管道第一段必須直"
+"從<link=\"TRAVELTUBEENTRANCE\">運輸管路入口</link>延伸出來的管路第一段必須直"
 "接朝上連接"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOTUBEEXITS.NAME
@@ -2592,7 +2592,7 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBEEXITS.TOOLTIP"
 msgid ""
 "Duplicants can only exit a tube when there is somewhere for them to land "
 "within <b>two tiles</b>"
-msgstr "管道需間隔<b>兩格磚塊</b>的距離，複製人才能從運輸管道中出來"
+msgstr "管路需間隔<b>兩格磚塊</b>的距離，複製人才能從運輸管路中出來"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME"
@@ -2649,7 +2649,7 @@ msgstr "正常運作"
 #. STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.PIPECONTENTS_TRANSFER
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.PIPECONTENTS_TRANSFER"
 msgid "Transferred from pipes"
-msgstr "從管道中轉移"
+msgstr "從管路中轉移"
 
 #. STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.TOOLTIP"
@@ -2667,13 +2667,13 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.OUTPUTPIPEFULL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OUTPUTPIPEFULL.NAME"
 msgid "Output Pipe Full"
-msgstr "輸出管道已滿"
+msgstr "輸出管路已滿"
 
 #. STRINGS.BUILDING.STATUSITEMS.OUTPUTPIPEFULL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OUTPUTPIPEFULL.TOOLTIP"
 msgid ""
 "Unable to flush contents, output <style=\"KKeyword\">Pipe</style> is blocked"
-msgstr "輸出<style=\"KKeyword\">管道</style>堵塞，無法送出内容物"
+msgstr "輸出<style=\"KKeyword\">管路</style>堵塞，無法送出内容物"
 
 #. STRINGS.BUILDING.STATUSITEMS.OVERHEATED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OVERHEATED.NAME"
@@ -2833,7 +2833,7 @@ msgstr "内容物：{Contents}"
 #. STRINGS.BUILDING.STATUSITEMS.PIPE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPE.TOOLTIP"
 msgid "This pipe is delivering {Contents}"
-msgstr "這條管道正在運送{Contents}"
+msgstr "這條管路正在運送{Contents}"
 
 #. STRINGS.BUILDING.STATUSITEMS.PIPECONTENTS.CONTENTS
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPECONTENTS.CONTENTS"
@@ -2864,7 +2864,7 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPEMAYMELT.TOOLTIP"
 msgid ""
 "This pipe is in danger of melting at the current <style=\"KKeyword"
 "\">Temperature</style>"
-msgstr "在目前<style=\"KKeyword\">溫度</style>下，這條管道有融化的危險"
+msgstr "在目前<style=\"KKeyword\">溫度</style>下，這條管路有融化的危險"
 
 #. STRINGS.BUILDING.STATUSITEMS.PLAYERCONTROLLEDTOGGLESIDESCREEN.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PLAYERCONTROLLEDTOGGLESIDESCREEN.NAME"
@@ -2895,7 +2895,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.POWERLOOPDETECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.POWERLOOPDETECTED.NAME"
 msgid "Power Loop Detected"
-msgstr "檢測到電路短路"
+msgstr "偵測到電路短路"
 
 #. STRINGS.BUILDING.STATUSITEMS.POWERLOOPDETECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.POWERLOOPDETECTED.TOOLTIP"
@@ -3094,7 +3094,7 @@ msgid ""
 "This port is unloading resources from the <style=\"KKeyword\">Rocket "
 "Platform</style> to the connected pipe network"
 msgstr ""
-"這個端口正在將<style=\"KKeyword\">火箭平台</style>上的火箭資源卸載到管道系統"
+"這個端口正在將<style=\"KKeyword\">火箭平台</style>上的火箭資源卸載到管路系統"
 "中"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOEMPTYING.NAME
@@ -4204,12 +4204,12 @@ msgstr "墜落的隕石"
 #. STRINGS.BUILDINGS.DAMAGESOURCES.CONDUIT_CONTENTS_BOILED
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.CONDUIT_CONTENTS_BOILED"
 msgid "pipe contents becoming too hot"
-msgstr "管道内容物變得過熱"
+msgstr "管路内容物變得過熱"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.CONDUIT_CONTENTS_FROZE
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.CONDUIT_CONTENTS_FROZE"
 msgid "pipe contents becoming too cold"
-msgstr "管道内容物變得過冷"
+msgstr "管路内容物變得過冷"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.LIQUID_PRESSURE
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.LIQUID_PRESSURE"
@@ -5390,7 +5390,7 @@ msgstr "已標記清空"
 #. STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.CONDUIT.STATUS_ITEM.TOOLTIP"
 msgid "Awaiting a <link=\"PLUMBER\">Plumber</link> to clear this pipe"
-msgstr "正在等待一名<link=\"PLUMBER\">管道工</link>來清空這段管道"
+msgstr "正在等待一名<link=\"PLUMBER\">管路工</link>來清空這段管路"
 
 #. STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.DESC"
@@ -6469,7 +6469,7 @@ msgid ""
 "Automatically stores piped <link=\"ELEMENTSGAS\">Gases</link> into canisters "
 "for manual transport."
 msgstr ""
-"自動將管道中的<link=\"ELEMENTSGAS\">氣體</link>灌入儲氣罐，以便人工運輸"
+"自動將管路中的<link=\"ELEMENTSGAS\">氣體</link>灌入儲氣罐，以便人工運輸"
 
 #. STRINGS.BUILDINGS.PREFABS.GASBOTTLER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASBOTTLER.NAME"
@@ -6548,7 +6548,7 @@ msgstr "<link=\"GASCARGOBAYSMALL\">氣罐貨艙</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUIT.DESC"
 msgid ""
 "Gas pipes are used to connect the inputs and outputs of ventilated buildings."
-msgstr "氣體管道可用來連接通風建築的輸入口和輸出口"
+msgstr "氣體管路可用來連接通風建築的輸入口和輸出口"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUIT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUIT.EFFECT"
@@ -6566,13 +6566,13 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUIT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUIT.NAME"
 msgid "<link=\"GASCONDUIT\">Gas Pipe</link>"
-msgstr "<link=\"GASCONDUIT\">氣體管道</link>"
+msgstr "<link=\"GASCONDUIT\">氣體管路</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITBRIDGE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITBRIDGE.DESC"
 msgid ""
 "Separate pipe systems prevent mingled contents from causing building damage."
-msgstr "分離的管道系統可以防止建築被混合物質損壞"
+msgstr "分離的管路系統可以防止建築被混合物質損壞"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITBRIDGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITBRIDGE.EFFECT"
@@ -6582,7 +6582,7 @@ msgid ""
 "\n"
 "Can be run through wall and floor tile."
 msgstr ""
-"讓一條<link=\"GASPIPING\">氣體管道</link>可以越過另一條氣體管道，而不會連接到"
+"讓一條<link=\"GASPIPING\">氣體管路</link>可以越過另一條氣體管路，而不會連接到"
 "一起\n"
 "\n"
 "可穿過牆壁和地磚"
@@ -6596,7 +6596,7 @@ msgstr "<link=\"GASCONDUITBRIDGE\">氣體管橋</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.DESC"
 msgid ""
 "Germ sensors can help control automation behavior in the presence of germs."
-msgstr "病菌感測器可用於檢測病菌是否存在來控制自動化行為"
+msgstr "病菌感測器可用於偵測病菌是否存在來控制自動化行為"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.EFFECT"
@@ -6630,14 +6630,14 @@ msgstr "否則，輸出<b><style=\"logic_off\">紅色訊號</style></b>"
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITDISEASESENSOR.NAME"
 msgid "<link=\"GASCONDUITDISEASESENSOR\">Gas Pipe Germ Sensor</link>"
-msgstr "<link=\"GASCONDUITDISEASESENSOR\">氣體管道病菌感測器</link>"
+msgstr "<link=\"GASCONDUITDISEASESENSOR\">氣體管路病菌感測器</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.DESC"
 msgid ""
 "Element sensors can be used to detect the presence of a specific gas in a "
 "pipe."
-msgstr "元素感測器用於探測管道内是否有特定氣體"
+msgstr "元素感測器用於探測管路内是否有特定氣體"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT"
@@ -6645,7 +6645,7 @@ msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> when the selected "
 "<link=\"ELEMENTSGAS\">Gas</link> is detected within a pipe."
 msgstr ""
-"當管内檢測到選定的<link=\"ELEMENTSGAS\">氣體</link>時，輸出<b><style="
+"當管内偵測到選定的<link=\"ELEMENTSGAS\">氣體</link>時，輸出<b><style="
 "\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT
@@ -6658,7 +6658,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_ACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> if the configured "
 "Gas is detected"
-msgstr "若檢測到選定的氣體，輸出<b><style=\"logic_on\">綠色訊號</style></b>"
+msgstr "若偵測到所選氣體，輸出<b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_INACTIVE"
@@ -6668,7 +6668,7 @@ msgstr "否則，輸出<b><style=\"logic_off\">紅色訊號</style></b>"
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.NAME"
 msgid "<link=\"GASCONDUITELEMENTSENSOR\">Gas Pipe Element Sensor</link>"
-msgstr "<link=\"GASCONDUITELEMENTSENSOR\">氣體管道元素感測器</link>"
+msgstr "<link=\"GASCONDUITELEMENTSENSOR\">氣體管路元素感測器</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.DESC"
@@ -6714,7 +6714,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.DESC"
 msgid ""
 "Radiant pipes pumping cold gas can be run through hot areas to help cool "
 "them down."
-msgstr "泵入冷氣體的導熱管道可以穿過炎熱區域來幫助降溫"
+msgstr "泵入冷氣體的導熱管路可以穿過炎熱區域來幫助降溫"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.EFFECT"
@@ -6732,14 +6732,14 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.NAME"
 msgid "<link=\"GASCONDUITRADIANT\">Radiant Gas Pipe</link>"
-msgstr "<link=\"GASCONDUITRADIANT\">導熱氣體管道</link>"
+msgstr "<link=\"GASCONDUITRADIANT\">導熱氣體管路</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.DESC"
 msgid ""
 "Thermo sensors disable buildings when their pipe contents reach a certain "
 "temperature."
-msgstr "溫度感測器可在管道内部達到特定溫度時停用某些建築"
+msgstr "溫度感測器可在管路内部達到特定溫度時停用某些建築"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.EFFECT"
@@ -6776,14 +6776,14 @@ msgstr "否則，輸出<b><style=\"logic_off\">紅色訊號</style></b>"
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.NAME"
 msgid "<link=\"GASCONDUITTEMPERATURESENSOR\">Gas Pipe Thermo Sensor</link>"
-msgstr "<link=\"GASCONDUITTEMPERATURESENSOR\">氣體管道溫度感測器</link>"
+msgstr "<link=\"GASCONDUITTEMPERATURESENSOR\">氣體管路溫度感測器</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.DESC"
 msgid ""
 "All gases are sent into the building's output pipe, except the gas chosen "
 "for filtering."
-msgstr "除了選中要濾出的氣體之外，其他所有氣體都會被送入輸出管道"
+msgstr "除了選中要濾出的氣體之外，其他所有氣體都會被送入輸出管路"
 
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.EFFECT"
@@ -6792,7 +6792,7 @@ msgid ""
 "dedicated <link=\"GASPIPING\">Pipe</link>."
 msgstr ""
 "從空氣中分離出一種<link=\"ELEMENTSGAS\">氣體</link>，將其送入專用<link="
-"\"GASPIPING\">管道</link>"
+"\"GASPIPING\">管路</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.ELEMENT_NOT_SPECIFIED
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.ELEMENT_NOT_SPECIFIED"
@@ -6814,7 +6814,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.DESC"
 msgid ""
 "Automated piping saves power and time by removing the need for Duplicant "
 "input."
-msgstr "自動化管道免去了複製人的參與，從而可以節省電力和時間"
+msgstr "自動化管路免去了複製人的參與，從而可以節省電力和時間"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.EFFECT"
@@ -6859,7 +6859,7 @@ msgid ""
 "\n"
 "Must be immersed in <link=\"ELEMENTSGAS\">Gas</link>."
 msgstr ""
-"抽取少量<link=\"ELEMENTSGAS\">氣體</link>並透過<link=\"GASPIPING\">管道</"
+"抽取少量<link=\"ELEMENTSGAS\">氣體</link>並透過<link=\"GASPIPING\">管路</"
 "link>輸送\n"
 "\n"
 "必須浸沒在<link=\"ELEMENTSGAS\">氣體</link>中"
@@ -6897,7 +6897,7 @@ msgstr "<link=\"GASPERMEABLEMEMBRANE\">透氣磚</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPUMP.DESC"
 msgid ""
 "Piping a pump's output to a building's intake will send gas to that building."
-msgstr "用管道將泵的輸出口和另一個建築的輸入口連接，氣體就會被送到那個建築中"
+msgstr "用管路將泵的輸出口和另一個建築的輸入口連接，氣體就會被送到那個建築中"
 
 #. STRINGS.BUILDINGS.PREFABS.GASPUMP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPUMP.EFFECT"
@@ -6907,7 +6907,7 @@ msgid ""
 "\n"
 "Must be immersed in <link=\"ELEMENTSGAS\">Gas</link>."
 msgstr ""
-"抽取<link=\"ELEMENTSGAS\">氣體</link>並透過<link=\"GASPIPING\">管道</link>輸"
+"抽取<link=\"ELEMENTSGAS\">氣體</link>並透過<link=\"GASPIPING\">管路</link>輸"
 "送\n"
 "\n"
 "必須浸沒在<link=\"ELEMENTSGAS\">氣體</link>中"
@@ -6925,7 +6925,7 @@ msgstr "儲氣庫無法接收手動運送的資源"
 #. STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.EFFECT"
 msgid "Stores any <link=\"ELEMENTSGAS\">Gas</link> resources piped into it."
-msgstr "儲存任何經管道輸送的<link=\"ELEMENTSGAS\">氣體</link>資源"
+msgstr "儲存任何經管路輸送的<link=\"ELEMENTSGAS\">氣體</link>資源"
 
 #. STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASRESERVOIR.NAME"
@@ -6936,7 +6936,7 @@ msgstr "<link=\"GASRESERVOIR\">儲氣庫</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVALVE.DESC"
 msgid ""
 "Valves control the amount of gas that moves through pipes, preventing waste."
-msgstr "閥門可以控制通過管道的氣體量以避免浪費"
+msgstr "閥門可以控制通過管路的氣體量以避免浪費"
 
 #. STRINGS.BUILDINGS.PREFABS.GASVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVALVE.EFFECT"
@@ -6944,7 +6944,7 @@ msgid ""
 "Controls the <link=\"ELEMENTSGAS\">Gas</link> volume permitted through <link="
 "\"GASPIPING\">Pipes</link>."
 msgstr ""
-"控制通過<link=\"GASPIPING\">管道</link>的<link=\"ELEMENTSGAS\">氣體</link>量"
+"控制通過<link=\"GASPIPING\">管路</link>的<link=\"ELEMENTSGAS\">氣體</link>量"
 
 #. STRINGS.BUILDINGS.PREFABS.GASVALVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVALVE.NAME"
@@ -6962,7 +6962,7 @@ msgid ""
 "Releases <link=\"ELEMENTSGAS\">Gas</link> from <link=\"GASPIPING\">Gas "
 "Pipes</link>."
 msgstr ""
-"排放<link=\"GASPIPING\">氣體管道</link>中的<link=\"ELEMENTSGAS\">氣體</link>"
+"排放<link=\"GASPIPING\">氣體管路</link>中的<link=\"ELEMENTSGAS\">氣體</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASVENT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENT.NAME"
@@ -6981,7 +6981,7 @@ msgid ""
 "Releases <link=\"ELEMENTSGAS\">Gas</link> from <link=\"GASPIPING\">Gas "
 "Pipes</link> into high pressure locations."
 msgstr ""
-"將<link=\"GASPIPING\">氣體管道</link>中的<link=\"ELEMENTSGAS\">氣體</link>排"
+"將<link=\"GASPIPING\">氣體管路</link>中的<link=\"ELEMENTSGAS\">氣體</link>排"
 "放到氣壓更高的位置"
 
 #. STRINGS.BUILDINGS.PREFABS.GASVENTHIGHPRESSURE.NAME
@@ -7423,7 +7423,7 @@ msgid ""
 "\n"
 "Increases Duplicant <link=\"MORALE\">Morale</link>."
 msgstr ""
-"需要<link=\"LIQUIDPIPING\">管道</link>連入和連出浴缸，需要<link=\"POWER\">電"
+"需要<link=\"LIQUIDPIPING\">管路</link>連入和連出浴缸，需要<link=\"POWER\">電"
 "力</link>來將水加熱\n"
 "\n"
 "水必須處於一個舒適的溫度，而且會很快冷下來\n"
@@ -7546,7 +7546,7 @@ msgstr ""
 "\n"
 "可用作地磚，建造前可旋轉\n"
 "\n"
-"必須透過<link=\"LIQUIDPIPING\">液體管道</link>灌溉"
+"必須透過<link=\"LIQUIDPIPING\">液體管路</link>灌溉"
 
 #. STRINGS.BUILDINGS.PREFABS.HYDROPONICFARM.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.HYDROPONICFARM.NAME"
@@ -7628,7 +7628,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDGASCONDUIT.DESC"
 msgid ""
 "Pipe insulation prevents gas contents from significantly changing "
 "temperature in transit."
-msgstr "隔熱管道可以防止氣體在運送過程中遭受劇烈的溫度變化"
+msgstr "隔熱管路可以防止氣體在運送過程中遭受劇烈的溫度變化"
 
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDGASCONDUIT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDGASCONDUIT.EFFECT"
@@ -7645,14 +7645,14 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDGASCONDUIT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDGASCONDUIT.NAME"
 msgid "<link=\"INSULATEDGASCONDUIT\">Insulated Gas Pipe</link>"
-msgstr "<link=\"INSULATEDGASCONDUIT\">隔熱氣體管道</link>"
+msgstr "<link=\"INSULATEDGASCONDUIT\">隔熱氣體管路</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.DESC"
 msgid ""
 "Pipe insulation prevents liquid contents from significantly changing "
 "temperature in transit."
-msgstr "隔熱管道可以防止液體在運送過程中遭受劇烈的溫度變化"
+msgstr "隔熱管路可以防止液體在運送過程中遭受劇烈的溫度變化"
 
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.EFFECT"
@@ -7670,7 +7670,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.NAME"
 msgid "<link=\"INSULATEDLIQUIDCONDUIT\">Insulated Liquid Pipe</link>"
-msgstr "<link=\"INSULATEDLIQUIDCONDUIT\">隔熱液體管道</link>"
+msgstr "<link=\"INSULATEDLIQUIDCONDUIT\">隔熱液體管路</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDWIRE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDWIRE.DESC"
@@ -8142,7 +8142,7 @@ msgstr "<link=\"LIQUIDCONDITIONER\">液溫調節器</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.DESC"
 msgid ""
 "Liquid pipes are used to connect the inputs and outputs of plumbed buildings."
-msgstr "液體管道可用來連接鋪管建築的輸入口和輸出口"
+msgstr "液體管路可用來連接鋪管建築的輸入口和輸出口"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.EFFECT"
@@ -8160,14 +8160,14 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.NAME"
 msgid "<link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
-msgstr "<link=\"LIQUIDCONDUIT\">液體管道</link>"
+msgstr "<link=\"LIQUIDCONDUIT\">液體管路</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITBRIDGE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITBRIDGE.DESC"
 msgid ""
 "Separate pipe systems help prevent building damage caused by mingled pipe "
 "contents."
-msgstr "分開管道系統可以避免因管道内容物混合而受損"
+msgstr "分開管路系統可以避免因管路内容物混合而受損"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITBRIDGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITBRIDGE.EFFECT"
@@ -8177,7 +8177,7 @@ msgid ""
 "\n"
 "Can be run through wall and floor tile."
 msgstr ""
-"讓一條<link=\"LIQUIDPIPING\">液體管道</link>可以越過另一條液體管道，而不用連"
+"讓一條<link=\"LIQUIDPIPING\">液體管路</link>可以越過另一條液體管路，而不用連"
 "接到一起\n"
 "\n"
 "可穿過牆壁和地磚"
@@ -8191,7 +8191,7 @@ msgstr "<link=\"LIQUIDCONDUITBRIDGE\">液體管橋</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.DESC"
 msgid ""
 "Germ sensors can help control automation behavior in the presence of germs."
-msgstr "病菌感測器可用於檢測病菌是否存在來控制自動化行為"
+msgstr "病菌感測器可用於偵測病菌是否存在來控制自動化行為"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.EFFECT"
@@ -8227,14 +8227,14 @@ msgstr "否則，輸出<b><style=\"logic_off\">紅色訊號</style></b>"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITDISEASESENSOR.NAME"
 msgid "<link=\"LIQUIDCONDUITDISEASESENSOR\">Liquid Pipe Germ Sensor</link>"
-msgstr "<link=\"LIQUIDCONDUITDISEASESENSOR\">液體管道病菌感測器</link>"
+msgstr "<link=\"LIQUIDCONDUITDISEASESENSOR\">液體管路病菌感測器</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.DESC"
 msgid ""
 "Element sensors can be used to detect the presence of a specific liquid in a "
 "pipe."
-msgstr "元素感測器用於探測管道内是否有特定液體"
+msgstr "元素感測器用於探測管路内是否有特定液體"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.EFFECT"
@@ -8242,8 +8242,8 @@ msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> when the selected "
 "<link=\"ELEMENTSLIQUID\">Liquid</link> is detected within a pipe."
 msgstr ""
-"當檢測到選定的<link=\"ELEMENTSLIQUID\">液體</link>時，輸出<b><style="
-"\"logic_on\">綠色訊號</style></b>"
+"當偵測到所選<link=\"ELEMENTSLIQUID\">液體</link>時，輸出<b><style=\"logic_on"
+"\">綠色訊號</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT"
@@ -8257,7 +8257,7 @@ msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> if the configured "
 "Liquid is detected within the pipe"
 msgstr ""
-"若檢測到管内選定的液體，輸出<b><style=\"logic_on\">綠色訊號</style></b>"
+"若偵測到管内選定的液體，輸出<b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.LOGIC_PORT_INACTIVE
 msgctxt ""
@@ -8268,7 +8268,7 @@ msgstr "否則，輸出<b><style=\"logic_off\">紅色訊號</style></b>"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITELEMENTSENSOR.NAME"
 msgid "<link=\"LIQUIDCONDUITELEMENTSENSOR\">Liquid Pipe Element Sensor</link>"
-msgstr "<link=\"LIQUIDCONDUITELEMENTSENSOR\">液體管道元素感測器</link>"
+msgstr "<link=\"LIQUIDCONDUITELEMENTSENSOR\">液體管路元素感測器</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.DESC"
@@ -8314,7 +8314,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.DESC"
 msgid ""
 "Radiant pipes pumping cold liquid can be run through hot areas to help cool "
 "them down."
-msgstr "泵入冷液體的導熱管道可以穿過炎熱區域來幫助降溫"
+msgstr "泵入冷液體的導熱管路可以穿過炎熱區域來幫助降溫"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.EFFECT"
@@ -8332,14 +8332,14 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.NAME"
 msgid "<link=\"LIQUIDCONDUITRADIANT\">Radiant Liquid Pipe</link>"
-msgstr "<link=\"LIQUIDCONDUITRADIANT\">導熱液體管道</link>"
+msgstr "<link=\"LIQUIDCONDUITRADIANT\">導熱液體管路</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.DESC"
 msgid ""
 "Thermo sensors disable buildings when their pipe contents reach a certain "
 "temperature."
-msgstr "溫度感測器可在管道内部達到特定溫度時停用某些建築"
+msgstr "溫度感測器可在管路内部達到特定溫度時停用某些建築"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.EFFECT"
@@ -8378,7 +8378,7 @@ msgstr "否則，輸出<b><style=\"logic_off\">紅色訊號</style></b>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITTEMPERATURESENSOR.NAME"
 msgid ""
 "<link=\"LIQUIDCONDUITTEMPERATURESENSOR\">Liquid Pipe Thermo Sensor</link>"
-msgstr "<link=\"LIQUIDCONDUITTEMPERATURESENSOR\">液體管道溫度感測器</link>"
+msgstr "<link=\"LIQUIDCONDUITTEMPERATURESENSOR\">液體管路溫度感測器</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCOOLEDFAN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCOOLEDFAN.DESC"
@@ -8401,7 +8401,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDFILTER.DESC"
 msgid ""
 "All liquids are sent into the building's output pipe, except the liquid "
 "chosen for filtering."
-msgstr "除了選中要濾出的液體之外，其他所有液體都會被送入輸出管道"
+msgstr "除了選中要濾出的液體之外，其他所有液體都會被送入輸出管路"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDFILTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDFILTER.EFFECT"
@@ -8412,7 +8412,7 @@ msgid ""
 "Can only filter one liquid type at a time."
 msgstr ""
 "從混合物中分離出一種<link=\"ELEMENTSLIQUID\">液體</link>，將其送入專用<link="
-"\"LIQUIDPIPING\">管道</link>\n"
+"\"LIQUIDPIPING\">管路</link>\n"
 "\n"
 "一次只能分離出一種液體"
 
@@ -8436,7 +8436,7 @@ msgid ""
 "\n"
 "The stored fuel type is determined by the rocket engine it is built upon."
 msgstr ""
-"儲存經管道輸送的<link=\"ELEMENTSLIQUID\">液體</link>燃料，為火箭引擎提供能"
+"儲存經管路輸送的<link=\"ELEMENTSLIQUID\">液體</link>燃料，為火箭引擎提供能"
 "源\n"
 "\n"
 "所儲存的燃料類型取決於火箭引擎"
@@ -8461,7 +8461,7 @@ msgid ""
 "\n"
 "The stored fuel type is determined by the rocket engine it is built upon."
 msgstr ""
-"儲存經管道輸送的<link=\"ELEMENTSLIQUID\">液體</link>燃料，為火箭引擎提供能"
+"儲存經管路輸送的<link=\"ELEMENTSLIQUID\">液體</link>燃料，為火箭引擎提供能"
 "源\n"
 "\n"
 "所儲存的燃料類型取決於火箭引擎"
@@ -8497,7 +8497,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.DESC"
 msgid ""
 "Automated piping saves power and time by removing the need for Duplicant "
 "input."
-msgstr "自動化管道免去了複製人的參與，從而可以節省電力和時間"
+msgstr "自動化管路免去了複製人的參與，從而可以節省電力和時間"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.EFFECT"
@@ -8543,7 +8543,7 @@ msgid ""
 "\n"
 "Must be submerged in <link=\"ELEMENTSLIQUID\">Liquid</link>."
 msgstr ""
-"抽取少量<link=\"ELEMENTSLIQUID\">液體</link>並透過<link=\"LIQUIDPIPING\">管道"
+"抽取少量<link=\"ELEMENTSLIQUID\">液體</link>並透過<link=\"LIQUIDPIPING\">管路"
 "</link>輸送\n"
 "\n"
 "必須浸沒在<link=\"ELEMENTSLIQUID\">液體</link>中"
@@ -8558,7 +8558,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDPUMP.DESC"
 msgid ""
 "Piping a pump's output to a building's intake will send liquid to that "
 "building."
-msgstr "用管道將泵的輸出口和另一個建築的輸入口連接，液體就會被送到那個建築中"
+msgstr "用管路將泵的輸出口和另一個建築的輸入口連接，液體就會被送到那個建築中"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDPUMP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDPUMP.EFFECT"
@@ -8568,7 +8568,7 @@ msgid ""
 "\n"
 "Must be submerged in <link=\"ELEMENTSLIQUID\">Liquid</link>."
 msgstr ""
-"抽取<link=\"ELEMENTSLIQUID\">液體</link>並透過<link=\"LIQUIDPIPING\">管道</"
+"抽取<link=\"ELEMENTSLIQUID\">液體</link>並透過<link=\"LIQUIDPIPING\">管路</"
 "link>輸送\n"
 "\n"
 "必須浸沒在<link=\"ELEMENTSLIQUID\">液體</link>中"
@@ -8611,7 +8611,7 @@ msgstr "儲液庫無法接收手動運送的資源"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDRESERVOIR.EFFECT"
 msgid ""
 "Stores any <link=\"ELEMENTSLIQUID\">Liquid</link> resources piped into it."
-msgstr "儲存任何經管道輸送的<link=\"ELEMENTSLIQUID\">液體</link>資源"
+msgstr "儲存任何經管路輸送的<link=\"ELEMENTSLIQUID\">液體</link>資源"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDRESERVOIR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDRESERVOIR.NAME"
@@ -8623,7 +8623,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDVALVE.DESC"
 msgid ""
 "Valves control the amount of liquid that moves through pipes, preventing "
 "waste."
-msgstr "閥門可以控制通過管道的液體量，避免浪費"
+msgstr "閥門可以控制通過管路的液體量，避免浪費"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDVALVE.EFFECT"
@@ -8631,7 +8631,7 @@ msgid ""
 "Controls the <link=\"ELEMENTSLIQUID\">Liquid</link> volume permitted through "
 "<link=\"LIQUIDPIPING\">Pipes</link>."
 msgstr ""
-"控制通過<link=\"LIQUIDPIPING\">管道</link>的<link=\"ELEMENTSLIQUID\">液體</"
+"控制通過<link=\"LIQUIDPIPING\">管路</link>的<link=\"ELEMENTSLIQUID\">液體</"
 "link>量"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDVALVE.NAME
@@ -8642,7 +8642,7 @@ msgstr "<link=\"LIQUIDVALVE\">液體調節閥</link>"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDVENT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDVENT.DESC"
 msgid "Vents are an exit point for liquids from plumbing systems."
-msgstr "排水口是管道系統的液體排出口"
+msgstr "排水口是管路系統的液體排出口"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDVENT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDVENT.EFFECT"
@@ -8650,7 +8650,7 @@ msgid ""
 "Releases <link=\"ELEMENTSLIQUID\">Liquid</link> from <link=\"LIQUIDPIPING"
 "\">Liquid Pipes</link>."
 msgstr ""
-"排放<link=\"LIQUIDPIPING\">液體管道</link>中的<link=\"ELEMENTSLIQUID\">液體</"
+"排放<link=\"LIQUIDPIPING\">液體管路</link>中的<link=\"ELEMENTSLIQUID\">液體</"
 "link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDVENT.NAME
@@ -8789,7 +8789,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.DESC"
 msgid ""
 "Detecting critter populations can help adjust their automated feeding and "
 "care regiments."
-msgstr "檢測動物數量可以幫助調整它們的自動餵養和馴育方式"
+msgstr "偵測動物數量有助於調整它們的自動餵養和馴育方式"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.EFFECT"
@@ -8834,7 +8834,7 @@ msgstr "動物感測器"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.DESC"
 msgid ""
 "Detecting germ populations can help block off or clean up dangerous areas."
-msgstr "檢測病菌數量有助於封鎖或清理危險區域"
+msgstr "偵測病菌數量有助於封鎖或清理危險區域"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.EFFECT"
@@ -8941,7 +8941,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.LOGIC_PORT_ACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> if the selected Gas "
 "is detected"
-msgstr "若檢測到選定的氣體，輸出<b><style=\"logic_on\">綠色訊號</style></b>"
+msgstr "若偵測到所選氣體，輸出<b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORGAS.LOGIC_PORT_INACTIVE"
@@ -8985,7 +8985,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT_ACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> if the selected "
 "Liquid is detected"
-msgstr "若檢測到選定的液體，輸出<b><style=\"logic_on\">綠色訊號</style></b>"
+msgstr "若偵測到所選液體，輸出<b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT_INACTIVE
 msgctxt ""
@@ -10372,7 +10372,7 @@ msgstr ""
 "一種自我維持的機器，似乎是由精煉的<link=\"UNOBTANIUM\">中子物質</link>所供"
 "能\n"
 "\n"
-"用管道提供<link=\"HYDROGEN\">氫氣</link>會吸收<link=\"HEAT\">熱</link>"
+"用管路提供<link=\"HYDROGEN\">氫氣</link>會吸收<link=\"HEAT\">熱</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.NAME"
@@ -11069,7 +11069,7 @@ msgid ""
 msgstr ""
 "給複製人提供一個解手的地方。\n"
 "\n"
-"不需要<link=\"LIQUIDPIPING\">管道</link>。\n"
+"不需要<link=\"LIQUIDPIPING\">管路</link>。\n"
 "\n"
 "必須定期清空<link=\"TOXICSAND\">汙染土</link>。"
 
@@ -12995,7 +12995,7 @@ msgstr "<link=\"SOLIDCONDUITBRIDGE\">運輸軌橋</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITDISEASESENSOR.DESC"
 msgid ""
 "Germ sensors can help control automation behavior in the presence of germs."
-msgstr "病菌感測器有助於檢測病菌存在來控制自動化行為"
+msgstr "病菌感測器有助於偵測病菌存在與否來控制自動化行為"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITDISEASESENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITDISEASESENSOR.EFFECT"
@@ -13044,8 +13044,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.EFFECT"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> when the selected "
 "item is detected on a rail."
-msgstr ""
-"若檢測到軌上選定的物品，輸出<b><style=\"logic_on\">綠色訊號</style></b>。"
+msgstr "若偵測到軌上所選物品，輸出<b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.LOGIC_PORT"
@@ -13057,8 +13056,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.LOGIC_PORT_ACTIVE"
 msgid ""
 "Sends a <b><style=\"logic_on\">Green Signal</style></b> if the configured "
 "item is detected on the rail"
-msgstr ""
-"若檢測到軌上選定的物品，輸出<b><style=\"logic_on\">綠色訊號</style></b>"
+msgstr "若偵測到軌上所選物品，輸出<b><style=\"logic_on\">綠色訊號</style></b>"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.LOGIC_PORT_INACTIVE
 msgctxt ""
@@ -14063,7 +14061,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.DESC"
 msgid ""
 "Duplicants will only exit a transit tube when a safe landing area is "
 "available beneath it."
-msgstr "只有在運輸管道下方有安全著陸區域時，複製人才會從運輸管道中出來。"
+msgstr "只有在運輸管路下方有安全著陸區域時，複製人才會從運輸管路中出來。"
 
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.EFFECT"
@@ -14073,19 +14071,19 @@ msgid ""
 "\n"
 "Only transports Duplicants."
 msgstr ""
-"透過<link=\"TRAVELTUBEENTRANCE\">運輸管道入口</link>快速將複製人運輸到管尾\n"
+"透過<link=\"TRAVELTUBEENTRANCE\">運輸管路入口</link>快速將複製人運輸到管尾\n"
 "\n"
 "僅運輸複製人"
 
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.NAME"
 msgid "<link=\"TRAVELTUBE\">Transit Tube</link>"
-msgstr "<link=\"TRAVELTUBE\">運輸管道</link>"
+msgstr "<link=\"TRAVELTUBE\">運輸管路</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.DESC"
 msgid "Duplicants require access points to enter tubes, but not to exit them."
-msgstr "複製人需要入口來進入運輸管道，但離開時不必要"
+msgstr "複製人需要入口來進入運輸管路，但離開時不必要"
 
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.EFFECT"
@@ -14095,21 +14093,21 @@ msgid ""
 "\n"
 "Stops drawing <link=\"POWER\">Power</link> once fully charged."
 msgstr ""
-"允許複製人進入連接的<link=\"TRAVELTUBE\">運輸管道</link>系統\n"
+"允許複製人進入連接的<link=\"TRAVELTUBE\">運輸管路</link>系統\n"
 "\n"
 "充滿電後就不再消耗<link=\"POWER\">電力</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.NAME"
 msgid "<link=\"TRAVELTUBEENTRANCE\">Transit Tube Access</link>"
-msgstr "<link=\"TRAVELTUBEENTRANCE\">運輸管道入口</link>"
+msgstr "<link=\"TRAVELTUBEENTRANCE\">運輸管路入口</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.DESC"
 msgid ""
 "Tube crossings can run transit tubes through walls without leaking gas or "
 "liquid."
-msgstr "運輸管道接口可以讓運輸管道穿越牆體，而不會洩漏氣體或液體"
+msgstr "運輸管路接口可以讓運輸管路穿越牆體，而不會洩漏氣體或液體"
 
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.EFFECT"
@@ -14119,14 +14117,14 @@ msgid ""
 "\n"
 "Functions as regular tile."
 msgstr ""
-"允許<link=\"TRAVELTUBE\">運輸管道</link>穿過牆壁和地磚\n"
+"允許<link=\"TRAVELTUBE\">運輸管路</link>穿過牆壁和地磚\n"
 "\n"
 "可作為普通磚塊使用"
 
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.NAME"
 msgid "<link=\"TRAVELTUBEWALLBRIDGE\">Transit Tube Crossing</link>"
-msgstr "<link=\"TRAVELTUBEWALLBRIDGE\">運輸管道接口</link>"
+msgstr "<link=\"TRAVELTUBEWALLBRIDGE\">運輸管路接口</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.UNCONSTRUCTEDROCKETMODULE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.UNCONSTRUCTEDROCKETMODULE.DESC"
@@ -14219,7 +14217,7 @@ msgstr "<link=\"VERTICALWINDTUNNEL\">垂直風洞</link>"
 #. STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.DESC"
 msgid "The tubes at the back disappear into nowhere."
-msgstr "管道的後端消失不見了"
+msgstr "管路的後端消失不見了"
 
 #. STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.EFFECT"
@@ -14248,7 +14246,7 @@ msgstr "補給傳送器輸出端"
 #. STRINGS.BUILDINGS.PREFABS.WARPCONDUITSENDER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITSENDER.DESC"
 msgid "The tubes at the back disappear into nowhere."
-msgstr "管道的後端消失不見了"
+msgstr "管路的後端消失不見了"
 
 #. STRINGS.BUILDINGS.PREFABS.WARPCONDUITSENDER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITSENDER.EFFECT"
@@ -15279,7 +15277,7 @@ msgid ""
 "[LOG ENDS]\n"
 "------------------\n"
 msgstr ""
-"<smallcaps>[檢測到錄音片段]\n"
+"<smallcaps>[偵測到錄音片段]\n"
 "[聲紋識別系統不可用]</smallcaps>\n"
 "\n"
 "[錄音開始]\n"
@@ -15308,7 +15306,7 @@ msgid ""
 "[LOG ENDS]\n"
 "------------------\n"
 msgstr ""
-"<smallcaps>[檢測到錄音片段]\n"
+"<smallcaps>[偵測到錄音片段]\n"
 "[聲紋識別系統不可用]</smallcaps>\n"
 "\n"
 "[錄音開始]\n"
@@ -15336,7 +15334,7 @@ msgid ""
 "[LOG ENDS]\n"
 "------------------\n"
 msgstr ""
-"<smallcaps>[檢測到錄音片段]\n"
+"<smallcaps>[偵測到錄音片段]\n"
 "[聲紋識別系統不可用]</smallcaps>\n"
 "\n"
 "[錄音開始]\n"
@@ -15366,7 +15364,7 @@ msgid ""
 "[LOG ENDS]\n"
 "------------------\n"
 msgstr ""
-"<smallcaps>[檢測到錄音片段]\n"
+"<smallcaps>[偵測到錄音片段]\n"
 "[聲紋識別系統不可用]</smallcaps>\n"
 "\n"
 "[錄音開始]\n"
@@ -15394,7 +15392,7 @@ msgid ""
 "[LOG ENDS]\n"
 "------------------\n"
 msgstr ""
-"<smallcaps>[檢測到錄音片段]\n"
+"<smallcaps>[偵測到錄音片段]\n"
 "[聲紋識別系統不可用]</smallcaps>\n"
 "\n"
 "[錄音開始]\n"
@@ -15423,7 +15421,7 @@ msgid ""
 "[LOG ENDS]\n"
 "------------------\n"
 msgstr ""
-"<smallcaps>[檢測到錄音片段]\n"
+"<smallcaps>[偵測到錄音片段]\n"
 "[聲紋識別系統不可用]</smallcaps>\n"
 "\n"
 "[錄音開始]\n"
@@ -15958,7 +15956,7 @@ msgid ""
 "[LOG ENDS]\n"
 "------------------\n"
 msgstr ""
-"<smallcaps>[檢測到錄音片段]\n"
+"<smallcaps>[偵測到錄音片段]\n"
 "[聲紋識別系統不可用]</smallcaps>\n"
 "\n"
 "[錄音開始]\n"
@@ -17326,15 +17324,15 @@ msgid ""
 "heat.\n"
 "\n"
 msgstr ""
-"自動化是一種根據感測器檢測到的資訊而控制建築運行的工具\n"
+"自動化是一種根據感測器偵測到的資訊而控制建築運行的工具\n"
 "\n"
-"當<link=\"DUPLICANTSENSOR\">複製人運動感測器</link>檢測到複製人在房間時能使"
+"當<link=\"DUPLICANTSENSOR\">複製人運動感測器</link>偵測到複製人在房間時能使"
 "<link=\"CEILINGLIGHT\">吸頂燈</link>自動開啟\n"
 "\n"
-"只有當<link=\"LOGICELEMENTSENSORLIQUID\">液體元素感測器</link>檢測到水時才啟"
+"只有當<link=\"LOGICELEMENTSENSORLIQUID\">液體元素感測器</link>偵測到水時才啟"
 "用<link=\"LIQUIDPUMP\">液泵</link>\n"
 "\n"
-"只有當<link=\"LOGICTEMPERATURESENSOR\">溫度感測器</link>檢測到太多熱時才會啟"
+"只有當<link=\"LOGICTEMPERATURESENSOR\">溫度感測器</link>偵測到太多熱時才會啟"
 "用<link=\"AIRCONDITIONER\">溫度調節器</link>\n"
 "\n"
 
@@ -17369,8 +17367,8 @@ msgid ""
 msgstr ""
 "<link=\"LOGICWIRE\">訊號線</link>可傳遞兩種訊號：綠色和紅色。綠色訊號會啟用建"
 "築，紅色訊號會停用建築。感測器可以設定在一定條件下輸出綠色訊號，比如，將"
-"<link=\"LOGICTEMPERATURESENSOR\">溫度感測器</link>設定為只當檢測到的溫度高於"
-"選定值時輸出綠色訊號。\n"
+"<link=\"LOGICTEMPERATURESENSOR\">溫度感測器</link>設定為只當偵測到的溫度高於"
+"選定值時輸出綠色訊號\n"
 "\n"
 
 #. STRINGS.CODEX.AUTOMATION.PARAGRAPH_4
@@ -18939,7 +18937,7 @@ msgid ""
 "Slickster. These send signals to the brain to contract or expand its air "
 "sacks accordingly."
 msgstr ""
-"小嗅角位於主嗅角兩側，專門用於透過機械方式接收和檢測浮油生物週圍的氣壓。這些"
+"小嗅角位於主嗅角兩側，專門用於透過機械方式接收和偵測浮油生物週圍的氣壓。這些"
 "嗅角可以發送訊號給大腦，從而讓浮油生物可以根據情況收縮或膨脹氣囊"
 
 #. STRINGS.CODEX.DECOR.SUBTITLE
@@ -20451,7 +20449,7 @@ msgstr ""
 "\n"
 "多虧了他們的努力，我才明白這個星球是有充足的資源來建立一個長期殖民地的\n"
 "\n"
-"但是……有些東西不對。我也在這個星球的組成中檢測到了深淵晶石和中子物質的沉積"
+"但是……有些東西不對。我也在這個星球的組成中偵測到了深淵晶石和中子物質的沉積"
 "物，這些人造元素是不應該出現在自然界中的\n"
 "\n"
 "這裡真是目標地點嗎？\n"
@@ -20642,7 +20640,7 @@ msgid ""
 "keeping track of both of my colonies."
 msgstr ""
 "我的複製人發現了一個奇怪的設備，似乎是之前莊嚴科技的廢棄設備。啟動設備後，我"
-"的複製人被某個未知的高科技設備掃描了，接著我檢測到一次巨量的資訊傳輸！\n"
+"的複製人被某個未知的高科技設備掃描了，接著我偵測到一次巨量的資訊傳輸！\n"
 "\n"
 "值得注意的是，我的複製人在另一個完全不同的遙遠世界重新出現了！我現在可以訪問"
 "臨近星球上的其他的廢棄設備了！要搞懂這件事，我必須進行進一步分析，但同時，我"
@@ -20675,7 +20673,7 @@ msgstr ""
 "我的複製人的太空研究有了驚人的發現\n"
 "\n"
 "離我們望遠鏡很遠很遠的地方，複製人們發現了一個反常現象，我只能將其稱之為「時"
-"空裂口」中子物質可在其中被檢測到，表明這與我們星球週圍包裹的中子物質有關\n"
+"空裂口」中子物質可在其中被偵測到，表明這與我們星球週圍包裹的中子物質有關\n"
 "\n"
 "儘管我相信正是因為這一裂口導致我們的舊星球變得混亂，但它的發現仍提供了一線希"
 "望\n"
@@ -20913,7 +20911,7 @@ msgstr ""
 "\n"
 "傑姬：沒錯\n"
 "\n"
-"傑姬：讓機器慢點運轉吧，這樣我們就可以檢測到任何異常的動力波動了。數到三就開"
+"傑姬：讓機器慢點運轉吧，這樣我們就可以探測到任何異常的動力波動了。數到三就開"
 "始\n"
 "\n"
 "傑姬：一…二…\n"
@@ -22784,7 +22782,7 @@ msgctxt ""
 "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS."
 "TUBE_TRAVEL_DISTANCE_DESCRIPTION"
 msgid "Have Duplicants travel 10,000m by Transit Tube."
-msgstr "讓複製人透過運輸管道總共前進 10,000 公尺"
+msgstr "讓複製人透過運輸管路總共前進 10,000 公尺"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.TWENTY_DUPES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.TWENTY_DUPES"
@@ -31207,12 +31205,12 @@ msgstr ""
 #. STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.NAME"
 msgid "Enter Transit Tube"
-msgstr "進入運輸管道"
+msgstr "進入運輸管路"
 
 #. STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.STATUS"
 msgid "Entering Transit Tube"
-msgstr "正在進入運輸管道"
+msgstr "正在進入運輸管路"
 
 #. STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.TOOLTIP"
@@ -36035,7 +36033,7 @@ msgctxt "STRINGS.DUPLICANTS.ROLES.PLUMBER.DESCRIPTION"
 msgid ""
 "Allows a Duplicant to empty <style=\"KKeyword\">Pipes</style> without making "
 "a mess"
-msgstr "允許複製人清空<style=\"KKeyword\">管道</style>而不把水漏得到處都是"
+msgstr "允許複製人清空<style=\"KKeyword\">管路</style>而不把水漏得到處都是"
 
 #. STRINGS.DUPLICANTS.ROLES.PLUMBER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.PLUMBER.NAME"
@@ -39199,7 +39197,7 @@ msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING2.DESC"
 msgid ""
 "Allows a Duplicant to empty <style=\"KKeyword\">Pipes</style> without making "
 "a mess"
-msgstr "允許複製人清空<style=\"KKeyword\">管道</style>而不把水漏得到處都是"
+msgstr "允許複製人清空<style=\"KKeyword\">管路</style>而不把水漏得到處都是"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING2.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BASEKEEPING2.NAME"
@@ -45076,7 +45074,7 @@ msgstr "消毒"
 #. STRINGS.INPUT_BINDINGS.ROOT.EMPTYPIPE
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.EMPTYPIPE"
 msgid "Empty Pipe"
-msgstr "空管道"
+msgstr "空管路"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.HARVEST
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.HARVEST"
@@ -48175,14 +48173,14 @@ msgstr "　"
 #. STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.NAME"
 msgid "Output blocked"
-msgstr "輸出管道堵塞"
+msgstr "輸出管路堵塞"
 
 #. STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.TOOLTIP"
 msgid ""
 "Blocked <style=\"KKeyword\">Pipes</style> have stopped these systems from "
 "functioning:"
-msgstr "這些系統由於<style=\"KKeyword\">管道</style>堵塞而停止運作："
+msgstr "這些系統由於<style=\"KKeyword\">管路</style>堵塞而停止運作："
 
 #. STRINGS.MISC.NOTIFICATIONS.PLUMBING.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PLUMBING.MESSAGEBODY"
@@ -48198,9 +48196,9 @@ msgid ""
 "through Liquid Vent or filtered through a Liquid Filter and reused."
 msgstr ""
 "連接水管時最好使用水利概覽 <b><color=#F44A4A>[F6]</b></color> ，每個需要水管"
-"連接的建築必須讓它們的建築輸入口連接到浸沒在水中並通電的水泵的輸出管道口\n"
+"連接的建築必須讓它們的建築輸入口連接到浸沒在水中並通電的水泵的輸出管路口\n"
 "\n"
-"使用過的水會被汙染，且必須透過輸出管道口流出，輸出的水可以透過排水口排出，或"
+"使用過的水會被汙染，且必須透過輸出管路口流出，輸出的水可以透過排水口排出，或"
 "者透過液體過濾器過濾再利用"
 
 #. STRINGS.MISC.NOTIFICATIONS.PLUMBING.NAME
@@ -48211,7 +48209,7 @@ msgstr "影片：水利及通風"
 #. STRINGS.MISC.NOTIFICATIONS.PLUMBING.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PLUMBING.TOOLTIP"
 msgid "Notes on connecting buildings with pipes"
-msgstr "將建築和管道連接的說明"
+msgstr "將建築和管路連接的說明"
 
 #. STRINGS.MISC.NOTIFICATIONS.POWER.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.POWER.MESSAGEBODY"
@@ -48653,7 +48651,7 @@ msgctxt "STRINGS.MISC.NOTIFICATIONS.VENTBLOCKED.TOOLTIP"
 msgid ""
 "Blocked <style=\"KKeyword\">Pipes</style> have stopped these systems from "
 "functioning:"
-msgstr "這些系統由於<style=\"KKeyword\">管道</style>堵塞而停止運作："
+msgstr "這些系統由於<style=\"KKeyword\">管路</style>堵塞而停止運作："
 
 #. STRINGS.MISC.NOTIFICATIONS.VENTOVERPRESSURE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.VENTOVERPRESSURE.NAME"
@@ -48666,7 +48664,7 @@ msgid ""
 "These <style=\"KKeyword\">Pipe</style> systems have exited the ideal <style="
 "\"KKeyword\">Pressure</style> range:"
 msgstr ""
-"這些<style=\"KKeyword\">管道</style>系統已超出正常<style=\"KKeyword\">壓力</"
+"這些<style=\"KKeyword\">管路</style>系統已超出正常<style=\"KKeyword\">壓力</"
 "style>範圍："
 
 #. STRINGS.MISC.NOTIFICATIONS.WARP_PORTAL_DUPE_READY.NAME
@@ -48716,7 +48714,7 @@ msgstr ""
 #. STRINGS.MISC.NOTIFICATIONS.WORLDDETECTED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WORLDDETECTED.NAME"
 msgid "New Planetoid detected"
-msgstr "檢測到新星球"
+msgstr "探測到新星球"
 
 #. STRINGS.MISC.NOTIFICATIONS.WORLDDETECTED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WORLDDETECTED.TOOLTIP"
@@ -49859,7 +49857,7 @@ msgstr "塑膠"
 #. STRINGS.MISC.TAGS.PLUMBABLE
 msgctxt "STRINGS.MISC.TAGS.PLUMBABLE"
 msgid "Plumbable"
-msgstr "可做管道的物品"
+msgstr "可做管路的物品"
 
 #. STRINGS.MISC.TAGS.POWER
 msgctxt "STRINGS.MISC.TAGS.POWER"
@@ -53476,7 +53474,7 @@ msgid ""
 "<link=\"ELEMENTSGAS\">Gas</link> infrastructure capable of withstanding more "
 "intense conditions, such as <link=\"HEAT\">Heat</link> and pressure."
 msgstr ""
-"<link=\"ELEMENTSGAS\">氣體</link>管道建設有了能在嚴酷的環境下工作的能力，比如"
+"<link=\"ELEMENTSGAS\">氣體</link>管路建設有了能在嚴酷的環境下工作的能力，比如"
 "<link=\"HEAT\">高溫</link>和高壓"
 
 #. STRINGS.RESEARCH.TECHS.IMPROVEDGASPIPING.NAME
@@ -53491,7 +53489,7 @@ msgid ""
 "withstanding more intense conditions, such as <link=\"HEAT\">Heat</link> and "
 "pressure."
 msgstr ""
-"<link=\"ELEMENTSLIQUID\">液體</link>管道建設有了能在嚴酷的環境下工作的能力，"
+"<link=\"ELEMENTSLIQUID\">液體</link>管路建設有了能在嚴酷的環境下工作的能力，"
 "比如<link=\"HEAT\">高溫</link>和高壓"
 
 #. STRINGS.RESEARCH.TECHS.IMPROVEDLIQUIDPIPING.NAME
@@ -53979,7 +53977,7 @@ msgstr "一種完全未來化的方法讓複製人在基地中移動"
 #. STRINGS.RESEARCH.TECHS.TRAVELTUBES.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.TRAVELTUBES.NAME"
 msgid "<link=\"TRAVELTUBES\">Transit Tubes</link>"
-msgstr "<link=\"TRAVELTUBES\">運輸管道</link>"
+msgstr "<link=\"TRAVELTUBES\">運輸管路</link>"
 
 #. STRINGS.RESEARCH.TECHS.VALVEMINIATURIZATION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.VALVEMINIATURIZATION.DESC"
@@ -54396,7 +54394,7 @@ msgstr "需要至少一個洗手台，手部消毒站或淋浴間"
 #. STRINGS.ROOMS.CRITERIA.ADVANCED_WASH_STATION.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.ADVANCED_WASH_STATION.NAME"
 msgid "Plumbed wash station"
-msgstr "鋪設管道的洗手站"
+msgstr "鋪設管路的洗手站"
 
 #. STRINGS.ROOMS.CRITERIA.BED_MULTIPLE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.BED_MULTIPLE.DESCRIPTION"
@@ -55058,7 +55056,7 @@ msgstr "衛生間"
 #. STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.TOOLTIP"
 msgid "Using a fully plumbed Washroom will improve Duplicants' Morale."
-msgstr "使用管道設施齊全的衛生間會提升複製人的士氣"
+msgstr "使用管路設施齊全的衛生間會提升複製人的士氣"
 
 #. STRINGS.ROOMS.TYPES.POWER_PLANT.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.POWER_PLANT.EFFECT"
@@ -55267,7 +55265,7 @@ msgstr ""
 "\n"
 "幸運的是，可以種植<link=\"COLDBREATHER\">冰息蘿蔔</link>來降低環境溫度。\n"
 "\n"
-"非常關鍵的是，在這裡可以檢測到<link=\"WOLFRAMITE\">黑鎢礦</link>。這是一種非"
+"非常關鍵的是，在這裡可以探測到<link=\"WOLFRAMITE\">黑鎢礦</link>。這是一種非"
 "常稀有的金屬，可以保存並用於<link=\"TUNGSTEN\">鎢</link>的生產\n"
 "\n"
 "儘管我的複製人很樂意短時間在苔原生態工作，但如果要在這裡長時間工作，我還是需"
@@ -56406,7 +56404,7 @@ msgstr "允許為植物運送<style=\"KKeyword\">液體</style>"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ALLOWS_IRRIGATION_PIPE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ALLOWS_IRRIGATION_PIPE"
 msgid "Allows irrigation <style=\"KKeyword\">Pipe</style> connection"
-msgstr "允許灌溉<style=\"KKeyword\">管道</style>連接"
+msgstr "允許灌溉<style=\"KKeyword\">管路</style>連接"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ASSIGNEDDUPLICANT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ASSIGNEDDUPLICANT"
@@ -56691,7 +56689,7 @@ msgid ""
 "Reduces the <style=\"KKeyword\">Temperature</style> of piped <style="
 "\"KKeyword\">Gases</style>by <b>{0}</b>"
 msgstr ""
-"降低管道内<style=\"KKeyword\">氣體</style>的<style=\"KKeyword\">溫度</"
+"降低管路内<style=\"KKeyword\">氣體</style>的<style=\"KKeyword\">溫度</"
 "style><b>{0}</b>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_DISEASE
@@ -56847,7 +56845,7 @@ msgid ""
 "Reduces the <style=\"KKeyword\">Temperature</style> of piped <style="
 "\"KKeyword\">Liquid</style> by <b>{0}</b>"
 msgstr ""
-"降低管道内<style=\"KKeyword\">液體</style>的<style=\"KKeyword\">溫度</"
+"降低管路内<style=\"KKeyword\">液體</style>的<style=\"KKeyword\">溫度</"
 "style><b>{0}</b>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MAX_BITS
@@ -57049,7 +57047,7 @@ msgid ""
 "Must receive <style=\"KKeyword\">Gas</style> from a <link=\"GASCONDUIT\">Gas "
 "Pipe</link> system"
 msgstr ""
-"必須從<link=\"GASCONDUIT\">氣體管道</link>系統接收<style=\"KKeyword\">氣體</"
+"必須從<link=\"GASCONDUIT\">氣體管路</link>系統接收<style=\"KKeyword\">氣體</"
 "style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESGASOUTPUT
@@ -57058,7 +57056,7 @@ msgid ""
 "Must expel <style=\"KKeyword\">Gas</style> through a <link=\"GASCONDUIT"
 "\">Gas Pipe</link> system"
 msgstr ""
-"必須透過<link=\"GASCONDUIT\">氣體管道</link>系統排出<style=\"KKeyword\">氣體"
+"必須透過<link=\"GASCONDUIT\">氣體管路</link>系統排出<style=\"KKeyword\">氣體"
 "</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESGASOUTPUTS
@@ -57067,7 +57065,7 @@ msgid ""
 "Must expel <style=\"KKeyword\">Gas</style> through a <link=\"GASCONDUIT"
 "\">Gas Pipe</link> system"
 msgstr ""
-"必須透過<link=\"GASCONDUIT\">氣體管道</link>系統排出<style=\"KKeyword\">氣體"
+"必須透過<link=\"GASCONDUIT\">氣體管路</link>系統排出<style=\"KKeyword\">氣體"
 "</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESLIQUIDINPUT
@@ -57076,7 +57074,7 @@ msgid ""
 "Must receive <style=\"KKeyword\">Liquid</style> from a <link=\"LIQUIDCONDUIT"
 "\">Liquid Pipe</link> system"
 msgstr ""
-"必須從<link=\"LIQUIDCONDUIT\">液體管道</link>系統接收<style=\"KKeyword\">液體"
+"必須從<link=\"LIQUIDCONDUIT\">液體管路</link>系統接收<style=\"KKeyword\">液體"
 "</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESLIQUIDOUTPUT
@@ -57085,7 +57083,7 @@ msgid ""
 "Must expel <style=\"KKeyword\">Liquid</style> through a <link=\"LIQUIDCONDUIT"
 "\">Liquid Pipe</link> system"
 msgstr ""
-"必須透過<link=\"LIQUIDCONDUIT\">液體管道</link>系統排出<style=\"KKeyword\">液"
+"必須透過<link=\"LIQUIDCONDUIT\">液體管路</link>系統排出<style=\"KKeyword\">液"
 "體</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESLIQUIDOUTPUTS
@@ -57094,7 +57092,7 @@ msgid ""
 "Must expel <style=\"KKeyword\">Liquid</style> through a <link=\"LIQUIDCONDUIT"
 "\">Liquid Pipe</link> system"
 msgstr ""
-"必須透過<link=\"LIQUIDCONDUIT\">液體管道</link>系統排出<style=\"KKeyword\">液"
+"必須透過<link=\"LIQUIDCONDUIT\">液體管路</link>系統排出<style=\"KKeyword\">液"
 "體</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESMANUALOPERATION
@@ -59771,7 +59769,7 @@ msgstr "狀態"
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.NO_GEYSERS
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.NO_GEYSERS"
 msgid "No geysers detected"
-msgstr "未檢測到噴泉"
+msgstr "未探測到噴泉"
 
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.TOOLTIP"
@@ -63179,7 +63177,7 @@ msgstr "已移除"
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.VERSION_UPDATE
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.VERSION_UPDATE"
 msgid "New version detected"
-msgstr "檢測到新版本"
+msgstr "偵測到新版本"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.UNINSTALLED
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.UNINSTALLED"
@@ -65412,17 +65410,17 @@ msgstr "用這些基本物件來維護你的殖民地基礎建設 {Hotkey}"
 #. STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.BUILDMENUTITLE"
 msgid "Pipe Sensors"
-msgstr "管道感測器"
+msgstr "管路感測器"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.NAME"
 msgid "Pipe Sensors"
-msgstr "管道感測器"
+msgstr "管路感測器"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.TOOLTIP"
 msgid ""
-msgstr "管道感測器"
+msgstr "管路感測器"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCE.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCE.BUILDMENUTITLE"
@@ -65721,17 +65719,17 @@ msgstr "你需要保持你的殖民地能呼吸 {Hotkey}"
 #. STRINGS.UI.NEWBUILDCATEGORIES.PIPES.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PIPES.BUILDMENUTITLE"
 msgid "Pipes"
-msgstr "管道"
+msgstr "管路"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.PIPES.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PIPES.NAME"
 msgid "Pipes"
-msgstr "管道"
+msgstr "管路"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.PIPES.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PIPES.TOOLTIP"
 msgid ""
-msgstr "管道"
+msgstr "管路"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.PLUMBINGSTRUCTURES.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PLUMBINGSTRUCTURES.BUILDMENUTITLE"
@@ -65873,7 +65871,7 @@ msgstr "磚塊"
 #. STRINGS.UI.NEWBUILDCATEGORIES.TRAVELTUBES.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TRAVELTUBES.BUILDMENUTITLE"
 msgid "Transit Tubes"
-msgstr "運輸管道"
+msgstr "運輸管路"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.TRAVELTUBES.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TRAVELTUBES.NAME"
@@ -65882,12 +65880,12 @@ msgid ""
 "Tubes"
 msgstr ""
 "運輸\n"
-"管道"
+"管路"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.TRAVELTUBES.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TRAVELTUBES.TOOLTIP"
 msgid ""
-msgstr "運輸管道"
+msgstr "運輸管路"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.UTILITIES.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.UTILITIES.BUILDMENUTITLE"
@@ -66402,7 +66400,7 @@ msgstr "已連接"
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.CONSUMER
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.CONSUMER"
 msgid "Output Pipe"
-msgstr "輸出管道"
+msgstr "輸出管路"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.DIAGRAM_AFTER_ARROW
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.DIAGRAM_AFTER_ARROW"
@@ -66412,7 +66410,7 @@ msgstr "<b>建築輸入</b>"
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.DIAGRAM_BEFORE_ARROW
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.DIAGRAM_BEFORE_ARROW"
 msgid "Gas flows from <b>Output Pipe</b>"
-msgstr "氣體從<b>輸出管道</b>流出"
+msgstr "氣體從<b>輸出管路</b>流出"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.DISCONNECTED"
@@ -66422,7 +66420,7 @@ msgstr "未連接"
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.FILTERED
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.FILTERED"
 msgid "Filtered Output Pipe"
-msgstr "過濾輸出管道"
+msgstr "過濾輸出管路"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.NAME
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.NAME"
@@ -66442,7 +66440,7 @@ msgstr "建築輸入"
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.CONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.CONNECTED"
 msgid "Connected to a <link=\"GASPIPING\">Gas Pipe</link>"
-msgstr "已連入<link=\"GASPIPING\">氣體管道</link>"
+msgstr "已連入<link=\"GASPIPING\">氣體管路</link>"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.CONSUMER
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.CONSUMER"
@@ -66453,8 +66451,8 @@ msgid ""
 "------------------\n"
 "Must be on the same network as at least one <link=\"GASPIPING\">Intake</link>"
 msgstr ""
-"<b>輸出管道</b>\n"
-"輸出端口將<style=\"KKeyword\">氣體</style>送入<style=\"KKeyword\">管道</"
+"<b>輸出管路</b>\n"
+"輸出端口將<style=\"KKeyword\">氣體</style>送入<style=\"KKeyword\">管路</"
 "style>\n"
 "------------------\n"
 "必須與至少一個<link=\"GASPIPING\">輸入</link>端口處於同一網絡"
@@ -66462,7 +66460,7 @@ msgstr ""
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.DISCONNECTED"
 msgid "Not connected to a <link=\"GASPIPING\">Gas Pipe</link>"
-msgstr "未連入<link=\"GASPIPING\">氣體管道</link>"
+msgstr "未連入<link=\"GASPIPING\">氣體管路</link>"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.FILTERED
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.TOOLTIPS.FILTERED"
@@ -66473,9 +66471,9 @@ msgid ""
 "------------------\n"
 "Must be on the same network as at least one <link=\"GASPIPING\">Intake</link>"
 msgstr ""
-"<b>過濾輸出管道</b>\n"
+"<b>過濾輸出管路</b>\n"
 "過濾輸出端口將過濾的<style=\"KKeyword\">氣體</style>送入<style=\"KKeyword\">"
-"管道</style>\n"
+"管路</style>\n"
 "------------------\n"
 "必須與至少一個<link=\"GASPIPING\">輸入</link>端口處於同一網絡"
 
@@ -66687,7 +66685,7 @@ msgstr "已連接"
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.CONSUMER
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.CONSUMER"
 msgid "Output Pipe"
-msgstr "輸出管道"
+msgstr "輸出管路"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.DIAGRAM_AFTER_ARROW
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.DIAGRAM_AFTER_ARROW"
@@ -66697,7 +66695,7 @@ msgstr "<b>建築輸入</b>"
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.DIAGRAM_BEFORE_ARROW
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.DIAGRAM_BEFORE_ARROW"
 msgid "Liquid flows from <b>Output Pipe</b>"
-msgstr "液體從<b>輸出管道</b>流出"
+msgstr "液體從<b>輸出管路</b>流出"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.DISCONNECTED"
@@ -66707,7 +66705,7 @@ msgstr "未連接"
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.FILTERED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.FILTERED"
 msgid "Filtered Output Pipe"
-msgstr "過濾輸出管道"
+msgstr "過濾輸出管路"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.NAME
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.NAME"
@@ -66727,7 +66725,7 @@ msgstr "建築輸入"
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONNECTED"
 msgid "Connected to a <link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
-msgstr "已連入<link=\"LIQUIDCONDUIT\">液體管道</link>"
+msgstr "已連入<link=\"LIQUIDCONDUIT\">液體管路</link>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONSUMER
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.CONSUMER"
@@ -66738,15 +66736,15 @@ msgid ""
 "Must be on the same network as at least one <link=\"LIQUIDPIPING\">Intake</"
 "link>"
 msgstr ""
-"<b>輸出管道</b>\n"
-"輸出端口將液體送入管道\n"
+"<b>輸出管路</b>\n"
+"輸出端口將液體送入管路\n"
 "------------------\n"
 "必須與至少一個<link=\"LIQUIDPIPING\">輸入</link>端口處於同一網絡"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.DISCONNECTED"
 msgid "Not connected to a <link=\"LIQUIDCONDUIT\">Liquid Pipe</link>"
-msgstr "未連入<link=\"LIQUIDCONDUIT\">液體管道</link>"
+msgstr "未連入<link=\"LIQUIDCONDUIT\">液體管路</link>"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.FILTERED
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.FILTERED"
@@ -66757,10 +66755,10 @@ msgid ""
 "Must be on the same network as at least one <link=\"LIQUIDPIPING\">Intake</"
 "link>"
 msgstr ""
-"<b>過濾輸出管道</b>\n"
-"過濾輸出端口將過濾液體送入管道\n"
+"<b>過濾輸出管路</b>\n"
+"過濾輸出端口將過濾液體送入管路\n"
 "------------------\n"
-"必須與至少一個<link=\"LIQUIDPIPING\">輸入管道</link>處於同一網路"
+"必須與至少一個<link=\"LIQUIDPIPING\">輸入管路</link>處於同一網路"
 
 #. STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.NETWORK
 msgctxt "STRINGS.UI.OVERLAYS.LIQUIDPLUMBING.TOOLTIPS.NETWORK"
@@ -68726,7 +68724,7 @@ msgstr "<link=\"ASTRONAUTTRAININGCENTER\">太空人離心訓練機</link>的使�
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_PLUMBING.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_PLUMBING.DESCRIPTION"
 msgid "Pipe Emptying"
-msgstr "管道的清空"
+msgstr "管路的清空"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DOCTOR.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DOCTOR.DESCRIPTION"
@@ -70527,7 +70525,7 @@ msgid ""
 "The source of our misfortune, though it may also be our shot at freedom. "
 "Traces of Neutronium are detectable in my readings."
 msgstr ""
-"雖然這是我們不幸事故的起源，但它可能也是我們通往自由的通道，可以檢測到中子物"
+"雖然這是我們不幸事故的起源，但它可能也是我們通往自由的通道，可以探測到中子物"
 "質的痕跡"
 
 #. STRINGS.UI.SPACEDESTINATIONS.WORMHOLE.NAME
@@ -71959,7 +71957,7 @@ msgstr "消毒工具"
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.NAME
 msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.NAME"
 msgid "Empty Pipe"
-msgstr "清空管道"
+msgstr "清空管路"
 
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLACTION"
@@ -71969,12 +71967,12 @@ msgstr "拖動"
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLNAME"
 msgid "Empty Pipe tool"
-msgstr "清空管道工具"
+msgstr "清空管路工具"
 
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLTIP
 msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLTIP"
 msgid "Extract pipe contents {Hotkey}"
-msgstr "取出管道内容物 {Hotkey}"
+msgstr "取出管路内容物 {Hotkey}"
 
 #. STRINGS.UI.TOOLS.FILTER_HOVERCARD_HEADER
 msgctxt "STRINGS.UI.TOOLS.FILTER_HOVERCARD_HEADER"
@@ -72079,7 +72077,7 @@ msgstr "氣體"
 #. STRINGS.UI.TOOLS.FILTERLAYERS.GASPIPES
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.GASPIPES"
 msgid "Gas Pipes"
-msgstr "氣體管道"
+msgstr "氣體管路"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.HARVEST_WHEN_READY
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.HARVEST_WHEN_READY"
@@ -72099,7 +72097,7 @@ msgstr "液體"
 #. STRINGS.UI.TOOLS.FILTERLAYERS.LIQUIDPIPES
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.LIQUIDPIPES"
 msgid "Liquid Pipes"
-msgstr "液體管道"
+msgstr "液體管路"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.LIQUIFIABLE
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.LIQUIFIABLE"
@@ -72550,7 +72548,7 @@ msgstr "需要的<link=\"POWER\">電力</link>"
 #. STRINGS.UI.TOOLTIPS.GASVENTOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.GASVENTOVERLAYSTRING"
 msgid "Displays gas pipe system components {Hotkey}"
-msgstr "顯示氣體管道系統要素 {Hotkey}"
+msgstr "顯示氣體管路系統要素 {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.HARVESTBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.HARVESTBUTTON"
@@ -72745,7 +72743,7 @@ msgstr "顯示光源的可見度半徑 {Hotkey}"
 #. STRINGS.UI.TOOLTIPS.LIQUIDVENTOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.LIQUIDVENTOVERLAYSTRING"
 msgid "Displays liquid pipe system components {Hotkey}"
-msgstr "顯示液體管道系統要素 {Hotkey}"
+msgstr "顯示液體管路系統要素 {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.LOGICOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.LOGICOVERLAYSTRING"
@@ -73522,7 +73520,7 @@ msgstr "不將{0}自動運送到這個建築"
 #. STRINGS.UI.UISIDESCREENS.BUTTONMENUSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.BUTTONMENUSIDESCREEN.TITLE"
 msgid "Building Menu"
-msgstr "建築清單"
+msgstr "建築選單"
 
 #. STRINGS.UI.UISIDESCREENS.CAPACITY_CONTROL_SIDE_SCREEN.MAX_LABEL
 msgctxt "STRINGS.UI.UISIDESCREENS.CAPACITY_CONTROL_SIDE_SCREEN.MAX_LABEL"
@@ -73626,7 +73624,7 @@ msgctxt ""
 msgid ""
 "Toggle a roundtrip flight between this rocket's destination and its original "
 "takeoff location"
-msgstr "切換為在這艘火箭目的地和原起飛地點之間的一次往返飛行"
+msgstr "切換為自動往返"
 
 #. STRINGS.UI.UISIDESCREENS.CLUSTERDESTINATIONSIDESCREEN.NONEAVAILABLE
 msgctxt "STRINGS.UI.UISIDESCREENS.CLUSTERDESTINATIONSIDESCREEN.NONEAVAILABLE"
@@ -73672,12 +73670,12 @@ msgstr "隕石雨"
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.DISABLED
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.DISABLED"
 msgid "Ineligible"
-msgstr "不符合條件"
+msgstr "條件不符"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.HEADER
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.HEADER"
 msgid "Sends automation signal when selected object is detected"
-msgstr "當檢測到選中物體時輸出訊號"
+msgstr "當探測到所選物體時輸出訊號"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.NOTHING
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.NOTHING"
@@ -73750,7 +73748,7 @@ msgstr "{0} % "
 #. STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.CURRENT_COUNT_SIMPLE
 msgctxt "STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.CURRENT_COUNT_SIMPLE"
 msgid "{0} of "
-msgstr "{0} 的 "
+msgstr "{0} 之 "
 
 #. STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.DECREMENT_MODE
 msgctxt "STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.DECREMENT_MODE"
@@ -73766,7 +73764,7 @@ msgstr "當計數達到設定時輸出<b><style=\"logic_on\">綠色訊號</style
 #. STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.INCREMENT_MODE
 msgctxt "STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.INCREMENT_MODE"
 msgid "Mode: Increment"
-msgstr "模式：增大"
+msgstr "模式：增加"
 
 #. STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.RESET_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.RESET_BUTTON"
@@ -73848,7 +73846,7 @@ msgid ""
 "All Duplicants are permitted to use this door until <link=\"POWER\">Power</"
 "link> is restored."
 msgstr ""
-"緊急訪問權限：\n"
+"緊急通行權限：\n"
 "所有複製人都可以使用這扇門，直到<link=\"POWER\">電力</link>恢復"
 
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.AUTO
@@ -73894,7 +73892,7 @@ msgstr "這扇門不能手動控制"
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.TITLE"
 msgid "Door Setting"
-msgstr "門設定"
+msgstr "門的設定"
 
 #. STRINGS.UI.UISIDESCREENS.EGGINCUBATOR.AWAITINGDELIVERY
 msgctxt "STRINGS.UI.UISIDESCREENS.EGGINCUBATOR.AWAITINGDELIVERY"
@@ -73954,12 +73952,12 @@ msgstr "動物蛋"
 #. STRINGS.UI.UISIDESCREENS.ENCRYPTEDLORESIDESCREEN.AWAITINGBUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.ENCRYPTEDLORESIDESCREEN.AWAITINGBUTTON"
 msgid "AWAITING DECRYPTION"
-msgstr "等待破解"
+msgstr "等待解密"
 
 #. STRINGS.UI.UISIDESCREENS.ENCRYPTEDLORESIDESCREEN.BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.ENCRYPTEDLORESIDESCREEN.BUTTON"
 msgid "ATTEMPT DECRYPTION"
-msgstr "嘗試破解"
+msgstr "嘗試解密"
 
 #. STRINGS.UI.UISIDESCREENS.ENCRYPTEDLORESIDESCREEN.LABEL
 msgctxt "STRINGS.UI.UISIDESCREENS.ENCRYPTEDLORESIDESCREEN.LABEL"
@@ -74090,7 +74088,7 @@ msgstr "<link=\"WARMVEST\">保暖毛衣</link>（{0}）"
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.INFORMATION
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.INFORMATION"
 msgid "INFORMATION"
-msgstr "訊息"
+msgstr "資訊"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.KG
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.KG"
@@ -74105,12 +74103,12 @@ msgstr "下一安排：{0}"
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NO_WORKABLE_ORDER
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NO_WORKABLE_ORDER"
 msgid "No workable order"
-msgstr "無可執行的安排"
+msgstr "未安排工作"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPEDISCOVERED
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPEDISCOVERED"
 msgid "No discovered recipes"
-msgstr "無發現的配方"
+msgstr "未發現配方"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPEDISCOVERED_BODY
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPEDISCOVERED_BODY"
@@ -74299,7 +74297,7 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON"
 msgid "Complete Neural Process"
-msgstr "完成神經振盪流程"
+msgstr "神經振盪完成"
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON_RECHARGE
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON_RECHARGE"
@@ -74324,7 +74322,7 @@ msgstr "這台振盪器沒電了"
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.CONSUMED_WAITING
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.CONSUMED_WAITING"
 msgid "Recharge requested, awaiting delivery by Duplicant."
-msgstr "已請求充能，正在等待複製人運送"
+msgstr "以要求充能，正在等待複製人運送"
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.TITLE"
@@ -74334,7 +74332,7 @@ msgstr "神經振盪器"
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.UNDERWAY
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.UNDERWAY"
 msgid "Neural Vacillation in progress."
-msgstr "神經振盪正在進行"
+msgstr "正在進行神經振盪"
 
 #. STRINGS.UI.UISIDESCREENS.HABITATMODULESIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.HABITATMODULESIDESCREEN.TITLE"
@@ -74349,7 +74347,7 @@ msgstr "查看內部視圖"
 #. STRINGS.UI.UISIDESCREENS.HABITATMODULESIDESCREEN.VIEW_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.HABITATMODULESIDESCREEN.VIEW_BUTTON_TOOLTIP"
 msgid "What's goin' on in there?"
-msgstr "那裡發生了什麼？"
+msgstr "花生省魔術？"
 
 #. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.CURRENT_THRESHOLD
 msgctxt ""
@@ -74422,7 +74420,7 @@ msgid ""
 "------------------\n"
 "<b>Click to cancel launch</b>"
 msgstr ""
-"只要複製人來控制一下，這艘火箭就將起飛\n"
+"這艘火箭正等待複製人駕駛以繼續發射\n"
 "------------------\n"
 "<i>點擊來取消發射</i>"
 
@@ -74550,7 +74548,7 @@ msgstr "啊！"
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.NAME
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.NAME"
 msgid "Select notification text"
-msgstr "選擇通知文本"
+msgstr "選擇通知文字"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.NEUTRAL
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.NEUTRAL"
@@ -74560,22 +74558,22 @@ msgstr "噗！"
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.PAUSE
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.PAUSE"
 msgid "Time will pause upon notification when checked"
-msgstr "若選中，在彈出通知時時間會暫停"
+msgstr "啟用後，當建築發出通知時會將遊戲遊戲暫停"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.TOOLTIP"
 msgid "Select notification hover text"
-msgstr "選擇通知的懸停文本"
+msgstr "選擇通知的懸停文字"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.TYPE
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.TYPE"
 msgid "Select the visual and aural style of the notification"
-msgstr "選擇通知的視聽樣式"
+msgstr "選擇通知圖示及音效"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.ZOOM
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.ZOOM"
 msgid "The view will zoom to this building upon notification when checked"
-msgstr "若選中，在彈出通知時視角會縮放到這個建築"
+msgstr "啟用後，當建築發出通知時會將鏡頭移動至此"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TYPE
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TYPE"
@@ -74585,12 +74583,12 @@ msgstr "<b>類型：</b>"
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.ZOOM
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.ZOOM"
 msgid "<b>Zoom:</b>"
-msgstr "<b>視角縮放：</b>"
+msgstr "<b>鏡頭追蹤：</b>"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.BIT
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.BIT"
 msgid "Bit {0}"
-msgstr "位{0}"
+msgstr "位元 {0}"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.RIBBON_READER_DESCRIPTION
 msgctxt ""
@@ -74644,7 +74642,7 @@ msgstr "等待挖掘：{0}"
 #. STRINGS.UI.UISIDESCREENS.LURE.AWAITINGREQUEST
 msgctxt "STRINGS.UI.UISIDESCREENS.LURE.AWAITINGREQUEST"
 msgid "PLANT: {0}"
-msgstr "植物：{0}"
+msgstr "種植：{0}"
 
 #. STRINGS.UI.UISIDESCREENS.LURE.ENTITYDEPOSITED
 msgctxt "STRINGS.UI.UISIDESCREENS.LURE.ENTITYDEPOSITED"
@@ -74654,7 +74652,7 @@ msgstr "已種植：{0}"
 #. STRINGS.UI.UISIDESCREENS.LURE.INFORMATION
 msgctxt "STRINGS.UI.UISIDESCREENS.LURE.INFORMATION"
 msgid "INFORMATION"
-msgstr "訊息"
+msgstr "資訊"
 
 #. STRINGS.UI.UISIDESCREENS.LURE.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.LURE.TITLE"
@@ -74887,7 +74885,7 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TRUNCATED_CHORES
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TRUNCATED_CHORES"
 msgid "{0} more"
-msgstr "多於{0}項"
+msgstr "多於 {0} 項"
 
 #. STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.DESCRIPTION
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.DESCRIPTION"
@@ -74921,7 +74919,7 @@ msgctxt ""
 msgid ""
 "This pump will both <b>Load</b> and <b>Unload</b> cargo from the landed "
 "rocket"
-msgstr "這個泵既會<b>裝載</b>又會<b>卸載</b>至著陸火箭的貨艙"
+msgstr "這個泵既會<b>裝載</b>又會<b>卸載</b>貨艙"
 
 #. STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.TOOLTIP_LOAD
 msgctxt ""
@@ -74929,7 +74927,7 @@ msgctxt ""
 msgid ""
 "This pump will attempt to <b>Load</b> cargo onto the landed rocket, but will "
 "not unload it"
-msgstr "這個泵只會嘗試<b>裝載</b>著陸火箭的貨艙而不會做任何卸載"
+msgstr "這個泵只會<b>裝載</b>而不會卸載貨艙"
 
 #. STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.TOOLTIP_UNLOAD
 msgctxt ""
@@ -74937,7 +74935,7 @@ msgctxt ""
 msgid ""
 "This pump will attempt to <b>Unload</b> cargo from the landed rocket, but "
 "not attempt to load new cargo"
-msgstr "這個泵只會嘗試<b>卸載</b>著陸火箭的貨艙，而不會再將其填充"
+msgstr "這個泵只會<b>卸載</b>而不會裝載貨艙"
 
 #. STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.DEPLOY_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.DEPLOY_BUTTON"
@@ -74968,7 +74966,7 @@ msgctxt ""
 msgid ""
 "Automatically deploy this module's contents when a destination orbit is "
 "reached"
-msgstr "當到達目的地的軌道上時，會自動地部署這個艙塊的內容物"
+msgstr "當到達目的軌道上將會自動部署艙塊的內容物"
 
 #. STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.SELECT_DUPLICANT
 msgctxt ""
@@ -74984,7 +74982,7 @@ msgstr "可部署物"
 #. STRINGS.UI.UISIDESCREENS.MONUMENTSIDESCREEN.FLIP_FACING_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.MONUMENTSIDESCREEN.FLIP_FACING_BUTTON"
 msgid "CLICK TO ROTATE"
-msgstr "點擊來翻轉"
+msgstr "點擊旋轉"
 
 #. STRINGS.UI.UISIDESCREENS.MONUMENTSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.MONUMENTSIDESCREEN.TITLE"
@@ -75015,7 +75013,7 @@ msgctxt "STRINGS.UI.UISIDESCREENS.OIL_WELL_CAP_SIDE_SCREEN.TOOLTIP"
 msgid ""
 "Duplicants will be requested to release backpressure buildup when it exceeds "
 "<b>{0}%</b>"
-msgstr "當超過<b>{0}%</b>時，複製人就需要來釋放反壓"
+msgstr "當超過<b> {0}% </b>時，複製人就需要來釋放反壓"
 
 #. STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.ASSIGNED_TO_CREW
 msgctxt "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.ASSIGNED_TO_CREW"
@@ -75053,13 +75051,13 @@ msgstr "分配複製人作為這個火箭任務的成員"
 #. STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.RELEASE_CREW
 msgctxt "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.RELEASE_CREW"
 msgid "All"
-msgstr "所有"
+msgstr "全部"
 
 #. STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.RELEASE_CREW_TOOLTIP
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.RELEASE_CREW_TOOLTIP"
 msgid "All Duplicants may enter and exit the module freely"
-msgstr "所有複製人都能自由地進入或離開這個艙塊"
+msgstr "全部複製人都能自由地進入或離開這個艙塊"
 
 #. STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUEST_CREW
 msgctxt "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUEST_CREW"
@@ -75070,7 +75068,7 @@ msgstr "成員"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUEST_CREW_TOOLTIP"
 msgid "Crew may not leave the module, non crew-must exit"
-msgstr "火箭成員不需要離開艙塊，而其他乘客必須離開"
+msgstr "火箭成員不需要離開艙塊，其他乘客則必須離開"
 
 #. STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUIRE_SUIT_LABEL
 msgctxt "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.REQUIRE_SUIT_LABEL"
@@ -75103,12 +75101,12 @@ msgstr "等待挖掘：{0}"
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.AWAITINGREQUEST
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.AWAITINGREQUEST"
 msgid "PLANT: {0}"
-msgstr "植物：{0}"
+msgstr "種植：{0}"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.BONUS_SEEDS
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.BONUS_SEEDS"
 msgid "Base <link=\"PLANTS\">Seed</link> Harvest Chance: {0}"
-msgstr "基礎<link=\"PLANTS\">種子</link>收穫機率：{0}"
+msgstr "基礎<link=\"PLANTS\">種子</link>獲得機率：{0}"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.CANCELDEPOSIT
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.CANCELDEPOSIT"
@@ -75133,7 +75131,7 @@ msgstr "已種植：{0}"
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.INFORMATION
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.INFORMATION"
 msgid "INFORMATION"
-msgstr "訊息"
+msgstr "資訊"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.LIFECYCLE
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.LIFECYCLE"
@@ -75143,7 +75141,7 @@ msgstr "<b>生長週期</b>："
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.NO_SPECIES_SELECTED
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.NO_SPECIES_SELECTED"
 msgid "Select a seed species above..."
-msgstr "在上方選擇要播的種子"
+msgstr "在上方選擇種子"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.NUMBEROFHARVESTS
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.NUMBEROFHARVESTS"
@@ -75168,17 +75166,17 @@ msgstr "拔除"
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.ROTATION_NEED_CEILING
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.ROTATION_NEED_CEILING"
 msgid "<b>Requires downward plot orientation.</b>"
-msgstr "<b>需要向下的地基</b>"
+msgstr "<b>需要朝下種植</b>"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.ROTATION_NEED_FLOOR
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.ROTATION_NEED_FLOOR"
 msgid "<b>Requires upward plot orientation.</b>"
-msgstr "<b>需要向上的地基</b>"
+msgstr "<b>需要朝上種植</b>"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.ROTATION_NEED_WALL
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.ROTATION_NEED_WALL"
 msgid "<b>Requires sideways plot orientation.</b>"
-msgstr "<b>需要側向的地基</b>"
+msgstr "<b>需要朝側向種植</b>"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.SELECT_DESC
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.SELECT_DESC"
@@ -75198,12 +75196,12 @@ msgstr "{0}種子"
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.BONUS_SEEDS
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.BONUS_SEEDS"
 msgid "This plant has a {0} chance to produce new seeds when harvested"
-msgstr "這株植物在收穫時有{0}的機率會獲得新的種子"
+msgstr "這株植物在收穫時有 {0} 的機率會獲得新的種子"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.NUMBEROFHARVESTS
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.NUMBEROFHARVESTS"
 msgid "This plant can mature {0} times before the end of its life cycle"
-msgstr "這株植物在生長週期結束之前可以成熟{0}次"
+msgstr "這株植物在生長週期結束之前可以成熟 {0} 次"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.PLANTEFFECTS
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.PLANTEFFECTS"
@@ -75223,12 +75221,12 @@ msgstr "這株植物生長所需的最低條件"
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD"
 msgid "<link=\"KCAL\">{2}</link> produced [<link=\"KCAL\">{1}</link> / unit]"
-msgstr "產出<link=\"KCAL\">{2}</link>[<link=\"KCAL\">{1}</link>/單位]"
+msgstr "產出<link=\"KCAL\">{2}</link>【<link=\"KCAL\">{1}</link>/單位】"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD_SEED
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD_SEED"
 msgid "Sow to grow more of this plant"
-msgstr "播種以種植更多這株植物"
+msgstr "播種以種植更多株植物"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD_SEED_FINAL_HARVEST
 msgctxt ""
@@ -75251,7 +75249,7 @@ msgstr "{0}"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOTALHARVESTCALORIESWITHPERUNIT"
 msgid "{0} [{1} / unit]"
-msgstr "{0} [{1}/單位]"
+msgstr "{0}【{1}/單位】"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELD
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELD"
@@ -75266,7 +75264,7 @@ msgstr "{1} {0}"
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELD_SEED_FINAL_HARVEST
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELD_SEED_FINAL_HARVEST"
 msgid "{1} {0} - Final harvest only"
-msgstr "{1} {0} - 僅限最終收穫"
+msgstr "{1} {0}－僅限最終收穫"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELD_SEED_SINGLE
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELD_SEED_SINGLE"
@@ -75277,7 +75275,7 @@ msgstr "{0}"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELD_SEED_SINGLE_FINAL_HARVEST"
 msgid "{0} - Final harvest only"
-msgstr "{0} - 僅限最終收穫"
+msgstr "{0}－僅限最終收穫"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELD_SINGLE
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELD_SINGLE"
@@ -75287,12 +75285,12 @@ msgstr "{0}"
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELDPERHARVEST
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELDPERHARVEST"
 msgid "{0} {1} per harvest"
-msgstr "每次收穫{0} {1}"
+msgstr "每次收穫 {0} {1}"
 
 #. STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.LAUNCH_RESOURCES_HEADER
 msgctxt "STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.LAUNCH_RESOURCES_HEADER"
 msgid "Launch Resources:"
-msgstr "發射器資源："
+msgstr "發射資源："
 
 #. STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.LAUNCH_TARGET_SELECTED
 msgctxt "STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.LAUNCH_TARGET_SELECTED"
@@ -75302,7 +75300,7 @@ msgstr "發射器目的地 {0} 已設定"
 #. STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.MINIMUM_PAYLOAD_MASS
 msgctxt "STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.MINIMUM_PAYLOAD_MASS"
 msgid "Minimum launch mass:"
-msgstr "最小發射質量"
+msgstr "最小發射質量："
 
 #. STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.NO_SELECTED_LAUNCH_TARGET
 msgctxt "STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.NO_SELECTED_LAUNCH_TARGET"
@@ -75310,7 +75308,7 @@ msgid ""
 "No destination selected.\n"
 "Open the <b>Starmap</b> <b><color=#F44A4A>[Z]</b></color> to set a course."
 msgstr ""
-"未選擇分析對象\n"
+"未選擇目的地\n"
 "打開<b>星圖</b> <b><color=#F44A4A>[Z]</b></color> 來設定一條航線"
 
 #. STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.OPENSTARMAPBUTTON
@@ -75326,7 +75324,7 @@ msgstr "發射器設定"
 #. STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO
 msgctxt "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO"
 msgid "{0} to {1}"
-msgstr "{0}到{1}"
+msgstr "{0}製成{1}"
 
 #. STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_COMPOSITE
 msgctxt "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_COMPOSITE"
@@ -75344,7 +75342,7 @@ msgstr "{3}{0}→{4}{1}＋{5}{2}"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_INCLUDE_AMOUNTS"
 msgid "{2} {0} to {3} {1}"
-msgstr "{2} {0}到{3} {1}"
+msgstr "{2} {0}製成{3} {1}"
 
 #. STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_WITH_NEWLINES
 msgctxt ""
@@ -75378,7 +75376,7 @@ msgstr "{3} {1}（{2} {0}）"
 #. STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.CURRENTLYRESEARCHING
 msgctxt "STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.CURRENTLYRESEARCHING"
 msgid "Currently Researching"
-msgstr "目前的研究"
+msgstr "正在研究"
 
 #. STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.NOSELECTEDRESEARCH
 msgctxt "STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.NOSELECTEDRESEARCH"
@@ -75465,7 +75463,7 @@ msgstr "切換到外部世界視圖"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONVIEWEXTERIOR.INVALID"
 msgid "Not available in flight"
-msgstr "飛行時不可用"
+msgstr "航行時無法使用"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONVIEWEXTERIOR.LABEL
 msgctxt ""
@@ -75526,7 +75524,7 @@ msgstr "<b>{0}</b>"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.MODULESTATCHANGE.RANGE"
 msgid "    • Potential Range: {0}/1 Kg Fuel ({1})"
-msgstr "    • 航程：{0}／公斤燃料（{1}）"
+msgstr "    • 航程：{0}/公斤燃料（{1}）"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.MODULESTATCHANGE.SPEED
 msgctxt ""
@@ -75568,7 +75566,7 @@ msgstr "提交生物掃描"
 #. STRINGS.UI.UISIDESCREENS.SEALEDDOORSIDESCREEN.LABEL
 msgctxt "STRINGS.UI.UISIDESCREENS.SEALEDDOORSIDESCREEN.LABEL"
 msgid "This door requires a sample to unlock."
-msgstr "這扇門需要一種樣本來解鎖"
+msgstr "這扇門需要一份樣本來解鎖"
 
 #. STRINGS.UI.UISIDESCREENS.SEALEDDOORSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.SEALEDDOORSIDESCREEN.TITLE"
@@ -75599,14 +75597,14 @@ msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS."
 "MATERIALS_AVAILABLE.COMPLETE"
 msgid "Materials available"
-msgstr "材料可用"
+msgstr "可取得的材料"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.MATERIALS_AVAILABLE.FAILED
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS."
 "MATERIALS_AVAILABLE.FAILED"
 msgid "Materials unavailable"
-msgstr "材料不可用"
+msgstr "無法取得的材料"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.MAX_MODULES.COMPLETE
 msgctxt ""
@@ -75730,7 +75728,7 @@ msgid ""
 "\n"
 "Analyzing a feature takes time, but yields useful results."
 msgstr ""
-"指派一名研究員在這裡蒐集資料\n"
+"指派一名研究員在這裡收集資料\n"
 "\n"
 "分析自然地貌需要時間，但會得出有用的結果"
 
@@ -75742,7 +75740,7 @@ msgstr "分析完成"
 #. STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.STUDIED_STATUS
 msgctxt "STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.STUDIED_STATUS"
 msgid "Researchers have completed their analysis and compiled their findings."
-msgstr "研究員已經完成了分析並寫下了他們的發現"
+msgstr "研究員已完成分析並記錄了他們的發現"
 
 #. STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.TITLE"
@@ -75752,7 +75750,7 @@ msgstr "分析自然地貌"
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_CANCEL_REQUEST
 msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_CANCEL_REQUEST"
 msgid "Cancel Request"
-msgstr "取消請求"
+msgstr "取消要求"
 
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_CANCEL_REQUEST_TOOLTIP
 msgctxt ""
@@ -75801,12 +75799,12 @@ msgstr "複製人會立即運送並存放最近沒有裝備的太空衣"
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIGURATION_REQUIRED
 msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIGURATION_REQUIRED"
 msgid "Configuration Required:"
-msgstr "需要配置："
+msgstr "需要設定："
 
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.TITLE"
 msgid "Dock Inventory"
-msgstr "庫存"
+msgstr "存放"
 
 #. STRINGS.UI.UISIDESCREENS.TELEPADSIDESCREEN.GAMEOVER
 msgctxt "STRINGS.UI.UISIDESCREENS.TELEPADSIDESCREEN.GAMEOVER"
@@ -75826,7 +75824,7 @@ msgstr "複製人技能"
 #. STRINGS.UI.UISIDESCREENS.TELEPADSIDESCREEN.SUMMARY_TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.TELEPADSIDESCREEN.SUMMARY_TITLE"
 msgid "Colony Summary"
-msgstr "殖民地概要"
+msgstr "殖民地摘要"
 
 #. STRINGS.UI.UISIDESCREENS.TELEPADSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.TELEPADSIDESCREEN.TITLE"
@@ -75836,12 +75834,12 @@ msgstr "列印物"
 #. STRINGS.UI.UISIDESCREENS.TELEPADSIDESCREEN.VICTORY_CONDITIONS
 msgctxt "STRINGS.UI.UISIDESCREENS.TELEPADSIDESCREEN.VICTORY_CONDITIONS"
 msgid "Hardwired Imperatives"
-msgstr "無法改變的使命"
+msgstr "使命"
 
 #. STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.ANALYSIS_TARGET_HEADER
 msgctxt "STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.ANALYSIS_TARGET_HEADER"
 msgid "Object Analysis"
-msgstr "對象分析"
+msgstr "目標分析"
 
 #. STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.ANALYSIS_TARGET_SELECTED
 msgctxt "STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.ANALYSIS_TARGET_SELECTED"
@@ -75849,7 +75847,7 @@ msgid ""
 "Object focus selected.\n"
 "Analysis underway."
 msgstr ""
-"已選擇對象\n"
+"已選擇目標\n"
 "正在進行分析"
 
 #. STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.NO_SELECTED_ANALYSIS_TARGET
@@ -75860,8 +75858,8 @@ msgid ""
 "Open the <b>Starmap</b> <b><color=#F44A4A>[Z]</b></color> to selected a "
 "focus."
 msgstr ""
-"未選擇分析對象\n"
-"請打開<b>星圖</b> <b><color=#F44A4A>[Z]</b></color> 選擇一個物體"
+"未選擇分析目標\n"
+"請打開<b>星圖</b><color=#F44A4A><b> [Z] </b></color> 選擇一個目標"
 
 #. STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.OPENSTARMAPBUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.OPENSTARMAPBUTTON"
@@ -75871,7 +75869,7 @@ msgstr "打開星圖"
 #. STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.TITLE"
 msgid "Telescope Configuration"
-msgstr "望遠鏡配置"
+msgstr "望遠鏡設定"
 
 #. STRINGS.UI.UISIDESCREENS.TEMPERATURESWITCHSIDESCREEN.ACTIVATE_IF
 msgctxt "STRINGS.UI.UISIDESCREENS.TEMPERATURESWITCHSIDESCREEN.ACTIVATE_IF"
@@ -76176,7 +76174,7 @@ msgstr "{0}/{1}"
 #. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.DISABLED
 msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.DISABLED"
 msgid "Timer Disabled"
-msgstr "計時器停用"
+msgstr "計時器已停用"
 
 #. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.GREEN_DURATION_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.GREEN_DURATION_TOOLTIP"
@@ -76204,12 +76202,12 @@ msgstr "模式：秒"
 #. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.OFF
 msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.OFF"
 msgid "Red Duration"
-msgstr "紅色持續時間："
+msgstr "紅色持續時間"
 
 #. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.ON
 msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.ON"
 msgid "Green Duration"
-msgstr "綠色持續時間："
+msgstr "綠色持續時間"
 
 #. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.RED_DURATION_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.RED_DURATION_TOOLTIP"
@@ -76243,7 +76241,7 @@ msgstr "全部"
 #. STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.ALLBUTTONTOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.ALLBUTTONTOOLTIP"
 msgid "Allow storage of all resource categories in this container"
-msgstr "允許在這個容器中儲存所有類別的資源"
+msgstr "允許儲存所有類別的資源"
 
 #. STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.CATEGORYBUTTONTOOLTIP
 msgctxt ""
@@ -76255,7 +76253,7 @@ msgstr "允許儲存{0}資源類別中的所有資源"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.MATERIALBUTTONTOOLTIP"
 msgid "Add or remove this material from storage"
-msgstr "向倉庫中放置這種材料，或從倉庫中移除這種材料"
+msgstr "於容器儲存或清空這個材料"
 
 #. STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.ONLYALLOWTRANSPORTITEMSBUTTON
 msgctxt ""
@@ -76314,8 +76312,8 @@ msgid ""
 "Teleporter online.\n"
 "Please select a passenger:"
 msgstr ""
-"傳送器連線\n"
-"請選擇一名乘員："
+"傳送器已連線\n"
+"請選擇一名乘客："
 
 #. STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.TITLE"
@@ -76325,12 +76323,12 @@ msgstr "傳送器"
 #. STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.UNDERWAY
 msgctxt "STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.UNDERWAY"
 msgid "Transmitting passenger..."
-msgstr "正在傳輸乘員…"
+msgstr "正在傳送乘客…"
 
 #. STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.WAITING
 msgctxt "STRINGS.UI.UISIDESCREENS.WARPPORTALSIDESCREEN.WAITING"
 msgid "Ready to transmit passenger."
-msgstr "已準備好傳輸乘員"
+msgstr "已準備好傳送乘客"
 
 #. STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.ACTIVATE_IF
 msgctxt "STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.ACTIVATE_IF"
@@ -76369,7 +76367,7 @@ msgstr " 卡"
 #. STRINGS.UI.UNITSUFFIXES.CALORIES.KILOCALORIE
 msgctxt "STRINGS.UI.UNITSUFFIXES.CALORIES.KILOCALORIE"
 msgid " kcal"
-msgstr " 千卡"
+msgstr " 大卡"
 
 #. STRINGS.UI.UNITSUFFIXES.CRITTERS
 msgctxt "STRINGS.UI.UNITSUFFIXES.CRITTERS"
@@ -76549,12 +76547,12 @@ msgstr "%"
 #. STRINGS.UI.UNITSUFFIXES.PERCYCLE
 msgctxt "STRINGS.UI.UNITSUFFIXES.PERCYCLE"
 msgid "/cycle"
-msgstr "／週期"
+msgstr "/週期"
 
 #. STRINGS.UI.UNITSUFFIXES.PERSECOND
 msgctxt "STRINGS.UI.UNITSUFFIXES.PERSECOND"
 msgid "/s"
-msgstr "／秒"
+msgstr "/秒"
 
 #. STRINGS.UI.UNITSUFFIXES.RADIATION.RADS
 msgctxt "STRINGS.UI.UNITSUFFIXES.RADIATION.RADS"
@@ -76624,7 +76622,7 @@ msgstr "需要複製人來啟用這個建築"
 #. STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.TOOLTIP_ACTIVATED
 msgctxt "STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.TOOLTIP_ACTIVATED"
 msgid "This building has already been activated"
-msgstr "這個建築已被啟用了"
+msgstr "建築已啟用"
 
 #. STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.TOOLTIP_CANCEL
 msgctxt "STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.TOOLTIP_CANCEL"
@@ -76659,7 +76657,7 @@ msgstr "取消攻擊"
 #. STRINGS.UI.USERMENUACTIONS.CANCELATTACK.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELATTACK.TOOLTIP"
 msgid "Cancel this attack order"
-msgstr "取消這條攻擊指令"
+msgstr "取消攻擊指令"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELCAPTURE.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELCAPTURE.NAME"
@@ -76669,7 +76667,7 @@ msgstr "取消捕捉"
 #. STRINGS.UI.USERMENUACTIONS.CANCELCAPTURE.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELCAPTURE.TOOLTIP"
 msgid "Cancel this wrangle order"
-msgstr "取消這條捕捉指令"
+msgstr "取消捕捉指令"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELCLEANTOILET.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELCLEANTOILET.NAME"
@@ -76679,7 +76677,7 @@ msgstr "取消清潔"
 #. STRINGS.UI.USERMENUACTIONS.CANCELCLEANTOILET.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELCLEANTOILET.TOOLTIP"
 msgid "Cancel this cleaning order"
-msgstr "取消這條清潔指令"
+msgstr "取消清潔指令"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELCONSTRUCTION.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELCONSTRUCTION.NAME"
@@ -76689,7 +76687,7 @@ msgstr "取消建造"
 #. STRINGS.UI.USERMENUACTIONS.CANCELCONSTRUCTION.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELCONSTRUCTION.TOOLTIP"
 msgid "Cancel this build order"
-msgstr "取消這條建造指令"
+msgstr "取消建造指令"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELDIG.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELDIG.NAME"
@@ -76699,7 +76697,7 @@ msgstr "取消挖掘"
 #. STRINGS.UI.USERMENUACTIONS.CANCELDIG.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELDIG.TOOLTIP"
 msgid "Cancel this dig order"
-msgstr "取消這條挖掘指令"
+msgstr "取消挖掘指令"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELEMPTYBEEHIVE.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELEMPTYBEEHIVE.NAME"
@@ -76709,7 +76707,7 @@ msgstr "取消收穫"
 #. STRINGS.UI.USERMENUACTIONS.CANCELEMPTYBEEHIVE.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELEMPTYBEEHIVE.TOOLTIP"
 msgid "Cancel the harvest order on this hive"
-msgstr "取消這條收穫指令"
+msgstr "取消收穫指令"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELHARVEST.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELHARVEST.NAME"
@@ -76719,7 +76717,7 @@ msgstr "取消收穫"
 #. STRINGS.UI.USERMENUACTIONS.CANCELHARVEST.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELHARVEST.TOOLTIP"
 msgid "Cancel this harvest order"
-msgstr "取消這條收穫指令"
+msgstr "取消收穫指令"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELMOP.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELMOP.NAME"
@@ -76729,7 +76727,7 @@ msgstr "取消擦拭"
 #. STRINGS.UI.USERMENUACTIONS.CANCELMOP.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELMOP.TOOLTIP"
 msgid "Cancel this mop order"
-msgstr "取消這條擦拭指令"
+msgstr "取消擦拭指令"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELUPROOT.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELUPROOT.NAME"
@@ -76739,7 +76737,7 @@ msgstr "取消拔除"
 #. STRINGS.UI.USERMENUACTIONS.CANCELUPROOT.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELUPROOT.TOOLTIP"
 msgid "Cancel this uproot order"
-msgstr "取消這條拔除指令"
+msgstr "取消拔除指令"
 
 #. STRINGS.UI.USERMENUACTIONS.CAPTURE.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CAPTURE.NAME"
@@ -76754,12 +76752,12 @@ msgstr "活捉這隻動物"
 #. STRINGS.UI.USERMENUACTIONS.CHANGE_ROOM.CANCEL_REQUEST
 msgctxt "STRINGS.UI.USERMENUACTIONS.CHANGE_ROOM.CANCEL_REQUEST"
 msgid "Cancel Request"
-msgstr "取消請求"
+msgstr "取消要求"
 
 #. STRINGS.UI.USERMENUACTIONS.CHANGE_ROOM.CANCEL_REQUEST_TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CHANGE_ROOM.CANCEL_REQUEST_TOOLTIP"
 msgid "Cancel outfit request"
-msgstr "取消裝備請求"
+msgstr "取消裝備要求"
 
 #. STRINGS.UI.USERMENUACTIONS.CHANGE_ROOM.DROP_OUTFIT
 msgctxt "STRINGS.UI.USERMENUACTIONS.CHANGE_ROOM.DROP_OUTFIT"
@@ -76774,22 +76772,22 @@ msgstr "將裝備脫到地上"
 #. STRINGS.UI.USERMENUACTIONS.CHANGE_ROOM.REQUEST_OUTFIT
 msgctxt "STRINGS.UI.USERMENUACTIONS.CHANGE_ROOM.REQUEST_OUTFIT"
 msgid "Request Outfit"
-msgstr "請求裝備"
+msgstr "要求裝備"
 
 #. STRINGS.UI.USERMENUACTIONS.CHANGE_ROOM.REQUEST_OUTFIT_TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CHANGE_ROOM.REQUEST_OUTFIT_TOOLTIP"
 msgid "Request outfit to be delivered to this change room"
-msgstr "請求將裝備送到這間更衣室"
+msgstr "要求將裝備送到這間更衣室"
 
 #. STRINGS.UI.USERMENUACTIONS.CLEANTOILET.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CLEANTOILET.NAME"
 msgid "Clean Toilet"
-msgstr "清洗廁所"
+msgstr "清理廁所"
 
 #. STRINGS.UI.USERMENUACTIONS.CLEANTOILET.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CLEANTOILET.TOOLTIP"
 msgid "Empty waste from this toilet"
-msgstr "清理這間廁所中的所有廢物"
+msgstr "清理這間廁所"
 
 #. STRINGS.UI.USERMENUACTIONS.CLEAR.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CLEAR.NAME"
@@ -76809,7 +76807,7 @@ msgstr "將這個物品放入最近的儲存容器中"
 #. STRINGS.UI.USERMENUACTIONS.CLEAR.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.CLEAR.TOOLTIP_OFF"
 msgid "Cancel this sweep order"
-msgstr "取消這條清掃指令"
+msgstr "取消清掃指令"
 
 #. STRINGS.UI.USERMENUACTIONS.COMPOST.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.COMPOST.NAME"
@@ -76824,12 +76822,12 @@ msgstr "取消堆肥"
 #. STRINGS.UI.USERMENUACTIONS.COMPOST.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.COMPOST.TOOLTIP"
 msgid "Mark this object for compost"
-msgstr "把這個物品標記為堆肥"
+msgstr "把這個物品標記為堆肥材料"
 
 #. STRINGS.UI.USERMENUACTIONS.COMPOST.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.COMPOST.TOOLTIP_OFF"
 msgid "Cancel this compost order"
-msgstr "取消這條堆肥指令"
+msgstr "取消堆肥指令"
 
 #. STRINGS.UI.USERMENUACTIONS.COPY_BUILDING_SETTINGS.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.COPY_BUILDING_SETTINGS.NAME"
@@ -76841,7 +76839,7 @@ msgctxt "STRINGS.UI.USERMENUACTIONS.COPY_BUILDING_SETTINGS.TOOLTIP"
 msgid ""
 "Apply the settings and priorities of this building to other buildings of the "
 "same type {Hotkey}"
-msgstr "將這個建築的設定和優先度套用於其他相同類型的建築 {Hotkey}"
+msgstr "將這個建築的設定和優先度套用於其他同類建築上 {Hotkey}"
 
 #. STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME"
@@ -76861,7 +76859,7 @@ msgstr "摧毀這個建築並回收全部資源"
 #. STRINGS.UI.USERMENUACTIONS.DEMOLISH.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.DEMOLISH.TOOLTIP_OFF"
 msgid "Cancel this deconstruct order"
-msgstr "取消這條拆除指令"
+msgstr "取消拆除指令"
 
 #. STRINGS.UI.USERMENUACTIONS.DIG.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.DIG.NAME"
@@ -76876,7 +76874,7 @@ msgstr "挖掘此格"
 #. STRINGS.UI.USERMENUACTIONS.DIG.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.DIG.TOOLTIP_OFF"
 msgid "Cancel this dig order"
-msgstr "取消這條挖掘指令"
+msgstr "取消挖掘指令"
 
 #. STRINGS.UI.USERMENUACTIONS.DRAWPATHS.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.DRAWPATHS.NAME"
@@ -76891,12 +76889,12 @@ msgstr "隱藏可行路徑"
 #. STRINGS.UI.USERMENUACTIONS.DRAWPATHS.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.DRAWPATHS.TOOLTIP"
 msgid "Show all areas within this Duplicant's reach"
-msgstr "顯示這名複製人可以到達的所有區域"
+msgstr "顯示這名複製人的可行路徑"
 
 #. STRINGS.UI.USERMENUACTIONS.DRAWPATHS.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.DRAWPATHS.TOOLTIP_OFF"
 msgid "Hide areas within this Duplicant's reach"
-msgstr "隱藏這名複製人可以到達的所有區域"
+msgstr "隱藏這名複製人的可行路徑"
 
 #. STRINGS.UI.USERMENUACTIONS.DUMP.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.DUMP.NAME"
@@ -76916,7 +76914,7 @@ msgstr "把瓶子裡的東西倒在地板上"
 #. STRINGS.UI.USERMENUACTIONS.DUMP.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.DUMP.TOOLTIP_OFF"
 msgid "Cancel this empty order"
-msgstr "取消這條清空指令"
+msgstr "取消清空指令"
 
 #. STRINGS.UI.USERMENUACTIONS.EMPTYBEEHIVE.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.EMPTYBEEHIVE.NAME"
@@ -76956,7 +76954,7 @@ msgstr "清空這個容器中的所有資源"
 #. STRINGS.UI.USERMENUACTIONS.EMPTYSTORAGE.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.EMPTYSTORAGE.TOOLTIP_OFF"
 msgid "Cancel this empty order"
-msgstr "取消這條清空指令"
+msgstr "取消清空指令"
 
 #. STRINGS.UI.USERMENUACTIONS.ENABLEBUILDING.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.ENABLEBUILDING.NAME"
@@ -76975,14 +76973,14 @@ msgid ""
 "------------------\n"
 "Disabled buildings consume no energy or resources"
 msgstr ""
-"已停止這個建築的使用 {Hotkey}\n"
+"已停用這個建築 {Hotkey}\n"
 "------------------\n"
 "停用的建築不會消耗能量和資源"
 
 #. STRINGS.UI.USERMENUACTIONS.ENABLEBUILDING.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.ENABLEBUILDING.TOOLTIP_OFF"
 msgid "Resume the use of this building {Hotkey}"
-msgstr "恢復這個建築的使用 {Hotkey}"
+msgstr "啟用這個建築 {Hotkey}"
 
 #. STRINGS.UI.USERMENUACTIONS.FOLLOWCAM.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.FOLLOWCAM.NAME"
@@ -76992,7 +76990,7 @@ msgstr "鏡頭跟隨"
 #. STRINGS.UI.USERMENUACTIONS.FOLLOWCAM.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.FOLLOWCAM.TOOLTIP"
 msgid "Track this Duplicant with the camera"
-msgstr "用鏡頭跟蹤這名複製人"
+msgstr "鏡頭將跟隨這名複製人"
 
 #. STRINGS.UI.USERMENUACTIONS.HARVEST.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.HARVEST.NAME"
@@ -77022,7 +77020,7 @@ msgstr "當這株植物成熟時，會自動收穫"
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_DELIVERY.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_DELIVERY.NAME"
 msgid "Disable Delivery"
-msgstr "停用搬運"
+msgstr "停用運送"
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_DELIVERY.NAME_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_DELIVERY.NAME_OFF"
@@ -77049,7 +77047,7 @@ msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED.TOOLTIP"
 msgid ""
 "If enabled, Duplicants will deliver bottled liquids to this building "
 "directly from Pitcher Pumps"
-msgstr "啟用後，複製人會直接將從手壓泵獲取的瓶裝液體運送到這個建築"
+msgstr "啟用後，複製人會直接將手壓泵的瓶裝液體運送到這個建築"
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED_GAS.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED_GAS.NAME"
@@ -77061,7 +77059,7 @@ msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED_GAS.TOOLTIP"
 msgid ""
 "If enabled, Duplicants will deliver gas canisters to this building directly "
 "from Canister Fillers"
-msgstr "啟用後，複製人會直接將從罐灌裝機獲取的儲氣罐運送到這個建築"
+msgstr "啟用後，複製人會直接將氣體裝罐器的儲氣罐運送到這個建築"
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED.NAME"
@@ -77073,7 +77071,7 @@ msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED.TOOLTIP"
 msgid ""
 "If disabled, Duplicants will no longer deliver bottled liquids directly from "
 "Pitcher Pumps"
-msgstr "停用後，複製人將不再直接從手壓泵處運送瓶裝液體"
+msgstr "停用後，複製人將不再直接從手壓泵運送瓶裝液體"
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED_GAS.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED_GAS.NAME"
@@ -77085,7 +77083,7 @@ msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED_GAS.TOOLTIP"
 msgid ""
 "If disabled, Duplicants will no longer deliver gas canisters directly from "
 "Canister Fillers"
-msgstr "停用後，複製人將不再直接從罐灌裝機處運送儲氣罐"
+msgstr "停用後，複製人將不再直接從氣體裝罐器運送儲氣罐"
 
 #. STRINGS.UI.USERMENUACTIONS.MOVETOLOCATION.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.MOVETOLOCATION.NAME"
@@ -77110,12 +77108,12 @@ msgstr "取消翻查"
 #. STRINGS.UI.USERMENUACTIONS.OPENPOI.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.OPENPOI.TOOLTIP"
 msgid "Scrounge for usable materials"
-msgstr "搜查有用材料"
+msgstr "翻查可用材料"
 
 #. STRINGS.UI.USERMENUACTIONS.OPENPOI.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.OPENPOI.TOOLTIP_OFF"
 msgid "Cancel this rummage order"
-msgstr "取消這條翻查指令"
+msgstr "取消翻查指令"
 
 #. STRINGS.UI.USERMENUACTIONS.QUARANTINE.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.QUARANTINE.NAME"
@@ -77134,7 +77132,7 @@ msgid ""
 "The Duplicant will return to their assigned Cot"
 msgstr ""
 "隔離這名複製人\n"
-"複製人會回到分配給自己的床鋪"
+"複製人將回到自己的床"
 
 #. STRINGS.UI.USERMENUACTIONS.QUARANTINE.TOOLTIP_DISABLED
 msgctxt "STRINGS.UI.USERMENUACTIONS.QUARANTINE.TOOLTIP_DISABLED"
@@ -77144,14 +77142,14 @@ msgstr "未分配隔離區"
 #. STRINGS.UI.USERMENUACTIONS.QUARANTINE.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.QUARANTINE.TOOLTIP_OFF"
 msgid "Cancel this quarantine order"
-msgstr "取消這條隔離指令"
+msgstr "取消隔離命令"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.ALREADY_SEARCHED
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.ALREADY_SEARCHED"
 msgid ""
 "I already took everything of interest from this. I can check the Database to "
 "re-read what I found."
-msgstr "我已經從中獲取了感興趣的一切，我可以查看資料庫，再次閱讀已找到的東西"
+msgstr "我已經從中取得了一切有趣的資料，我可以查看資料庫以閱讀這些資料"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.ALREADY_SEARCHED_STERNSDESK
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.ALREADY_SEARCHED_STERNSDESK"
@@ -77161,7 +77159,7 @@ msgstr "書桌中空空如也"
 #. STRINGS.UI.USERMENUACTIONS.READLORE.ALREADYINSPECTED
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.ALREADYINSPECTED"
 msgid "Already inspected"
-msgstr "已檢查"
+msgstr "已調查"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.GOTODATABASE
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.GOTODATABASE"
@@ -77171,7 +77169,7 @@ msgstr "查看條目"
 #. STRINGS.UI.USERMENUACTIONS.READLORE.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.NAME"
 msgid "Inspect"
-msgstr "檢查"
+msgstr "調查"
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_CABINET
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_CABINET"
@@ -77321,7 +77319,7 @@ msgid ""
 "\n"
 "New Database Entry unlocked."
 msgstr ""
-"這台電腦已被破壞，需要一些技巧才能讓它恢復運行，但我還是復原了幾份有趣的文"
+"這台電腦已被破壞，需要一些技巧才能把文件還原，但我還是成功還原了幾份有趣的文"
 "件\n"
 "\n"
 "新的資料庫條目已解鎖"
@@ -77333,7 +77331,7 @@ msgid ""
 "\n"
 "New Database Entry discovered."
 msgstr ""
-"顯示器還能工作，我將上面的消息複製到我的資料庫中\n"
+"螢幕還能運作，我將上面的資訊複製到了資料庫中\n"
 "\n"
 "發現新的資料庫條目"
 
@@ -77344,7 +77342,7 @@ msgid ""
 "\n"
 "New Database Entry discovered."
 msgstr ""
-"我在這台機器上所找到的東西，只不過是一名不滿的員工發來的簡短的郵件\n"
+"我在這台機器上只找到了一則簡短的郵件，是由一名感到不滿的職員所發來\n"
 "\n"
 "發現新的資料庫條目"
 
@@ -77371,7 +77369,7 @@ msgid ""
 "\n"
 "New Database Entry discovered."
 msgstr ""
-"裡面有一個三環文件夾，我掃描了僅存的文檔\n"
+"裡面有一份三孔文件夾，我掃描了僅存的文檔\n"
 "\n"
 "發現新的資料庫條目"
 
@@ -77394,7 +77392,7 @@ msgid ""
 "\n"
 "New Database Entry discovered."
 msgstr ""
-"一份很長的列印資料，其中有一頁還能看清，我掃描了它並將它寫入到我的資料庫\n"
+"這是一疊很厚的文件，不過其中只剩一頁還能辨識，我掃描並寫入到了我的資料庫\n"
 "\n"
 "發現新的資料庫條目"
 
@@ -77406,7 +77404,7 @@ msgid ""
 "\n"
 "New Database Entry discovered."
 msgstr ""
-"裡面有一些零散的紙張，我掃描了其中看上去有點意思的幾張\n"
+"裡面有一些零散的紙張，我掃描了其中有趣的幾張\n"
 "\n"
 "發現新的資料庫條目"
 
@@ -77417,7 +77415,7 @@ msgid ""
 "\n"
 "New Database Entry discovered."
 msgstr ""
-"我在裡面找到了一個記憶卡，並將其中的資料複製到了我的資料庫\n"
+"我在裡面找到了一張記憶卡，並將其中的資料複製到了我的資料庫\n"
 "\n"
 "發現新的資料庫條目"
 
@@ -77429,7 +77427,7 @@ msgid ""
 "\n"
 "New Database Entry discovered."
 msgstr ""
-"我搜尋了我的訊息歷史並找到了一條訊息，我將它移到了我的資料庫中\n"
+"我搜尋了歷史訊息，並將找到的訊息移到了資料庫中\n"
 "\n"
 "發現新的資料庫條目"
 
@@ -77441,7 +77439,7 @@ msgid ""
 "\n"
 "New Database Entry discovered."
 msgstr ""
-"最上面的抽屜裡塞著一篇題為《擬核》的舊雜誌，我把它寫入到資料庫中\n"
+"最上面的抽屜裡塞著本名為《擬核》的舊雜誌，我把它寫入到資料庫中\n"
 "\n"
 "發現新的資料庫條目"
 
@@ -77464,7 +77462,7 @@ msgid ""
 "\n"
 "New Database Entry discovered."
 msgstr ""
-"我試試看能不能從電子設備中挽救任何東西，我將找到的東西寫入到資料庫中\n"
+"我試試看能不能從電子設備中搶救任何東西，我將找到的資料寫入到資料庫中\n"
 "\n"
 "發現新的資料庫條目"
 
@@ -77476,7 +77474,7 @@ msgid ""
 "\n"
 "New Database Entry discovered."
 msgstr ""
-"我在被丟棄的機器中尋找任何感興趣的東西，並將找到的東西寫入到我的資料庫\n"
+"我在廢棄機器中尋找任何有趣的資料，並將找到的資料寫入到我的資料庫中\n"
 "\n"
 "發現新的資料庫條目"
 
@@ -77488,7 +77486,7 @@ msgstr "恢復這個建築的文件"
 #. STRINGS.UI.USERMENUACTIONS.READLORE.TOOLTIP_ALREADYINSPECTED
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.TOOLTIP_ALREADYINSPECTED"
 msgid "This structure has already been inspected"
-msgstr "這個建築已被檢查過了"
+msgstr "這個建築已被調查過了"
 
 #. STRINGS.UI.USERMENUACTIONS.RELEASEELEMENT.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.RELEASEELEMENT.NAME"
@@ -77536,7 +77534,7 @@ msgctxt "STRINGS.UI.USERMENUACTIONS.SELECTRESEARCH.TOOLTIP"
 msgid ""
 "Choose a technology from the <b>Research Tree</b> <b><color=#F44A4A>[R]</b></"
 "color>"
-msgstr "從<b>科技樹</b><color=#F44A47><b> [R] </b></color>中選擇一項技術"
+msgstr "從<b>科技樹</b><color=#F44A47><b> [R] </b></color>中選擇一項科技"
 
 #. STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ALWAYS.NAME"
@@ -77579,7 +77577,7 @@ msgstr "過濾設定"
 #. STRINGS.UI.USERMENUACTIONS.TAGFILTER.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.TAGFILTER.TOOLTIP"
 msgid "Assign materials to storage"
-msgstr "分配要儲存的材料"
+msgstr "分配材料至儲存箱"
 
 #. STRINGS.UI.USERMENUACTIONS.UNEQUIP.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.UNEQUIP.NAME"
@@ -77599,7 +77597,7 @@ msgstr "拔除"
 #. STRINGS.UI.USERMENUACTIONS.UPROOT.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.UPROOT.TOOLTIP"
 msgid "Convert this plant into a seed"
-msgstr "將這株植物變為種子"
+msgstr "將這株植物拔除並轉變為種子"
 
 #. STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.WORKABLE_DIRECTION_BOTH.NAME"
@@ -77644,7 +77642,7 @@ msgstr "<i>原版主程式</i>"
 #. STRINGS.UI.VICTORYSCREEN.DESCRIPTION
 msgctxt "STRINGS.UI.VICTORYSCREEN.DESCRIPTION"
 msgid "I have fulfilled the conditions of one of my Hardwired Imperatives"
-msgstr "我已經完成了我無法改變的使命之一的條件了"
+msgstr "我已經完成了一項重要使命了"
 
 #. STRINGS.UI.VICTORYSCREEN.DISMISSBUTTON
 msgctxt "STRINGS.UI.VICTORYSCREEN.DISMISSBUTTON"
@@ -77654,19 +77652,19 @@ msgstr "擱置"
 #. STRINGS.UI.VICTORYSCREEN.HEADER
 msgctxt "STRINGS.UI.VICTORYSCREEN.HEADER"
 msgid "SUCCESS: IMPERATIVE ACHIEVED!"
-msgstr "成功：使命完成！"
+msgstr "成功：使命達成！"
 
 #. STRINGS.UI.VICTORYSCREEN.RESTARTPROMPT
 msgctxt "STRINGS.UI.VICTORYSCREEN.RESTARTPROMPT"
 msgid ""
 "Press <color=#F44A47><b>[ESC]</b></color> to retire the colony and begin "
 "anew."
-msgstr "按下<color=#F44A47><b> [ESC] </b></color>以離開殖民地並開始新的一個"
+msgstr "按下<color=#F44A47><b> [ESC] </b></color>以放棄殖民地並重新開始"
 
 #. STRINGS.UI.VICTORYSCREEN.RETIREBUTTON
 msgctxt "STRINGS.UI.VICTORYSCREEN.RETIREBUTTON"
 msgid "RETIRE COLONY"
-msgstr "離開殖民地"
+msgstr "放棄殖民地"
 
 #. STRINGS.UI.VIEWDUPLICANTS
 msgctxt "STRINGS.UI.VIEWDUPLICANTS"
@@ -77711,7 +77709,7 @@ msgid ""
 "[{0}% Throughput]</b>"
 msgstr ""
 "<b>培育生長\n"
-"[{0}%效率]</b>"
+"【{0}% 效率】</b>"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.ADDITIONAL_DOMESTIC_INSTANT.TOOLTIP
 msgctxt ""
@@ -77727,7 +77725,7 @@ msgid ""
 "[Life Cycle: {0}]</b>"
 msgstr ""
 "<b>培育生長\n"
-"[生長週期：{0}]</b>"
+"【生長週期：{0}】</b>"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.DOMESTIC.TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.DOMESTIC.TOOLTIP"
@@ -77741,7 +77739,7 @@ msgid ""
 "[Life Cycle: {0}]</b>"
 msgstr ""
 "<b>野外生長\n"
-"[生長週期：{0}]</b>"
+"【生長週期：{0}】</b>"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD.TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD.TOOLTIP"
@@ -77765,7 +77763,7 @@ msgid ""
 "[{0}% Throughput]</b>"
 msgstr ""
 "<b>野外生長\n"
-"[{0}%效率]</b>"
+"【{0}% 效率】</b>"
 
 #. STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD_INSTANT.TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD_INSTANT.TOOLTIP"
@@ -77780,7 +77778,7 @@ msgstr "裝飾期望"
 #. STRINGS.UI.VITALSSCREEN.DECOR_EXPECTATIONS_TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN.DECOR_EXPECTATIONS_TOOLTIP"
 msgid "This Duplicant desires decor that is {0} or higher"
-msgstr "這名複製人期望的裝飾度為{0}或更高"
+msgstr "這名複製人期望的裝飾度為 {0} 或更高"
 
 #. STRINGS.UI.VITALSSCREEN.EATEN_TODAY
 msgctxt "STRINGS.UI.VITALSSCREEN.EATEN_TODAY"
@@ -77790,7 +77788,7 @@ msgstr "今天所吃的"
 #. STRINGS.UI.VITALSSCREEN.EATEN_TODAY_TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN.EATEN_TODAY_TOOLTIP"
 msgid "Consumed {0} of food this cycle"
-msgstr "在這個週期中消耗了{0}的食物"
+msgstr "在這個週期中消耗了 {0} 的食物"
 
 #. STRINGS.UI.VITALSSCREEN.EXPECTATIONS
 msgctxt "STRINGS.UI.VITALSSCREEN.EXPECTATIONS"
@@ -77805,7 +77803,7 @@ msgstr "食物期望"
 #. STRINGS.UI.VITALSSCREEN.FOOD_EXPECTATIONS_TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN.FOOD_EXPECTATIONS_TOOLTIP"
 msgid "This Duplicant desires food that is {0} quality or better"
-msgstr "這名複製人期望的食物品質為{0}或更高"
+msgstr "這名複製人期望的食物品質為 {0} 或更高"
 
 #. STRINGS.UI.VITALSSCREEN.HEALTH
 msgctxt "STRINGS.UI.VITALSSCREEN.HEALTH"
@@ -77839,7 +77837,7 @@ msgid ""
 "\n"
 "Current Morale:"
 msgstr ""
-"這名複製人需要<link=\"MORALE\">{0}士氣</link>\n"
+"這名複製人需要<link=\"MORALE\"> {0} 士氣</link>\n"
 "\n"
 "目前士氣："
 
@@ -77954,7 +77952,7 @@ msgstr ""
 #. STRINGS.UI.WELCOMEMESSAGETITLE
 msgctxt "STRINGS.UI.WELCOMEMESSAGETITLE"
 msgid "- ALERT -"
-msgstr "- 警報 -"
+msgstr "－警報－"
 
 #. STRINGS.UI.WORLDGEN.ANALYZINGWORLD
 msgctxt "STRINGS.UI.WORLDGEN.ANALYZINGWORLD"
@@ -77964,17 +77962,17 @@ msgstr "正在混合基因藍圖…"
 #. STRINGS.UI.WORLDGEN.ANALYZINGWORLDCOMPLETE
 msgctxt "STRINGS.UI.WORLDGEN.ANALYZINGWORLDCOMPLETE"
 msgid "Tidying up for the Duplicants..."
-msgstr "正在整理複製人…"
+msgstr "正在調整複製人…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS"
 msgid "Just adding water..."
-msgstr "只是在加水…"
+msgstr "只是加個水…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS1
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS1"
 msgid "Just adding water..."
-msgstr "只是在加水…"
+msgstr "只是加個水…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS2
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS2"
@@ -77994,42 +77992,42 @@ msgstr "正在凝視虛空…"
 #. STRINGS.UI.WORLDGEN.BORDERS5
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS5"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr "正在避免目光與虛空連接…"
+msgstr "正在避免直視虛空…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS6
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS6"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr "正在避免目光與虛空連接…"
+msgstr "正在避免直視虛空…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS7
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS7"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr "正在避免目光與虛空連接…"
+msgstr "正在避免直視虛空…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS8
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS8"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr "正在避免目光與虛空連接…"
+msgstr "正在避免直視虛空…"
 
 #. STRINGS.UI.WORLDGEN.BORDERS9
 msgctxt "STRINGS.UI.WORLDGEN.BORDERS9"
 msgid "Avoiding awkward eye contact with the void..."
-msgstr "正在避免目光與虛空連接…"
+msgstr "正在避免直視虛空…"
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE"
 msgid "Sorting quadrillions of atoms..."
-msgstr "正在整理數以千萬億計的原子…"
+msgstr "正在整理數以千兆計的原子…"
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE1
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE1"
 msgid "Sorting quadrillions of atoms..."
-msgstr "正在整理數以千萬億計的原子…"
+msgstr "正在整理數以千兆計的原子…"
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE2
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE2"
 msgid "Sorting quadrillions of atoms..."
-msgstr "正在整理數以千萬億計的原子…"
+msgstr "正在整理數以千兆計的原子…"
 
 #. STRINGS.UI.WORLDGEN.BUILDNOISESOURCE3
 msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE3"
@@ -78149,7 +78147,7 @@ msgstr "正在硬化鑽石…"
 #. STRINGS.UI.WORLDGEN.FAILED
 msgctxt "STRINGS.UI.WORLDGEN.FAILED"
 msgid "Goodness, has this ever gone terribly wrong!"
-msgstr "我的天，整個跑偏啦！"
+msgstr "我的天，整個走鐘啦！"
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE"
@@ -78159,32 +78157,32 @@ msgstr "正在烘烤火成岩…"
 #. STRINGS.UI.WORLDGEN.GENERATENOISE1
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE1"
 msgid "Multilayering sediment..."
-msgstr "正在沉積疊層…"
+msgstr "正在沉積岩層…"
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE2
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE2"
 msgid "Multilayering sediment..."
-msgstr "正在沉積疊層…"
+msgstr "正在沉積岩層…"
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE3
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE3"
 msgid "Multilayering sediment..."
-msgstr "正在沉積疊層…"
+msgstr "正在沉積岩層…"
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE4
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE4"
 msgid "Superheating gases..."
-msgstr "正在使氣體過熱…"
+msgstr "正在加熱氣體…"
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE5
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE5"
 msgid "Superheating gases..."
-msgstr "正在使氣體過熱…"
+msgstr "正在加熱氣體…"
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE6
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE6"
 msgid "Superheating gases..."
-msgstr "正在使氣體過熱…"
+msgstr "正在加熱氣體…"
 
 #. STRINGS.UI.WORLDGEN.GENERATENOISE7
 msgctxt "STRINGS.UI.WORLDGEN.GENERATENOISE7"
@@ -78484,7 +78482,7 @@ msgstr "提升士氣"
 #. STRINGS.VIDEOS.PLUMBING
 msgctxt "STRINGS.VIDEOS.PLUMBING"
 msgid "CONNECTING PIPES"
-msgstr "連接管道"
+msgstr "連接管路"
 
 #. STRINGS.VIDEOS.POWER
 msgctxt "STRINGS.VIDEOS.POWER"
@@ -78568,7 +78566,7 @@ msgid ""
 "\">Vents</style> than usual"
 msgstr ""
 "這個世界有比平常更多的<style=\"KKeyword\">噴泉</style>和<style=\"KKeyword\">"
-"噴孔</style>"
+"火山</style>"
 
 #. STRINGS.WORLD_TRAITS.GEOACTIVE.NAME
 msgctxt "STRINGS.WORLD_TRAITS.GEOACTIVE.NAME"
@@ -78593,7 +78591,7 @@ msgid ""
 "\"KKeyword\">Vents</style> than usual"
 msgstr ""
 "這個世界有比平常更少的<style=\"KKeyword\">噴泉</style>和<style=\"KKeyword\">"
-"噴孔</style>"
+"火山</style>"
 
 #. STRINGS.WORLD_TRAITS.GEODORMANT.NAME
 msgctxt "STRINGS.WORLD_TRAITS.GEODORMANT.NAME"
@@ -78616,8 +78614,7 @@ msgstr "大型冰川"
 msgctxt "STRINGS.WORLD_TRAITS.IRREGULAR_OIL.DESCRIPTION"
 msgid ""
 "The <style=\"KKeyword\">Oil</style> on this asteroid is anything but regular!"
-msgstr ""
-"<style=\"KKeyword\">原油</style>在這顆星球上不算什麼，但就是分佈不規則！"
+msgstr "這星球的<style=\"KKeyword\">原油</style>沒什麼特別，但就是分佈不規則！"
 
 #. STRINGS.WORLD_TRAITS.IRREGULAR_OIL.NAME
 msgctxt "STRINGS.WORLD_TRAITS.IRREGULAR_OIL.NAME"
@@ -78717,7 +78714,7 @@ msgctxt "STRINGS.WORLD_TRAITS.VOLCANOES.DESCRIPTION"
 msgid ""
 "Several active <style=\"KKeyword\">Volcanoes</style> have been detected in "
 "this world"
-msgstr "這個世界上能檢測到許多活<style=\"KKeyword\">火山</style>"
+msgstr "這個世界上能探測到許多活<style=\"KKeyword\">火山</style>"
 
 #. STRINGS.WORLD_TRAITS.VOLCANOES.NAME
 msgctxt "STRINGS.WORLD_TRAITS.VOLCANOES.NAME"
@@ -79093,7 +79090,7 @@ msgstr "無望"
 #. STRINGS.WORLDS.SURVIVAL_CHANCE.LOW
 msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.LOW"
 msgid "Marginal"
-msgstr "勉強"
+msgstr "較低"
 
 #. STRINGS.WORLDS.SURVIVAL_CHANCE.MOONNAMES
 msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.MOONNAMES"
@@ -79126,7 +79123,7 @@ msgid ""
 "Survival Chance: <b><color=#{1}>{0}</color></b>"
 msgstr ""
 "\n"
-"存活的可能性：<b><color=#{1}>{0}</color></b>"
+"生存機率：<b><color=#{1}>{0}</color></b>"
 
 #. STRINGS.WORLDS.SURVIVAL_CHANCE.VERYHIGH
 msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.VERYHIGH"
@@ -79294,8 +79291,8 @@ msgid ""
 msgstr ""
 "一個充斥著熔岩穴和高溫的地點\n"
 "\n"
-"<smallcaps>要是沒有火山的話，火山星球是完美的，仔細地挖掘，管理好溫度，我們的"
-"殖民地的建立總會成功的</smallcaps>\n"
+"<smallcaps>假如沒有火山的話這星球將非常完美，小心挖掘並控管溫度是殖民地開發的"
+"成功關鍵</smallcaps>\n"
 "\n"
 
 #. STRINGS.WORLDS.VOLCANIC.NAME
