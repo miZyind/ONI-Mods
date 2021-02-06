@@ -21,7 +21,7 @@
 
 ## 💠 Development Environment & Tools
 - ILRepack >= 2.0.x
-- PLib >= 3.9
+- PLib >= 3.13
 - Harmony >= 1.2.x
 - .NET Framework = 4.0
 - Unity = 2018.4.14f1
