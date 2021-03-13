@@ -185,16 +185,16 @@ namespace miZyind.TraditionalChinese
                 var path = MotdLocalPath.GetValue(__instance, null);
                 var localMotd = GetLocalMotd.Invoke(__instance, new object[] { path }) as Resp;
 
-                localMotd.image_header_text = "火箭重製更新！";
+                localMotd.image_header_text = "完全「輻」化更新！";
                 localMotd.news_header_text = "參與討論";
                 localMotd.news_body_text = "訂閱我們的通知郵件\n以隨時掌握最新資訊\n或到論壇直接參與討論！";
                 localMotd.patch_notes_summary =
-                    "<b>2021 年 1 月之火箭重製更新</b>\n\n" +
-                    "• 在《Spaced Out!》資料片新增了許多原版的火箭艙型與新型石油引擎\n" +
-                    "• 為太空衣增加了耐久度系統，並改善了氧氣面罩的使用行為\n" +
-                    "• 大量錯誤修復和平衡改善\n\n" +
+                    "<b>2021 年 3 月之完全「輻」化更新</b>\n\n" +
+                    "• 在《Spaced Out!》資料片新增了輻射系統以及相關疾病\n" +
+                    "• 輻射蜂與新的研究型反應爐可為原子對撞機供應核研究之所需\n\n" +
                     "請查看完整更新說明來獲得更多資訊！";
-                localMotd.update_text_override = "喔耶！更新了！";
+                localMotd.vanilla_update_data.update_text_override = "喔耶！更新了！";
+                localMotd.expansion1_update_data.update_text_override = "喔耶！更新了！";
 
                 cb(localMotd, null);
 
