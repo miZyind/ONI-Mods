@@ -113,18 +113,6 @@ namespace miZyind.TraditionalChinese
             public static void Prefix()
             {
                 ReassignFont(Resources.FindObjectsOfTypeAll<LocText>());
-
-                Db
-                    .Get()
-                    .ResourceTable
-                    .DoIf(
-                        res => res.GetType() == typeof(Klei.AI.Attribute),
-                        res =>
-                        {
-                            ReassignString(ref res.Name, "Minimum", "最小");
-                            ReassignString(ref res.Name, "Maximum", "最大");
-                        }
-                    );
             }
         }
 
@@ -140,27 +128,6 @@ namespace miZyind.TraditionalChinese
                     var txt = targetEntry.display_go.GetComponentInChildren<LocText>();
                     if (txt != null && txt.font.name != fn) txt.font = font;
                 }
-            }
-        }
-
-        [HarmonyPatch(typeof(DetailsPanelDrawer))]
-        [HarmonyPatch(nameof(DetailsPanelDrawer.NewLabel))]
-        [HarmonyPatch(new Type[] { typeof(string) })]
-        public static class DetailsPanelDrawer_NewLabel_Patch
-        {
-            public static void Prefix(ref string text)
-            {
-                ReassignString(ref text, "Cycles", "歲");
-            }
-        }
-
-        [HarmonyPatch(typeof(MinionTodoChoreEntry))]
-        [HarmonyPatch("TooltipForChore")]
-        public static class MinionTodoChoreEntry_TooltipForChore_Patch
-        {
-            public static void Postfix(ref string __result)
-            {
-                ReassignString(ref __result, "Idle", "空閒");
             }
         }
 
@@ -185,7 +152,7 @@ namespace miZyind.TraditionalChinese
                 var path = MotdLocalPath.GetValue(__instance, null);
                 var localMotd = GetLocalMotd.Invoke(__instance, new object[] { path }) as Resp;
 
-                localMotd.image_header_text = "完全「輻」化更新！";
+                localMotd.image_header_text = "完全「輻」化更新";
                 localMotd.news_header_text = "參與討論";
                 localMotd.news_body_text = "訂閱我們的通知郵件\n以隨時掌握最新資訊\n或到論壇直接參與討論！";
                 localMotd.patch_notes_summary =
@@ -212,26 +179,6 @@ namespace miZyind.TraditionalChinese
                         txt => txt != null && txt.name == "Title",
                         txt => txt.text = "更新說明"
                     );
-            }
-        }
-
-        [HarmonyPatch(typeof(Strings))]
-        [HarmonyPatch(nameof(Strings.Get))]
-        [HarmonyPatch(new Type[] { typeof(string) })]
-        public static class Strings_Get_Patch
-        {
-            public static void Postfix(ref StringEntry __result)
-            {
-                switch (__result.String)
-                {
-                    case "Terra Cluster":
-                        __result.String = "類地星團";
-                        break;
-
-                    case "Swamp Cluster":
-                        __result.String = "沼澤星團";
-                        break;
-                }
             }
         }
     }
