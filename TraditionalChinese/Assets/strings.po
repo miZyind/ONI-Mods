@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TC DLC_1 2021.03.13\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-03-13 22:54+0700\n"
+"PO-Revision-Date: 2021-03-14 00:24+0700\n"
 "Last-Translator: miZyind <mizyind@gmail.com>\n"
 "Language-Team: miZyind <mizyind@gmail.com>\n"
 "Language: zh_TW\n"
@@ -54791,7 +54791,7 @@ msgstr "史威比"
 #. STRINGS.ROBOTS.MODELS.SCOUT.DESC
 msgctxt "STRINGS.ROBOTS.MODELS.SCOUT.DESC"
 msgid "A curious bot that can remotely explore new Planetoid locations."
-msgstr "一台好奇的機器人，能夠遠端地探索新星球的座標"
+msgstr "一台充滿好奇心的機器人，能夠遠端地探索新星球"
 
 #. STRINGS.ROBOTS.MODELS.SCOUT.NAME
 msgctxt "STRINGS.ROBOTS.MODELS.SCOUT.NAME"
