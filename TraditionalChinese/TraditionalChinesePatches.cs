@@ -193,8 +193,6 @@ namespace miZyind.TraditionalChinese
                     "• 在《Spaced Out!》資料片新增了輻射系統以及相關疾病\n" +
                     "• 輻射蜂與新的研究型反應爐可為原子對撞機供應核研究之所需\n\n" +
                     "請查看完整更新說明來獲得更多資訊！";
-                localMotd.vanilla_update_data.update_text_override = "喔耶！更新了！";
-                localMotd.expansion1_update_data.update_text_override = "喔耶！更新了！";
 
                 cb(localMotd, null);
 
