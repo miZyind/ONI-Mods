@@ -40329,8 +40329,7 @@ msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.DESC"
 msgid ""
 "Enables Duplicants to study outer space using the <link=\"TELESCOPE"
 "\">Telescope</link>"
-msgstr ""
-"使複製人能夠使用<link=\"TELESCOPE\">望遠鏡</link>來進一步研究外太空"
+msgstr "使複製人能夠使用<link=\"TELESCOPE\">望遠鏡</link>來進一步研究外太空"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING3.NAME"
@@ -69527,7 +69526,7 @@ msgid ""
 msgstr ""
 "建造一個<style=\"KKeyword\">列印艙</style>來解鎖這個選單\n"
 "------------------\n"
-"<link=\"HEADQUARTERS\">列印艙</link>可在可在建造選單的<b>基地欄</"
+"<style=\"KKeyword\">列印艙</style>可在可在建造選單的<b>基地欄</"
 "b><b><color=#F44A4A> [0] </b></color>中找到"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.ADVANCED_RESEARCH.DESCRIPTION
@@ -71798,7 +71797,7 @@ msgid ""
 msgstr ""
 "所有火箭成員均已登上火箭，準備發射\n"
 "------------------\n"
-"    • {0}／{1}已登上"
+"    • {0}／{1} 已登上"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.WARNING"
@@ -71809,7 +71808,7 @@ msgid ""
 msgstr ""
 "一些分配為這艘火箭成員的複製人還沒有登上火箭\n"
 "------------------\n"
-"    • {0}／{1}已登上"
+"    • {0}／{1} 已登上"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.WARNING"
@@ -73884,7 +73883,7 @@ msgstr "可用熱量：{0}"
 #. STRINGS.UI.TOOLTIPS.METERSCREEN_POPULATION
 msgctxt "STRINGS.UI.TOOLTIPS.METERSCREEN_POPULATION"
 msgid "Population: {0}"
-msgstr "人口：{0} / {1}"
+msgstr "人口：{0}"
 
 #. STRINGS.UI.TOOLTIPS.METERSCREEN_POPULATION_CLUSTER
 msgctxt "STRINGS.UI.TOOLTIPS.METERSCREEN_POPULATION_CLUSTER"
