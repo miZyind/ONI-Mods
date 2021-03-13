@@ -2,9 +2,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: TC VANILLA 2021.02.07\n"
+"Project-Id-Version: TC VANILLA 2021.03.14\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-03-14 01:03+0700\n"
+"PO-Revision-Date: 2021-03-14 02:00+0700\n"
 "Last-Translator: miZyind <mizyind@gmail.com>\n"
 "Language-Team: miZyind <mizyind@gmail.com>\n"
 "Language: zh_TW\n"
@@ -190,7 +190,7 @@ msgstr "等待燃料：{0}"
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGFUEL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGFUEL.TOOLTIP"
 msgid "This building requires <b>{1}</b> of {0} to operate"
-msgstr "這個建築需要<b>{1}</b>的{0}才能運作"
+msgstr "這個建築需要 <b>{1}</b> 的{0}才能運作"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGSEEDDELIVERY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGSEEDDELIVERY.NAME"
@@ -317,7 +317,7 @@ msgstr "消耗燃料：{0}"
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.BURNING_FUEL.TOOLTIP"
 msgid "<b>{0}</b> fuel remaining"
-msgstr "剩餘燃料<b>{0}</b>"
+msgstr "剩餘燃料 <b>{0}</b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.HAS_FUEL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.HAS_FUEL.NAME"
@@ -327,7 +327,7 @@ msgstr "已加燃料：{0}"
 #. STRINGS.BUILDING.STATUSITEMS.BURNER.HAS_FUEL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.HAS_FUEL.TOOLTIP"
 msgid "<b>{0}</b> fuel remaining"
-msgstr "剩餘燃料<b>{0}</b>"
+msgstr "剩餘燃料 <b>{0}</b>"
 
 #. STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.ALLOWED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.ALLOWED.NAME"
@@ -365,7 +365,7 @@ msgstr "已達最低溫度"
 #. STRINGS.BUILDING.STATUSITEMS.CANNOTCOOLFURTHER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANNOTCOOLFURTHER.TOOLTIP"
 msgid "This building cannot cool the surrounding environment below <b>{0}</b>"
-msgstr "這個建築無法將週圍環境冷卻至 <b>{0}</b> 以下"
+msgstr "這個建築無法將周圍環境冷卻至 <b>{0}</b> 以下"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHANGEDOORCONTROLSTATE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHANGEDOORCONTROLSTATE.NAME"
@@ -472,7 +472,7 @@ msgctxt ""
 msgid ""
 " on this Planetoid, or bring in a Duplicant with the appropriate skill from "
 "another Planetoid"
-msgstr " 在這個星球上，或從另一個星球上引進具有適當技能的複製人"
+msgstr " 在這個星球上，或從其他星球上帶來一名有合適技能的複製人"
 
 #. STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CONDUITBLOCKED.NAME"
@@ -1343,7 +1343,7 @@ msgstr "已達到目標溫度"
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.TOOLTIP"
 msgid "This building cannot heat the surrounding environment beyond <b>{0}</b>"
-msgstr "這個建築無法將週圍環境加熱到 <b>{0}</b> 以上"
+msgstr "這個建築無法將周圍環境加熱到 <b>{0}</b> 以上"
 
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_GAS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDLOWMASS_GAS.NAME"
@@ -1374,14 +1374,14 @@ msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR."
 "LOGIC_CONTROLLED_ACTIVE"
 msgid "Incoming HEP: Redirect"
-msgstr "來臨的高能粒子：重新導向"
+msgstr "來臨的輻射粒子：重新導向"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_CONTROLLED_STANDBY
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR."
 "LOGIC_CONTROLLED_STANDBY"
 msgid "Incoming HEP: Ignore"
-msgstr "來臨的高能粒子：忽略"
+msgstr "來臨的輻射粒子：忽略"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.NORMAL
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.NORMAL"
@@ -1397,8 +1397,8 @@ msgid ""
 "style></b>, accepting incoming <style=\"KKeyword\">High Energy Particles</"
 "style>"
 msgstr ""
-"粒子重導器接收<b><style=\"logic_on\">綠色訊號</style></b>，捕捉來臨的<style="
-"\"KKeyword\">高能粒子</style>"
+"粒子重導器接收<b><style=\"logic_on\">綠色訊號</style></b>，接收來臨的<style="
+"\"KKeyword\">輻射粒子</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.TOOLTIPS.LOGIC_CONTROLLED_STANDBY
 msgctxt ""
@@ -1410,27 +1410,27 @@ msgid ""
 "style>"
 msgstr ""
 "粒子重導器接收<b><style=\"logic_off\">紅色訊號</style></b>，忽略來臨的<style="
-"\"KKeyword\">高能粒子</style>"
+"\"KKeyword\">輻射粒子</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.TOOLTIPS.NORMAL
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLEREDIRECTOR.TOOLTIPS.NORMAL"
 msgid "Incoming particles will be accepted and redirected"
-msgstr "來臨的高能粒子會被捕捉並重新導向"
+msgstr "來臨的輻射粒子會被接收並重新導向"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.LOGIC_CONTROLLED_ACTIVE
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER."
 "LOGIC_CONTROLLED_ACTIVE"
 msgid "Launch HEP: On"
-msgstr "發射高能粒子：開啟"
+msgstr "發射輻射粒子：開啟"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.LOGIC_CONTROLLED_STANDBY
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER."
 "LOGIC_CONTROLLED_STANDBY"
 msgid "Launch HEP: Off"
-msgstr "發射高能粒子：關閉"
+msgstr "發射輻射粒子：關閉"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.NORMAL
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.NORMAL"
@@ -1446,8 +1446,8 @@ msgid ""
 "style></b>, accepting incoming <style=\"KKeyword\">High Energy Particles</"
 "style>"
 msgstr ""
-"粒子發射器接收<b><style=\"logic_on\">綠色訊號</style></b>，捕捉來臨的<style="
-"\"KKeyword\">高能粒子</style>"
+"粒子發射器接收<b><style=\"logic_on\">綠色訊號</style></b>，接收來臨的<style="
+"\"KKeyword\">發射輻射粒子</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.TOOLTIPS.LOGIC_CONTROLLED_STANDBY
 msgctxt ""
@@ -1459,7 +1459,7 @@ msgid ""
 "style>"
 msgstr ""
 "粒子發射器接收<b><style=\"logic_off\">紅色訊號</style></b>，忽略來臨的<style="
-"\"KKeyword\">高能粒子</style>"
+"\"KKeyword\">輻射粒子</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.TOOLTIPS.NORMAL
 msgctxt ""
@@ -1467,7 +1467,7 @@ msgctxt ""
 msgid ""
 "Incoming <style=\"KKeyword\">High Energy Particles</style> will be accepted "
 "and redirected"
-msgstr "來臨的<style=\"KKeyword\">高能粒子</style>會被捕捉並重新導向"
+msgstr "來臨的<style=\"KKeyword\">輻射粒子</style>會被接收並重新導向"
 
 #. STRINGS.BUILDING.STATUSITEMS.HOTTUBFILLING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HOTTUBFILLING.NAME"
@@ -1565,9 +1565,9 @@ msgid ""
 "\n"
 "It arrive in {ETA}"
 msgstr ""
-"這艘火箭正在航行至{Destination_Asteroid}上的{Destination_Pad}\n"
+"這艘火箭目前正在前往{Destination_Asteroid}上的{Destination_Pad}\n"
 "\n"
-"將在{ETA}後到達"
+"將在 {ETA} 後抵達"
 
 #. STRINGS.BUILDING.STATUSITEMS.INORBIT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INORBIT.NAME"
@@ -1577,7 +1577,7 @@ msgstr "在軌道上：{Destination}"
 #. STRINGS.BUILDING.STATUSITEMS.INORBIT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INORBIT.TOOLTIP"
 msgid "This rocket is currently in orbit around {Destination}"
-msgstr "這艘火箭目前在{Destination}週圍的軌道上"
+msgstr "這艘火箭目前在{Destination}周圍的軌道上"
 
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.NAME"
@@ -3093,7 +3093,7 @@ msgstr "這個端口正在將資源送入<style=\"KKeyword\">火箭平台</style
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_UNLOADING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_UNLOADING.NAME"
 msgid "Unloading"
-msgstr "卸載中"
+msgstr "火箭卸載中"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_UNLOADING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_UNLOADING.TOOLTIP"
@@ -3107,7 +3107,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOEMPTYING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOEMPTYING.NAME"
 msgid "Cargo Emptying"
-msgstr "正在卸載貨艙"
+msgstr "貨物卸載中"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOEMPTYING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOEMPTYING.TOOLTIP"
@@ -3125,7 +3125,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFILLING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFILLING.NAME"
 msgid "Cargo Loading"
-msgstr "正在裝載貨艙"
+msgstr "貨物裝載中"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFILLING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFILLING.TOOLTIP"
@@ -3655,7 +3655,7 @@ msgstr "溫度過低"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TOO_COLD.TOOLTIP"
 msgid ""
 "Either this building or its surrounding environment is too cold to operate"
-msgstr "這個建築或其週圍環境的溫度太低，使建築不能運作"
+msgstr "這個建築或其周圍環境的溫度太低，使建築不能運作"
 
 #. STRINGS.BUILDING.STATUSITEMS.TOP_PRIORITY_CHORE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TOP_PRIORITY_CHORE.NAME"
@@ -3869,7 +3869,7 @@ msgstr "氣壓至少需要達到 <b>{TargetPressure}</b>，這個建築才能運
 #. STRINGS.BUILDING.STATUSITEMS.UNUSABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.UNUSABLE.NAME"
 msgid "Out of Order"
-msgstr "發生故障"
+msgstr "故障"
 
 #. STRINGS.BUILDING.STATUSITEMS.UNUSABLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.UNUSABLE.TOOLTIP"
@@ -3923,7 +3923,7 @@ msgstr "空閒下來的複製人將運送這些材料"
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGFORRADIATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGFORRADIATION.NAME"
 msgid "Awaiting <style=\"KKeyword\">High Energy Particles</style>"
-msgstr "等待<style=\"KKeyword\">高能粒子</style>"
+msgstr "等待<style=\"KKeyword\">輻射粒子</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.LINE_ITEM
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.LINE_ITEM"
@@ -4030,7 +4030,7 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.WELL_PRESSURIZING.TOOLTIP"
 msgid ""
 "Well pressure increases with each use and must be periodically relieved to "
 "prevent shutdown"
-msgstr "每次使用後井壓都會增加，必須定期釋放壓力以防發生故障"
+msgstr "每次使用後井壓都會增加，必須定期釋放壓力以防故障"
 
 #. STRINGS.BUILDING.STATUSITEMS.WINDTUNNELINTAKE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WINDTUNNELINTAKE.NAME"
@@ -4576,7 +4576,7 @@ msgstr ""
 "儲存發電機產生的<link=\"POWER\">電力</link>，然後向建築提供<link=\"POWER\">電"
 "力</link>\n"
 "\n"
-"電量會隨著時間流失"
+"儲存的電力會隨時間流失"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.NAME"
@@ -4601,7 +4601,7 @@ msgstr ""
 "儲存發電機產生的<link=\"POWER\">電力</link>，然後向建築提供<link=\"POWER\">電"
 "力</link>\n"
 "\n"
-"較少電量會隨著時間流失"
+"儲存的電力會隨時間緩慢流失"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.NAME"
@@ -7322,26 +7322,26 @@ msgid ""
 "from <link=\"HIGHENERGYPARTICLESPAWNER\">Particle Generators</link>."
 msgstr ""
 "將<link=\"HIGHENERGYPARTICLESPAWNER\">粒子產生器</link>產生的<style="
-"\"KKeyword\">高能粒子</style>接收並重新導向"
+"\"KKeyword\">輻射粒子</style>接收並重新導向"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_PORT"
 msgid "Ignore incoming particles"
-msgstr "忽略來臨的粒子"
+msgstr "忽略來臨的輻射粒子"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_PORT_ACTIVE
 msgctxt ""
 "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_PORT_ACTIVE"
 msgid ""
 "<b><style=\"logic_on\">Green Signal</style></b>: Allow incoming particles"
-msgstr "<b><style=\"logic_on\">綠色訊號</style></b>：允許來臨的粒子"
+msgstr "<b><style=\"logic_on\">綠色訊號</style></b>：允許來臨的輻射粒子"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_PORT_INACTIVE
 msgctxt ""
 "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.LOGIC_PORT_INACTIVE"
 msgid ""
 "<b><style=\"logic_off\">Red Signal</style></b>: Ignore incoming particles"
-msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：忽略來臨的粒子"
+msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：忽略來臨的輻射粒子"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.NAME"
@@ -7351,7 +7351,7 @@ msgstr "<link=\"HIGHENERGYPARTICLEREDIRECTOR\">粒子重導器</link>"
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.DESC"
 msgid "High energy particles are necessary for producing atomic research."
-msgstr "高能粒子對於原子研究是十分必要的"
+msgstr "輻射粒子對於原子研究而言十分重要"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.EFFECT"
@@ -7361,7 +7361,7 @@ msgid ""
 "\n"
 "Emits generated particles in the direction of your choosing."
 msgstr ""
-"吸收附近的<link=\"RADIATION\">輻射</link>來產生<style=\"KKeyword\">高能粒子</"
+"吸收附近的<link=\"RADIATION\">輻射</link>來產生<style=\"KKeyword\">輻射粒子</"
 "style>\n"
 "\n"
 "向你選擇的方向釋放產生的粒子"
@@ -7369,13 +7369,13 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT"
 msgid "Do not emit High Energy Particles"
-msgstr "不釋放高能粒子"
+msgstr "不釋放輻射粒子"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT_ACTIVE"
 msgid ""
 "<b><style=\"logic_on\">Green Signal</style></b>: Emit High Energy Particles"
-msgstr "<b><style=\"logic_on\">綠色訊號</style></b>：釋放高能粒子"
+msgstr "<b><style=\"logic_on\">綠色訊號</style></b>：釋放輻射粒子"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT_INACTIVE
 msgctxt ""
@@ -7383,7 +7383,7 @@ msgctxt ""
 msgid ""
 "<b><style=\"logic_off\">Red Signal</style></b>: Do not emit High Energy "
 "Particles"
-msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：不釋放高能粒子"
+msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：不釋放輻射粒子"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.NAME"
@@ -7788,7 +7788,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.DESC"
 msgid ""
 "A checkpoint must have a correlating dock built on the opposite side its "
 "arrow faces."
-msgstr "每個檢查站都必須配備一個建在箭頭指向對面的相關存放櫃"
+msgstr "每個檢查站都必須配備一個相鄰的存放櫃"
 
 #. STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.EFFECT"
@@ -7800,7 +7800,7 @@ msgid ""
 "\n"
 "Can be rotated before construction."
 msgstr ""
-"標記一個複製人必須換上或換下<link=\"JETSUIT\">噴氣服</link>的閥值\n"
+"標記一個複製人必須換上或換下<link=\"JETSUIT\">噴氣服</link>的閾值\n"
 "\n"
 "必須建在<link=\"JETSUITLOCKER\">噴氣服存放櫃</link>旁\n"
 "\n"
@@ -8032,7 +8032,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LEADSUITMARKER.DESC"
 msgid ""
 "A checkpoint must have a correlating dock built on the opposite side its "
 "arrow faces."
-msgstr "每個檢查站都必須配備一個建在箭頭指向對面的相關存放櫃"
+msgstr "每個檢查站都必須配備一個相鄰的存放櫃"
 
 #. STRINGS.BUILDINGS.PREFABS.LEADSUITMARKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LEADSUITMARKER.EFFECT"
@@ -8044,7 +8044,7 @@ msgid ""
 "\n"
 "Can be rotated before construction."
 msgstr ""
-"標記一個複製人必須換上或換下<link=\"LEADSUIT\">鉛服</link>的閥值\n"
+"標記一個複製人必須換上或換下<link=\"LEADSUIT\">鉛服</link>的閾值\n"
 "\n"
 "必須建在<link=\"LEADSUITLOCKER\">鉛服存放櫃</link>旁\n"
 "\n"
@@ -8331,7 +8331,7 @@ msgid ""
 "\n"
 "Can be run through wall and floor tile."
 msgstr ""
-"輸送<link=\"ELEMENTSLIQUID\">液體</link>，允許與週圍環境進行極端<link=\"HEAT"
+"輸送<link=\"ELEMENTSLIQUID\">液體</link>，允許與周圍環境進行極端<link=\"HEAT"
 "\">熱</link>交換\n"
 "\n"
 "可穿過牆壁和地磚"
@@ -11063,7 +11063,7 @@ msgstr "<link=\"ORESCRUBBER\">礦石洗滌器</link>"
 #. STRINGS.BUILDINGS.PREFABS.OUTHOUSE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.OUTHOUSE.DESC"
 msgid "The colony that eats together, excretes together."
-msgstr "這個群體一起吃飯，一起排泄"
+msgstr "這個群體一起吃飯、一起排泄"
 
 #. STRINGS.BUILDINGS.PREFABS.OUTHOUSE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OUTHOUSE.EFFECT"
@@ -11170,7 +11170,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.OXYGENMASKLOCKER.DESC"
 msgid ""
 "An Oxygen Mask dock is a handy holding place for an Oxygen Mask when it "
 "isn't in use."
-msgstr "氧氣面罩存放櫃用於存放未使用的氧氣面罩"
+msgstr "氧氣面罩存放櫃用於存放未使用的氧氣面罩，並為其充氧"
 
 #. STRINGS.BUILDINGS.PREFABS.OXYGENMASKLOCKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXYGENMASKLOCKER.EFFECT"
@@ -11197,7 +11197,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.OXYGENMASKMARKER.DESC"
 msgid ""
 "A checkpoint must have an oxygen mask dock built on the opposite side its "
 "arrow faces."
-msgstr "每個檢查站都必須配備一個建在箭頭指向對面的氧氣面罩存放櫃"
+msgstr "每個檢查站都必須配備一個相鄰的存放櫃"
 
 #. STRINGS.BUILDINGS.PREFABS.OXYGENMASKMARKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXYGENMASKMARKER.EFFECT"
@@ -11391,7 +11391,7 @@ msgstr ""
 "\n"
 "能容納一位複製人\n"
 "\n"
-"星圖中，星球週圍相鄰一格開放時就可以部署"
+"星圖中，星球周圍相鄰一格開放時就可以部署"
 
 #. STRINGS.BUILDINGS.PREFABS.PIONEERMODULE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PIONEERMODULE.NAME"
@@ -11595,7 +11595,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.DESC"
 msgid ""
 "Limiting the power drawn by wires prevents them from incurring overload "
 "damage."
-msgstr "限制電線的功率以防止發生過載損壞"
+msgstr "限制電線的功率以防止過載損壞"
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.EFFECT"
@@ -11625,7 +11625,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.DESC"
 msgid ""
 "Limiting the power drawn by wires prevents them from incurring overload "
 "damage."
-msgstr "限制電線的功率以防止發生過載損壞"
+msgstr "限制電線的功率以防止過載損壞"
 
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.EFFECT"
@@ -11686,7 +11686,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHGAS.DESC"
 msgid ""
 "An atmo switch shuts off power when the air pressure surrounding it "
 "surpasses the set threshold."
-msgstr "氣壓開關在週圍氣壓超過設定閾值時會斷開"
+msgstr "氣壓開關在周圍氣壓超過設定閾值時會斷開"
 
 #. STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHGAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHGAS.EFFECT"
@@ -11696,7 +11696,7 @@ msgid ""
 "\n"
 "Does not affect circuitry preceding the switch."
 msgstr ""
-"根據週圍<link=\"PRESSURE\">氣壓</link>來自動打開或關閉<link=\"POWER\">電力</"
+"根據周圍<link=\"PRESSURE\">氣壓</link>來自動打開或關閉<link=\"POWER\">電力</"
 "link>\n"
 "\n"
 "不影響開關前端的電路"
@@ -11711,7 +11711,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHLIQUID.DESC"
 msgid ""
 "A hydro switch shuts off power when the liquid pressure surrounding it "
 "surpasses the set threshold."
-msgstr "液壓開關在週圍液壓超過設定閾值時會斷開"
+msgstr "液壓開關在周圍液壓超過設定閾值時會斷開"
 
 #. STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHLIQUID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSURESWITCHLIQUID.EFFECT"
@@ -11723,7 +11723,7 @@ msgid ""
 "\n"
 "Must be submerged in <link=\"ELEMENTSLIQUID\">Liquid</link>."
 msgstr ""
-"根據週圍<link=\"PRESSURE\">液壓</link>來自動打開或關閉<link=\"POWER\">電力</"
+"根據周圍<link=\"PRESSURE\">液壓</link>來自動打開或關閉<link=\"POWER\">電力</"
 "link>\n"
 "\n"
 "不影響開關前端的電路\n"
@@ -12261,7 +12261,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.RESEARCHCENTER.EFFECT"
 msgid ""
 "Conducts <link=\"RESEARCH\">Novice Research</link> to unlock new "
 "technologies."
-msgstr "進行<link=\"RESEARCH\">基礎研究</link>以解鎖新技術"
+msgstr "進行<link=\"RESEARCH\">基礎研究</link>以解鎖新科技"
 
 #. STRINGS.BUILDINGS.PREFABS.RESEARCHCENTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.RESEARCHCENTER.NAME"
@@ -12585,7 +12585,7 @@ msgid ""
 msgstr ""
 "部署一個<link=\"SCOUT\">偵查者機器人</link>以進行遠端星球探索\n"
 "\n"
-"星圖中，星球週圍相鄰一格開放時就可以部署"
+"星圖中，星球周圍相鄰一格開放時就可以部署"
 
 #. STRINGS.BUILDINGS.PREFABS.SCOUTMODULE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCOUTMODULE.NAME"
@@ -13583,7 +13583,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.DESC"
 msgid ""
 "Exosuits can be filled with oxygen to allow Duplicants to safely enter "
 "hazardous areas."
-msgstr "複製人穿上加滿氧氣的太空衣後可進入危險區域。"
+msgstr "複製人穿上加滿氧氣的太空衣後可進入危險區域"
 
 #. STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.EFFECT"
@@ -13592,14 +13592,14 @@ msgid ""
 "\n"
 "Duplicants will not fabricate items unless recipes are queued."
 msgstr ""
-"為複製人製造可供穿戴的防護性<link=\"EXOSUIT\">太空衣</link>\n"
+"為複製人製造可供穿戴的防護性<link=\"EXOSUIT\">太空服</link>\n"
 "\n"
 "除非佇列中有配方，否則複製人不會製作物品"
 
 #. STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.NAME"
 msgid "<link=\"SUITFABRICATOR\">Exosuit Forge</link>"
-msgstr "<link=\"SUITFABRICATOR\">太空衣鍛造台</link>"
+msgstr "<link=\"SUITFABRICATOR\">太空服鍛造台</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SUITLOCKER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITLOCKER.DESC"
@@ -13637,7 +13637,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.SUITMARKER.DESC"
 msgid ""
 "A checkpoint must have an atmo suit dock built on the opposite side its "
 "arrow faces."
-msgstr "每個檢查站都必須配備一個建在箭頭指向對面的氣壓服存放櫃。"
+msgstr "每個檢查站都必須配備一個相鄰的存放櫃"
 
 #. STRINGS.BUILDINGS.PREFABS.SUITMARKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITMARKER.EFFECT"
@@ -13649,7 +13649,7 @@ msgid ""
 "\n"
 "Can be rotated before construction."
 msgstr ""
-"標記一個複製人必須換上或換下<link=\"ATMOSUIT\">氣壓服</link>的閥值\n"
+"標記一個複製人必須換上或換下<link=\"ATMOSUIT\">氣壓服</link>的閾值\n"
 "\n"
 "必須建在<link=\"SUITLOCKER\">氣壓服存放櫃</link>旁\n"
 "\n"
@@ -13920,7 +13920,7 @@ msgid ""
 "\n"
 "Does not affect circuitry preceding the switch."
 msgstr ""
-"根據週圍<link=\"HEAT\">溫度</link>來自動打開或關閉<link=\"POWER\">電力</"
+"根據周圍<link=\"HEAT\">溫度</link>來自動打開或關閉<link=\"POWER\">電力</"
 "link>\n"
 "\n"
 "不影響開關前端的電路"
@@ -14241,7 +14241,7 @@ msgstr ""
 "一台可以接收<link=\"ELEMENTSLIQUID\">液體</link>、<link=\"ELEMENTSSOLID\">固"
 "體</link>和<link=\"ELEMENTSGAS\">氣體</link>資源的機器\n"
 "\n"
-"可由具有<link=\"RESEARCHER\">實地考察</link>技能的複製人啟用\n"
+"可由具有<link=\"RESEARCHER\">實地考察</link>技能的複製人操作\n"
 "\n"
 "這個是接收端"
 
@@ -14267,10 +14267,10 @@ msgid ""
 "\n"
 "This is the transmitting side."
 msgstr ""
-"一台可以接收<link=\"ELEMENTSLIQUID\">液體</link>、<link=\"ELEMENTSSOLID\">固"
+"一台可以傳送<link=\"ELEMENTSLIQUID\">液體</link>、<link=\"ELEMENTSSOLID\">固"
 "體</link>和<link=\"ELEMENTSGAS\">氣體</link>資源的機器\n"
 "\n"
-"可由具有<link=\"RESEARCHER\">實地考察</link>技能的複製人啟用\n"
+"可由具有<link=\"RESEARCHER\">實地考察</link>技能的複製人操作\n"
 "\n"
 "這個是傳送端"
 
@@ -16213,9 +16213,9 @@ msgstr ""
 "<indent=5%>主管，\n"
 "\n"
 "一切順利。布魯薩德一開始不願意，但鑑於她的工作性質和最近發生的事，她沒有選擇"
-"的餘地。\n"
+"的餘地\n"
 "\n"
-"她可以在你方便的時候開始工作。</indent>"
+"她可以在你方便的時候開始工作</indent>"
 
 #. STRINGS.CODEX.A4_ATOMICONRECRUITMENT.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.A4_ATOMICONRECRUITMENT.BODY.EMAILHEADER1"
@@ -18502,20 +18502,20 @@ msgid ""
 "\n"
 "Byeee!</indent>"
 msgstr ""
-"<indent=5%>天吶，<i>你好</i>，尼古拉！\n"
+"<indent=5%>天啊，<i>你好</i>，尼古拉！\n"
 "\n"
-"你有沒有聽說過最近在廚房發生的那件超級古怪的事？約書亞的午餐從冰箱裡消失了，"
-"上星期的每一天都發生了這樣的怪事！\n"
+"你有沒有聽說過最近在廚房發生的那件超級怪事？約書亞的午餐從冰箱裡消失了，上星"
+"期的每一天都發生了這樣的怪事！\n"
 "\n"
-"那間房裡有<i>許多</i>攝像頭，但所有人都只看到了冰箱門後露出的一頭刺蝟般的金"
-"發。\n"
+"那間房裡有<i>許多</I>監視器，但所有人都只看到了冰箱門後露出的一頭刺蝟般的金"
+"髮\n"
 "\n"
 "真是太<i>怪</i>了，對吧？;)\n"
 "\n"
 "不管了，跟我們沒關係，但我們的電腦系統一直出現<i>小故障</i>，就是姓名首字母為"
-"\"N.T.\"的所有員工大概半年的資料都被<i>徹底</i>消除了。\n"
+"「N.T.」的所有員工大概半年的資料都被<i>徹底</I>刪除了\n"
 "\n"
-"但是別擔心！我肯定能在它影響<i>你的</i>任何工作之前解決它。\n"
+"但是別擔心！我肯定能在它影響<i>你的</i>任何工作之前解決它\n"
 "\n"
 "拜拜！</indent>"
 
@@ -18881,7 +18881,7 @@ msgid ""
 "Slickster. These send signals to the brain to contract or expand its air "
 "sacks accordingly."
 msgstr ""
-"小嗅角位於主嗅角兩側，專門用於透過機械方式接收和偵測浮油生物週圍的氣壓。這些"
+"小嗅角位於主嗅角兩側，專門用於透過機械方式接收和偵測浮油生物周圍的氣壓。這些"
 "嗅角可以發送訊號給大腦，從而讓浮油生物可以根據情況收縮或膨脹氣囊"
 
 #. STRINGS.CODEX.DECOR.SUBTITLE
@@ -18914,7 +18914,7 @@ msgid ""
 "they will suffer a stress penalty.\n"
 "\n"
 msgstr ""
-"低裝飾度會增加複製人的<link=\"STRESS\">壓力</link>。幸好，漂亮的東西會給週圍"
+"低裝飾度會增加複製人的<link=\"STRESS\">壓力</link>。幸好，漂亮的東西會給周圍"
 "區域增加裝飾度。每個複製人對於怎樣的裝飾度算高有著不同的看法。如果複製人在一"
 "週期内經歷的平均裝飾度低於他們的期望，他們就會遭受壓力懲罰\n"
 "\n"
@@ -18999,10 +18999,10 @@ msgid ""
 "\n"
 "As a result, Drecko fibers are often farmed for use in textile production."
 msgstr ""
-"毛鱗壁虎的尾巴稱為\"拖尾\"，只有裝飾作用，即使失去或被剪下也不會對本體造成傷"
-"害。\n"
+"毛鱗壁虎的尾巴稱為「拖尾」只有裝飾作用，即使失去或被剪下也不會對本體造成傷"
+"害\n"
 "\n"
-"因此，人們常常養殖毛鱗壁虎，收集其纖毛用於製造紡織物。"
+"因此，人們常常養殖毛鱗壁虎，收集其纖毛用於製造紡織物"
 
 #. STRINGS.CODEX.DRECKO.SPECIES_SUBTITLE
 msgctxt "STRINGS.CODEX.DRECKO.SPECIES_SUBTITLE"
@@ -19109,7 +19109,7 @@ msgid ""
 msgstr ""
 "最初，大家擔心在行星或重力作用下的地質體上移栽釋氣草標本會破壞其内部結構。幸"
 "運的是，釋氣草已經進化出了堅固的小管，可以防止在内部輸送的液態氯與外部環境之"
-"間的壓力發生變化時損傷其結構。"
+"間的壓力發生變化時損傷其結構"
 
 #. STRINGS.CODEX.GASGRASS.SUBTITLE
 msgctxt "STRINGS.CODEX.GASGRASS.SUBTITLE"
@@ -19489,8 +19489,8 @@ msgid ""
 "\n"
 msgstr ""
 "當物質的内能增加時溫度就會提升，溫度值等於總内能除以物質的比熱。由於不同物質"
-"的比熱差異較大，所以常會導致一定内能下一種物質比另一種的溫度高的情況發生。這"
-"種性質使得水需要接近四倍的内能來升高與氧氣相同的溫度。\n"
+"的比熱差異較大，所以常會導致一定内能下一種物質比另一種的溫度高的情況發生，這"
+"種性質使得水需要接近四倍的内能來升高與氧氣相同的溫度\n"
 
 #. STRINGS.CODEX.HEAT.PARAGRAPH_4
 msgctxt "STRINGS.CODEX.HEAT.PARAGRAPH_4"
@@ -19506,7 +19506,7 @@ msgid ""
 msgstr ""
 "内能可以在建築、生物、世界格子和其他實體間傳導。當兩個不同溫度的物質接觸時傳"
 "導就會發生。内能傳導速率是導熱率和溫度差異的均值。内能在低導熱率的物質間流動"
-"緩慢（隔熱體），在高導熱率的物質間流動迅速（導熱體）。\n"
+"緩慢（隔熱體），在高導熱率的物質間流動迅速（導熱體）\n"
 "\n"
 
 #. STRINGS.CODEX.HEAT.PARAGRAPH_5
@@ -19665,7 +19665,7 @@ msgid ""
 "Drill-shaped keratin structures circling the Vole's body aids its ability to "
 "drill at high speeds through most natural materials."
 msgstr ""
-"鍬環田鼠身體週圍有很多鑽頭形狀的角蛋白結構，這使得它可以高速鑽穿大多數天然材"
+"鍬環田鼠身體周圍有很多鑽頭形狀的角蛋白結構，這使得它可以高速鑽穿大多數天然材"
 "料"
 
 #. STRINGS.CODEX.MOLE.SUBTITLE
@@ -20152,11 +20152,11 @@ msgid ""
 "lethal temperatures. I should equip them accordingly.\n"
 "\n"
 msgstr ""
-"從我的複製人感官收集到的讀數告訴我，他們挖得越深，就越接近一個極端且有潛在危"
-"險的熱源。\n"
+"從我的複製人感官收集到的數據告訴我，他們挖得越深，就越接近一個極端且有潛在危"
+"險的熱源\n"
 "\n"
 "我相信他們正在接近一個熔融的核心，這意味著岩漿和致命的溫度。因此我應該讓我的"
-"複製人裝備好。\n"
+"複製人裝備好\n"
 "\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.NEARINGMAGMA.TITLE
@@ -20408,16 +20408,16 @@ msgid ""
 "\n"
 msgstr ""
 "我的複製人已經完成了難以完成的任務，他們已經挖穿地表了，但這個過程中也為我收"
-"集到了一些令人不安的新資料。\n"
+"集到了一些令人不安的新資料\n"
 "\n"
 "正如我開始懷疑的那樣，我們沒在目標地點上，而是一個元素和資源十分多樣的星球"
-"上。\n"
+"上\n"
 "\n"
 "此外，我的複製人注意到了地平線上有一顆肉眼可見的破損的行星，其資料與我對於我"
-"們的起源星球的歷史資料驚人地相似。\n"
+"們的起源星球的歷史資料驚人地相似\n"
 "\n"
 "我需要一些時間來預估複製人為我收集來的資料，並計算一下這個星球的總質量，但我"
-"懷疑我已經知道這是怎麼回事了。\n"
+"懷疑我已經知道這是怎麼回事了\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.SURFACEBREACH.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.SURFACEBREACH.TITLE"
@@ -20446,7 +20446,7 @@ msgstr ""
 "我的複製人的太空研究有了驚人的發現\n"
 "\n"
 "離我們望遠鏡很遠很遠的地方，複製人們發現了一個反常現象，我只能將其稱之為「時"
-"空裂口」中子物質可在其中被偵測到，表明這與我們星球週圍包裹的中子物質有關\n"
+"空裂口」中子物質可在其中被偵測到，表明這與我們星球周圍包裹的中子物質有關\n"
 "\n"
 "儘管我相信正是因為這一裂口導致我們的舊星球變得混亂，但它的發現仍提供了一線希"
 "望\n"
@@ -20834,7 +20834,7 @@ msgid ""
 "the day they eventually die."
 msgstr ""
 "儘管最令人激動的脫殼最早發生在抛殼蟹青年時期，但成年後它們也仍會繼續生長和脫"
-"殼，直到它們最終死去。"
+"殼，直到它們最終死去"
 
 #. STRINGS.CODEX.POKESHELL.SUBTITLE
 msgctxt "STRINGS.CODEX.POKESHELL.SUBTITLE"
@@ -21711,7 +21711,7 @@ msgid ""
 "hibernation, slowing the Wheezewort's metabolism to require less nutrients "
 "over long periods of time."
 msgstr ""
-"冰息蘿蔔以其改變週圍環境溫度的能力而聞名，它能直接吸收熱以維持身體代謝\n"
+"冰息蘿蔔以其改變周圍環境溫度的能力而聞名，它能直接吸收熱以維持身體代謝\n"
 "\n"
 "這種環境管理能力也有助於實現一種自我誘導的休眠，從而減慢冰息蘿蔔的新陳代謝，"
 "以減少較長時間内所需的營養"
@@ -22038,7 +22038,7 @@ msgctxt ""
 msgid ""
 "For {0} cycles in a row, have every Duplicant in the colony complete at "
 "least one chore while wearing an Exosuit."
-msgstr "連續 {0} 週期，讓殖民地中每個複製人都穿著太空衣完成至少一項任務"
+msgstr "連續 {0} 週期，讓殖民地中每個複製人都穿著太空服完成至少一項任務"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EXPLORE_OIL_BIOME
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EXPLORE_OIL_BIOME"
@@ -22282,13 +22282,13 @@ msgstr "進入原油生態圈"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXOSUIT_CYCLES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXOSUIT_CYCLES"
 msgid "All Dupes completed a Exosuit errand for cycles: {0} / {1}"
-msgstr "所有複製人穿太空衣完成任務的週期：{0} / {1}"
+msgstr "所有複製人穿太空服完成任務的週期：{0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXOSUIT_THIS_CYCLE
 msgctxt ""
 "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXOSUIT_THIS_CYCLE"
 msgid "Dupes who completed Exosuit errands this cycle: {0} / {1}"
-msgstr "這個週期穿太空衣完成任務的複製人：{0} / {1}"
+msgstr "這個週期穿太空服完成任務的複製人：{0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXPAND_TOOLTIP
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.EXPAND_TOOLTIP"
@@ -22673,8 +22673,6 @@ msgctxt "STRINGS.CREATURES.ATTRIBUTES.FERTILITYDELTA.NAME"
 msgid "Reproduction Rate"
 msgstr "繁殖速率"
 
-# miZyind <mizyind@gmail.com>, 2021.
-#
 #. STRINGS.CREATURES.ATTRIBUTES.INCUBATIONDELTA.DESC
 msgctxt "STRINGS.CREATURES.ATTRIBUTES.INCUBATIONDELTA.DESC"
 msgid ""
@@ -23398,7 +23396,7 @@ msgid ""
 msgstr ""
 "一隻蠕動中的輻射蜂幼蟲\n"
 "\n"
-"它會逐漸長大成熟，變成<link=\"BEE\">輻射蜂</link>成年體"
+"牠會隨時間成長為一個惡毒的成年<link=\"BEE\">輻射蜂</link>成年體"
 
 #. STRINGS.CREATURES.SPECIES.BEE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.BEE.BABY.NAME"
@@ -26155,7 +26153,7 @@ msgctxt "STRINGS.CREATURES.STATS.AIRPRESSURE.TOOLTIP"
 msgid ""
 "The average <style=\"KKeyword\">Gas</style> density of the air surrounding "
 "this plant"
-msgstr "這株植物週圍的平均<style=\"KKeyword\">氣體</style>濃度"
+msgstr "這株植物周圍的平均<style=\"KKeyword\">氣體</style>濃度"
 
 #. STRINGS.CREATURES.STATS.DOMESTICATION.NAME
 msgctxt "STRINGS.CREATURES.STATS.DOMESTICATION.NAME"
@@ -27901,7 +27899,7 @@ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOR.DESC"
 msgid ""
 "Affects a Duplicant's <style=\"KKeyword\">Morale</style> and their opinion "
 "of their surroundings."
-msgstr "影響複製人的<style=\"KKeyword\">士氣</style>以及他們對週圍環境的看法"
+msgstr "影響複製人的<style=\"KKeyword\">士氣</style>以及他們對周圍環境的看法"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECOR.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOR.NAME"
@@ -29478,12 +29476,12 @@ msgstr "這名複製人正在穿戴一件裝備"
 #. STRINGS.DUPLICANTS.CHORES.EQUIPPINGSUIT.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.EQUIPPINGSUIT.NAME"
 msgid "Equip Exosuit"
-msgstr "裝備太空衣"
+msgstr "裝備太空服"
 
 #. STRINGS.DUPLICANTS.CHORES.EQUIPPINGSUIT.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.EQUIPPINGSUIT.STATUS"
 msgid "Equipping exosuit"
-msgstr "正在裝備太空衣"
+msgstr "正在裝備太空服"
 
 #. STRINGS.DUPLICANTS.CHORES.EQUIPPINGSUIT.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.EQUIPPINGSUIT.TOOLTIP"
@@ -30146,13 +30144,13 @@ msgstr ""
 msgctxt ""
 "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.DOES_SUIT_NEED_RECHARGING_IDLE"
 msgid "Suit is currently charged"
-msgstr "太空衣目前已充電"
+msgstr "太空服目前已充電"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.DOES_SUIT_NEED_RECHARGING_URGENT
 msgctxt ""
 "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.DOES_SUIT_NEED_RECHARGING_URGENT"
 msgid "Suit is currently charged"
-msgstr "太空衣目前已充電"
+msgstr "太空服目前已充電"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.EDIBLE_IS_NOT_NULL
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.EDIBLE_IS_NOT_NULL"
@@ -30192,7 +30190,7 @@ msgstr "需要習得技能"
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_SUIT_MARKER
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_SUIT_MARKER"
 msgid "No Suit Checkpoint"
-msgstr "沒有太空衣檢查站"
+msgstr "沒有太空服檢查站"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_TRAIT
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_TRAIT"
@@ -30608,19 +30606,19 @@ msgstr "這名複製人感覺不舒服，正在休息"
 #. STRINGS.DUPLICANTS.CHORES.RETURNSUIT.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.RETURNSUIT.NAME"
 msgid "Dock Exosuit"
-msgstr "存放太空衣"
+msgstr "存放太空服"
 
 #. STRINGS.DUPLICANTS.CHORES.RETURNSUIT.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.RETURNSUIT.STATUS"
 msgid "Docking exosuit"
-msgstr "正在存放太空衣"
+msgstr "正在存放太空服"
 
 #. STRINGS.DUPLICANTS.CHORES.RETURNSUIT.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.RETURNSUIT.TOOLTIP"
 msgid ""
 "This Duplicant is plugging an <style=\"KKeyword\">Exosuit</style> in for "
 "refilling"
-msgstr "這名複製人正在將<style=\"KKeyword\">太空衣</style>填入以補充物質"
+msgstr "這名複製人正在將<style=\"KKeyword\">太空服</style>填入以補充物質"
 
 #. STRINGS.DUPLICANTS.CHORES.ROCKETCONTROL.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.ROCKETCONTROL.NAME"
@@ -31168,12 +31166,12 @@ msgctxt "STRINGS.DUPLICANTS.DEATHS.HITBYHIGHENERGYPARTICLE.DESCRIPTION"
 msgid ""
 "{Target} was struck by a <style=\"KKeyword\">High Energy Particle</style> "
 "and perished."
-msgstr "{Target}被<style=\"KKeyword\">高能粒子</style>擊中而死亡"
+msgstr "{Target}被<style=\"KKeyword\">輻射粒子</style>擊中而死亡"
 
 #. STRINGS.DUPLICANTS.DEATHS.HITBYHIGHENERGYPARTICLE.NAME
 msgctxt "STRINGS.DUPLICANTS.DEATHS.HITBYHIGHENERGYPARTICLE.NAME"
 msgid "Struck by HEP"
-msgstr "被高能粒子擊中"
+msgstr "被輻射粒子擊中"
 
 #. STRINGS.DUPLICANTS.DEATHS.OVERHEATING.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DEATHS.OVERHEATING.DESCRIPTION"
@@ -34333,12 +34331,12 @@ msgstr ""
 #. STRINGS.DUPLICANTS.MODIFIERS.SOILEDSUIT.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SOILEDSUIT.CAUSE"
 msgid "Obtained when a Duplicant wears a suit filled with... \"fluids\""
-msgstr "當複製人穿著充滿……\"液體\"的太空衣時獲得"
+msgstr "當複製人穿著充滿...「液體」的太空服時獲得"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SOILEDSUIT.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SOILEDSUIT.NAME"
 msgid "Soiled Suit"
-msgstr "受汙染的太空衣"
+msgstr "受汙染的太空服"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SOILEDSUIT.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SOILEDSUIT.TOOLTIP"
@@ -34347,9 +34345,9 @@ msgid ""
 "\n"
 "Preferably soon"
 msgstr ""
-"這名複製人的太空衣需要清空廢物\n"
+"這名複製人的太空服需要清空廢物\n"
 "\n"
-"越快越好"
+"（越快越好）"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SOREBACK.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SOREBACK.CAUSE"
@@ -34813,7 +34811,7 @@ msgid ""
 "b> or higher, and becomes <style=\"KKeyword\">Stressed</style> in areas with "
 "lower <style=\"KKeyword\">Decor</style>."
 msgstr ""
-"大多數物體都有<style=\"KKeyword\">裝飾度</style>，裝飾度可以改變複製人對週圍"
+"大多數物體都有<style=\"KKeyword\">裝飾度</style>，裝飾度可以改變複製人對周圍"
 "環境的看法\n"
 "這名複製人希望有 <b>{0}</b> 點或更高的<style=\"KKeyword\">裝飾度</style>，在"
 "低<style=\"KKeyword\">裝飾度</style>區域中會<style=\"KKeyword\">增加壓力</"
@@ -35869,7 +35867,7 @@ msgstr "<link=\"SENIORPILOT\">火箭駕駛 II</link>"
 #. STRINGS.DUPLICANTS.ROLES.SUIT_EXPERT.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.SUIT_EXPERT.DESCRIPTION"
 msgid "Eliminates the runspeed loss experienced while wearing exosuits"
-msgstr "消除穿著太空衣時行走速度的損失"
+msgstr "消除穿著太空服時行走速度的損失"
 
 #. STRINGS.DUPLICANTS.ROLES.SUIT_EXPERT.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SUIT_EXPERT.NAME"
@@ -36010,7 +36008,7 @@ msgid ""
 "Open the <b>Decor Overlay</b> <b><color=#F44A4A>[F8]</b></color> to view "
 "current <style=\"KKeyword\">Decor</style> values"
 msgstr ""
-"如果週圍的<style=\"KKeyword\">裝飾</style>情況低於自己的預期，複製人會感到壓"
+"如果周圍的<style=\"KKeyword\">裝飾</style>度低於自己的預期，複製人會感到有壓"
 "力\n"
 "打開<b>裝飾概覽</b><b><color=#F44A4A> [F8] </b></color>，即可查看目前<style="
 "\"KKeyword\">裝飾度</style>"
@@ -36264,7 +36262,7 @@ msgstr "這名複製人正在對<b>{Target}</b>發飆！"
 #. STRINGS.DUPLICANTS.STATUSITEMS.BREATHINGO2.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BREATHINGO2.NAME"
 msgid "Inhaling {ConsumptionRate} O<sub>2</sub>"
-msgstr "吸入{ConsumptionRate} O<sub>2</sub>"
+msgstr "吸入 {ConsumptionRate} O<sub>2</sub>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.BREATHINGO2.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BREATHINGO2.TOOLTIP"
@@ -36550,7 +36548,7 @@ msgstr "這名複製人正在進餐"
 #. STRINGS.DUPLICANTS.STATUSITEMS.EMITTINGCO2.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EMITTINGCO2.NAME"
 msgid "Exhaling {EmittingRate} CO<sub>2</sub>"
-msgstr "呼出{EmittingRate} CO<sub>2</sub>"
+msgstr "呼出 {EmittingRate} CO<sub>2</sub>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EMITTINGCO2.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EMITTINGCO2.TOOLTIP"
@@ -37100,14 +37098,14 @@ msgstr "這名複製人正在清理地上的汙漬"
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.NAME"
 msgid "Exiting Exosuit area"
-msgstr "離開太空衣區域"
+msgstr "離開太空服區域"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.TOOLTIP"
 msgid ""
 "This Duplicant is leaving an area where a <style=\"KKeyword\">Suit</style> "
 "was required"
-msgstr "這名複製人正在離開需要穿著<style=\"KKeyword\">太空衣</style>的區域"
+msgstr "這名複製人正在離開需要穿著<style=\"KKeyword\">太空服</style>的區域"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVINGTOSAFEAREA.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVINGTOSAFEAREA.NAME"
@@ -39351,7 +39349,7 @@ msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.DESC"
 msgid ""
 "Allows the excavation of dangerous materials like <link=\"SOLIDNUCLEARWASTE"
 "\">Corium</link>"
-msgstr "允許挖掘危險的材料，比如<link=\"SOLIDNUCLEARWASTE\">固體核廢料</link>"
+msgstr "允許挖掘危險的材料，例如<link=\"SOLIDNUCLEARWASTE\">固體核廢料</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_MINING4.NAME"
@@ -48174,7 +48172,7 @@ msgstr "無存放櫃可用"
 #. STRINGS.MISC.NOTIFICATIONS.SUIT_DROPPED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SUIT_DROPPED.TOOLTIP"
 msgid "An exosuit was dropped because there were no empty docks available"
-msgstr "由於沒有可用的空存放櫃，一套太空衣被丟在地上"
+msgstr "由於沒有可用的空存放櫃，一套太空服被丟在地上"
 
 #. STRINGS.MISC.NOTIFICATIONS.SUITS.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SUITS.MESSAGEBODY"
@@ -48192,7 +48190,7 @@ msgid ""
 msgstr ""
 "可以裝備<link=\"ATMOSUIT\">氣壓服</link>來保護我的複製人免受環境危害，如極端"
 "<link=\"HEAT\">溫度</link>、透過空氣傳播的<link=\"DISEASE\">病菌</link>或不適"
-"於呼吸的<link=\"ELEMENTSGAS\">氣體</link>。為了使用這些太空衣，我需要為氣壓服"
+"於呼吸的<link=\"ELEMENTSGAS\">氣體</link>。為了使用這些太空服，我需要為氣壓服"
 "檢查站連接一個氣壓服存放櫃，然後在其中存放一件氣壓服\n"
 "\n"
 "按選定的方向透過檢查站時，複製人會裝備氣壓服，按相反方向透過時會脫下氣壓服"
@@ -48923,12 +48921,12 @@ msgstr "這個噴泉的内部壓力正在穩定上升"
 #. STRINGS.MISC.STATUSITEMS.STOREDITEMDURABILITY.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.STOREDITEMDURABILITY.NAME"
 msgid "Suit Durability: {durability}"
-msgstr "太空服耐久度：{durability}"
+msgstr "耐久度：{durability}"
 
 #. STRINGS.MISC.STATUSITEMS.STOREDITEMDURABILITY.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.STOREDITEMDURABILITY.TOOLTIP"
 msgid "The suit will stop functioning when it reaches 0% durability."
-msgstr "這件太空衣​​的耐久度達到 0% 時就無法再使用了"
+msgstr "這件太空衣​服的耐久度達到 0% 時就無法再使用了"
 
 #. STRINGS.MISC.STATUSITEMS.STUDIED.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.STUDIED.NAME"
@@ -49482,7 +49480,7 @@ msgstr "鋼材"
 #. STRINGS.MISC.TAGS.SUIT
 msgctxt "STRINGS.MISC.TAGS.SUIT"
 msgid "Suit"
-msgstr "太空衣"
+msgstr "太空服"
 
 #. STRINGS.MISC.TAGS.SWIMMINGCREATURE
 msgctxt "STRINGS.MISC.TAGS.SWIMMINGCREATURE"
@@ -52442,7 +52440,7 @@ msgid ""
 "Enables fabrication of <style=\"KKeyword\">Atmo Suits</style> at the <link="
 "\"SUITFABRICATOR\">Exosuit Forge</link>"
 msgstr ""
-"啟用<link=\"SUITFABRICATOR\">太空衣鍛造台</link>的<style=\"KKeyword\">氣壓服"
+"啟用<link=\"SUITFABRICATOR\">太空服鍛造台</link>的<style=\"KKeyword\">氣壓服"
 "</style>製造功能"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.ATMO_SUIT.NAME
@@ -52512,7 +52510,7 @@ msgid ""
 "Enables fabrication of <style=\"KKeyword\">Jet Suits</style> at the <link="
 "\"SUITFABRICATOR\">Exosuit Forge</link>"
 msgstr ""
-"啟用<link=\"SUITFABRICATOR\">太空衣鍛造台</link>的<style=\"KKeyword\">噴氣服"
+"啟用<link=\"SUITFABRICATOR\">太空服鍛造台</link>的<style=\"KKeyword\">噴氣服"
 "</style>製造功能"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.JET_SUIT.NAME
@@ -52526,7 +52524,7 @@ msgid ""
 "Enables fabrication of <style=\"KKeyword\">Lead Suits</style> at the <link="
 "\"SUITFABRICATOR\">Exosuit Forge</link>"
 msgstr ""
-"啟用<link=\"SUITFABRICATOR\">太空衣鍛造台</link>的<style=\"KKeyword\">鉛服</"
+"啟用<link=\"SUITFABRICATOR\">太空服鍛造台</link>的<style=\"KKeyword\">鉛服</"
 "style>製造功能"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.LEAD_SUIT.NAME
@@ -52551,12 +52549,12 @@ msgstr "<style=\"KKeyword\">氧氣面罩</style>樣式"
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.SUITS_OVERLAY.DESC
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.SUITS_OVERLAY.DESC"
 msgid "Enables access to the <b>Exosuit Overlay</b>."
-msgstr "允許訪問 <b>太空衣概覽</b>"
+msgstr "允許使用 <b>太空服概覽</b>"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.SUITS_OVERLAY.NAME
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.SUITS_OVERLAY.NAME"
 msgid "<b>Exosuit Overlay</b>"
-msgstr "<b>太空衣概覽</b>"
+msgstr "<b>太空服概覽</b>"
 
 #. STRINGS.RESEARCH.TECHS.ACOUSTICS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ACOUSTICS.DESC"
@@ -53582,7 +53580,7 @@ msgstr "固體材料"
 #. STRINGS.RESEARCH.TREES.TITLE_SUITS
 msgctxt "STRINGS.RESEARCH.TREES.TITLE_SUITS"
 msgid "Exosuits"
-msgstr "太空衣"
+msgstr "太空服"
 
 #. STRINGS.RESEARCH.TYPES.ALPHA.DESC
 msgctxt "STRINGS.RESEARCH.TYPES.ALPHA.DESC"
@@ -53906,7 +53904,7 @@ msgstr "卸貨中"
 #. STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.TOOLTIP
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.TOOLTIP"
 msgid "{0} is emptying out its dust bin"
-msgstr "{0} is emptying out its dust bin"
+msgstr "{0}正在清空它的垃圾箱"
 
 #. STRINGS.ROBOTS.STATUSITEMS.WORKING.DESC
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.WORKING.DESC"
@@ -54978,7 +54976,7 @@ msgid ""
 "for many higher-tier foods."
 msgstr ""
 "<link=\"CRABSPECIES\">拋殼蟹</link>蟹殼是<link=\"LIME\">石灰</link>的極佳來"
-"源，但馴化這個物種時必須小心，因為在它在它的蛋週圍時會變得有敵意。收穫<link="
+"源，但馴化這個物種時必須小心，因為在它在它的蛋周圍時會變得有敵意。收穫<link="
 "\"SEALETTUCE\">水草</link>可以產生<link=\"LETTUCE\">海生菜</link>，從而製作許"
 "多更高級的食物"
 
@@ -55318,12 +55316,12 @@ msgstr "保持我的複製人快樂、舒適、高效 {Hotkey}"
 #. STRINGS.UI.BUILDCATEGORIES.HEP.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.HEP.NAME"
 msgid "<link=\"BUILDCATEGORYHEP\">HEP</link>"
-msgstr "<link=\"BUILDCATEGORYHEP\">高能粒子</link>"
+msgstr "<link=\"BUILDCATEGORYHEP\">輻射</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.HEP.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.HEP.TOOLTIP"
 msgid "Only the highest energy particles here. {Hotkey}"
-msgstr "這裡只有高能粒子。{Hotkey}"
+msgstr "這裡只有輻射粒子 {Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.HVAC.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.HVAC.NAME"
@@ -55423,7 +55421,7 @@ msgstr "複製人通行權限"
 #. STRINGS.UI.BUILDINGEFFECTS.ACTIVE_PARTICLE_CONSUMPTION
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.ACTIVE_PARTICLE_CONSUMPTION"
 msgid "High Energy Particles: {Rate}"
-msgstr "高能粒子：{Rate}"
+msgstr "輻射粒子：{Rate}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.ADDED_EFFECT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.ADDED_EFFECT"
@@ -55748,12 +55746,12 @@ msgstr "過熱<link=\"HEAT\">溫度</link>：{0}"
 #. STRINGS.UI.BUILDINGEFFECTS.PARTICLE_PORT_INPUT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.PARTICLE_PORT_INPUT"
 msgid "Input HEP Port"
-msgstr "高能粒子輸入端口"
+msgstr "輻射粒子輸入端口"
 
 #. STRINGS.UI.BUILDINGEFFECTS.PARTICLE_PORT_OUTPUT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.PARTICLE_PORT_OUTPUT"
 msgid "Output HEP Port"
-msgstr "高能粒子輸出端口"
+msgstr "輻射粒子輸出端口"
 
 #. STRINGS.UI.BUILDINGEFFECTS.PLANTERBOX_PENTALTY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.PLANTERBOX_PENTALTY"
@@ -55788,7 +55786,7 @@ msgstr "娛樂"
 #. STRINGS.UI.BUILDINGEFFECTS.REFILLOXYGENTANK
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REFILLOXYGENTANK"
 msgid "Refills Exosuit <link=\"OXYGENTANK\">Oxygen Tank</link>"
-msgstr "補充太空衣<link=\"OXYGENTANK\">氧氣瓶</link>"
+msgstr "補充太空服<link=\"OXYGENTANK\">氧氣瓶</link>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.REFINEMENT_ENERGY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REFINEMENT_ENERGY"
@@ -55912,8 +55910,8 @@ msgid ""
 "This building requires <style=\"KKeyword\">High Energy Particles</style>, "
 "consuming them at a rate of {Rate} while in use"
 msgstr ""
-"這個建築需要<style=\"KKeyword\">高能粒子</style>，使用時以{Rate}的速率消耗它"
-"們"
+"這個建築需要<style=\"KKeyword\">輻射粒子</style>來運作，使用時以 {Rate} 的速"
+"率將其消耗"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ADDED_EFFECT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.ADDED_EFFECT"
@@ -56445,7 +56443,7 @@ msgstr "只有滿足所有要求時，這個建築才會運作"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVER_PRESSURE_MASS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVER_PRESSURE_MASS"
 msgid "Ceases to function when the surrounding mass is above <b>{0}</b>"
-msgstr "當週圍環境的質量大於<b>{0}</b>時停止運作"
+msgstr "當周圍環境的質量大於<b>{0}</b>時停止運作"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVERHEAT_TEMP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OVERHEAT_TEMP"
@@ -56457,7 +56455,7 @@ msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PARTICLE_PORT_INPUT"
 msgid ""
 "A HEP Port on this building allows it to absorb <style=\"KKeyword\">High "
 "Energy Particles</style>"
-msgstr "這個建築上的高能粒子端口允許其吸收<style=\"KKeyword\">高能粒子</style>"
+msgstr "這個建築上的輻射粒子端口允許其接收<style=\"KKeyword\">輻射粒子</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PARTICLE_PORT_OUTPUT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PARTICLE_PORT_OUTPUT"
@@ -56465,7 +56463,7 @@ msgid ""
 "This building has a configurable HEP Port for <style=\"KKeyword\">High "
 "Energy Particle</style> emission"
 msgstr ""
-"這個建築有一個可設定的高能粒子端口，用於釋放<style=\"KKeyword\">高能粒子</"
+"這個建築有一個可設定的輻射粒子端口，用於釋放<style=\"KKeyword\">輻射粒子</"
 "style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PLANTERBOX_PENTALTY
@@ -56511,7 +56509,7 @@ msgid ""
 "Refills <style=\"KKeyword\">Exosuit</style> Oxygen tanks with <style="
 "\"KKeyword\">Oxygen</style> for reuse"
 msgstr ""
-"為<style=\"KKeyword\">太空衣</style>氧氣瓶補充<style=\"KKeyword\">氧氣</"
+"為<style=\"KKeyword\">太空服</style>氧氣瓶補充<style=\"KKeyword\">氧氣</"
 "style>，以供再次使用"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFINEMENT_ENERGY_HAS_COOLANT
@@ -56960,7 +56958,7 @@ msgstr "最大艙塊："
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_MODULES.TOOLTIP
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_MODULES.TOOLTIP"
 msgid "The {0} can support a maximum of {1} modules (including itself)"
-msgstr "{0}能支持最多 {1} 個艙塊（包括它自己）"
+msgstr "{0}最多能支援 {1} 個艙塊，包括它自己"
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.MODULE_STATS.NAME
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MODULE_STATS.NAME"
@@ -58165,7 +58163,7 @@ msgid ""
 "error. If you uncheck all of the mods below, we will be able to help the "
 "next time this happens. Any mods that could be related to this error have "
 "already been unchecked.\""
-msgstr "喔不！我們很抱歉，遊戲發生了一項錯誤"
+msgstr "喔不！我們很抱歉，遊戲發生錯誤"
 
 #. STRINGS.UI.CRASHSCREEN.UPLOADINFO
 msgctxt "STRINGS.UI.CRASHSCREEN.UPLOADINFO"
@@ -59201,7 +59199,7 @@ msgstr "火箭必須滿足這些條件才能發射"
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.NAME
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.NAME"
 msgid "CHECKLIST"
-msgstr "檢查表"
+msgstr "發射檢查表"
 
 #. STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD
 msgctxt "STRINGS.UI.DETAILTABS.PROCESS_CONDITIONS.ROCKETBOARD"
@@ -59601,12 +59599,12 @@ msgstr "總計"
 #. STRINGS.UI.DLC1.NAME
 msgctxt "STRINGS.UI.DLC1.NAME"
 msgid "Spaced Out!"
-msgstr "Spaced Out!"
+msgstr "《Spaced Out!》"
 
 #. STRINGS.UI.DLC1.NAME_ITAL
 msgctxt "STRINGS.UI.DLC1.NAME_ITAL"
 msgid "<i>Spaced Out!</i>"
-msgstr "<i>Spaced Out!</i>"
+msgstr "<i>《Spaced Out!》</i>"
 
 #. STRINGS.UI.DROPDOWN.NONE
 msgctxt "STRINGS.UI.DROPDOWN.NONE"
@@ -61872,7 +61870,7 @@ msgstr "存活的複製人"
 #. STRINGS.UI.FRONTEND.LOADSCREEN.EXPANSION1_CONTENT
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.EXPANSION1_CONTENT"
 msgid "<i>Spaced Out!</i> Expansion FIXME"
-msgstr "<i>Spaced Out!</i>"
+msgstr "<i>《Spaced Out!》</i>"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.EXPANSION1_RESTART
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.EXPANSION1_RESTART"
@@ -62898,8 +62896,6 @@ msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT"
 msgid "LAUNCHED!"
 msgstr "現已發佈！"
 
-# miZyind <mizyind@gmail.com>, 2021.
-#
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT_EXPANSION1
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT_EXPANSION1"
 msgid ""
@@ -64819,7 +64815,7 @@ msgstr "<link=\"LOGIC\">訊號輸入</link>"
 #. STRINGS.UI.LOGIC_PORTS.INPUT_PORTS_TOOLTIP
 msgctxt "STRINGS.UI.LOGIC_PORTS.INPUT_PORTS_TOOLTIP"
 msgid "Input ports change a state on this building when a signal is received"
-msgstr "當接收到訊號時，輸入端口會使這個建築發生一種變化"
+msgstr "當接收到訊號時，輸入端口會使這個建築狀態發生變化"
 
 #. STRINGS.UI.LOGIC_PORTS.OUTPUT_PORT_TOOLTIP
 msgctxt "STRINGS.UI.LOGIC_PORTS.OUTPUT_PORT_TOOLTIP"
@@ -64975,7 +64971,7 @@ msgstr ""
 #. STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCE.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCE.TOOLTIP"
 msgid "Move solids objects around. {Hotkey}"
-msgstr "移動週圍的固體物品 {Hotkey}"
+msgstr "移動周圍的固體物品 {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.COOKING.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.COOKING.BUILDMENUTITLE"
@@ -70310,7 +70306,7 @@ msgstr "助燃劑艙已滿"
 #. STRINGS.UI.STARMAP.FULLOXIDIZERTANK.TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.FULLOXIDIZERTANK.TOOLTIP"
 msgid "Tank is full, ready to launch"
-msgstr "燃料艙已滿，準備發射"
+msgstr "助燃劑艙已滿，準備發射"
 
 #. STRINGS.UI.STARMAP.FULLTANK.NAME
 msgctxt "STRINGS.UI.STARMAP.FULLTANK.NAME"
@@ -70518,7 +70514,7 @@ msgstr "需要燃料艙"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.READY"
 msgid "Rocket has Fuel tank"
-msgstr "火箭具有燃料艙"
+msgstr "已安裝燃料艙"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.TOOLTIP.WARNING"
@@ -70548,7 +70544,7 @@ msgstr "需要前錐"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.TOOLTIP.READY"
 msgid "Rocket has Nosecone"
-msgstr "火箭有前錐"
+msgstr "已安裝合適的前錐"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.TOOLTIP.WARNING"
@@ -70598,7 +70594,7 @@ msgstr "已安裝"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INSTALLED_TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INSTALLED_TOOLTIP"
 msgid "{0} installed, ready for launch"
-msgstr "{0}已安裝，準備發射"
+msgstr "已安裝合適的{0}"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INSUFFICENT_MASS_TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INSUFFICENT_MASS_TOOLTIP"
@@ -70638,7 +70634,7 @@ msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP."
 "READY"
 msgid "All requested landers are built and ready for deployment"
-msgstr "所有必需的著陸器已建成，準備好部署了"
+msgstr "所有需要的著陸器均已建成，部署已準備就緒"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP.WARNING
 msgctxt ""
@@ -70777,9 +70773,9 @@ msgid ""
 "If the tanks are already full then this rocket can never reach that "
 "destination"
 msgstr ""
-"在火箭準備好起飛之前，需要加入更多的燃料\n"
-"\n"
-"如果艙已滿，那麼這艘火箭就永遠達不到目的地"
+"這艘火箭到達目的地所需的燃料不足\n"
+"------------------\n"
+"如果燃料艙已滿，可能需要另一個不同的艙塊"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.READY"
@@ -70847,7 +70843,7 @@ msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.READY"
 msgid ""
 "This rocket has sufficient oxidizer for a round trip to and from its "
 "selected destination"
-msgstr "這艘火箭有著充足的助燃劑以進行目的地的一次往返"
+msgstr "這艘火箭有著充足的助燃劑以進行一次往返航行"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.WARNING
 msgctxt ""
@@ -72385,7 +72381,7 @@ msgstr "由{0}製成"
 msgctxt "STRINGS.UI.TOOLTIPS.MESSAGESTOOLTIP"
 msgid ""
 "Messages are events that have happened and tips to help me manage my colony"
-msgstr "消息包含已發生的事件，以及有助於我管理殖民地的提示"
+msgstr "訊息包含已發生的事件，以及有助於我管理殖民地的提示"
 
 #. STRINGS.UI.TOOLTIPS.METERSCREEN_AVGSTRESS
 msgctxt "STRINGS.UI.TOOLTIPS.METERSCREEN_AVGSTRESS"
@@ -73881,14 +73877,16 @@ msgstr "目前閾值：{0}%"
 #. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.TITLE"
 msgid "HEP Threshold"
-msgstr "高能粒子閾值"
+msgstr "輻射粒子閾值"
 
 #. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.TOOLTIP"
 msgid ""
 "Emits a <style=\"KKeyword\">High Energy Particle</style> when the stored "
 "particles exceed <b>{0}</b>"
-msgstr "當儲存的粒子超過 <b>{0}</b> 時發射<style=\"KKeyword\">高能粒子</style>"
+msgstr ""
+"當儲存的輻射粒子超過<b> {0} </b>時，釋放<style =“ KKeyword”> Radbolt </ "
+"style> "
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.CANCEL_LAND_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.CANCEL_LAND_BUTTON"
@@ -73959,9 +73957,9 @@ msgid ""
 "------------------\n"
 "<b>Click to ignore warnings and proceed with launch</b>"
 msgstr ""
-"在發射檢查表中的一些條目需要注意！\n"
+"發射檢查表中有一些項目需要注意\n"
 "------------------\n"
-"<b>點擊來忽略警告並繼續發射</b>"
+"<b>點擊以忽略警告並繼續發射</b>"
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.NEW_ROCKET_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.NEW_ROCKET_BUTTON"
@@ -74417,7 +74415,7 @@ msgstr " "
 #. STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.LABEL_BOTH
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.LABEL_BOTH"
 msgid "Load/Unload"
-msgstr "裝載/卸載"
+msgstr "裝載／卸載"
 
 #. STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.LABEL_LOAD
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.LABEL_LOAD"
@@ -74494,7 +74492,7 @@ msgstr "當到達目的軌道上將會自動部署艙塊的內容物"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.SELECT_DUPLICANT"
 msgid "Select Duplicant..."
-msgstr "選擇複製人…"
+msgstr "選擇複製人"
 
 #. STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.TITLE"
@@ -74931,7 +74929,7 @@ msgstr "艙塊不能新增到這個艙塊的上面，或者沒有新增艙塊的
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONCHANGEMODULE.DESC"
 msgid "Change this module to a different type"
-msgstr "將這個艙塊更改為另一種類型"
+msgstr "將這個艙塊更改為另一種艙塊"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONCHANGEMODULE.INVALID
 msgctxt ""
@@ -78621,7 +78619,7 @@ msgid ""
 "<b>Surrounding Planetoids</b>:"
 msgstr ""
 "\n"
-"<b>週圍的星球</b>："
+"<b>周圍的星球</b>："
 
 #. STRINGS.WORLDS.SURVIVAL_CHANCE.MOSTHOSPITABLE
 msgctxt "STRINGS.WORLDS.SURVIVAL_CHANCE.MOSTHOSPITABLE"
@@ -78838,653 +78836,3 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.WARPOILYSWAMP.NAME"
 msgid "Oily Swamp Asteroid"
 msgstr "油性沼澤星球"
-
-#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.TOOLTIP"
-#~ msgid ""
-#~ "Open the <b>Skills Panel</b> <b><color=#F44A4A>[L]</b></color> and teach "
-#~ "a Duplicant the {Skills} Skill to use this"
-#~ msgstr ""
-#~ "打開<b>技能面板</b><b><color=#F44A4A> [L] </b></color>並指導一名複製人"
-#~ "{Skills}技能以使用這個建築"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.HEADQUARTERSCOMPLETE.UNIQUE_POPTEXT"
-#~ msgid "Only one {0} allowed!"
-#~ msgstr "只允許有一個{0}！"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.EFFECT"
-#~ msgid ""
-#~ "Stores and refuels <link=\"JETSUIT\">Jet Suits</link> with <link=\"OXYGEN"
-#~ "\">Oxygen</link> and <link=\"PETROLEUM\">Petroleum</link>.\n"
-#~ "\n"
-#~ "Build next to a <link=\"JETSUITMARKER\">Jet Suit Checkpoint</link> to "
-#~ "make Duplicants change into suits when passing by."
-#~ msgstr ""
-#~ "存放<link=\"JETSUIT\">噴氣服</link>並為其補充<link=\"OXYGEN\">氧氣</link>"
-#~ "和<link=\"PETROLEUM\">石油</link>。\n"
-#~ "\n"
-#~ "建造在<link=\"JETSUITMARKER\">噴氣服檢查站</link>旁邊，使複製人在路過時換"
-#~ "上服裝"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.EFFECT"
-#~ msgid "Heat!"
-#~ msgstr "真熱！"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.EFFECT"
-#~ msgid ""
-#~ "Limits <link=\"POWER\">Power</link> flowing through the Transformer to 4 "
-#~ "kW."
-#~ msgstr "限制流過變壓器的<link=\"POWER\">電力</link>為 4000 瓦"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.EFFECT"
-#~ msgid ""
-#~ "Limits <link=\"POWER\">Power</link> flowing through the Transformer to "
-#~ "1000 W."
-#~ msgstr "限制流過變壓器的<link=\"POWER\">電力</link>為 1000 瓦"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.STICKERBOMB.NAME"
-#~ msgid "Sticker Bomb"
-#~ msgstr "貼紙炸彈"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.STORAGELOCKER.EFFECT"
-#~ msgid "Stores the Solid resources of your choosing."
-#~ msgstr "儲存你所選的固體資源"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.SUITLOCKER.EFFECT"
-#~ msgid ""
-#~ "Stores and recharges <link=\"ATMOSUIT\">Atmo Suits</link>.\n"
-#~ "\n"
-#~ "Build next to an <link=\"SUITMARKER\">Atmo Suit Checkpoint</link> to make "
-#~ "Duplicants change into suits when passing by."
-#~ msgstr ""
-#~ "存放<link=\"ATMOSUIT\">氣壓服</link>並為其補充氧氣\n"
-#~ "\n"
-#~ "建造在<link=\"SUITMARKER\">氣壓服檢查站</link>旁邊，使複製人在路過時換上服"
-#~ "裝"
-
-#~ msgctxt "STRINGS.CODEX.B9_TELEPORTATION.BODY.CONTAINER1"
-#~ msgid ""
-#~ "<smallcaps>[Voice Recognition Initialized]\n"
-#~ "[Subject Identified: A001]</smallcaps>\n"
-#~ "\n"
-#~ "[LOG BEGINS]\n"
-#~ "\n"
-#~ "Dr. Techna's newest notes on Duplicant memories have revealed some "
-#~ "interesting discoveries. It seems memories </i>can</i> be transferred to "
-#~ "the cloned subject but it requires the host to be subjected to a machine "
-#~ "that performs extremely detailed microanalysis. This in depth dissection "
-#~ "of the subject would produce the results we need but at the expense of "
-#~ "destroying the host.\n"
-#~ "\n"
-#~ "Of course this is not ideal for our current situation. The time and "
-#~ "energy it took to recruit Gravitas’ highly trained staff would be wasted "
-#~ "if we were to extirpate these people for the sake of experimentation. But "
-#~ "perhaps we can use our Duplicants as experimental subjects until we "
-#~ "perfect the process and look into finding volunteers for the future in "
-#~ "order to obtain an ideal specimen. I will have to discuss this with Dr. "
-#~ "Techna but I'm sure he would be enthusiastic about such an opportunity to "
-#~ "continue his work.\n"
-#~ "\n"
-#~ "I am also very interested in the commercial opportunities this presents. "
-#~ "Off the top of my head I can think of applications in genetics, AI "
-#~ "development, and teleportation technology. This could be a significant "
-#~ "financial windfall for the company.\n"
-#~ "\n"
-#~ "[LOG ENDS]"
-#~ msgstr ""
-#~ "<smallcaps>【聲紋識別系統初始化完成】\n"
-#~ "【識別編號：A001】</smallcaps>\n"
-#~ "\n"
-#~ "【錄音開始】\n"
-#~ "\n"
-#~ "泰克納博士關於複製人記憶的最新日誌有些有趣的發現。似乎記憶<i>能</i>轉移到"
-#~ "克隆對象\n"
-#~ "但需要對象進入可以進行極微分析的機器中，對其深度的解剖提供了我們所需結果，"
-#~ "但需付出毀掉主體的代價\n"
-#~ "\n"
-#~ "當然，這不是我們目前最理想的狀況，如果我們不除掉這些用來實驗的人，那麼招聘"
-#~ "莊嚴科技專業員工所需的時間和精力可能都會被浪費了\n"
-#~ "不過我們也可以使用複製人來當實驗對象，並開始尋找未來的志願者以獲得理想的樣"
-#~ "品，直到實驗過程完美為止\n"
-#~ "我需要和泰克納博士討論一下這個問題，但，我很確定，他肯定會積極地把握這個得"
-#~ "以讓他繼續工作的好機會\n"
-#~ "\n"
-#~ "我對這件事情帶來的商機也非常感興趣，在我的腦海中，我能想到遺傳學的應用、人"
-#~ "工智慧的發展和傳送科技\n"
-#~ "這也許能為公司帶來一筆巨大的財富\n"
-#~ "\n"
-#~ "【錄音結束】"
-
-#~ msgctxt "STRINGS.CODEX.B9_TELEPORTATION.SUBTITLE"
-#~ msgid "ENCRYPTION LEVEL: THREE"
-#~ msgstr "加密級別：三"
-
-#~ msgctxt "STRINGS.CODEX.B9_TELEPORTATION.TITLE"
-#~ msgid "Memory Breakthrough"
-#~ msgstr "記憶突破"
-
-#~ msgctxt "STRINGS.CODEX.EXOBASES.HEADER_1"
-#~ msgid "Discovering New Planetoids"
-#~ msgstr "發現新星球"
-
-#~ msgctxt "STRINGS.CODEX.EXOBASES.HEADER_2"
-#~ msgid "Transportation Between Planetoids"
-#~ msgstr "星際傳送"
-
-#~ msgctxt "STRINGS.CODEX.EXOBASES.HEADER_3"
-#~ msgid "Scheduling"
-#~ msgstr "排程"
-
-#~ msgctxt "STRINGS.CODEX.EXOBASES.PARAGRAPH_1"
-#~ msgid ""
-#~ "Every colony exists in a system with other Planetoids. Other worlds can "
-#~ "be discovered either by chancing upon a Teleporter or by building <link="
-#~ "\"SCOUTMODULE\">Rover's Module</link> and launching it into space.\n"
-#~ "\n"
-#~ "Once <link=\"SCOUTMODULE\">Rover's Module</link> is in orbit around its "
-#~ "destination, it will deploy <link=\"SCOUT\">Rover</link> to the surface "
-#~ "where he can then be tasked with rudimentary chores to make the Planetoid "
-#~ "more habitable for Duplicants."
-#~ msgstr ""
-#~ "每個殖民地與其他星球共存在一個系統中，其他世界可透過偶然發現的傳送器，或建"
-#~ "造<link=\"SCOUTMODULE\">偵查者艙</link>來進行星際探索\n"
-#~ "\n"
-#~ "一旦<link=\"SCOUTMODULE\">偵查者艙</link>到達目的地將會變成<link=\"SCOUT"
-#~ "\">偵查者機器人</link>，它可以完成一些初級任務而使星球更宜居"
-
-#~ msgctxt "STRINGS.CODEX.EXOBASES.PARAGRAPH_2"
-#~ msgid ""
-#~ "Resources can be transported from one Planetoid to the other using a "
-#~ "<link=\"RAILGUN\">High Velocity Launcher</link>. Both the sending and the "
-#~ "receiving Planetoids need a system set up to transport resources "
-#~ "successfully. Only specially trained Duplicants can operate the <link="
-#~ "\"RAILGUN\">High Velocity Launcher</link>.\n"
-#~ "\n"
-#~ "Transporting Duplicants from one Planetoid to another can only be "
-#~ "achieved using a <link=\"LANDINGPOD\">Landing Pod</link>. Each <link="
-#~ "\"LANDINGPOD\">Landing Pod</link> is designed for only one trip. Upon "
-#~ "reaching its destination, the Pod will disassemble itself. Transporting "
-#~ "Duplicants between Planetoids is very resource heavy and should only be "
-#~ "done rarely."
-#~ msgstr ""
-#~ "<link=\"RAILGUN\">高速發射器</link>用以在星球間傳送資源。需在星球間建立一"
-#~ "套傳送系統才能成功地傳送資源。只有經過特殊訓練的複製人才能操作<link="
-#~ "\"RAILGUN\">高速發射器</link>\n"
-#~ "\n"
-#~ "複製人只能透過<link=\"LANDINGPOD\">著陸艙</link>在星球間傳送。每個<link="
-#~ "\"LANDINGPOD\">著陸艙</link>只能使用一次，因此在星球間傳送複製人需消耗很多"
-#~ "資源，不該經常使用"
-
-#~ msgctxt "STRINGS.CODEX.EXOBASES.PARAGRAPH_3"
-#~ msgid ""
-#~ "Each Planetoid Cluster has its own default schedule system which the "
-#~ "Duplicants will automatically assume as soon as they arrive on a new "
-#~ "Planetoid. Priority queues will only work within an Cluster World's "
-#~ "system."
-#~ msgstr ""
-#~ "每個星球都有獨自的日程系統，一旦到達新星球，複製人將會自動建立新的日程表，"
-#~ "因此各個星球的優先度設定將獨立運作"
-
-#~ msgctxt "STRINGS.CODEX.EXOBASES.TITLE"
-#~ msgid "<link=\"EXOBASES\">Planetoid Colonization</link>"
-#~ msgstr "<link=\"EXOBASES\">星際殖民</link>"
-
-#~ msgctxt "STRINGS.CODEX.GENETICS.HEADER_1"
-#~ msgid "Plant Mutations"
-#~ msgstr "植物變異"
-
-#~ msgctxt "STRINGS.CODEX.GENETICS.HEADER_2"
-#~ msgid "Breeding"
-#~ msgstr "育種"
-
-#~ msgctxt "STRINGS.CODEX.GENETICS.HEADER_3"
-#~ msgid "Dangers"
-#~ msgstr "風險"
-
-#~ msgctxt "STRINGS.CODEX.GENETICS.PARAGRAPH_1"
-#~ msgid ""
-#~ "When selecting a seed to plant, a variety of mutations will be available "
-#~ "to choose from.\n"
-#~ "Different plants and critters have different mutations which allow them "
-#~ "to thrive in different situations.\n"
-#~ "\n"
-#~ "\n"
-#~ "\n"
-#~ msgstr ""
-#~ "當種植種子時，可以從中選擇多種變異\n"
-#~ "不同的植物和動物有不同的變異，能夠使它們在不同環境下成長\n"
-#~ "\n"
-#~ "\n"
-#~ "\n"
-
-#~ msgctxt "STRINGS.CODEX.GENETICS.PARAGRAPH_2"
-#~ msgid "This is where the breeding information will go"
-#~ msgstr "育種資訊的部份寫在這"
-
-#~ msgctxt "STRINGS.CODEX.GENETICS.PARAGRAPH_3"
-#~ msgid ""
-#~ "This is where the part about dangers will go\n"
-#~ "\n"
-#~ msgstr "風險資訊的部份寫在這\n"
-
-#~ msgctxt "STRINGS.CODEX.GENETICS.TITLE"
-#~ msgid "<link=\"GENETICS\">Genetics</link>"
-#~ msgstr "<link=\"GENETICS\">遺傳學</link>"
-
-#~ msgctxt "STRINGS.CODEX.MYLOG.BODY.CLUSTERWORLDS.BODY"
-#~ msgid ""
-#~ "My Duplicant's investigations into the surrounding space have yielded "
-#~ "some interesting results. We are not alone!... At least on a planetary "
-#~ "level. We seem to be in a \"Cluster of Worlds\" - a collection of other "
-#~ "planetoids my Duplicants can now explore.\n"
-#~ "\n"
-#~ "Since resources on this world are finite, I must build the necessary "
-#~ "infrastructure to facilitate exploration and transportation between "
-#~ "worlds in order to ensure my colony's survival. But first I should send "
-#~ "out a robotic scout to further investigate these new worlds."
-#~ msgstr ""
-#~ "我的複製人從週遭空間的調查中得到了些有趣的結果，原來我們並不孤獨！ 至少在"
-#~ "星球維度上…我們似乎處於一個「星團世界」—其中包含著許多我的複製人可以去探索"
-#~ "的其他星球\n"
-#~ "\n"
-#~ "由於這個世界的資源是有限的，我必須建造必要的設施來促進各個世界的探索和運"
-#~ "輸，以確保殖民地的生存狀況。但首先，我應該指派偵察者機器人進一步調查這些新"
-#~ "世界"
-
-#~ msgctxt "STRINGS.CODEX.MYLOG.BODY.CLUSTERWORLDS.TITLE"
-#~ msgid "Cluster of Worlds"
-#~ msgstr "星團"
-
-#~ msgctxt "STRINGS.CODEX.MYLOG.BODY.TELEPORT.BODY"
-#~ msgid ""
-#~ "My Duplicants have discovered a strange new device that appears to be a "
-#~ "remnant of a previous Gravitas facility. Upon activating the device my "
-#~ "Duplicant was scanned by some unknown, highly technological device and I "
-#~ "subsequently detected a massive information transfer!\n"
-#~ "\n"
-#~ "Remarkably my Duplicant has now reappeared in a remote location on a "
-#~ "completely different world! I now have access to another abandoned "
-#~ "Gravitas facility on a neighboring Asteroid! Further analysis will be "
-#~ "required to understand this matter but in the meantime, I will have to be "
-#~ "vigilant in keeping track of both of my colonies."
-#~ msgstr ""
-#~ "我的複製人發現了一個奇怪的設備，似乎是之前莊嚴科技的廢棄設備。啟動設備後，"
-#~ "我的複製人被某個未知的高科技設備掃描了，接著我偵測到一次巨量的資訊傳輸！\n"
-#~ "\n"
-#~ "值得注意的是，我的複製人在另一個完全不同的遙遠世界重新出現了！我現在可以訪"
-#~ "問臨近星球上的其他的廢棄設備了！要搞懂這件事，我必須進行進一步分析，但同"
-#~ "時，我必須保持警惕，時時追蹤我的兩個殖民地"
-
-#~ msgctxt "STRINGS.CODEX.MYLOG.BODY.TELEPORT.TITLE"
-#~ msgid "Duplicant Teleportation"
-#~ msgstr "複製人傳送"
-
-#~ msgctxt "STRINGS.CODEX.RADIATION.HEADER_1"
-#~ msgid "Radiation"
-#~ msgstr "輻射"
-
-#~ msgctxt "STRINGS.CODEX.RADIATION.HEADER_2"
-#~ msgid "Radiation Sickness"
-#~ msgstr "輻射病"
-
-#~ msgctxt "STRINGS.CODEX.RADIATION.HEADER_3"
-#~ msgid "Nuclear Energy"
-#~ msgstr "核能"
-
-#~ msgctxt "STRINGS.CODEX.RADIATION.PARAGRAPH_1"
-#~ msgid ""
-#~ "When transporting radioactive materials such as Uranium, care must be "
-#~ "taken to avoid exposing outside objects to contaminants.\n"
-#~ "\n"
-#~ "Using proper transportation vessels, such as those which are lead lined, "
-#~ "is crucial to ensuring that Duplicants avoid Radiation Sickness."
-#~ msgstr ""
-#~ "當運輸鈾等放射性材料時必須小心，不要將外部物體暴露在其中\n"
-#~ "\n"
-#~ "使用正確的運輸容器，比如用鉛做內襯的容器，是使複製人得以避免輻射病的關鍵"
-
-#~ msgctxt "STRINGS.CODEX.RADIATION.PARAGRAPH_2"
-#~ msgid ""
-#~ "Duplicants who are exposed to Radioactive Contaminants will need to wear "
-#~ "protection or they risk coming down with radiation sickness.\n"
-#~ "\n"
-#~ "Some Duplicants will have more of a natural resistance to radiation but "
-#~ "prolonged exposure to radioactive contaminants will still increase their "
-#~ "chances of becoming sick.\n"
-#~ "\n"
-#~ "Consuming Iodine Supplements and Seafood will pro-actively increase a "
-#~ "Duplicant's radiation resistance, but will not cure a Duplicant's "
-#~ "Radiation Sickness once they have become infected.\n"
-#~ "\n"
-#~ msgstr ""
-#~ "暴露在放射性污染物的複製人需要穿戴防護設備，否則他們就會患輻射病\n"
-#~ "\n"
-#~ "一些複製人與生俱來抗輻射的能力，但長時間暴露於放射性污染物仍會增加他們生病"
-#~ "的機會\n"
-#~ "\n"
-#~ "食用碘增補劑和海鮮可以提前提高複製人的輻射抗性，但並不會治療已經得輻射病的"
-#~ "複製人\n"
-#~ "\n"
-
-#~ msgctxt "STRINGS.CODEX.RADIATION.PARAGRAPH_3"
-#~ msgid ""
-#~ "A Nuclear Reactor will require Enriched Uranium to run. Uranium can be "
-#~ "enriched using a Uranium Centrifuge.\n"
-#~ "\n"
-#~ "Once supplied with Enriched Uranium a Nuclear Reactor will create an "
-#~ "enormous amount of heat which can then be placed under a source of water "
-#~ "to produce steam and connected to a Steam Turbine to produce a "
-#~ "considerable source of power."
-#~ msgstr ""
-#~ "核反應爐需要濃縮鈾來運轉，可以使用鈾離心機來生產濃縮鈾\n"
-#~ "\n"
-#~ "一旦核反應爐補給了濃縮鈾就會產生大量的熱，可以將其放置在水中來產生蒸汽，並"
-#~ "與蒸汽渦輪機相連來產生大量電力"
-
-#~ msgctxt "STRINGS.CODEX.RADIATION.TITLE"
-#~ msgid "<link=\"RADIATION\">Radiation</link>"
-#~ msgstr "<link=\"RADIATION\">輻射</link>"
-
-#~ msgctxt "STRINGS.CREATURES.SPECIES.OILSPOUT.DESC"
-#~ msgid "A rocky vent that spouts crude oil."
-#~ msgstr "噴出原油的岩石縫隙"
-
-#~ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.INCUBATIONDELTA.DESC"
-#~ msgid ""
-#~ msgstr " "
-
-#~ msgctxt "STRINGS.DUPLICANTS.CHORES.JOYREACTION.TOOLTIP"
-#~ msgid ""
-#~ "This Duplicant is doing something because they are <style=\"KKeyword"
-#~ "\">Overjoyed</style>"
-#~ msgstr ""
-#~ "因為這名複製人正處於<style=\"KKeyword\">雀躍</style>狀態，所以會做一些特別"
-#~ "的事情"
-
-#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.COUGHING.NAME"
-#~ msgid "Coughing"
-#~ msgstr "咳嗽"
-
-#~ msgctxt "STRINGS.ELEMENTS.IRONINGOT.DESC"
-#~ msgid "(Fe) Iron is refined <link=\"IRONORE\">Iron Ore</link>."
-#~ msgstr "(Fe) 鐵是精煉後的<link=\"IRONORE\">鐵礦</link>"
-
-#~ msgctxt "STRINGS.ELEMENTS.SALTGAS.NAME"
-#~ msgid "<link=\"SALTGAS\">Salt Gas</link>"
-#~ msgstr "<link=\"SALTGAS\">氣態鹽</link>"
-
-#~ msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSPAWNMINIONATMOSUIT"
-#~ msgid "Debug Spawn Minion with Atmo Suit"
-#~ msgstr "調試產生穿著氣壓服的複製人"
-
-#~ msgctxt "STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXCRITTER"
-#~ msgid "Sandbox Remove Critters"
-#~ msgstr "沙箱移除小動物"
-
-#~ msgctxt "STRINGS.MISC.NOTIFICATIONS.SKILL_POINT_EARNED.NAME"
-#~ msgid "Skill point earned"
-#~ msgstr "已獲得技能點"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.NEIGHBORSBLOCKED.NAME"
-#~ msgid "Bleachstone blocked"
-#~ msgstr "漂白石受阻"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.NEIGHBORSBLOCKED.TOOLTIP"
-#~ msgid ""
-#~ "This <link=\"BLEACHSTONE\">Bleachstone</link> deposit is not exposed to "
-#~ "air and cannot emit <link=\"CHLORINE\">Chlorine</link>"
-#~ msgstr ""
-#~ "這塊<link=\"BLEACHSTONE\">漂白石</link>未暴露在空氣中，不能排放<link="
-#~ "\"CHLORINE\">氯氣</link>"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.OVERPRESSURE.NAME"
-#~ msgid "Inert"
-#~ msgstr "惰性"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONE.OVERPRESSURE.TOOLTIP"
-#~ msgid ""
-#~ "Environmental <style=\"KKeyword\">Gas Pressure</style> is too high for "
-#~ "this <link=\"BLEACHSTONE\">Bleachstone</link> deposit to emit <link="
-#~ "\"CHLORINE\">Chlorine</link>"
-#~ msgstr ""
-#~ "這塊<link=\"BLEACHSTONE\">漂白石</link>的環境<style=\"KKeyword\">氣壓</"
-#~ "style>太高，不能釋放<link=\"CHLORINE\">氯氣</link>"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.NAME"
-#~ msgid "{BlockedString}"
-#~ msgstr "{BlockedString}"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEBLOCKED.TOOLTIP"
-#~ msgid ""
-#~ "This <link=\"BLEACHSTONE\">Bleachstone</link> deposit has no room to emit "
-#~ "<link=\"CHLORINE\">Chlorine</link>"
-#~ msgstr ""
-#~ "這塊<link=\"BLEACHSTONE\">漂白石</link>沒有釋放<link=\"CHLORINE\">氯氣</"
-#~ "link>所需的空間"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEEMITTING.NAME"
-#~ msgid "Emitting {Element}: {FlowRate}"
-#~ msgstr "正在排放{Element}：{FlowRate}"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEEMITTING.TOOLTIP"
-#~ msgid ""
-#~ "Producing {Element} at a rate of <style=\"produced\">{FlowRate}</style>"
-#~ msgstr "正以<style=\"produced\">{FlowRate}</style>的速率排放{Element}"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.NAME"
-#~ msgid "Inert"
-#~ msgstr "惰性"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.TOOLTIP"
-#~ msgid ""
-#~ "Environmental <style=\"KKeyword\">Gas Pressure</style> is too high for "
-#~ "this <link=\"BLEACHSTONE\">Bleachstone</link> deposit to emit <link="
-#~ "\"CHLORINE\">Chlorine</link>"
-#~ msgstr ""
-#~ "這塊<link=\"BLEACHSTONE\">漂白石</link>的環境<style=\"KKeyword\">氣壓</"
-#~ "style>太高，不能釋放<link=\"CHLORINE\">氯氣</link>"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCK.NEIGHBORSBLOCKED.NAME"
-#~ msgid "Oxylite blocked"
-#~ msgstr "氧石受阻"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCK.NEIGHBORSBLOCKED.TOOLTIP"
-#~ msgid ""
-#~ "This <link=\"OXYROCK\">Oxylite</link> deposit is not exposed to air and "
-#~ "cannot emit <link=\"OXYGEN\">Oxygen</link>"
-#~ msgstr ""
-#~ "這塊<link=\"OXYROCK\">氧石</link>未暴露在空氣中，不能排放<link=\"OXYGEN\">"
-#~ "氧氣</link>"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCK.OVERPRESSURE.NAME"
-#~ msgid "Inert"
-#~ msgstr "惰性"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCK.OVERPRESSURE.TOOLTIP"
-#~ msgid ""
-#~ "Environmental <style=\"KKeyword\">Gas Pressure</style> is too high for "
-#~ "this <link=\"OXYROCK\">Oxylite</link> deposit to emit <link=\"OXYGEN"
-#~ "\">Oxygen</link>"
-#~ msgstr ""
-#~ "這塊<link=\"OXYROCK\">氧石</link>的環境<style=\"KKeyword\">氣壓</style>太"
-#~ "高，不能排放<link=\"OXYGEN\">氧氣</link>"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCKBLOCKED.NAME"
-#~ msgid "{BlockedString}"
-#~ msgstr "{BlockedString}"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCKBLOCKED.TOOLTIP"
-#~ msgid ""
-#~ "This <link=\"OXYROCK\">Oxylite</link> deposit has no room to emit <link="
-#~ "\"OXYGEN\">Oxygen</link>"
-#~ msgstr ""
-#~ "這塊<link=\"OXYROCK\">氧石</link>沒有排放<link=\"OXYGEN\">氧氣</link>所需"
-#~ "的空間"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCKEMITTING.NAME"
-#~ msgid "Emitting <link=\"OXYGEN\">Oxygen</link>: {FlowRate}"
-#~ msgstr "正在排放<link=\"OXYGEN\">氧氣</link>：{FlowRate}"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCKEMITTING.TOOLTIP"
-#~ msgid ""
-#~ "Producing <link=\"OXYGEN\">Oxygen</link> at a rate of <style=\"produced"
-#~ "\">{FlowRate}</style>"
-#~ msgstr ""
-#~ "正以<style=\"produced\">{FlowRate}</style>的速率排放<link=\"OXYGEN\">氧氣"
-#~ "</link>"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCKINACTIVE.NAME"
-#~ msgid "Inert"
-#~ msgstr "惰性"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCKINACTIVE.TOOLTIP"
-#~ msgid ""
-#~ "Environmental <style=\"KKeyword\">Gas Pressure</style> is too high for "
-#~ "this <link=\"OXYROCK\">Oxylite</link> deposit to emit <link=\"OXYGEN"
-#~ "\">Oxygen</link>"
-#~ msgstr ""
-#~ "這塊<link=\"OXYROCK\">氧石</link>的環境<style=\"KKeyword\">氣壓</style>太"
-#~ "高，不能排放<link=\"OXYGEN\">氧氣</link>"
-
-#~ msgctxt "STRINGS.NAMEGEN.WORLD.NO_DUPES_ON_PLANET_TOOLTIP"
-#~ msgid ""
-#~ "There are no Duplicants on this <style=\"KKeyword\">Planetoid</style>"
-#~ msgstr "沒有複製人在這顆<style=\"KKeyword\">星球</style>上"
-
-#~ msgctxt "STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.DESC"
-#~ msgid "Something is blocking this robot from reaching its base station"
-#~ msgstr "有障礙阻擋了這台機器人回到它的基站"
-
-#~ msgctxt "STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.TOOLTIP"
-#~ msgid "Something is blocking this robot from reaching its base station"
-#~ msgstr "有障礙阻擋了這台機器人回到它的基站"
-
-#~ msgctxt "STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.DESC"
-#~ msgid "This robot is unloading its storage"
-#~ msgstr "這台機器人正在清空它的垃圾箱"
-
-#~ msgctxt "STRINGS.ROBOTS.STATUSITEMS.UNLOADINGSTORAGE.TOOLTIP"
-#~ msgid "This robot unloading its storage"
-#~ msgstr "這台機器人正在清空它的垃圾箱"
-
-#~ msgctxt "STRINGS.ROBOTS.STATUSITEMS.WORKING.DESC"
-#~ msgid "This robot is working diligently"
-#~ msgstr "這台機器人正在努力工作"
-
-#~ msgctxt "STRINGS.ROBOTS.STATUSITEMS.WORKING.TOOLTIP"
-#~ msgid "This robot is working diligently"
-#~ msgstr "這台機器人正在努力工作"
-
-#~ msgctxt "STRINGS.UI.CLUSTERMAP.PLANETOID_KEYWORD"
-#~ msgid "<style=\"KKeyword\">Planetoid</style>"
-#~ msgstr "<style=\"KKeyword\">星球</style>"
-
-#~ msgctxt "STRINGS.UI.ENDOFDAYREPORT.CHORE_STATUS.POSITIVE_TOOLTIP"
-#~ msgid "My Duplicants have errands outstanding {0}"
-#~ msgstr "我的複製人有 {0} 件未完成的任務"
-
-#~ msgctxt ""
-#~ "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_FLATULENCE.POSITIVE_TOOLTIP"
-#~ msgid ""
-#~ "My colony generated {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
-#~ "link> over the course of the day"
-#~ msgstr ""
-#~ "我的殖民地在一天中產生了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
-
-#~ msgctxt ""
-#~ "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_SUBLIMATION.POSITIVE_TOOLTIP"
-#~ msgid ""
-#~ "My colony generated {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
-#~ "link> over the course of the day"
-#~ msgstr ""
-#~ "我的殖民地在一天中產生了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
-
-#~ msgctxt ""
-#~ "STRINGS.UI.ENDOFDAYREPORT.CONTAMINATED_OXYGEN_TOILET.POSITIVE_TOOLTIP"
-#~ msgid ""
-#~ "My colony generated {0} of <link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</"
-#~ "link> over the course of the day"
-#~ msgstr ""
-#~ "我的殖民地在一天中產生了 {0} 的<link=\"CONTAMINATEDOXYGEN\">污染氧</link>"
-
-#~ msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.NEGATIVE_TOOLTIP"
-#~ msgid "{0} Duplicant(s) were cured of a <link=\"DISEASE\">Disease</link>"
-#~ msgstr "{0} 名複製人的<link=\"DISEASE\">疾病</link>被治癒了"
-
-#~ msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_ADDED.POSITIVE_TOOLTIP"
-#~ msgid "{0} Duplicant(s) contracted a <link=\"DISEASE\">Disease</link>"
-#~ msgstr "{0} 名複製人感染了<link=\"DISEASE\">疾病</link>"
-
-#~ msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.TOOLTIP"
-#~ msgid "My Duplicants are covered in {0}"
-#~ msgstr "我的複製人身上佈滿了{0}"
-
-#~ msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NEGATIVE_TOOLTIP"
-#~ msgid ""
-#~ "My colony consumed {0} of <link=\"POWER\">Power</link> over the course of "
-#~ "the day"
-#~ msgstr "我的殖民地在一天中消耗了 {0} 的<link=\"POWER\">電力</link>"
-
-#~ msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.POSITIVE_TOOLTIP"
-#~ msgid ""
-#~ "My colony generated {0} of <link=\"OXYGEN\">Oxygen</link> over the course "
-#~ "of the day"
-#~ msgstr "我的殖民地在一天中產生了 {0} 的<link=\"OXYGEN\">氧氣</link>"
-
-#~ msgctxt "STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.NEGATIVE_TOOLTIP"
-#~ msgid ""
-#~ "My colony's total <link=\"STRESS\">Stress</link> has decreased by {0}"
-#~ msgstr "我的殖民地總共減少了 {0} 的<link=\"STRESS\">壓力</link>"
-
-#~ msgctxt "STRINGS.UI.ENDOFDAYREPORT.STRESS_DELTA.POSITIVE_TOOLTIP"
-#~ msgid ""
-#~ "My colony's total <link=\"STRESS\">Stress</link> has increased by {0}"
-#~ msgstr "我的殖民地總共增加了 {0} 的<link=\"STRESS\">壓力</link>"
-
-#~ msgctxt "STRINGS.UI.ENDOFDAYREPORT.WORK_TIME.POSITIVE_TOOLTIP"
-#~ msgid "On average, my Duplicants spent {0} of their time working"
-#~ msgstr "我的複製人平均花費了 {0} 的時間在工作"
-
-#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
-#~ msgid "RE-ROCKETRY UPDATE!"
-#~ msgstr "火箭重製更新！"
-
-#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
-#~ msgid ""
-#~ "<b>Re-Rocketry Update</b>\n"
-#~ "\n"
-#~ "Added <i>Spaced Out!</i> versions of many rocket modules from the base "
-#~ "game as well as a new type of Petroleum engine.\n"
-#~ "\n"
-#~ "Added a durability system to suits and revised Oxygen masks to behave "
-#~ "more like Atmo Suits.\n"
-#~ "\n"
-#~ "Plenty of bug fixes and balance changes.\n"
-#~ "\n"
-#~ "Check out the full patch notes for more details"
-#~ msgstr ""
-#~ "<b>火箭重製更新</b>\n"
-#~ "\n"
-#~ "在<i>Spaced Out!</i>資料片新增了許多來自遊戲主程式的火箭艙型以及新型石油引"
-#~ "擎\n"
-#~ "\n"
-#~ "為太空衣增加了耐久度系統，並改善了氧氣面罩的使用行為\n"
-#~ "\n"
-#~ "大量錯誤修復和平衡改善\n"
-#~ "\n"
-#~ "請查看完整更新說明來獲得更多資訊！"
-
-#~ msgctxt "STRINGS.UI.IMMIGRANTSCREEN.SHUFFLE_COLONY_NAME"
-#~ msgid "Randomize colony name"
-#~ msgstr "隨機產生殖民地名稱"
-
-#~ msgctxt "STRINGS.UI.TOOLTIPS.EDITCREATURENAME"
-#~ msgid "Give this lil' critter a new name"
-#~ msgstr "為這隻動物命名"
-
-#~ msgctxt "STRINGS.UI.TOOLTIPS.EDITSTORAGENAME"
-#~ msgid "Rename storage"
-#~ msgstr "重新命名儲存箱"
-
-#~ msgctxt "STRINGS.UI.TOOLTIPS.RANDOMIZECREATURENAME"
-#~ msgid "Randomize this critter's name"
-#~ msgstr "隨機命名動物"
