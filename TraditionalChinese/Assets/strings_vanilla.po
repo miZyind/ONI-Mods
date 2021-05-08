@@ -2,9 +2,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: TC VANILLA 2021.03.14\n"
+"Project-Id-Version: TC VANILLA 2021.05.09\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-03-14 02:00+0700\n"
+"PO-Revision-Date: 2021-05-09 01:00+0700\n"
 "Last-Translator: miZyind <mizyind@gmail.com>\n"
 "Language-Team: miZyind <mizyind@gmail.com>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 2.4.3\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
@@ -1232,8 +1232,8 @@ msgid ""
 "A <style=\"KKeyword\">Pipe</style> has been obstructed and is preventing "
 "<style=\"KKeyword\">Gas</style> flow to this vent"
 msgstr ""
-"由於<style=\"KKeyword\">管路</style>發生堵塞，<style=\"KKeyword\">氣體</"
-"style>無法流到這個排氣口"
+"由於<style=\"KKeyword\">管路</style>堵塞，<style=\"KKeyword\">氣體</style>無"
+"法流到這個排氣口"
 
 #. STRINGS.BUILDING.STATUSITEMS.GASVENTOVERPRESSURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GASVENTOVERPRESSURE.NAME"
@@ -1447,7 +1447,7 @@ msgid ""
 "style>"
 msgstr ""
 "粒子發射器接收<b><style=\"logic_on\">綠色訊號</style></b>，接收來臨的<style="
-"\"KKeyword\">發射輻射粒子</style>"
+"\"KKeyword\">輻射粒子</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.HIGHENERGYPARTICLESPAWNER.TOOLTIPS.LOGIC_CONTROLLED_STANDBY
 msgctxt ""
@@ -2984,7 +2984,7 @@ msgid ""
 "\n"
 "This launcher requires a clear path to launch payloads"
 msgstr ""
-"這個<link=\"RAILGUN\">高速發射器</link>的發射軌道上存在固體障礙物：\n"
+"這個<link=\"RAILGUN\">星際貨物發射器</link>的發射軌道上存在固體障礙物：\n"
 "    • {0}\n"
 "\n"
 "需要先清除飛行路徑上的障礙物才能發射資源"
@@ -3004,8 +3004,8 @@ msgid ""
 msgstr ""
 "這批貨物已經到達目的地，準備好卸載了\n"
 "\n"
-"可以手動將其標記以卸貨，或者建造一個<link=\"RAILGUNPAYLOADOPENER\">貨物卸載器"
-"</link>來自動卸貨"
+"可以手動將其標記以卸貨，或者建造一個<link=\"RAILGUNPAYLOADOPENER\">星際貨物卸"
+"載器</link>來自動卸貨"
 
 #. STRINGS.BUILDING.STATUSITEMS.RATIONBOXCONTENTS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RATIONBOXCONTENTS.NAME"
@@ -3348,7 +3348,7 @@ msgstr "目前狀態：正在補充燃料"
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.TOOLTIP"
 msgid "This <style=\"KKeyword\">Suit</style> is docked and refueling"
-msgstr "這件<style=\"KKeyword\">太空衣</style>正在存放櫃中補充燃料"
+msgstr "這件<style=\"KKeyword\">太空服</style>正在存放櫃中補充燃料"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.NAME"
@@ -3358,7 +3358,7 @@ msgstr "目前狀態：燃料已充滿"
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.TOOLTIP"
 msgid "This suit is fully refueled and ready for use"
-msgstr "這件太空衣已充滿燃料，可以開始使用"
+msgstr "這件太空服已充滿燃料，可以開始使用"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NEED_CONFIGURATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NEED_CONFIGURATION.NAME"
@@ -3368,7 +3368,7 @@ msgstr "目前狀態：需要配置"
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NEED_CONFIGURATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NEED_CONFIGURATION.TOOLTIP"
 msgid "Set this dock to store a suit or leave it empty"
-msgstr "設定這個存放櫃以便存放太空衣或留空"
+msgstr "設定這個存放櫃以便存放太空服或留空"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_COOLANT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_COOLANT.NAME"
@@ -3381,7 +3381,7 @@ msgid ""
 "This dock does not contain enough <link=\"WATER\">Water</link> to refill a "
 "<style=\"KKeyword\">Suit</style>"
 msgstr ""
-"這個存放櫃沒有足夠的<link=\"WATER\">水</link>來補充<style=\"KKeyword\">太空衣"
+"這個存放櫃沒有足夠的<link=\"WATER\">水</link>來補充<style=\"KKeyword\">太空服"
 "</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_FUEL.NAME
@@ -3396,7 +3396,7 @@ msgid ""
 "refill a <style=\"KKeyword\">Suit</style>"
 msgstr ""
 "這個存放櫃沒有充足的<link=\"PETROLEUM\">石油</link>來補充<style=\"KKeyword\">"
-"太空衣</style>"
+"太空服</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_OXYGEN.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_OXYGEN.NAME"
@@ -3444,7 +3444,7 @@ msgstr "目前狀態：等待運送"
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.SUIT_REQUESTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.SUIT_REQUESTED.TOOLTIP"
 msgid "Waiting for a Duplicant to deliver a <style=\"KKeyword\">Suit</style>"
-msgstr "正在等待複製人運送<style=\"KKeyword\">太空衣</style>"
+msgstr "正在等待複製人運送<style=\"KKeyword\">太空服</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER_NEEDS_CONFIGURATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER_NEEDS_CONFIGURATION.NAME"
@@ -3470,10 +3470,10 @@ msgid ""
 "When all available docks are full, Duplicants will unequip their <style="
 "\"KKeyword\">Suits</style> and drop them on the floor"
 msgstr ""
-"即使沒有空間存放<style=\"KKeyword\">太空衣</style>，穿著太空衣的複製人也可以"
+"即使沒有空間存放<style=\"KKeyword\">太空服</style>，穿著太空服的複製人也可以"
 "通過這裡\n"
 "------------------\n"
-"當所有可用存放櫃全滿時，複製人會脫下<style=\"KKeyword\">太空衣</style>，並把"
+"當所有可用存放櫃全滿時，複製人會脫下<style=\"KKeyword\">太空服</style>，並把"
 "它丟在地上"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALONLYWHENROOMAVAILABLE.NAME
@@ -3489,8 +3489,8 @@ msgid ""
 "Suited Duplicants may pass only if there is room in a <style=\"KKeyword"
 "\">Dock</style> to store their <style=\"KKeyword\">Suit</style>"
 msgstr ""
-"只有在<style=\"KKeyword\">存放櫃</style>有空間存放<style=\"KKeyword\">太空衣"
-"</style>時，穿著太空衣的複製人才會通過這裡"
+"只有在<style=\"KKeyword\">存放櫃</style>有空間存放<style=\"KKeyword\">太空服"
+"</style>時，穿著太空服的複製人才會通過這裡"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUITMARKERWRONGSIDE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUITMARKERWRONGSIDE.NAME"
@@ -4652,7 +4652,7 @@ msgstr ""
 "根據邏輯啟動參數的設定，輸出<b><style=\"logic_on\">綠色訊號</style></b>或"
 "<b><style=\"logic_off\">紅色訊號</style></b>\n"
 "\n"
-"極少電量會隨著時間流失"
+"儲存的電力會隨時間極緩慢地流失"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT"
@@ -7364,7 +7364,7 @@ msgstr ""
 "吸收附近的<link=\"RADIATION\">輻射</link>來產生<style=\"KKeyword\">輻射粒子</"
 "style>\n"
 "\n"
-"向你選擇的方向釋放產生的粒子"
+"向所選方向釋放產生的粒子"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT"
@@ -10682,12 +10682,12 @@ msgid ""
 "\n"
 "Uses the gas filters set on the linked Rocket Platform."
 msgstr ""
-"允許<link=\"ELEMENTSGAS\">氣體</link>從火箭的貨倉中裝卸\n"
+"允許<link=\"ELEMENTSGAS\">氣體</link>從火箭的貨艙中裝卸\n"
 "\n"
 "自動地與相鄰的<link=\"LAUNCHPLATFORM\">火箭平台</link>或另一個<link="
 "\"MODULARLAUNCHPADPORTSOLID\">火箭端口</link>相連\n"
 "\n"
-"可以在對應的火箭平台上使用氣體選擇項設定"
+"可以在對應的火箭平台上使用氣體篩選設定"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.NAME"
@@ -10711,12 +10711,12 @@ msgid ""
 "\n"
 "Uses the liquid filters set on the linked Rocket Platform."
 msgstr ""
-"允許<link=\"ELEMENTSLIQUID\">液體</link>從火箭的貨倉中裝卸\n"
+"允許<link=\"ELEMENTSLIQUID\">液體</link>從火箭的貨艙中裝卸\n"
 "\n"
 "自動地與相鄰的<link=\"LAUNCHPLATFORM\">火箭平台</link>或另一個<link="
 "\"MODULARLAUNCHPADPORTSOLID\">火箭端口</link>相連\n"
 "\n"
-"可以在對應的火箭平台上使用液體選擇項設定"
+"可以在對應的火箭平台上使用液體篩選設定"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.NAME"
@@ -10740,12 +10740,12 @@ msgid ""
 "\n"
 "Uses the solid material filters set on the linked Rocket Platform."
 msgstr ""
-"允許<link=\"ELEMENTSSOLID\">固體</link>從火箭的貨倉中裝卸\n"
+"允許<link=\"ELEMENTSSOLID\">固體</link>從火箭的貨艙中裝卸\n"
 "\n"
 "自動地與相鄰的<link=\"LAUNCHPLATFORM\">火箭平台</link>或另一個<link="
 "\"MODULARLAUNCHPADPORTSOLID\">火箭端口</link>相連\n"
 "\n"
-"可以在對應的火箭平台上使用固體過濾器"
+"可以在對應的火箭平台上使用固體篩選設定"
 
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.NAME"
@@ -10931,7 +10931,7 @@ msgid ""
 "Assigned Duplicants must possess the <link=\"ATOMICRESEARCHER\">Atomic "
 "Research</link> skill."
 msgstr ""
-"執行<link=\"RESEARCH\">原子研究</link>以解鎖新技術\n"
+"進行<link=\"RESEARCH\">原子研究</link>以解鎖新科技\n"
 "\n"
 "指派的複製人必須具有<link=\"ATOMICRESEARCHER\">原子研究</link>技能"
 
@@ -11037,7 +11037,7 @@ msgstr "將貨物放在還沒有<link=\"LAUNCHPLATFORM\">火箭平台</link>的�
 #. STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.NAME"
 msgid "<link=\"ORBITALCARGOMODULE\">Orbital Cargo Module</link>"
-msgstr "<link=\"ORBITALCARGOMODULE\">行星軌道貨艙</link>"
+msgstr "<link=\"ORBITALCARGOMODULE\">星軌貨艙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ORESCRUBBER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORESCRUBBER.DESC"
@@ -12050,7 +12050,7 @@ msgstr "骨骼模型"
 #. STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE1.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE1.DESC"
 msgid "All that remains of a once peacefully orbiting satellite."
-msgstr "曾經在軌道上平靜運行的衛星殘骸。"
+msgstr "曾經在軌道上平靜運行的衛星殘骸"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE1.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE1.NAME"
@@ -12060,7 +12060,7 @@ msgstr "撞毀的衛星"
 #. STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE2.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE2.DESC"
 msgid "All that remains of a once peacefully orbiting satellite."
-msgstr "曾經在軌道上平靜運行的衛星殘骸。"
+msgstr "曾經在軌道上平靜運行的衛星殘骸"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE2.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE2.NAME"
@@ -12070,7 +12070,7 @@ msgstr "失事的衛星"
 #. STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE3.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE3.DESC"
 msgid "All that remains of a once peacefully orbiting satellite."
-msgstr "曾經在軌道上平靜運行的衛星殘骸。"
+msgstr "曾經在軌道上平靜運行的衛星殘骸"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE3.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPSURFACESATELLITE3.NAME"
@@ -12100,7 +12100,7 @@ msgid ""
 "\">Particle Generator</link>."
 msgstr ""
 "<link=\"POWER\">通電</link>時釋放<link=\"RADIATION\">輻射</link>，可以被"
-"<link=\"HIGHENERGYPARTICLESPAWNER\">粒子產生器</link>收集"
+"<link=\"HIGHENERGYPARTICLESPAWNER\">粒子產生器</link>接收"
 
 #. STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.NAME"
@@ -12134,7 +12134,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.RAILGUN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUN.NAME"
 msgid "<link=\"RAILGUN\">Interplanetary Launcher</link>"
-msgstr "<link=\"RAILGUN\">星際發射器</link>"
+msgstr "<link=\"RAILGUN\">星際貨物發射器</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.DESC"
@@ -12161,7 +12161,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.NAME"
 msgid "<link=\"RAILGUNPAYLOADOPENER\">Payload Opener</link>"
-msgstr "<link=\"RAILGUNPAYLOADOPENER\">貨物卸載器</link>"
+msgstr "<link=\"RAILGUNPAYLOADOPENER\">星際貨物卸載器</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.RANCHSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.RANCHSTATION.DESC"
@@ -12952,7 +12952,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.DESC"
 msgid ""
 "Rails move materials where they'll be needed most, saving Duplicants the "
 "walk."
-msgstr "運輸軌道可以將材料運輸到最需要的地方，節省了複製人的行走時間。"
+msgstr "運輸軌道可以將材料運輸到最需要的地方，節省了複製人的行走時間"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.EFFECT"
@@ -12966,7 +12966,7 @@ msgstr ""
 "在<link=\"SOLIDCONDUITINBOX\">運輸裝載器</link>和<link=\"SOLIDCONDUITOUTBOX"
 "\">運輸存放器</link>之間的軌道上輸送<link=\"ELEMENTSSOLID\">固體原料</link>\n"
 "\n"
-"可穿過牆壁和地磚。"
+"可穿過牆壁和地磚"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.NAME"
@@ -12978,7 +12978,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITBRIDGE.DESC"
 msgid ""
 "Separating rail systems helps ensure materials go to the intended "
 "destinations."
-msgstr "分開的軌道系統有助於確保材料到達預期地點。"
+msgstr "分開的軌道系統有助於確保材料到達預期地點"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITBRIDGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITBRIDGE.EFFECT"
@@ -12989,9 +12989,9 @@ msgid ""
 "Can be run through wall and floor tile."
 msgstr ""
 "讓一段<link=\"SOLIDCONDUIT\">運輸軌道</link>可以越過另一段運輸軌道，而不用連"
-"接到一起。\n"
+"接到一起\n"
 "\n"
-"可穿過牆壁和地磚。"
+"可穿過牆壁和地磚"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITBRIDGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITBRIDGE.NAME"
@@ -13081,7 +13081,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.DESC"
 msgid ""
 "Material filters can be used to determine what resources are sent down the "
 "rail."
-msgstr "材料過濾器可用於決定哪些材料會被運到軌道上。"
+msgstr "材料過濾器可用於決定哪些材料會被運到軌道上"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.EFFECT"
@@ -13094,7 +13094,7 @@ msgstr ""
 "將<link=\"ELEMENTSSOLID\">固體原料</link>裝載到<link=\"SOLIDCONDUIT\">運輸軌"
 "道</link>上進行運輸\n"
 "\n"
-"只裝載選擇的資源。"
+"只裝載所選的資源"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.NAME"
@@ -13106,7 +13106,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITOUTBOX.DESC"
 msgid ""
 "When materials reach the end of a rail they enter a receptacle to be used by "
 "Duplicants."
-msgstr "材料到達運輸軌道的終點時，就會進入複製人即將使用的容器中。"
+msgstr "材料到達運輸軌道的終點時，就會進入複製人即將使用的容器中"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITOUTBOX.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITOUTBOX.EFFECT"
@@ -13203,7 +13203,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.DESC"
 msgid ""
 "Automated conveyors save power and time by removing the need for Duplicant "
 "input."
-msgstr "自動化軌道免去了複製人的參與，從而可以節省電力和時間。"
+msgstr "自動化軌道免去了複製人的參與，從而節省電力和時間"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.EFFECT"
@@ -13268,7 +13268,7 @@ msgstr "<link=\"SOLIDTRANSFERARM\">自動清掃器</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDVENT.DESC"
 msgid ""
 "When materials reach the end of a rail they are dropped back into the world."
-msgstr "當材料到達軌道的盡端時，它們會掉回世界。"
+msgstr "當材料到達軌道的盡端時，它們會掉回世界"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDVENT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDVENT.EFFECT"
@@ -13569,9 +13569,9 @@ msgid ""
 "The engine of a rocket must be built first before more rocket modules can be "
 "added."
 msgstr ""
-"燃燒<link=\"SUCROSE\">蔗糖</link>可推動火箭進行太空探索\n"
+"燃燒<link=\"SUCROSE\">蔗糖</link>以推動火箭進行太空探索\n"
 "\n"
-"必須首先建造火箭的引擎，然後才能安裝更多火箭艙塊"
+"必須先建造火箭引擎才能加裝更多火箭艙塊"
 
 #. STRINGS.BUILDINGS.PREFABS.SUGARENGINE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUGARENGINE.NAME"
@@ -13583,7 +13583,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.DESC"
 msgid ""
 "Exosuits can be filled with oxygen to allow Duplicants to safely enter "
 "hazardous areas."
-msgstr "複製人穿上加滿氧氣的太空衣後可進入危險區域"
+msgstr "複製人穿上加滿氧氣的太空服後可進入危險區域"
 
 #. STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.EFFECT"
@@ -19971,10 +19971,9 @@ msgid ""
 "ended up here?\n"
 "\n"
 msgstr ""
-"據我所知，我們處於這個星球表面的數百英里以下。挖通一條出去的路需要花些時"
-"間。\n"
+"據我所知，我們處於這個星球表面的數百英里以下，挖通一條出去的路需要花些時間\n"
 "\n"
-"我的複製人會活下去的，但他們活著可不是為了維持地下的生計。使我的艙到達這裡的"
+"我的複製人會活下去的，但他們活著可不是為了維持地下的生計，使我的艙到達這裡的"
 "原因到底是什麼？\n"
 "\n"
 
@@ -20062,13 +20061,13 @@ msgid ""
 "A woman with thick glasses who had a secret taste for gingersnaps.\n"
 "\n"
 msgstr ""
-"我有時會感受到過去生活的短暫閃現。\n"
+"我有時會感受到過去生活的短暫閃現\n"
 "\n"
-"辦公室的鐘發出干擾人的滴答聲。\n"
+"辦公室的鐘發出干擾人的滴答聲\n"
 "\n"
-"清潔產品和人造檸檬的強烈氣味。\n"
+"清潔產品和人造檸檬的強烈氣味\n"
 "\n"
-"帶有神秘薑餅味道的厚眼鏡女士。\n"
+"帶有神秘薑餅味道的厚眼鏡女士\n"
 "\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.LOG6.TITLE
@@ -25976,7 +25975,7 @@ msgid ""
 "Swamp Chards are incapable of propagating but can be harvested for a single "
 "high quality and calorie dense <link=\"FOOD\">Food</link> serving."
 msgstr ""
-"沼澤甜菜葉無法繁育，但可以收穫作為一次性的高熱量<link=\"FOOD\">食物</link>"
+"沼澤甜菜葉無法繁育，但可以收穫作為一次性的低熱量<link=\"FOOD\">食物</link>"
 
 #. STRINGS.CREATURES.SPECIES.SWAMPFORAGEPLANTPLANTED.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SWAMPFORAGEPLANTPLANTED.NAME"
@@ -29202,7 +29201,7 @@ msgid ""
 "Coughing is a symptom of <link=\"SLIMESICKNESS\">Slimelung</link> and "
 "spreads airborne <style=\"KKeyword\">Germs</style>"
 msgstr ""
-"咳嗽是<link=\"SLIMESICKNESS\">結核病</link>的一種症狀，並且會以空氣形式傳播"
+"咳嗽是<link=\"SLIMESICKNESS\">黏菌肺病</link>的一種症狀，並且會以空氣形式傳播"
 "<style=\"KKeyword\">病菌</style>"
 
 #. STRINGS.DUPLICANTS.CHORES.CROP_TEND.NAME
@@ -31907,12 +31906,12 @@ msgstr "輕微"
 #. STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.LEGEND_HOVERTEXT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.LEGEND_HOVERTEXT"
 msgid "Slimelung Germs present\n"
-msgstr "有結核病病菌存在\n"
+msgstr "有黏菌肺病病菌存在\n"
 
 #. STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.NAME
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.NAME"
 msgid "<link=\"SLIMELUNG\">Slimelung</link>"
-msgstr "<link=\"SLIMELUNG\">結核病</link>"
+msgstr "<link=\"SLIMELUNG\">黏菌肺病</link>"
 
 #. STRINGS.DUPLICANTS.DISEASES.SLIMESICKNESS.COUGH_SYMPTOM
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMESICKNESS.COUGH_SYMPTOM"
@@ -36005,11 +36004,13 @@ msgctxt "STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP"
 msgid ""
 "Duplicants become stressed in areas with <style=\"KKeyword\">Decor</style> "
 "lower than their expectations\n"
+"\n"
 "Open the <b>Decor Overlay</b> <b><color=#F44A4A>[F8]</b></color> to view "
 "current <style=\"KKeyword\">Decor</style> values"
 msgstr ""
 "如果周圍的<style=\"KKeyword\">裝飾</style>度低於自己的預期，複製人會感到有壓"
 "力\n"
+"\n"
 "打開<b>裝飾概覽</b><b><color=#F44A4A> [F8] </b></color>，即可查看目前<style="
 "\"KKeyword\">裝飾度</style>"
 
@@ -36623,17 +36624,17 @@ msgstr "遭受{Sickness}病菌{Severity}侵染"
 #. STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER1
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER1"
 msgid "Mild Exposure"
-msgstr "輕度侵染"
+msgstr "輕度"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER2
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER2"
 msgid "Medium Exposure"
-msgstr "中度侵染"
+msgstr "中度"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER3
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER3"
 msgid "Exposure"
-msgstr "侵染"
+msgstr "重度"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TOOLTIP"
@@ -39527,7 +39528,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.DESC"
 msgid "Eliminates the runspeed loss experienced while wearing exosuits"
-msgstr "消除穿著太空衣時行走速度的損失"
+msgstr "消除穿著太空服時行走速度的損失"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_SUITS1.NAME"
@@ -42909,10 +42910,10 @@ msgid ""
 "\n"
 "Note: Do not eat."
 msgstr ""
-"（U<sub>3</sub>O<sub>8</sub>）黃餅是一在<link=\"URANIUM\">鈾</link>開採時所產"
-"生的副產物\n"
+"(U<sub>3</sub>O<sub>8</sub>) 黃餅是一種在<link=\"URANIUM\">鈾</link>開採時所"
+"產生的副產物\n"
 "\n"
-"用於準備核反應爐的燃料\n"
+"用於供應核反應爐的燃料\n"
 "\n"
 "注意：雖然叫餅，但它不是拿來吃的"
 
@@ -42971,7 +42972,7 @@ msgstr ""
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.GENERICNAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.GENERICNAME"
 msgid "Suit"
-msgstr "太空衣"
+msgstr "太空服"
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.NAME"
@@ -43156,7 +43157,7 @@ msgstr "<link=\"JETSUIT\">磨損的噴氣服</link>"
 #. STRINGS.EQUIPMENT.PREFABS.LEAD_SUIT.BATTERY_EFFECT_NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.LEAD_SUIT.BATTERY_EFFECT_NAME"
 msgid "Suit Battery"
-msgstr "太空衣電池"
+msgstr "太空服電池"
 
 #. STRINGS.EQUIPMENT.PREFABS.LEAD_SUIT.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.LEAD_SUIT.DESC"
@@ -43197,7 +43198,7 @@ msgid ""
 msgstr ""
 "在有毒和難以呼吸的環境中為複製人供給<link=\"OXYGEN\">氧氣</link>\n"
 "\n"
-"保護複製人免於輻射"
+"保護複製人免受輻射影響"
 
 #. STRINGS.EQUIPMENT.PREFABS.LEAD_SUIT.SUIT_OUT_OF_BATTERIES
 msgctxt "STRINGS.EQUIPMENT.PREFABS.LEAD_SUIT.SUIT_OUT_OF_BATTERIES"
@@ -43238,7 +43239,7 @@ msgstr ""
 #. STRINGS.EQUIPMENT.PREFABS.OXYGEN_MASK.GENERICNAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_MASK.GENERICNAME"
 msgid "Suit"
-msgstr "太空衣"
+msgstr "太空服"
 
 #. STRINGS.EQUIPMENT.PREFABS.OXYGEN_MASK.NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.OXYGEN_MASK.NAME"
@@ -46560,13 +46561,13 @@ msgid ""
 "link> that can be largely redirected using a <link=\"PARTICLEREFLECTOR"
 "\">Particle Reflector</link>."
 msgstr ""
-"一種<link=\"HIGHENERGYPARTICLES\">高能粒子</link>的集中場，可以使用<link="
-"\"PARTICLEREFLECTOR\">粒子反射器</link>重新導向"
+"一種<link=\"HIGHENERGYPARTICLES\">輻射粒子</link>的集中場，可以使用<link="
+"\"PARTICLEREFLECTOR\">粒子重導器</link>重新導向"
 
 #. STRINGS.ITEMS.RADIATION.HIGHENERGYPARITCLE.NAME
 msgctxt "STRINGS.ITEMS.RADIATION.HIGHENERGYPARITCLE.NAME"
 msgid "High Energy Particles"
-msgstr "高能粒子"
+msgstr "輻射粒子"
 
 #. STRINGS.ITEMS.RAILGUNPAYLOAD.DESC
 msgctxt "STRINGS.ITEMS.RAILGUNPAYLOAD.DESC"
@@ -46578,8 +46579,8 @@ msgid ""
 msgstr ""
 "含有用於星際運輸的資源包裹\n"
 "\n"
-"可由<link=\"RAILGUN\">星際發射器</link>發射，或者由<link="
-"\"RAILGUNPAYLOADOPENER\">貨物卸載器</link>卸貨"
+"可由<link=\"RAILGUN\">星際貨物發射器</link>發射，或者由<link="
+"\"RAILGUNPAYLOADOPENER\">星際貨物卸載器</link>卸貨"
 
 #. STRINGS.ITEMS.RAILGUNPAYLOAD.NAME
 msgctxt "STRINGS.ITEMS.RAILGUNPAYLOAD.NAME"
@@ -47664,7 +47665,7 @@ msgid ""
 "the colony will have to be improved to keep up their Morale. An overview of "
 "Morale and Stress can be viewed on the Vitals screen."
 msgstr ""
-"複製人吃的食物、住的房間、週圍的裝飾以及開展的娛樂活動都會影響他們的士氣。好"
+"複製人吃的食物、住的房間、周圍的裝飾以及開展的娛樂活動都會影響他們的士氣。好"
 "的體驗會提升士氣，而差的體驗則會降低士氣。一旦士氣降至他們的期望值以下，複製"
 "人便會感到壓力\n"
 "\n"
@@ -47873,7 +47874,7 @@ msgid ""
 "building through piping from the Output Pipe. The water can then be expelled "
 "through Liquid Vent or filtered through a Liquid Filter and reused."
 msgstr ""
-"連接水管時最好使用水利概覽 <b><color=#F44A4A>[F6]</b></color> ，每個需要水管"
+"連接管路時盡量搭配水利概覽 <b><color=#F44A4A>[F6]</b></color> ，每個需要水管"
 "連接的建築必須讓它們的建築輸入口連接到浸沒在水中並通電的水泵的輸出管路口\n"
 "\n"
 "使用過的水會被汙染，且必須透過輸出管路口流出，輸出的水可以透過排水口排出，或"
@@ -47965,11 +47966,11 @@ msgid ""
 "radiation emitters will dampen the field and protect my Duplicants from "
 "getting <link=\"RADIATIONSICKNESS\">Radiation Sickness</link> ."
 msgstr ""
-"像<link=\"URANIUMORE\">鈾礦</link>和<link=\"BEE\">輻射蜂巢</link>等物體會釋放"
-"<link=\"RADIOACTIVE\">放射性</link>能量，這種能量對我的複製人來說是有毒性的\n"
+"<link=\"URANIUMORE\">鈾礦</link>和<link=\"BEE\">輻射蜂巢</link>會釋放<link="
+"\"RADIOACTIVE\">放射性</link>能量，這種能量對我的複製人來說是有毒性的\n"
 "\n"
-"我可以使用輻射概覽<b><color=#F44A4A> [L-SHIFT + F4] </b></color>來查看輻射場"
-"的範圍。在輻射釋放源週圍建立厚牆可以抑制輻射場，並避免我的複製人患得<link="
+"我可以使用輻射概覽 <b><color=#F44A4A>[L-SHIFT + F4]</b></color> 來查看輻射場"
+"的範圍。在輻射釋放源周圍建立厚牆可以抑制輻射場，以避免我的複製人患得<link="
 "\"RADIATIONSICKNESS\">輻射病</link>"
 
 #. STRINGS.MISC.NOTIFICATIONS.RADIATION.NAME
@@ -48926,7 +48927,7 @@ msgstr "耐久度：{durability}"
 #. STRINGS.MISC.STATUSITEMS.STOREDITEMDURABILITY.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.STOREDITEMDURABILITY.TOOLTIP"
 msgid "The suit will stop functioning when it reaches 0% durability."
-msgstr "這件太空衣​服的耐久度達到 0% 時就無法再使用了"
+msgstr "這件太空服​服的耐久度達到 0% 時就無法再使用了"
 
 #. STRINGS.MISC.STATUSITEMS.STUDIED.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.STUDIED.NAME"
@@ -52414,10 +52415,10 @@ msgid ""
 "Duplicant the <link=\"ADVANCEDRESEARCH\">Advanced Research</link> Skill to "
 "use this building"
 msgstr ""
-"所選的科技需要進行一種<style=\"KKeyword\">進階研究</style>\n"
+"所選的科技需要進行<style=\"KKeyword\">進階研究</style>\n"
 "\n"
-"打開<b>技能面板</b> <b><color=#F44A4A>[L]</b></color> 並讓一名複製人學習"
-"<link=\"ADVANCEDRESEARCH\">進階研究</link>技能來使用這個建築"
+"打開<b>技能面板</b> <b><color=#F44A4A>[L]</b></color> 並教導一名複製人<link="
+"\"ADVANCEDRESEARCH\">進階研究</link>技能來使用這個建築"
 
 #. STRINGS.RESEARCH.MESSAGING.NORESEARCHSELECTED
 msgctxt "STRINGS.RESEARCH.MESSAGING.NORESEARCHSELECTED"
@@ -52805,7 +52806,7 @@ msgstr "<link=\"DUPETRAFFICCONTROL\">訊息處理</link>"
 #. STRINGS.RESEARCH.TECHS.DURABLELIFESUPPORT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.DURABLELIFESUPPORT.DESC"
 msgid "Improved construction will allow extended missions into space."
-msgstr "改進的結構將可擴展太空任務"
+msgstr "改進的設備將可拓展太空任務"
 
 #. STRINGS.RESEARCH.TECHS.DURABLELIFESUPPORT.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.DURABLELIFESUPPORT.NAME"
@@ -55321,7 +55322,7 @@ msgstr "<link=\"BUILDCATEGORYHEP\">輻射</link>"
 #. STRINGS.UI.BUILDCATEGORIES.HEP.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.HEP.TOOLTIP"
 msgid "Only the highest energy particles here. {Hotkey}"
-msgstr "這裡只有輻射粒子 {Hotkey}"
+msgstr "這裡的東西能讓事情變得危險 {Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.HVAC.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.HVAC.NAME"
@@ -67031,17 +67032,17 @@ msgstr "不接近任何狀態變化"
 #. STRINGS.UI.OVERLAYS.SUIT.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.SUIT.BUTTON"
 msgid "Exosuit Overlay"
-msgstr "太空衣概覽"
+msgstr "太空服概覽"
 
 #. STRINGS.UI.OVERLAYS.SUIT.NAME
 msgctxt "STRINGS.UI.OVERLAYS.SUIT.NAME"
 msgid "EXOSUIT OVERLAY"
-msgstr "太空衣概覽"
+msgstr "太空服概覽"
 
 #. STRINGS.UI.OVERLAYS.SUIT.SUIT_ICON
 msgctxt "STRINGS.UI.OVERLAYS.SUIT.SUIT_ICON"
 msgid "Exosuit"
-msgstr "太空衣"
+msgstr "太空服"
 
 #. STRINGS.UI.OVERLAYS.SUIT.SUIT_ICON_TOOLTIP
 msgctxt "STRINGS.UI.OVERLAYS.SUIT.SUIT_ICON_TOOLTIP"
@@ -67049,8 +67050,8 @@ msgid ""
 "<b>Exosuit</b>\n"
 "Highlights the current location of equippable exosuits"
 msgstr ""
-"<b>太空衣</b>\n"
-"突出顯示可裝備的太空衣位置"
+"<b>太空服</b>\n"
+"突出顯示可裝備的太空服位置"
 
 #. STRINGS.UI.OVERLAYS.TEMPERATURE.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.BUTTON"
@@ -68178,7 +68179,7 @@ msgid ""
 msgstr ""
 "建造一個<style=\"KKeyword\">列印艙</style>來解鎖這個選單\n"
 "------------------\n"
-"<link=\"HEADQUARTERS\">列印艙</link>可在可在建造選單的<b>基地欄</"
+"<style=\"KKeyword\">列印艙</style>可在可在建造選單的<b>基地欄</"
 "b><b><color=#F44A4A> [0] </b></color>中找到"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.ADVANCED_RESEARCH.DESCRIPTION
@@ -68317,7 +68318,7 @@ msgstr "<link=\"SOLIDCONDUIT\">運輸軌道系統</link>的建造"
 #. STRINGS.UI.ROLES_SCREEN.PERKS.EXOSUIT_EXPERTISE.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.EXOSUIT_EXPERTISE.DESCRIPTION"
 msgid "<link=\"EXOSUIT\">Exosuit</link> Penalty Reduction"
-msgstr "<link=\"EXOSUIT\">太空衣</link>速度懲罰減輕"
+msgstr "<link=\"EXOSUIT\">太空服</link>速度懲罰減輕"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.INTERSTELLAR_RESEARCH.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.INTERSTELLAR_RESEARCH.DESCRIPTION"
@@ -69673,7 +69674,7 @@ msgstr "一種能產生小型護盾的機器原型"
 #. STRINGS.UI.SPACEARTIFACTS.SHIELDGENERATOR.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SHIELDGENERATOR.NAME"
 msgid "Shield Generator"
-msgstr "護盾發生器"
+msgstr "護盾產生器"
 
 #. STRINGS.UI.SPACEARTIFACTS.SINK.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SINK.DESCRIPTION"
@@ -72602,7 +72603,7 @@ msgstr "壓力面板詳細顯示了影響複製人心理狀態的因素"
 #. STRINGS.UI.TOOLTIPS.SUITOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.SUITOVERLAYSTRING"
 msgid "Displays Exosuits and related buildings {Hotkey}"
-msgstr "顯示太空衣及相關建築 {Hotkey}"
+msgstr "顯示太空服及相關建築 {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.TEMPERATUREOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.TEMPERATUREOVERLAYSTRING"
@@ -73580,7 +73581,7 @@ msgstr "燃料罐（{0}）"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.LEADSUIT_BATTERY"
 msgid "Suit Battery ({0})"
-msgstr "太空衣電池（{0}）"
+msgstr "太空服電池（{0}）"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.OXYGEN_TANK
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.EFFECTS.OXYGEN_TANK"
@@ -75276,23 +75277,23 @@ msgstr "取消要求"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_CANCEL_REQUEST_TOOLTIP"
 msgid "Cancel this suit delivery"
-msgstr "取消太空衣運送"
+msgstr "取消太空服運送"
 
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_DROP_SUIT
 msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_DROP_SUIT"
 msgid "Undock Suit"
-msgstr "移除太空衣"
+msgstr "移除太空服"
 
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_DROP_SUIT_NO_SUIT_TOOLTIP
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_DROP_SUIT_NO_SUIT_TOOLTIP"
 msgid "There is no suit in this building to undock"
-msgstr "這個建築中沒有要取消存放的太空衣"
+msgstr "這個建築中沒有要取消存放的太空服"
 
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_DROP_SUIT_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_DROP_SUIT_TOOLTIP"
 msgid "Disconnect this suit, dropping it on the ground"
-msgstr "脫下太空衣，將它放到地上"
+msgstr "脫下太空服，將它放到地上"
 
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_NO_SUIT
 msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_NO_SUIT"
@@ -75303,18 +75304,18 @@ msgstr "留空"
 msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_NO_SUIT_TOOLTIP"
 msgid ""
 "The next suited Duplicant to pass by will unequip their suit and dock it here"
-msgstr "下一名穿著太空衣的複製人在經過時，會脫下太空衣，並把它存放在這裡"
+msgstr "下一名穿著太空服的複製人在經過時，會脫下太空服，並把它存放在這裡"
 
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_REQUEST_SUIT
 msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_REQUEST_SUIT"
 msgid "Deliver Suit"
-msgstr "運送太空衣"
+msgstr "運送太空服"
 
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_REQUEST_SUIT_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIG_REQUEST_SUIT_TOOLTIP"
 msgid ""
 "Duplicants will immediately deliver and dock the nearest unequipped suit"
-msgstr "複製人會立即運送並存放最近沒有裝備的太空衣"
+msgstr "複製人會立即運送並存放最近沒有裝備的太空服"
 
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIGURATION_REQUIRED
 msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIGURATION_REQUIRED"
@@ -76077,7 +76078,7 @@ msgstr "/秒"
 #. STRINGS.UI.UNITSUFFIXES.RADIATION.RADS
 msgctxt "STRINGS.UI.UNITSUFFIXES.RADIATION.RADS"
 msgid " rads"
-msgstr "拉德"
+msgstr " 拉德"
 
 #. STRINGS.UI.UNITSUFFIXES.ROCKET_MISSIONS
 msgctxt "STRINGS.UI.UNITSUFFIXES.ROCKET_MISSIONS"
@@ -77069,9 +77070,9 @@ msgid ""
 "When all available docks are full, Duplicants will unequip their suits and "
 "drop them on the floor"
 msgstr ""
-"即使沒有空間存放太空衣，穿著太空衣的複製人也可能會通過這裡\n"
+"即使沒有空間存放太空服，穿著太空服的複製人也可能會通過這裡\n"
 "—————————\n"
-"當所有可用存放櫃全滿時，複製人會脫下太空衣，並把它丟在地上"
+"當所有可用存放櫃全滿時，複製人會脫下太空服，並把它丟在地上"
 
 #. STRINGS.UI.USERMENUACTIONS.SUIT_MARKER_TRAVERSAL.ONLY_WHEN_ROOM_AVAILABLE.NAME
 msgctxt ""
@@ -77087,7 +77088,7 @@ msgctxt ""
 msgid ""
 "Suited Duplicants may only pass if there is an available dock to store their "
 "suit"
-msgstr "只有在存放櫃有空間存放太空衣時，穿著太空衣的複製人才會通過這裡"
+msgstr "只有在存放櫃有空間存放太空服時，穿著太空服的複製人才會通過這裡"
 
 #. STRINGS.UI.USERMENUACTIONS.TAGFILTER.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.TAGFILTER.NAME"
