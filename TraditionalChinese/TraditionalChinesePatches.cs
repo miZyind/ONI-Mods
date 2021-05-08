@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -58,6 +58,14 @@ namespace miZyind.TraditionalChinese
                 }
 
                 AssetBundle.UnloadAllAssetBundles(false);
+
+                // Hotfix Exposure Tiers
+                STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER1 = "輕度";
+                STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER2 = "中度";
+                STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER3 = "重度";
+                typeof(STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS)
+                    .GetField("EXPOSURE_TIERS")
+                    .SetValue(null, new LocString[] { "輕度", "中度", "重度" });
             }
         }
 
