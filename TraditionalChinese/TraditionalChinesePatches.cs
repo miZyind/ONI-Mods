@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -152,13 +152,14 @@ namespace miZyind.TraditionalChinese
                 var path = MotdLocalPath.GetValue(__instance, null);
                 var localMotd = GetLocalMotd.Invoke(__instance, new object[] { path }) as Resp;
 
-                localMotd.image_header_text = "完全「輻」化更新";
+                localMotd.image_header_text = "「大星球」更新";
                 localMotd.news_header_text = "參與討論";
                 localMotd.news_body_text = "訂閱我們的通知郵件\n以隨時掌握最新資訊\n或到論壇直接參與討論！";
                 localMotd.patch_notes_summary =
-                    "<b>2021 年 3 月之完全「輻」化更新</b>\n\n" +
-                    "• 在《Spaced Out!》資料片新增了輻射系統以及相關疾病\n" +
-                    "• 輻射蜂與新的研究型反應爐可為原子對撞機供應核研究之所需\n\n" +
+                    "<b>2021 年 4 月之「大星球」更新</b>\n\n" +
+                    "• 新增了一個更大、包含更多内容的宇宙場景和《Spaced Out!》風格的森林星團\n" +
+                    "• 重新平衡了火箭，使之更容易隨心所欲地進行太空旅行\n" +
+                    "• 問題修復、動畫更新，以及更多\n\n" +
                     "請查看完整更新說明來獲得更多資訊！";
 
                 cb(localMotd, null);
