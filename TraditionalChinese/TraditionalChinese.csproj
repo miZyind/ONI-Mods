@@ -15,6 +15,11 @@
     <InformationalVersion>$(Version)</InformationalVersion>
     <Description>Adds Traditional Chinese translaction and font.</Description>
     <Product>TraditionalChinese</Product>
+    <!-- Mod Info -->
+    <UseArchivedVersions>true</UseArchivedVersions>
+    <SupportedContent>VANILLA_ID,EXPANSION1_ID</SupportedContent>
+    <MinimumSupportedBuild>469287</MinimumSupportedBuild>
+    <APIVersion>2</APIVersion>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Assets\font" />
