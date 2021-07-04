@@ -16,6 +16,7 @@
     <Description>Adds Traditional Chinese translation and font.</Description>
     <Product>TraditionalChinese</Product>
     <!-- Mod Info -->
+    <Title>正體中文字體用語翻譯包</Title>
     <SupportedContent>VANILLA_ID,EXPANSION1_ID</SupportedContent>
     <MinimumSupportedBuild>469473</MinimumSupportedBuild>
     <APIVersion>2</APIVersion>

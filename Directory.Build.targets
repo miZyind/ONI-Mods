@@ -29,7 +29,7 @@ version: $(Version)
 APIVersion: $(APIVersion)
     </ModInfo>
     <ModYAML>
-title: "$(AssemblyTitle)"
+title: "$(Title)"
 description: "$(Description)"
 staticID: miZyind.$(AssemblyName)
     </ModYAML>
