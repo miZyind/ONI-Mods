@@ -67261,7 +67261,7 @@ msgstr "啟用資料片"
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_DESC
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_DESC"
 msgid "The game will need to restart in order to activate <i>Spaced Out!</i>"
-msgstr "遊戲將需要重新啟動以啟動《Spaced Out!》資料片"
+msgstr "遊戲將需要重新啟動以套用《Spaced Out!》資料片"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1"
@@ -67273,7 +67273,7 @@ msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC"
 msgid ""
 "The game will need to restart in order to activate the <i>Oxygen Not "
 "Included</i> base game."
-msgstr "遊戲將需要重新啟動以啟動<i>缺氧</i>主程式"
+msgstr "遊戲將需要重新啟動以套用<i>缺氧</i>主程式"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.LOADGAME
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.LOADGAME"
