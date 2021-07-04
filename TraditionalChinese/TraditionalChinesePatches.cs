@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using Harmony;
-using PeterHan.PLib;
+using HarmonyLib;
+using PeterHan.PLib.Core;
 using PeterHan.PLib.UI;
 using TMPro;
 using UnityEngine;
@@ -14,11 +14,38 @@ namespace miZyind.TraditionalChinese
     using CB = Action<MotdServerClient.MotdResponse, string>;
     using Resp = MotdServerClient.MotdResponse;
 
-    public static class TraditionalChinesePatches
+    public class TraditionalChinesePatches : KMod.UserMod2
     {
         private const string fn = "NotoSansCJKtc-Regular";
         private static readonly string ns = MethodBase.GetCurrentMethod().DeclaringType.Namespace;
         private static TMP_FontAsset font;
+
+        public override void OnLoad(Harmony harmony)
+        {
+            harmony.PatchAll();
+            PUtil.InitLibrary();
+
+            using (var stream = GetResourceStream("font"))
+            {
+                var loadedFont = AssetBundle.LoadFromStream(stream).LoadAsset<TMP_FontAsset>(fn);
+
+                loadedFont.material.SetFloat(ShaderUtilities.ID_WeightBold, 0.3f);
+
+                TMP_Settings.fallbackFontAssets.Add(loadedFont);
+
+                font = loadedFont;
+            }
+
+            AssetBundle.UnloadAllAssetBundles(false);
+
+            // Hotfix Exposure Tiers
+            STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER1 = "輕度";
+            STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER2 = "中度";
+            STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER3 = "重度";
+            typeof(STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS)
+                .GetField("EXPOSURE_TIERS")
+                .SetValue(null, new LocString[] { "輕度", "中度", "重度" });
+        }
 
         private static Stream GetResourceStream(string name)
         {
@@ -38,35 +65,6 @@ namespace miZyind.TraditionalChinese
         private static void ReassignString(ref string target, string targetString, string newString)
         {
             if (target.Contains(targetString)) target = target.Replace(targetString, newString);
-        }
-
-        public static class Mod_OnLoad
-        {
-            public static void OnLoad()
-            {
-                PUtil.InitLibrary();
-
-                using (var stream = GetResourceStream("font"))
-                {
-                    var loadedFont = AssetBundle.LoadFromStream(stream).LoadAsset<TMP_FontAsset>(fn);
-
-                    loadedFont.material.SetFloat(ShaderUtilities.ID_WeightBold, 0.3f);
-
-                    TMP_Settings.fallbackFontAssets.Add(loadedFont);
-
-                    font = loadedFont;
-                }
-
-                AssetBundle.UnloadAllAssetBundles(false);
-
-                // Hotfix Exposure Tiers
-                STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER1 = "輕度";
-                STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER2 = "中度";
-                STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TIER3 = "重度";
-                typeof(STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS)
-                    .GetField("EXPOSURE_TIERS")
-                    .SetValue(null, new LocString[] { "輕度", "中度", "重度" });
-            }
         }
 
         [HarmonyPatch(typeof(Localization))]
@@ -95,7 +93,7 @@ namespace miZyind.TraditionalChinese
         {
             public static bool Prefix(LanguageOptionsScreen __instance, ref List<GameObject> ___buttons)
             {
-                var sprite = PUtil.LoadSprite($"{ns}.Assets.preview.png");
+                var sprite = PUIUtils.LoadSprite($"{ns}.Assets.preview.png");
                 var gameObject = Util.KInstantiateUI(
                     __instance.languageButtonPrefab,
                     __instance.preinstalledLanguagesContainer,
