@@ -2,21 +2,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <!-- Configuration -->
   <PropertyGroup>
-    <TargetFramework>net40</TargetFramework>
+    <TargetFramework>net471</TargetFramework>
     <ProjectGuid>{909EE6AA-C384-4A07-98A8-41994F76E9B7}</ProjectGuid>
     <RootNamespace>miZyind.TraditionalChinese</RootNamespace>
   </PropertyGroup>
   <!-- Information -->
   <PropertyGroup>
-    <Version>2021.05.09</Version>
-    <AssemblyTitle>TraditionalChinese</AssemblyTitle>
+    <Version>2021.07.04</Version>
+    <AssemblyTitle>Traditional Chinese</AssemblyTitle>
     <AssemblyVersion>$(Version)</AssemblyVersion>
     <FileVersion>$(Version)</FileVersion>
     <InformationalVersion>$(Version)</InformationalVersion>
     <Description>Adds Traditional Chinese translaction and font.</Description>
     <Product>TraditionalChinese</Product>
     <!-- Mod Info -->
-    <UseArchivedVersions>true</UseArchivedVersions>
     <SupportedContent>VANILLA_ID,EXPANSION1_ID</SupportedContent>
     <MinimumSupportedBuild>469287</MinimumSupportedBuild>
     <APIVersion>2</APIVersion>

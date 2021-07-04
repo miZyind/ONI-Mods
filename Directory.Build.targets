@@ -22,6 +22,17 @@
   <Target Name="CopyModToInstallFolder" AfterTargets="ILRepack">
     <PropertyGroup>
       <InstallFolder>$(ModFolder)\$(ProjectName)</InstallFolder>
+    <ModInfo>
+supportedContent: $(SupportedContent)
+minimumSupportedBuild: $(MinimumSupportedBuild)
+version: $(Version)
+APIVersion: $(APIVersion)
+    </ModInfo>
+    <ModYAML>
+title: "$(AssemblyTitle)"
+description: "$(Description)"
+staticID: miZyind.$(AssemblyName)
+    </ModYAML>
     </PropertyGroup>
     <Copy
       SourceFiles="$(TargetDir)\$(AssemblyName).dll"
@@ -29,8 +40,7 @@
     <Copy
       SourceFiles="$(ProjectDir)\Assets\preview.png"
       DestinationFolder="$(InstallFolder)" />
-    <Copy
-      SourceFiles="$(ProjectDir)\Assets\mod_info.yaml"
-      DestinationFolder="$(InstallFolder)" />
+    <WriteLinesToFile File="$(InstallFolder)\mod_info.yaml" Overwrite="true" Lines="$(ModInfo)"/>
+    <WriteLinesToFile File="$(InstallFolder)\mod.yaml" Overwrite="true" Lines="$(ModYAML)"/>
   </Target>
 </Project>
