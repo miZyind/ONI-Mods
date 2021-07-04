@@ -3542,7 +3542,7 @@ msgstr "飛船已準備好著陸"
 #. STRINGS.BUILDING.STATUSITEMS.SPACEPOIHARVESTING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACEPOIHARVESTING.NAME"
 msgid "Extracting Resources: {0}"
-msgstr "提取資源："
+msgstr "提取資源：{0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACEPOIHARVESTING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACEPOIHARVESTING.TOOLTIP"
@@ -59416,7 +59416,7 @@ msgstr ""
 "\n"
 "<link=\"BEE\">輻射蜂</link>有著雙重威脅，因為它們有著高放射性同時具有攻擊性。"
 "然而，<link=\"BEEHIVE\">輻射蜂巢</link>如果能夠被「馴化」就能使<link="
-"\"URANIUMORE\">鈾</link>變成<link=\"ENRICHEDURANIUM\">濃縮鈾< /link>\n"
+"\"URANIUMORE\">鈾</link>變成<link=\"ENRICHEDURANIUM\">濃縮鈾</link>\n"
 "\n"
 "如果我的複製人沒有適當的防護，那就該不惜一切代價，避免接觸輻射生態和其中的輻"
 "射蜂，但如果我們想擁有更高等級的核技術，我的殖民地就必須前往這片危險的生態"
