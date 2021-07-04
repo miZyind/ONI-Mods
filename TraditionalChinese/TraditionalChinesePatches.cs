@@ -158,14 +158,16 @@ namespace miZyind.TraditionalChinese
                 var path = MotdLocalPath.GetValue(__instance, null);
                 var localMotd = GetLocalMotd.Invoke(__instance, new object[] { path }) as Resp;
 
-                localMotd.image_header_text = "「大星球」更新";
+                localMotd.image_header_text = "「大合併」更新";
                 localMotd.news_header_text = "參與討論";
                 localMotd.news_body_text = "訂閱我們的通知郵件\n以隨時掌握最新資訊\n或到論壇直接參與討論！";
                 localMotd.patch_notes_summary =
-                    "<b>2021 年 4 月之「大星球」更新</b>\n\n" +
-                    "• 新增了一個更大、包含更多内容的宇宙場景和《Spaced Out!》風格的森林星團\n" +
-                    "• 重新平衡了火箭，使之更容易隨心所欲地進行太空旅行\n" +
-                    "• 問題修復、動畫更新，以及更多\n\n" +
+                    "<b>2021 年 7 月之「大合併」更新</b>\n\n" +
+                    "• 從主選單切換<i>《Spaced Out!》</i>資料片與主程式不必再重新下載遊戲\n" +
+                    "• 主程式現在擁有所有<i>《Spaced Out!》</i>資料片的錯誤修正與生活品質更新\n" +
+                    "• 一些建築與物品已新增至主程式，包含氧氣面罩、計量器等\n" +
+                    "• 介面改進與診斷工具已套用至主程式\n" +
+                    "• 模組系統的重大更新，模組作者請至論壇以檢視更新說明\n\n" +
                     "請查看完整更新說明來獲得更多資訊！";
 
                 cb(localMotd, null);
