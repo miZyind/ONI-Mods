@@ -2,7 +2,7 @@
 [![ONI](https://img.shields.io/badge/oxygen_not_included-000?style=for-the-badge&logo=steam)](https://store.steampowered.com/app/457140/Oxygen_Not_Included)
 [![Unity](https://img.shields.io/badge/unity-000?style=for-the-badge&logo=unity)](https://unity.com)
 [![Visual Studio](https://img.shields.io/badge/2019-5c2d91?style=for-the-badge&logo=visual-studio)](https://visualstudio.microsoft.com)
-[![.NET](https://img.shields.io/badge/4.0-5c2d91?style=for-the-badge&logo=.net)](https://dotnet.microsoft.com)
+[![.NET](https://img.shields.io/badge/4.7.1-5c2d91?style=for-the-badge&logo=.net)](https://dotnet.microsoft.com)
 [![C#](https://img.shields.io/badge/4.0-239120?style=for-the-badge&logo=c-sharp)](https://docs.microsoft.com/dotnet/csharp)
 
 ## 🔮 Tested Game Version
