@@ -23,9 +23,9 @@
 
 ## 💠 Development Environment & Tools
 - ILRepack >= 2.0.x
-- PLib >= 3.13
-- Harmony >= 1.2.x
-- .NET Framework = 4.0
+- PLib >= 4.2
+- Harmony >= 2.0.x
+- .NET Framework = 4.7.1
 - Unity = 2018.4.14f1
 - TextMesh Pro = 1.2.3
 - Visual Studio 2019
@@ -36,7 +36,7 @@
 ## 🗂 Mod List
 |                                           Name                                           	|                   Description                   	|
 |:----------------------------------------------------------------------------------------:	|:-----------------------------------------------:	|
-| [Traditional Chinese](https://steamcommunity.com/sharedfiles/filedetails/?id=2070840646) 	| 正體中文字體用語翻譯包 Taiwanese Language Patch 	|
+| [Traditional Chinese](https://steamcommunity.com/sharedfiles/filedetails/?id=2070840646) 	| Adds Traditional Chinese translaction and font. 	|
 
 ## 🖋 Author
 miZyind <mizyind@gmail.com>
