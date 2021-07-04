@@ -37,7 +37,7 @@
 ## 🗂 Mod List
 |                                           Name                                           	|                   Description                   	|
 |:----------------------------------------------------------------------------------------:	|:-----------------------------------------------:	|
-| [Traditional Chinese](https://steamcommunity.com/sharedfiles/filedetails/?id=2070840646) 	| Adds Traditional Chinese translaction and font. 	|
+| [Traditional Chinese](https://steamcommunity.com/sharedfiles/filedetails/?id=2070840646) 	| Adds Traditional Chinese translation and font.  	|
 
 ## 🖋 Author
 miZyind <mizyind@gmail.com>
