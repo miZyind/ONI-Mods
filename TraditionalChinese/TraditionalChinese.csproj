@@ -17,7 +17,7 @@
     <Product>TraditionalChinese</Product>
     <!-- Mod Info -->
     <SupportedContent>VANILLA_ID,EXPANSION1_ID</SupportedContent>
-    <MinimumSupportedBuild>469287</MinimumSupportedBuild>
+    <MinimumSupportedBuild>469473</MinimumSupportedBuild>
     <APIVersion>2</APIVersion>
   </PropertyGroup>
   <ItemGroup>
