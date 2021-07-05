@@ -6,7 +6,7 @@
 [![C#](https://img.shields.io/badge/4.0-239120?style=for-the-badge&logo=c-sharp)](https://docs.microsoft.com/dotnet/csharp)
 
 ## 🔮 Tested Game Version
-- **MD-469473 & EX1-S13-469473**
+- **CS-469300 & MD-469473 & EX1-S13-469473**
 - **CS-460672 & EX1-S10-461546**
 - **CS-455509 & EX1-S8-455425**
 - **CS-449460 & EX1-S6-449549**
