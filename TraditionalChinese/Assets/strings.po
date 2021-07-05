@@ -2,9 +2,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: TC DLC_1 2021.07.04\n"
+"Project-Id-Version: TC 2021.07.05\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-07-04 23:00+0700\n"
+"PO-Revision-Date: 2021-07-05 19:00+0700\n"
 "Last-Translator: miZyind <mizyind@gmail.com>\n"
 "Language-Team: miZyind <mizyind@gmail.com>\n"
 "Language: zh_TW\n"
