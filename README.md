@@ -6,6 +6,7 @@
 [![C#](https://img.shields.io/badge/4.0-239120?style=for-the-badge&logo=c-sharp)](https://docs.microsoft.com/dotnet/csharp)
 
 ## 🔮 Tested Game Version
+- **FA-471883-B & EX1-S14-471883-S**
 - **CS-469300 & MD-469473 & EX1-S13-469473**
 - **CS-460672 & EX1-S10-461546**
 - **CS-455509 & EX1-S8-455425**
@@ -21,6 +22,7 @@
 - @Kud for [繁體中文語言包](https://steamcommunity.com/sharedfiles/filedetails/?id=1562134514)
 - @LaFa for [拉法繁中](https://steamcommunity.com/sharedfiles/filedetails/?id=1123693010)
 - @Jiun for [非官方繁中](https://steamcommunity.com/sharedfiles/filedetails/?id=1821957996)
+- @qbane for [類 Unix 作業系統相容性](https://steamcommunity.com/workshop/filedetails/discussion/2070840646/3044978964803635873)
 
 ## 💠 Development Environment & Tools
 - ILRepack >= 2.0.x
