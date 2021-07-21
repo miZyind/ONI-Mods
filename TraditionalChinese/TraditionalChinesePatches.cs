@@ -29,7 +29,10 @@ namespace miZyind.TraditionalChinese
             {
                 var loadedFont = AssetBundle.LoadFromStream(stream).LoadAsset<TMP_FontAsset>(fn);
 
+                // Tweek font size
                 loadedFont.material.SetFloat(ShaderUtilities.ID_WeightBold, 0.3f);
+                // Tweek font shader (Add compatibility to Linux & macOS), thanks to @qbane
+                loadedFont.material.shader = Resources.Load<TMP_FontAsset>("NotoSansCJKsc-Regular").material.shader;
 
                 TMP_Settings.fallbackFontAssets.Add(loadedFont);
 
