@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -18,6 +18,8 @@ namespace miZyind.TraditionalChinese
     {
         private const string fn = "NotoSansCJKtc-Regular";
         private static readonly string ns = MethodBase.GetCurrentMethod().DeclaringType.Namespace;
+        private static readonly int pc = (int)Application.platform;
+        private static readonly int fc = pc > 3 ? 2 : pc;
         private static TMP_FontAsset font;
 
         public override void OnLoad(Harmony harmony)
@@ -25,18 +27,13 @@ namespace miZyind.TraditionalChinese
             harmony.PatchAll();
             PUtil.InitLibrary();
 
-            using (var stream = GetResourceStream("font"))
+            using (var stream = GetResourceStream($"font_{fc}"))
             {
-                var loadedFont = AssetBundle.LoadFromStream(stream).LoadAsset<TMP_FontAsset>(fn);
+                font = AssetBundle.LoadFromStream(stream).LoadAsset<TMP_FontAsset>(fn);
 
-                // Tweek font size
-                loadedFont.material.SetFloat(ShaderUtilities.ID_WeightBold, 0.3f);
-                // Tweek font shader (Add compatibility to Linux & macOS), thanks to @qbane
-                loadedFont.material.shader = Resources.Load<TMP_FontAsset>("NotoSansCJKsc-Regular").material.shader;
+                if (pc > 3) font.material.shader = Resources.Load<TMP_FontAsset>("NotoSansCJKsc-Regular").material.shader;
 
-                TMP_Settings.fallbackFontAssets.Add(loadedFont);
-
-                font = loadedFont;
+                TMP_Settings.fallbackFontAssets.Add(font);
             }
 
             AssetBundle.UnloadAllAssetBundles(false);

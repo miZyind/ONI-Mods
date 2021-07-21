@@ -8,7 +8,7 @@
   </PropertyGroup>
   <!-- Information -->
   <PropertyGroup>
-    <Version>2021.07.21</Version>
+    <Version>2021.07.22</Version>
     <AssemblyTitle>Traditional Chinese</AssemblyTitle>
     <AssemblyVersion>$(Version)</AssemblyVersion>
     <FileVersion>$(Version)</FileVersion>
@@ -22,16 +22,17 @@
     <APIVersion>2</APIVersion>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Assets\font" />
+    <None Remove="Assets\font_1" />
+    <None Remove="Assets\font_2" />
+    <None Remove="Assets\font_13" />
     <None Remove="Assets\preview.png" />
-    <None Remove="Assets\strings.po" />
     <None Remove="Assets\preview.xcf" />
-    <None Remove="Assets\strings_template_dlc_1.pot" />
-    <None Remove="Assets\strings_template_vanilla.pot" />
-    <None Remove="Assets\strings_vanilla.po" />
+    <None Remove="Assets\strings.po" />
+    <None Remove="Assets\strings_template.pot" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Assets\font" />
+    <EmbeddedResource Include="Assets\font_1" />
+    <EmbeddedResource Include="Assets\font_2" />
     <EmbeddedResource Include="Assets\preview.png" />
     <EmbeddedResource Include="Assets\strings.po" />
   </ItemGroup>
