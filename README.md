@@ -7,13 +7,6 @@
 
 ## 🔮 Tested Game Version
 - **FA-471883-B & EX1-S14-471883-S**
-- **CS-469300 & MD-469473 & EX1-S13-469473**
-- **CS-460672 & EX1-S10-461546**
-- **CS-455509 & EX1-S8-455425**
-- **CS-449460 & EX1-S6-449549**
-- **CS-444111**
-- **AP-410209**
-- **AP-399948**
 
 ## 🙏 Thanks To
 - @Cairath for [Oxygen-Not-Included-Modding](https://github.com/Cairath/Oxygen-Not-Included-Modding)
