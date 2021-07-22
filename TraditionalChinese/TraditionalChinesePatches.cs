@@ -19,7 +19,7 @@ namespace miZyind.TraditionalChinese
         private const string fn = "NotoSansCJKtc-Regular";
         private static readonly string ns = MethodBase.GetCurrentMethod().DeclaringType.Namespace;
         private static readonly int pc = (int)Application.platform;
-        private static readonly int fc = pc > 3 ? 2 : pc;
+        private static readonly int fc = pc > 3 ? 1 : pc;
         private static TMP_FontAsset font;
 
         public override void OnLoad(Harmony harmony)
@@ -30,8 +30,6 @@ namespace miZyind.TraditionalChinese
             using (var stream = GetResourceStream($"font_{fc}"))
             {
                 font = AssetBundle.LoadFromStream(stream).LoadAsset<TMP_FontAsset>(fn);
-
-                if (pc > 3) font.material.shader = Resources.Load<TMP_FontAsset>("NotoSansCJKsc-Regular").material.shader;
 
                 TMP_Settings.fallbackFontAssets.Add(font);
             }
