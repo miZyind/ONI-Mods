@@ -8,7 +8,7 @@
   </PropertyGroup>
   <!-- Information -->
   <PropertyGroup>
-    <Version>2021.07.22</Version>
+    <Version>2021.07.23</Version>
     <AssemblyTitle>Traditional Chinese</AssemblyTitle>
     <AssemblyVersion>$(Version)</AssemblyVersion>
     <FileVersion>$(Version)</FileVersion>
@@ -24,7 +24,6 @@
   <ItemGroup>
     <None Remove="Assets\font_1" />
     <None Remove="Assets\font_2" />
-    <None Remove="Assets\font_13" />
     <None Remove="Assets\preview.png" />
     <None Remove="Assets\preview.xcf" />
     <None Remove="Assets\strings.po" />
