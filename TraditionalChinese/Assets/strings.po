@@ -4903,7 +4903,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.ARTIFACTCARGOBAY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ARTIFACTCARGOBAY.NAME"
 msgid "<link=\"ARTIFACTCARGOBAY\">Artifact Transport Module</link>"
-msgstr "<link=\"ARTIFACTCARGOBAY\">工艺品运输舱</link>"
+msgstr "<link=\"ARTIFACTCARGOBAY\">工藝品運輸艙</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.DESC"
@@ -6498,17 +6498,17 @@ msgstr "<link=\"EXTERIORWALL\">隔離牆</link>"
 #. STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.DESC"
 msgid ""
-msgstr "一扇高而薄的窗户"
+msgstr "一扇高而薄的窗戶"
 
 #. STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.EFFECT"
 msgid "A tall, thin window."
-msgstr "一扇高而薄的窗户"
+msgstr "一扇高而薄的窗戶"
 
 #. STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.NAME"
 msgid "<link=\"FACILITYBACKWALLWINDOW\">Window</link>"
-msgstr "<link=\"FACILITYBACKWALLWINDOW\">窗户</link>"
+msgstr "<link=\"FACILITYBACKWALLWINDOW\">窗戶</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.DESC"
@@ -7605,7 +7605,7 @@ msgstr "<link=\"GENETICANALYSISSTATION\">植物分析儀</link>"
 #. STRINGS.BUILDINGS.PREFABS.GLASSFORGE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSFORGE.DESC"
 msgid "Glass can be used to construct window tile."
-msgstr "玻璃可用於建造窗户磚"
+msgstr "玻璃可用於建造窗戶磚"
 
 #. STRINGS.BUILDINGS.PREFABS.GLASSFORGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSFORGE.EFFECT"
@@ -7639,7 +7639,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSTILE.DESC"
 msgid ""
 "Window tiles provide a barrier against liquid and gas and are completely "
 "transparent."
-msgstr "窗户磚可針對液體和氣體提供屏障並且完全透明透光"
+msgstr "窗戶磚可針對液體和氣體提供屏障並且完全透明透光"
 
 #. STRINGS.BUILDINGS.PREFABS.GLASSTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSTILE.EFFECT"
@@ -7656,7 +7656,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.GLASSTILE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSTILE.NAME"
 msgid "<link=\"GLASSTILE\">Window Tile</link>"
-msgstr "<link=\"GLASSTILE\">窗户磚</link>"
+msgstr "<link=\"GLASSTILE\">窗戶磚</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GOURMETCOOKINGSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GOURMETCOOKINGSTATION.DESC"
@@ -11986,7 +11986,7 @@ msgid ""
 msgstr ""
 "進行<link=\"RESEARCH\">星際研究</link>以解鎖新科技\n"
 "\n"
-"消耗<link=\"POLYPROPYLENE\">塑料</link>和<link=\"POWER\">电力</link>\n"
+"消耗<link=\"POLYPROPYLENE\">塑料</link>和<link=\"POWER\">電力</link>\n"
 "\n"
 "指派的複製人必須具有<link=\"COSMICRESEARCHER\">星軌研究</link>技能"
 
@@ -12039,7 +12039,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.OUTHOUSE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OUTHOUSE.NAME"
 msgid "<link=\"OUTHOUSE\">Outhouse</link>"
-msgstr "<link=\"OUTHOUSE\">户外廁所</link>"
+msgstr "<link=\"OUTHOUSE\">戶外廁所</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.DESC"
@@ -19186,7 +19186,7 @@ msgstr ""
 "的小舌頭！太可愛了。\n"
 "\n"
 "<color=#F44A47>>[破損的圖片]</color>\n"
-"<alpha=#AA>[121個附件丢失]</color></indent>"
+"<alpha=#AA>[121個附件丟失]</color></indent>"
 
 #. STRINGS.CODEX.B1_HOLLANDSDOG.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.B1_HOLLANDSDOG.BODY.CONTAINER3"
@@ -20959,7 +20959,7 @@ msgid ""
 "As a result, the plant is ideal both for boosting immune systems and "
 "treating a variety of common maladies such as pain and fever."
 msgstr ""
-"芳香百合天然含有高濃度的維生素，能產生分子組成與乙酰水楊酸（俗稱阿司匹林）類"
+"芳香百合天然含有高濃度的維生素，能產生分子組成與乙醯水楊酸（俗稱阿司匹林）類"
 "似的酸。\n"
 "\n"
 "因此，這種植物是增強免疫系統和治療諸如疼痛和發燒等各種常見疾病的理想選擇。"
@@ -24408,7 +24408,7 @@ msgstr ""
 "基礎研究可在<link=\"RESEARCHCENTER\">研究站</link>進行\n"
 "進階研究可在<link=\"ADVANCEDRESEARCHCENTER\">超級電腦</link>進行\n"
 "星際研究可在<link=\"COSMICRESEARCHCENTER\">虛擬星象儀</link>進行\n"
-"原子研究可在<link=\"NUCLEARLABORATORY\">材料研究终端</link>進行\n"
+"原子研究可在<link=\"NUCLEARLABORATORY\">材料研究終端</link>進行\n"
 "\n"
 
 #. STRINGS.CODEX.RESEARCH.TITLE
@@ -25368,7 +25368,7 @@ msgstr "透過規劃 {1} 個區域為{0}來提高複製人的士氣"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_OUTSIDE_BIOME
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_OUTSIDE_BIOME"
 msgid "Outdoor Renovations"
-msgstr "户外翻新"
+msgstr "戶外翻新"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_OUTSIDE_BIOME_DESCRIPTION
 msgctxt ""
@@ -25597,7 +25597,7 @@ msgctxt ""
 msgid ""
 "Replace all the Outhouses and Wash Basins in your colony with Lavatories and "
 "Sinks."
-msgstr "用沖水馬桶和洗手台代替你的殖民地中所有的户外廁所和洗手盆"
+msgstr "用沖水馬桶和洗手台代替你的殖民地中所有的戶外廁所和洗手盆"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.REACH_SPACE_ANY_DESTINATION
 msgctxt ""
@@ -32996,7 +32996,7 @@ msgstr "正在前去清理"
 #. STRINGS.DUPLICANTS.CHORES.CLEANTOILET.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.CLEANTOILET.TOOLTIP"
 msgid "This Duplicant is cleaning out the <link=\"OUTHOUSE\">Outhouse</link>"
-msgstr "這名複製人正在清掃<link=\"OUTHOUSE\">户外廁所</link>"
+msgstr "這名複製人正在清掃<link=\"OUTHOUSE\">戶外廁所</link>"
 
 #. STRINGS.DUPLICANTS.CHORES.COMPOSTWORKABLE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.COMPOSTWORKABLE.NAME"
@@ -38014,7 +38014,7 @@ msgid ""
 "This Duplicant used an <link=\"OUTHOUSE\">Outhouse</link> in a <style="
 "\"KKeyword\">Latrine</style>"
 msgstr ""
-"這名複製人在<style=\"KKeyword\">公共廁所</style>使用了<link=\"OUTHOUSE\">户外"
+"這名複製人在<style=\"KKeyword\">公共廁所</style>使用了<link=\"OUTHOUSE\">戶外"
 "廁所</link>"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMMESSHALL.NAME
@@ -40819,7 +40819,7 @@ msgid ""
 "This Duplicant would really appreciate an <link=\"OUTHOUSE\">Outhouse</link> "
 "or <link=\"FLUSHTOILET\">Lavatory</link>"
 msgstr ""
-"這名複製人很需要一間<link=\"OUTHOUSE\">户外廁所</link>或<link=\"FLUSHTOILET"
+"這名複製人很需要一間<link=\"OUTHOUSE\">戶外廁所</link>或<link=\"FLUSHTOILET"
 "\">沖水馬桶</link>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.NAME_MAJOR
@@ -41386,7 +41386,7 @@ msgid ""
 "The only <link=\"OUTHOUSE\">Outhouses</link> or <link=\"FLUSHTOILET"
 "\">Lavatories</link> in this Duplicant's reach are out of order"
 msgstr ""
-"這名複製人唯一可以去的<link=\"OUTHOUSE\">户外廁所</link>或<link=\"FLUSHTOILET"
+"這名複製人唯一可以去的<link=\"OUTHOUSE\">戶外廁所</link>或<link=\"FLUSHTOILET"
 "\">沖水馬桶</link>出現故障"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.PACIFYDELIVERSTATUS.NAME
@@ -42204,7 +42204,7 @@ msgid ""
 "These Duplicants cannot reach a functioning <link=\"OUTHOUSE\">Outhouse</"
 "link> or <link=\"FLUSHTOILET\">Lavatory</link>:"
 msgstr ""
-"這些複製人無法到達可以正常使用的<link=\"OUTHOUSE\">户外廁所</link>或<link="
+"這些複製人無法到達可以正常使用的<link=\"OUTHOUSE\">戶外廁所</link>或<link="
 "\"FLUSHTOILET\">沖水馬桶</link>："
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.TOILETUNREACHABLE.TOOLTIP
@@ -42213,7 +42213,7 @@ msgid ""
 "This Duplicant cannot reach a functioning <link=\"OUTHOUSE\">Outhouse</link> "
 "or <link=\"FLUSHTOILET\">Lavatory</link>"
 msgstr ""
-"這名複製人無法到達可以正常使用的<link=\"OUTHOUSE\">户外廁所</link>或<link="
+"這名複製人無法到達可以正常使用的<link=\"OUTHOUSE\">戶外廁所</link>或<link="
 "\"FLUSHTOILET\">沖水馬桶</link>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.UPROOTING.NAME
@@ -48814,52 +48814,52 @@ msgstr "管理報告"
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV1
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV1"
 msgid "Goto User Nav 1"
-msgstr "前往用户路徑1"
+msgstr "前往用戶路徑1"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV10
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV10"
 msgid "Goto User Nav 10"
-msgstr "前往用户路徑10"
+msgstr "前往用戶路徑10"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV2
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV2"
 msgid "Goto User Nav 2"
-msgstr "前往用户路徑2"
+msgstr "前往用戶路徑2"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV3
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV3"
 msgid "Goto User Nav 3"
-msgstr "前往用户路徑3"
+msgstr "前往用戶路徑3"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV4
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV4"
 msgid "Goto User Nav 4"
-msgstr "前往用户路徑4"
+msgstr "前往用戶路徑4"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV5
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV5"
 msgid "Goto User Nav 5"
-msgstr "前往用户路徑5"
+msgstr "前往用戶路徑5"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV6
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV6"
 msgid "Goto User Nav 6"
-msgstr "前往用户路徑6"
+msgstr "前往用戶路徑6"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV7
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV7"
 msgid "Goto User Nav 7"
-msgstr "前往用户路徑7"
+msgstr "前往用戶路徑7"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV8
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV8"
 msgid "Goto User Nav 8"
-msgstr "前往用户路徑8"
+msgstr "前往用戶路徑8"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV9
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.GOTOUSERNAV9"
 msgid "Goto User Nav 9"
-msgstr "前往用户路徑9"
+msgstr "前往用戶路徑9"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.NAME
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.NAME"
@@ -48869,52 +48869,52 @@ msgstr "路徑"
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV1
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV1"
 msgid "Set User Nav 1"
-msgstr "設定用户路徑1"
+msgstr "設定用戶路徑1"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV10
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV10"
 msgid "Set User Nav 10"
-msgstr "設定用户路徑10"
+msgstr "設定用戶路徑10"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV2
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV2"
 msgid "Set User Nav 2"
-msgstr "設定用户路徑2"
+msgstr "設定用戶路徑2"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV3
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV3"
 msgid "Set User Nav 3"
-msgstr "設定用户路徑3"
+msgstr "設定用戶路徑3"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV4
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV4"
 msgid "Set User Nav 4"
-msgstr "設定用户路徑4"
+msgstr "設定用戶路徑4"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV5
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV5"
 msgid "Set User Nav 5"
-msgstr "設定用户路徑5"
+msgstr "設定用戶路徑5"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV6
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV6"
 msgid "Set User Nav 6"
-msgstr "設定用户路徑6"
+msgstr "設定用戶路徑6"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV7
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV7"
 msgid "Set User Nav 7"
-msgstr "設定用户路徑7"
+msgstr "設定用戶路徑7"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV8
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV8"
 msgid "Set User Nav 8"
-msgstr "設定用户路徑8"
+msgstr "設定用戶路徑8"
 
 #. STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV9
 msgctxt "STRINGS.INPUT_BINDINGS.NAVIGATION.SETUSERNAV9"
 msgid "Set User Nav 9"
-msgstr "設定用户路徑9"
+msgstr "設定用戶路徑9"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.ALTERNATEVIEW
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.ALTERNATEVIEW"
@@ -56539,7 +56539,7 @@ msgstr ""
 "扎普\n"
 "佐烏\n"
 "重力\n"
-"砹\n"
+"砈\n"
 "埃\n"
 "氬\n"
 "阿什克\n"
@@ -56619,7 +56619,7 @@ msgid ""
 "Pitch\n"
 msgstr ""
 "脂\n"
-"瀡\n"
+"油滑\n"
 "氣\n"
 "石油\n"
 "燃料\n"
@@ -58055,7 +58055,7 @@ msgstr "<link=\"SPACEGAS\">進階氣體力學</link>"
 #. STRINGS.RESEARCH.TECHS.SPACEPOWER.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SPACEPOWER.DESC"
 msgid "It's like power... in space!"
-msgstr "就像...太空能量一样！"
+msgstr "就像...太空能量一樣！"
 
 #. STRINGS.RESEARCH.TECHS.SPACEPOWER.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SPACEPOWER.NAME"
@@ -58798,12 +58798,12 @@ msgstr "無工業器械"
 #. STRINGS.ROOMS.CRITERIA.NO_OUTHOUSES.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_OUTHOUSES.DESCRIPTION"
 msgid "Cannot contain basic Outhouses"
-msgstr "不能含有基礎户外廁所"
+msgstr "不能含有基礎戶外廁所"
 
 #. STRINGS.ROOMS.CRITERIA.NO_OUTHOUSES.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_OUTHOUSES.NAME"
 msgid "No Outhouses"
-msgstr "無户外廁所"
+msgstr "無戶外廁所"
 
 #. STRINGS.ROOMS.CRITERIA.NO_TYPE_CONFLICTS
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_TYPE_CONFLICTS"
@@ -58868,7 +58868,7 @@ msgstr "研究站"
 #. STRINGS.ROOMS.CRITERIA.TOILET.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.TOILET.DESCRIPTION"
 msgid "Requires one or more Outhouses or Lavatories"
-msgstr "需要至少一個户外廁所或沖水馬桶"
+msgstr "需要至少一個戶外廁所或沖水馬桶"
 
 #. STRINGS.ROOMS.CRITERIA.TOILET.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.TOILET.NAME"
@@ -62966,7 +62966,7 @@ msgctxt ""
 "STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC."
 "CRITERIA_RADIATION_EXPOSURE.PASS"
 msgid "Safe exposure levels"
-msgstr "安全暴露等级"
+msgstr "安全暴露等級"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.CRITERIA_RADIATION_SICKNESS.FAIL
 msgctxt ""
@@ -63018,7 +63018,7 @@ msgstr "• 冷卻劑較少"
 msgctxt ""
 "STRINGS.UI.COLONY_DIAGNOSTICS.REACTORDIAGNOSTIC.CRITERIA_TEMPERATURE_WARNING"
 msgid "    • Temperature dangerously high"
-msgstr "    • 溫度高到危险"
+msgstr "    • 溫度高到危險"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.REACTORDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.REACTORDIAGNOSTIC.NORMAL"
@@ -66124,7 +66124,7 @@ msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.DURABILITY.LEVELS."
 "INDESTRUCTIBLE.NAME"
 msgid "Indestructible"
-msgstr "永不磨损"
+msgstr "永不磨損"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.DURABILITY.LEVELS.INDESTRUCTIBLE.TOOLTIP
 msgctxt ""
@@ -81890,7 +81890,7 @@ msgid ""
 "Current Radiation:\n"
 "{0}/cycle"
 msgstr ""
-"目前辐射：\n"
+"目前輻射：\n"
 "{0}／週期"
 
 #. STRINGS.UI.UISIDESCREENS.RADIATIONSWITCHSIDESCREEN.TITLE
@@ -85522,7 +85522,7 @@ msgctxt "STRINGS.WORLD_TRAITS.NO_TRAITS.DESCRIPTION"
 msgid ""
 "This world exists in a particularly stable configuration each time it is "
 "encountered"
-msgstr "每次遇到的這個世界都會以特别稳定的狀態存在"
+msgstr "每次遇到的這個世界都會以特別穩定的狀態存在"
 
 #. STRINGS.WORLD_TRAITS.NO_TRAITS.NAME
 msgctxt "STRINGS.WORLD_TRAITS.NO_TRAITS.NAME"
