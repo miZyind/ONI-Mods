@@ -4,8 +4,6 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using HarmonyLib;
-using PeterHan.PLib.Core;
-using PeterHan.PLib.UI;
 using TMPro;
 using UnityEngine;
 
@@ -25,7 +23,6 @@ namespace miZyind.TraditionalChinese
         public override void OnLoad(Harmony harmony)
         {
             harmony.PatchAll();
-            PUtil.InitLibrary();
 
             using (var stream = GetResourceStream($"font_{fc}"))
             {
@@ -47,9 +44,7 @@ namespace miZyind.TraditionalChinese
 
         private static Stream GetResourceStream(string name)
         {
-            return Assembly
-                .GetExecutingAssembly()
-                .GetManifestResourceStream($"{ns}.Assets.{name}");
+            return Assembly.GetExecutingAssembly().GetManifestResourceStream($"{ns}.Assets.{name}");
         }
 
         private static void ReassignFont(IEnumerable<TextMeshProUGUI> sequence)
@@ -62,7 +57,8 @@ namespace miZyind.TraditionalChinese
 
         private static void ReassignString(ref string target, string targetString, string newString)
         {
-            if (target.Contains(targetString)) target = target.Replace(targetString, newString);
+            if (target.Contains(targetString))
+                target = target.Replace(targetString, newString);
         }
 
         [HarmonyPatch(typeof(Localization))]
@@ -75,9 +71,12 @@ namespace miZyind.TraditionalChinese
 
                 using (var stream = GetResourceStream("strings.po"))
                 using (var streamReader = new StreamReader(stream, System.Text.Encoding.UTF8))
-                    while (!streamReader.EndOfStream) lines.Add(streamReader.ReadLine());
+                    while (!streamReader.EndOfStream)
+                        lines.Add(streamReader.ReadLine());
 
-                Localization.OverloadStrings(Localization.ExtractTranslatedStrings(lines.ToArray(), false));
+                Localization.OverloadStrings(
+                    Localization.ExtractTranslatedStrings(lines.ToArray(), false)
+                );
 
                 Localization.SwapToLocalizedFont(fn);
 
@@ -89,9 +88,11 @@ namespace miZyind.TraditionalChinese
         [HarmonyPatch("RebuildPreinstalledButtons")]
         public static class LanguageOptionsScreen_RebuildPreinstalledButtons_Patch
         {
-            public static bool Prefix(LanguageOptionsScreen __instance, ref List<GameObject> ___buttons)
+            public static bool Prefix(
+                LanguageOptionsScreen __instance,
+                ref List<GameObject> ___buttons
+            )
             {
-                var sprite = PUIUtils.LoadSprite($"{ns}.Assets.preview.png");
                 var gameObject = Util.KInstantiateUI(
                     __instance.languageButtonPrefab,
                     __instance.preinstalledLanguagesContainer,
@@ -102,7 +103,27 @@ namespace miZyind.TraditionalChinese
 
                 reference.text = "正體中文";
 
-                component.GetReference<UnityEngine.UI.Image>("Image").sprite = sprite;
+                using (
+                    var stream = Assembly
+                        .GetCallingAssembly()
+                        .GetManifestResourceStream($"{ns}.Assets.preview.png")
+                )
+                {
+                    var buffer = new byte[(int)stream.Length];
+                    var texture = new Texture2D(2, 2);
+                    Vector4 border = default;
+
+                    texture.LoadImage(buffer, false);
+                    component.GetReference<UnityEngine.UI.Image>("Image").sprite = Sprite.Create(
+                        texture,
+                        new Rect(0, 0, texture.width, texture.height),
+                        new Vector2(0.5f, 0.5f),
+                        100.0f,
+                        0,
+                        SpriteMeshType.FullRect,
+                        border
+                    );
+                }
 
                 ___buttons.Add(gameObject);
 
@@ -126,11 +147,14 @@ namespace miZyind.TraditionalChinese
         {
             public static void Postfix(NameDisplayScreen __instance, GameObject representedObject)
             {
-                var targetEntry = __instance.entries.Find(entry => entry.world_go == representedObject);
+                var targetEntry = __instance.entries.Find(
+                    entry => entry.world_go == representedObject
+                );
                 if (targetEntry != null && targetEntry.display_go != null)
                 {
                     var txt = targetEntry.display_go.GetComponentInChildren<LocText>();
-                    if (txt != null && txt.font.name != fn) txt.font = font;
+                    if (txt != null && txt.font.name != fn)
+                        txt.font = font;
                 }
             }
         }
@@ -160,13 +184,13 @@ namespace miZyind.TraditionalChinese
                 localMotd.news_header_text = "參與討論";
                 localMotd.news_body_text = "訂閱我們的通知郵件\n以隨時掌握最新資訊\n或到論壇直接參與討論！";
                 localMotd.patch_notes_summary =
-                    "<b>2021 年 7 月之「沁人心脾」更新</b>\n\n" +
-                    "• 從主選單切換<i>《Spaced Out!》</i>資料片與主程式不必再重新下載遊戲\n" +
-                    "• 主程式現在擁有所有<i>《Spaced Out!》</i>資料片的錯誤修正與生活品質更新\n" +
-                    "• 更新了<i>《Spaced Out!》</i>資料片的殖民地使命\n" +
-                    "• 一些建築與物品已新增至主程式，包含氧氣面罩、計量閥等\n" +
-                    "• 模組系統的重大更新，模組作者請至論壇以檢視更新說明\n\n" +
-                    "請查看完整更新說明來獲得更多資訊！";
+                    "<b>2021 年 7 月之「沁人心脾」更新</b>\n\n"
+                    + "• 從主選單切換<i>《Spaced Out!》</i>資料片與主程式不必再重新下載遊戲\n"
+                    + "• 主程式現在擁有所有<i>《Spaced Out!》</i>資料片的錯誤修正與生活品質更新\n"
+                    + "• 更新了<i>《Spaced Out!》</i>資料片的殖民地使命\n"
+                    + "• 一些建築與物品已新增至主程式，包含氧氣面罩、計量閥等\n"
+                    + "• 模組系統的重大更新，模組作者請至論壇以檢視更新說明\n\n"
+                    + "請查看完整更新說明來獲得更多資訊！";
 
                 cb(localMotd, null);
 
@@ -182,10 +206,7 @@ namespace miZyind.TraditionalChinese
             {
                 __instance
                     .GetComponentsInChildren<TextMeshProUGUI>()
-                    .DoIf(
-                        txt => txt != null && txt.name == "Title",
-                        txt => txt.text = "更新說明"
-                    );
+                    .DoIf(txt => txt != null && txt.name == "Title", txt => txt.text = "更新說明");
             }
         }
     }

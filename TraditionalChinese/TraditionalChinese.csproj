@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <!-- Configuration -->
   <PropertyGroup>
-    <TargetFramework>net471</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
     <ProjectGuid>{909EE6AA-C384-4A07-98A8-41994F76E9B7}</ProjectGuid>
     <RootNamespace>miZyind.TraditionalChinese</RootNamespace>
   </PropertyGroup>

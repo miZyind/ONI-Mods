@@ -6,19 +6,6 @@
       <ReferenceCopyLocalPaths Remove="$(GameFolder)\*" />
     </ItemGroup>
   </Target>
-  <Target Name="ILRepack" AfterTargets="Build">
-    <ItemGroup>
-      <InputAssemblies Include="$(SolutionDir)\Lib\PLib.dll" />
-    </ItemGroup>
-    <ILRepack
-      TargetPlatformVersion="v4"
-      OutputType="SameAsPrimaryAssembly"
-      MainAssembly="$(TargetPath)"
-      OutputAssembly="$(TargetPath)"
-      InputAssemblies="@(InputAssemblies)"
-      WilcardInputAssemblies="true"
-      WorkingDirectory="$(GameFolder)" />
-  </Target>
   <Target Name="CopyModToInstallFolder" AfterTargets="ILRepack">
     <PropertyGroup>
       <InstallFolder>$(ModFolder)\$(ProjectName)</InstallFolder>
